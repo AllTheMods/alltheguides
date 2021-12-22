@@ -3,7 +3,7 @@
 title: All the Guides # Title for the website (appears in title bar)
 email: your-email@example.com # email address to be used throughout the website
 description: A one stop shop for launching and playing All the Mods # describe the website
-baseurl: "/AllTheGuides" # the subpath of your site, e.g. /blog
+baseurl: "/alltheguides" # the subpath of your site, e.g. /blog
 url: "https://allthemods.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: allthemods # Twitter username used throughout the site
 github_username:  AllTheMods # GitHub username
