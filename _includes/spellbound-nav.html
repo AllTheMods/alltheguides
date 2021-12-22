@@ -1,0 +1,41 @@
+<!-- Intro settings -->
+<style>
+  /* Default height for small devices */
+  #nav {
+    height: 200px;
+  }
+
+  /* Height for devices larger than 992px */
+  @media (min-width: 992px) {
+    #nav {
+      height: 400px;
+    }
+  }
+</style>
+<div id="nav" class="mb-3 bg-image"
+style="background-image: url('https://i.boredage.com/atg/gg/background-sm.png'); background-repeat: no-repeat; background-position: right; background-size: cover"
+;>
+  <nav class="navbar navbar-expand-lg container navbar-dark">
+    <div class="container">
+      <a href="{{site.url}}{{site.baseurl}}/spellbound" class="navbar-brand"> <img src="https://i.boredage.com/atg/gg/logosmall.png" class="float-start img-fluid m-1" width="150px"
+        height="150px" alt="logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navmenu">
+        <ul class="navbar-nav ms-auto list-group list-group-horizontal">
+          <li class="nav-item m-auto m-auto">
+            <a href="{{site.url}}{{site.baseurl}}" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item m-auto">
+            <a href="{{site.url}}{{site.baseurl}}/spellbound" class="nav-link">Spellbound</a>
+          </li>
+          <li class="nav-item m-auto">
+            <a href="{{site.url}}{{site.baseurl}}/troubleshooting" class="nav-link">Troubleshooting</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</div>

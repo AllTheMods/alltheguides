@@ -1,0 +1,26 @@
+{% include gameguides-header.html %}
+{% include gameguides-nav.html %}
+{% include gameguides-mods.html %}
+<div class="container px-4 my-5 text-center">
+    <div class="d-flex p-5 rounded shadow container-fluid" lc-helper="background"
+        style="background:url({{page.hero}})  center / cover no-repeat; background-color:#444; background-blend-mode: overlay; max-height: 120vh;">
+        <div class="align-self-center text-center text-light col-md-8 offset-md-2">
+            <div class="lc-block mb-4">
+                <div editable="rich">
+                    <h2 class="display-1 fw-bolder">{{page.title}}</h2>
+                </div>
+            </div>
+            <div class="lc-block">
+                <div editable="rich">
+                    <p class="lead bg-primary rounded shadow" style="--bs-bg-opacity: .5;">{{page.blurb}}</p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container mb-5">
+    {{ content }}
+</div>
+{% include gameguides-faq.html %}
+{% include gameguides-footer.html %}

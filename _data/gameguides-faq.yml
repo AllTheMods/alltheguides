@@ -1,0 +1,29 @@
+- question: How do I get started?
+  answer: If your new to modded, allthemods, or minecraft in general, please take a look at our <a href='https://boredage.github.io/atg/getting-started/'>getting started guide.</a>
+
+- question: Is there a list of mods?
+  answer: '<a href="https://www.curseforge.com/minecraft/modpacks/all-the-mods-6/relations/dependencies">View Modlist on Curseforge</a>'
+
+- question: Where can I find Allthemodium, Vibranium, Unobtainium?
+  answer: Look in the in game book Allthemodium or search the ores in JEI and view the tooltips. There is additional information in the Allthemodium book.
+
+- question: How do I deal with the Chaos dragon?
+  answer: "The chaos guardian is a multi-phase fight. The crystals can only be damaged by the dragon and it's attacks, but the final hit on them will have to come from you to destroy them. Once all the crystals are destroyed, only half the time will it be susceptible to damage, when it doesnt have a blue shield. It has two health bars as well - a red over shield and then its actual HP."
+
+- question: What's the recommended world type/level type?
+  answer: 'ATM6 1.8.x: terraforged (default does work) <br />1.7.x or earlier: default. Others have proven problematic.<br> Skyblock: <br> use: <code>level-type=skyblockbuilder\:custom_skyblock</code>'
+
+- question: How do I increase the number of chunks I can forceload?
+  answer: If your opped (open to lan with cheats on) you can use this command <br><code>/ftbchunks admin extra_force_load_chunks @p add <num of chunks> </code><br>or<br> Edit \world\serverconfig\ftbchunks.snbt (ftbchunks-server.toml for pre 1.7.x packs) while the server is OFFLINE, update max_force_loaded_chunks to the value you want, save it, then start the server.
+ 
+- question: How to I properly Chunkload?
+  answer: Chunkloading is handled by FTB Chunks. Open your map where you claim chunks and once you have a chunk claimed, shift click that same chunk. It should show a red X through the chunk, showing that it is force loaded.
+
+- question: How do you auto enchant to get OP enchants beyond vanilla?
+  answer: '<a href="https://imgur.com/gallery/FSIsYE6">Auto Enchanting</a>'
+
+- question: Is there a list of pipes, cables and storage options?
+  answer: '<a href="https://docs.google.com/spreadsheets/d/1s4d4aLRVUUl5jyj_tVl3cfcJolDvlFRWOZaNSWFhr50/">Pipes, Cables and Storage options</a>'
+
+- question: Skyblock commands
+  answer: "Create and island: <code>/skyblock create</code><br>Go to my island: <code>/skyblock home</code><br>Go to spawn: <code>/skyblock spawn</code><br> See more commands at <a href='http://github.com/MelanX/SkyblockBuilder/blob/1.16.x/README.md'>Skyblock on Github</a>"

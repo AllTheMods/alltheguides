@@ -1,0 +1,86 @@
+---
+layout: troubleshooting
+title: Troubleshooting | Pack Upgrade FAQ
+---
+<h4>Pack Upgrade FAQ</h4>
+<h5 class="alert alert-info">
+    Client: How do I transfer maps/settings/servers when I upgrade the pack?
+</h5>
+<p>Copy the relevant files from your old instance to the new one.</p>
+<ul>
+    <li>
+        <code>saves</code> - stores your worlds.
+    </li>
+    <li>
+        <code>local</code> - stores your FTB Chunks map/waypoints.
+    </li>
+    <li>
+        <code>options.txt</code> - stores your graphical, keybind, and other settings.
+    </li>
+    <li>
+        <code>servers.dat</code> - for multiplayer, stores your saved servers.
+    </li>
+</ul>
+<h5 class="alert alert-info">
+    Server: How do I upgrade my server to a new pack version?
+</h5>
+<p>The initial steps are the same for all hosts.</p>
+<ol>
+    <li>BACKUP.</li>
+    <li>Download the latest SIMPLE-SERVER-FILES zip and extract it to an empty folder.</li>
+    <li>Run the <code>startserver</code> script and follow the installation instructions.</li>
+    <li>Once the installation completes, close the window and delete the newly created <code>world</code> folder.</li>
+</ol>
+<h5 class="alert alert-info">
+    If you are hosting the pack yourself:
+</h5>
+<ol>
+    <li>Follow the initial steps above.</li>
+    <li>Go back to your old server folder, and copy <code>world</code> to the new server folder.</li>
+    <li>If you have customized any configs or <code>server.properties</code>, you can copy them also.
+        <ul>
+            <li>
+                <strong>WARNING:</strong> Do not copy the entire config folder from your old instance. <br>
+                We update many configs with each release, some of which will cause crashes or other issues if they are
+                different than what the client has. <br>
+                We recommend you keep separate documentation of all changes you make to configs, so that you can apply
+                them easily to new versions.
+            </li>
+        </ul>
+    </li>
+</ol>
+<h5 class="alert alert-info">
+    If you are renting a server from a provider:
+</h5>
+<ol>
+    <li>Follow the initial steps above.</li>
+    <li>Turn off your old server.</li>
+    <li>Delete the Forge jar and the following folders from your old server:
+        <ul>
+            <li><code>configs</code></li>
+            <li><code>defaultconfigs</code></li>
+            <li><code>kubejs</code></li>
+            <li><code>libraries</code></li>
+            <li><code>mods</code></li>
+        </ul>
+    </li>
+    <li>From the new server folder, upload the Forge jar and that list of folders to your old server.</li>
+    <li>If your old server contains <code>server-setup-config.yaml</code>, you should also:
+        <ol>
+            <li>delete the following files from the old server:
+                <ul>
+                    <li><code>server-setup-config.yaml</code></li>
+                    <li><code>serverstarter.lock</code></li>
+                    <li><code>startserver.bat</code></li>
+                    <li><code>startserver.sh</code></li>
+                </ul>
+            </li>
+            <li>Upload those same files from the new server folder.</li>
+        </ol>
+    </li>
+</ol>
+<ul>
+    <li>Most providers launch the server with the Forge jar. This is only needed for providers that use the
+        <code>serverstarter</code> script.
+    </li>
+</ul>

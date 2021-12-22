@@ -1,0 +1,35 @@
+- name: Apotheosis
+  url: /apotheosis
+  
+- name: Astral Sorcery
+  url: /astral-sorcery
+
+- name: Bigger Reactors
+  url: /bigger-reactors
+  
+- name: Environmental Tech
+  url: /environmental-tech
+
+- name: Ice & Fire
+  url: /ice-and-fire
+  
+- name: Integrated Dynamics
+  url: /integrated-dynamics
+  
+- name: Mekanism
+  url: /mekanism
+  
+- name: Pedestals
+  url: /pedestals
+  
+- name: Refined Storage
+  url: /refined-storage
+  
+- name: Resourceful Bees
+  url: /resourceful-bees
+  
+- name: Silent Gear
+  url: /silent-gear
+  
+- name: Tinkers Construct
+  url: /tinkers-construct

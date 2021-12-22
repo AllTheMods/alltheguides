@@ -1,0 +1,162 @@
+// Google Fonts - Quicksand
+@import url('https://fonts.googleapis.com/css?family=Parisienne|Quicksand&display=swap');
+
+
+// Set Fonts for page
+ * {  font-family: 'Montserrat', sans-serif; }
+
+ h1, h2, h3, h4, h5, h6{ font-family: 'Quicksand'; }
+
+// Set custom colors
+$darkgray: #09060D;
+$offwhite: #f087cb;
+
+
+$primary: $darkgray;
+$secondary: $offwhite;
+
+// scss-docs-start gray-color-variables
+$white:    #fff;
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #d6d6d6;
+$gray-500: #aeaeae;
+$gray-600: #888888;
+$gray-700: #646464;
+$gray-800: #424242;
+$gray-900: #212529;
+$black:    #000;
+
+// scss-docs-start color-variables
+$blue:    #291340;
+$indigo:  #8685ef;
+$purple:  #201626;
+$pink:    #d19f9c;
+$red:     #ff0019;
+$orange:  #fd7e14;
+$yellow:  #f9f871;
+$green:   #57796e;
+$teal:    #20c997;
+$cyan:    #aca7cb;
+
+// scss-docs-start colors-map
+$colors: (
+  "blue":       $blue,
+  "indigo":     $indigo,
+  "purple":     $purple,
+  "pink":       $pink,
+  "red":        $red,
+  "orange":     $orange,
+  "yellow":     $yellow,
+  "green":      $green,
+  "teal":       $teal,
+  "cyan":       $cyan,
+  "white":      $white,
+  "gray":       $gray-600,
+  "gray-dark":  $gray-800
+) !default;
+
+// Styling for Photos on Sgear page
+.sgear { width: 50%; height: 50%; }
+
+// Custom list styles
+li {
+  padding-left: 35px; 
+  list-style: none;
+  background-image: url($baseurl + "/assets/images/unobtanium.png");
+  background-size: 20px; 
+  background-repeat: no-repeat;
+  }
+
+.navbar li, .liststylenone li, .tguides ul li, .tguides ol li { background-image: none; }
+
+// Custom link colors
+
+#gettingstarted a.visit:visited { color: #aca7cb; }
+// Footer fix
+// footer a { color: #f087cb !important; }
+
+// Custom cursor for basic hover
+a:hover { cursor: url($baseurl + "/assets/images/this.png") 13 -80, move; color: $yellow;}
+
+// Sticky Footer
+/*!
+ * IE10 viewport hack for Surface/desktop Windows 8 bug
+ * Copyright 2014-2019 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+@-ms-viewport {
+  width: device-width;
+}
+@-o-viewport {
+  width: device-width;
+}
+@viewport {
+  width: device-width;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.container {
+  flex: 1;
+}
+
+footer { margin-top: auto; }
+
+
+
+// YouTube iframe 
+
+.vidcontainer {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%;
+}
+//  16:9 Aspect Ratio (divide 9 by 16 = 0.5625) 
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+// Your variable overrides
+$body-bg: #08050C;
+$body-color: #f087cb;
+
+
+// Accordian Overrides
+.accordion-button.collapsed {
+  background: #09060D;
+  color: #f087cb;
+}
+
+.accordion-button:not(.collapsed) {
+  background: #f087cb;
+  color: #09060D;
+}
+.accordion-body { background: #241c24; }
+
+
+$accordion-icon-color:                    $secondary;
+$accordion-icon-active-color:             $primary;
+
+
+$accordion-button-icon:         url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='#{$accordion-icon-color}'><path fill-rule='evenodd' d='M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z'/> <path d='M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z'/></svg>");
+$accordion-button-active-icon:  url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='#{$accordion-icon-active-color}'><path fill-rule='evenodd' d='M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z'/><path d='M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8z'/></svg>");
+
+
+a { color:#a85fa0!important; }
+a:hover { color: #f087cb!important; }
+// Import Bootstrap v.5
+@import "bootstrap";

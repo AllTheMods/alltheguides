@@ -1,0 +1,20 @@
+<div class="container my-5 rounded mb-1">
+  <img src="https://i.boredage.com/atg/gg/faqt.png" alt="faq">
+  <div class="accordion accordion-flush shadow w-65 bg-gradient" id="accordionFlushfaq">
+    {% for faqs in site.data.gameguides-faq %}
+    <div class="accordion-item">
+      <h2 class="accordion-header bg-primary" id="flush-heading{{forloop.index}}">
+        <button class="h4 accordion-button collapsed text-start accordion-primary accordion-gradient bg-gradient" type="button" data-bs-toggle="collapse"
+          data-bs-target="#flush-collapse{{forloop.index}}" aria-expanded="false"
+          aria-controls="flush-collapse{{forloop.index}}">
+          {{ faqs.question}}
+        </button>
+      </h2>
+      <div id="flush-collapse{{forloop.index}}" class="accordion-collapse collapse bg-gradient"
+        aria-labelledby="flush-heading{{forloop.index}}" data-bs-parent="#accordionFlushfaq">
+        <div class="accordion-body">{{ faqs.answer }}</div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>

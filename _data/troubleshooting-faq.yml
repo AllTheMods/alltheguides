@@ -1,0 +1,14 @@
+- question: My server is crashing on first boot.
+  answer: Thats minecraft server life, please try rebooting again before panicking, then use pastebin or github to provide logs to the team for help diagnosing.
+
+- question: My server is crashing with a server hang detected watchdog error
+  answer: This is common on fresh worlds, or busy worlds when somebody does a significant action that takes the server longer than 60 seconds to process. Change max-tick-time in server.properties to 600000 (10 minutes) as a first step in getting past this. If crashes persist (they'll be a different error or take 10 minutes) then pastebin logs for help.
+
+- question: How do I change the backups configuration?
+  answer: Edit \config\ftbbackups-common.toml while the server is OFFLINE, save it, then start the server.
+  
+- question: How do I change /home or /warp or /tpa?
+  answer: Edit \world\serverconfig\ftbessentials.snbt (ftbessentials-server.toml for pre 1.7.x packs) while the server is OFFLINE, save it, then start the server.
+
+- question: I crash with error 0!
+  answer: This is a local environment issue. Usernames with spaces and/or incorrect java installed or set in the path/launcher youre using, frequently cause this. Get a good launcher that lets you install forge easily (like MultiMC), and make sure thats installed properly. Read the logs, and pastebin them for help if youre still broken.

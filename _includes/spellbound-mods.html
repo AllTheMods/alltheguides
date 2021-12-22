@@ -1,0 +1,7 @@
+<div class="container text-center my-3">
+    {% for mod in site.data.spellbound-mods %}
+    <button type="button" class="btn btn-primary text-light m-1 bg-gradient btn-box-shadow">
+        <a href="{{site.baseurl}}/spellbound{{ mod.url }}" class="text-light">{{ mod.name}}</a>
+    </button>
+    {% endfor %}
+</div>

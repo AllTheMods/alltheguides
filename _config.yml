@@ -1,0 +1,31 @@
+# Config File for the site
+
+title: All the Guides # Title for the website (appears in title bar)
+email: your-email@example.com # email address to be used throughout the website
+description: A one stop shop for launching and playing All the Mods # describe the website
+baseurl: "/atg" # the subpath of your site, e.g. /blog
+url: "https://boredage.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: allthemods # Twitter username used throughout the site
+github_username:  AllTheMods # GitHub username
+discord_link: https://discordapp.com/invite/rbSZNDQ # url to discord 
+github_link: https://github.com/AllTheMods # url to github
+patreon_link: https://www.patreon.com/allthemods # url to patreon
+atm_merch: https://all-the-mods.creator-spring.com # url to creator spring
+
+
+# Build settings
+permalink: pretty
+
+# Sass settings
+
+sass:
+    load_paths:
+        - _sass
+        - assets/css
+
+
+collections_dir: collections
+
+collections:
+  gg:
+  output: true

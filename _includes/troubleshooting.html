@@ -1,0 +1,7 @@
+<div class="container text-center my-3">
+  {% for troubleshooting in site.data.troubleshooting %}
+  <button type="button" class="btn btn-primary text-secondary bg-gradient m-1">
+    <a href="{{site.baseurl}}/troubleshooting{{ troubleshooting.url }}" class="text-light">{{ troubleshooting.name}}</a>
+  </button>
+  {% endfor %}
+</div>

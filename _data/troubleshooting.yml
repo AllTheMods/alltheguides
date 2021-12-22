@@ -1,0 +1,14 @@
+- name: Pack Upgrade Info
+  url: /server-upgrade
+
+- name: Installing a Server
+  url: /installing-a-server
+
+- name: Java information
+  url: /java
+
+- name: Spark Profiler
+  url: /spark
+  
+- name: Shaders and Optifine
+  url: /shaders

@@ -1,0 +1,20 @@
+<div class="container">
+    <img src="https://i.boredage.com/atg/gg/faqt.png" alt="faq">
+    <div class="accordion accordion-flush container mt-3 mb-5 shadow w-80" id="accordionFlushExample">
+        {% for quest in site.data.spellbound-faq %}
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-heading{{forloop.index}}">
+                <button class="h4 accordion-button collapsed text-start bg-gradient" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#flush-collapse{{forloop.index}}" aria-expanded="false"
+                    aria-controls="flush-collapse{{forloop.index}}">
+                    {{ quest.question}}
+                </button>
+            </h2>
+            <div id="flush-collapse{{forloop.index}}" class="accordion-collapse collapse bg-gradient"
+                aria-labelledby="flush-heading{{forloop.index}}" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">{{ quest.answer }}</div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>

@@ -1,0 +1,107 @@
+---
+layout: troubleshooting
+title: Troubleshooting | Insatalling a Server
+---
+<h3>Installing A Server</h3>
+<h5 class="alert alert-warning">This is not meant to be a comprehensive guide, just a general overview of the process.</h5>
+<p>This guide is targeted for Windows 10, if you are on a different OS you may need to adapt some parts of the process.
+</p>
+<p>In general we do not provide server installation support for technical questions, but if you have specific questions
+    about our pack installer, or comments about this guide, feel free to ask them in the <a href="https://discordapp.com/invite/rbSZNDQ">ATM Discord.</p></a>
+
+<div class="border p-1 m-1">
+    <h4 class="alert alert-info">Prerequisites</h4>
+    <ol>
+        <li>Install Java 11 x64 (HotSpot) from <a href="https://adoptopenjdk.net/" rel="nofollow">AdoptOpenJDK</a> and
+            uninstall any other versions of Java (JRE/JDK)
+            <ul>
+                <li>This is the recommended version, but anything between JDK 8-14 should work.</li>
+                <li>This is the recommended vendor, other options include Azul Zulu OpenJDK or Oracle JDK.</li>
+            </ul>
+        </li>
+        <li>Ensure any third-party antivirus programs are disabled or uninstalled.
+            <ul>
+                <li>Avast, AVG, and Bitdefender are known to interfere with the process - others are also likely to
+                    cause
+                    problems.</li>
+            </ul>
+        </li>
+    </ol>
+</div>
+<div class="border p-1 m-1">
+    <h4 class="alert alert-info">Installation</h4>
+    <ol>
+        <li>Go to the CurseForge page for the pack version you want to install, and download the SIMPLE-SERVER-FILES.
+        </li>
+        <li>Unzip these to an empty folder.
+            <ul>
+                <li>Make sure you do not have this in OneDrive or another synced folder, as those can lock up the
+                    installer.
+                </li>
+            </ul>
+        </li>
+        <li>Run <code>startserver.bat</code> and wait for it to complete. When the installation is complete, you should
+            see
+            a prompt to accept the EULA.
+            <ul>
+                <li>Some guides will tell you to run this as admin. <strong>DO NOT</strong> do this. This is never
+                    necessary, and this can break the installation or worse.</li>
+            </ul>
+        </li>
+        <li>Once you accept the EULA, the server will start running. Startup will typically take 3-5 minutes.</li>
+        <li>When the server has started fully, close the window.
+            <ul>
+                <li>You should see <code>[tombstone/]: The list of contributors has been loaded successfully</code> when
+                    the
+                    loading is complete.</li>
+                <li>This works around a known issue where you cannot type in the console the first time you start the
+                    server.</li>
+            </ul>
+        </li>
+        <li>Make any changes needed to server.properties or configs, and run <code>startserver.bat</code> again to start
+            the
+            server.
+            <ul>
+                <li>Many guides tell you to edit <code>server-ip</code> or <code>server-port</code>. In most cases you
+                    <strong>DO NOT</strong> need to edit these,<br>
+                    and this can prevent your server from starting. Make sure you know what these do, before you edit
+                    them.
+                </li>
+                <li>If you want to import a single player world, you can do this now before starting the server.</li>
+            </ul>
+        </li>
+    </ol>
+</div>
+    <div class="border p-1 m-1">
+        <h4 class="alert alert-info">
+            Other Stuff</h4>
+        <ul>
+            <li>Importing a single player world
+                <ol>
+                    <li>Shut off the server.</li>
+                    <li>Delete <code>world</code> from the server.</li>
+                    <li>Copy your save into the server directory, and rename it to <code>world</code>.</li>
+                    <li>Delete <code>world/icon.png</code> (single player worlds can sometimes generate icons that are too
+                        large
+                        for the server)</li>
+                </ol>
+            </li>
+            <li>Uploading to a server host
+                <ul>
+                    <li>If your server host uses the <code>startserver</code> script, upload all files.</li>
+                    <li>If your server host uses a custom jar, upload all files <strong>EXCEPT</strong>:
+                        <ul>
+                            <li><code>startserver.bat</code></li>
+                            <li><code>startserver.sh</code></li>
+                            <li><code>server-setup-config.yaml</code></li>
+                            <li><code>serverstarter-*.jar</code></li>
+                            <li><code>modpack-download.zip</code></li>
+                        </ul>
+                    </li>
+                    <li>You may need to rename the <code>forge-1.16.5-*.jar</code> to whatever your hosting provider
+                        expects.
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
