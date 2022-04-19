@@ -8,7 +8,7 @@
   answer: Look in the in game book Allthemodium or search the ores in JEI and view the tooltips. There is additional information in the Allthemodium book.
 
 - question: How do I deal with the Chaos dragon?
-  answer: "The chaos guardian is a multi-phase fight. The crystals can only be damaged by the dragon and it's attacks, but the final hit on them will have to come from you to destroy them. Once all the crystals are destroyed, only half the time will it be susceptible to damage, when it doesnt have a blue shield. It has two health bars as well - a red over shield and then its actual HP."
+  answer: "The chaos guardian is a multi-phase fight. The crystals can only be damaged by the dragon and it's attacks -or- chaos tier weapons, but the final hit on them will have to come from you to destroy them. Once all the crystals are destroyed, only half the time will it be susceptible to damage, when it doesnt have a blue shield. It has two health bars as well - a red over shield and then its actual HP."
 
 - question: What's the recommended world type/level type?
   answer: 'ATM6 1.8.x: terraforged (default does work) <br />1.7.x or earlier: default. Others have proven problematic.<br> Skyblock: <br> use: <code>level-type=skyblockbuilder\:custom_skyblock</code>'
@@ -25,5 +25,7 @@
 - question: Is there a list of pipes, cables and storage options?
   answer: '<a href="https://docs.google.com/spreadsheets/d/1s4d4aLRVUUl5jyj_tVl3cfcJolDvlFRWOZaNSWFhr50/">Pipes, Cables and Storage options</a>'
 
+- question: How do I get a good weapon for fighting dragons?
+  answer: '<a href="https://docs.google.com/spreadsheets/d/1st2CgQ9Ypfubh45mAI7inAIMSCIYzykL23aEPuwxZLE/edit#gid=0">Mahou Tsukai Morgan Leveling Guide</a><br /> -or- <br />check out our page for <a href="https://boredage.github.io/atg/gg/silent-gear">Silent Gear</a>'
 - question: Skyblock commands
   answer: "Create and island: <code>/skyblock create</code><br>Go to my island: <code>/skyblock home</code><br>Go to spawn: <code>/skyblock spawn</code><br> See more commands at <a href='http://github.com/MelanX/SkyblockBuilder/blob/1.16.x/README.md'>Skyblock on Github</a>"
