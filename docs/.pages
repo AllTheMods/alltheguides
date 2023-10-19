@@ -1,0 +1,16 @@
+nav:
+#    - Blogs: /atg/blog
+    - <b>Packs</b>:
+        - index: README.md
+        - All The Mods 9: atm9
+        - All The Mods - Volcano Block: atmvb
+        - All The Mods - Gravitas: atmg
+        - All The Mods 8: atm8
+        - All The Mods 7: atm7
+        - All The Spells - Spellbound: atms
+        - All The Mods 6: atm6
+        - Legacy Packs: legacy
+#    - Misc: misc 
+    - Help: help
+    - Guides : guides
+    - About: about

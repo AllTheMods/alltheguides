@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Nunito&display=swap');
+
+.md-header__topic {
+    font-weight: bold;
+}
+
+p, ul, li, tr  {
+    font-size: 16px !important;
+}
+
+code {
+    overflow-x: auto;
+}
+
+* {
+    font-family: 'Nunito', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold !important;
+}
+
+b, strong {
+    color: #ff7700cc !important;
+}
+
+div.md-source__repository{
+    font-size: 10px !important;
+}
+
+div[data-md-type='navigation']{
+    font-weight: bold;
+}
+
+img {
+    max-width: 400px;
+    max-height: 400px;
+}

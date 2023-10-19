@@ -1,0 +1,7 @@
+User-Agent: *
+Allow: /
+Disallow: /guides/contributing/*
+Disallow: /guides/contributing/examples/*
+Disallow: /guides/contributing/index.html
+Disallow: /guides/contributing/examples/index.html
+

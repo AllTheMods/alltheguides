@@ -1,0 +1,184 @@
+site_name: All The Guides
+site_url: https://alltheguides.pages.dev
+repo_name: alltheguides
+repo_url: https://github.com/segg21/alltheguides/
+edit_uri: edit/dev/docs/
+use_directory_urls: true
+copyright: Copyright &copy; 2023 - All The Mods | Made By <a href='https://ko-fi.com/segfault' target='_blank'><b>Seg</b></a>
+strict: !ENV [ENABLE_STRICT, true]
+extra:
+  generator: true
+  homepage: /
+  version:
+    default: stable
+  social:
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/allthemods
+      name: Discord
+    - icon: fontawesome/brands/reddit
+      link: https://www.reddit.com/r/allthemods/
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/allthemods?lang=en
+    - icon: fontawesome/brands/github
+      link: https://github.com/AllTheMods
+theme:
+  custom_dir: overrides
+  name: material
+  highlightjs: true
+  language: en
+  features:
+    - navigation.instant
+    - navigation.instant.prefetch
+    # - navigation.instant.progress
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.path 
+    - navigation.prune
+    - navigation.indexes
+    - navigation.top
+    - navigation.footer
+    - header.autohide
+    - announce.dismiss
+    - content.action.edit
+    - content.tooltips
+    - content.code.copy
+    - content.code.annotate
+  icon:
+    repo: fontawesome/brands/github
+    edit: material/pencil 
+    view: material/eye
+  favicon: assets/images/atms.png
+  logo: assets/images/atms.png
+  font:
+    text: "Nunito"
+  palette:
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: orange
+      toggle:
+        icon: material/brightness-7 
+        name: Dark Mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: black
+      accent: orange
+      toggle:
+        icon: material/brightness-4
+        name: Light Mode
+
+extra_css:
+  - assets/stylesheets/style.css
+
+extra_javascript:
+  - assets/javascripts/script.js
+
+plugins:
+  - search
+  - awesome-pages: {
+    collapse_single_pages: true,
+    strict: true,
+  }
+  - meta-descriptions
+  - tags
+  - mkdocs-video
+  - markmap
+#  - blog
+#  - autoref
+  - git-revision-date-localized: {
+    type: timeago,
+    enable_creation_date: true,
+    fallback_to_build_date: false,
+    strict: !ENV [ENABLE_STRICT_GIT_REVISION_DATE, false],
+    enabled: !ENV [ENABLE_GIT_REVISION_DATE, false]
+  }
+  - minify: {
+    minify_html: !ENV [ENABLE_MINIFY, false],
+    minify_js: !ENV [ENABLE_MINIFY, false],
+    minify_css: !ENV [ENABLE_MINIFY, false],
+    htmlmin_opts: {
+      remove_comments: !ENV [ENABLE_REMOVE_COMMENTS, false]
+    },
+    cache_safe: true
+  } 
+  - offline: {
+    enabled: !ENV [ENABLE_OFFLINE, false]
+  }
+  - glightbox: {
+    touchNavigation: true,
+    loop: true,
+    effect: fade,
+    slide_effect: fade,
+    width: auto,
+    height: auto,
+    draggable: false,
+    auto_caption: true,
+    caption_position: bottom
+  }
+  - git-authors: {
+    show_email_address: false,
+    sort_authors_by: contribution,
+    fallback_to_empty: true,
+    show_contribution: true,
+    strict: !ENV [ENABLE_STRICT_GIT_AUTHORS, false],
+    enabled: !ENV [ENABLE_GIT_AUTHORS, false]
+  }
+
+hooks:
+  - extensions/external_links_md_extension.py
+
+markdown_extensions:
+  extra: {}
+  smarty: {}
+  toc: {
+    permalink: true
+  }
+  admonition: {}
+  attr_list: {}
+  abbr: {}
+  sane_lists: {}
+  pymdownx.snippets: {}
+  pymdownx.emoji: {
+    emoji_index: !!python/name:material.extensions.emoji.twemoji ,
+    emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  }
+  pymdownx.highlight: {
+    anchor_linenums: true,
+    line_spans: __span,
+    pygments_lang_class: true
+  }
+  pymdownx.critic: {}
+  pymdownx.caret: {}
+  pymdownx.keys: {}
+  pymdownx.mark: {}
+  pymdownx.tilde: {}
+  pymdownx.betterem: {}
+  pymdownx.details: {}
+  pymdownx.inlinehilite: {}
+  pymdownx.tasklist: {
+    custom_checkbox: true,
+    clickable_checkbox: true
+  }
+  pymdownx.superfences:
+    custom_fences:
+      - name: mermaid
+        class: mermaid
+        format: !!python/name:pymdownx.superfences.fence_code_format
+  pymdownx.tabbed: {
+    alternate_style: true
+  }
+  def_list: {}
+  md_in_html: {}
+  footnotes: {}
+  tables: {}
+
+validation:
+  nav:
+    omitted_files: info
+    not_found: warn
+    absolute_links: info
+  links:
+    not_found: warn
+    absolute_links: info
+    unrecognized_links: info

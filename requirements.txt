@@ -1,0 +1,17 @@
+mkdocs
+mkdocstrings
+mkdocs-autorefs
+mkdocs-awesome-pages-plugin
+mkdocs-git-authors-plugin
+mkdocs-git-committers-plugin
+mkdocs-git-revision-date-localized-plugin
+mkdocs-material
+mkdocs-meta-descriptions-plugin
+mkdocs-minify-plugin
+mkdocs-glightbox
+mkdocs-open-in-new-tab
+mkdocs-video
+mkdocs-markmap
+# mkdocs-badges
+# mkdocs-spellcheck[all]
+# mkdocs-section-index

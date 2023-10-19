@@ -1,0 +1,36 @@
+name: dev
+on:
+  push:
+    branches:
+      - dev*
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    env:
+      ENABLE_STRICT: true
+      ENABLE_MINIFY: true
+      ENABLE_REMOVE_COMMENTS: true
+      ENABLE_GIT_AUTHORS: false
+      ENABLE_GIT_COMMITTERS: false
+      ENABLE_GIT_REVISION_DATE: false
+      ENABLE_STRICT_GIT_AUTHORS: false
+      ENABLE_STRICT_GIT_REVISION_DATE: true
+      ENABLE_OFFLINE: true
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: 'dev'
+          fetch-depth: '0'
+      - uses: actions/setup-python@v4
+        with:
+          python-version: 3.x
+          cache: pip
+      - run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV 
+      - uses: actions/cache@v3
+        with:
+          key: mkdocs-material-${{ env.cache_id }}
+          path: .cache
+          restore-keys: |
+            mkdocs-material-
+      - run: pip --disable-pip-version-check install --no-compile -r requirements.txt
+      - run: mkdocs build

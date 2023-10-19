@@ -1,0 +1,47 @@
+name: main
+on:
+  push:
+    branches:
+      - master 
+      - main
+permissions:
+  contents: write
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    env:
+      ENABLE_STRICT: true
+      ENABLE_MINIFY: true
+      ENABLE_REMOVE_COMMENTS: true
+      ENABLE_GIT_AUTHORS: true
+      ENABLE_GIT_COMMITTERS: true
+      ENABLE_GIT_REVISION_DATE: true
+      ENABLE_STRICT_GIT_AUTHORS: true
+      ENABLE_STRICT_GIT_REVISION_DATE: true
+      ENABLE_OFFLINE: true
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: 'main'
+          fetch-depth: '0'
+      - uses: actions/setup-python@v4
+        with:
+          python-version: 3.x
+          cache: pip
+      - run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV 
+      - uses: actions/cache@v3
+        with:
+          key: mkdocs-material-${{ env.cache_id }}
+          path: .cache
+          restore-keys: |
+            mkdocs-material-
+      - run: pip --disable-pip-version-check install --no-compile -r requirements.txt
+      - run: mkdocs build
+      - name: Publish to Cloudflare Pages
+        uses: cloudflare/pages-action@v1
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          projectName: alltheguides
+          branch: main
+          directory: site/
