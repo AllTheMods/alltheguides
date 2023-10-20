@@ -102,9 +102,9 @@ plugins:
     },
     cache_safe: true
   } 
-  - offline: {
-    enabled: !ENV [ENABLE_OFFLINE, false]
-  }
+#  - offline: {
+#    enabled: !ENV [ENABLE_OFFLINE, false]
+#  }
   - glightbox: {
     touchNavigation: true,
     loop: true,
