@@ -9,8 +9,8 @@ description: ATM9 Frequently Asked Questions
 
 ---
 
-??? Question "Why isn't this '`insert name`' mod in ATM9 yet"
-    Its not updated to 1.20.1 yet and if it is please [suggest](https://github.com/AllTheMods/ATM-9/issues/1).
+??? Question "Why is flight disabled?"
+    Flight is disabled in certain dimensions (The Other, Blue Skies, and Twilight Forest), to add more difficulty towards progression. If you dislike this change, it can be [disabled](/help/configs#no-fly-zone).
 
-??? Question "How do I get bedrock?"
-    You don’t. It’s a placeholder item until an item is picked for the recipe.
+??? Question "Why isn't '`insert name`' mod in ATM9 yet?"
+    ATM packs does not literally contain "All The Mods". Our main focus is having mods that's not: 1). buggy, 2). ruins performance, or progression. If a mod supports Minecraft version **1.20.1**, and **Forge** (Not NeoForge), you may make a [suggestion](https://github.com/AllTheMods/ATM-9/issues/1).
