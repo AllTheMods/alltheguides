@@ -2,7 +2,7 @@
 
 These game guides have been re-done _again_ from the ground up to be more organized and easier for contributions.
 
- ![GitHub Repo stars](https://img.shields.io/github/stars/segg21/alltheguides?style=flat-square) ![GitHub forks](https://img.shields.io/github/forks/segg21/alltheguides?style=flat-square) ![GitHub watchers](https://img.shields.io/github/watchers/segg21/alltheguides?style=flat-square) [![GitHub Discussions](https://img.shields.io/github/discussions/segg21/alltheguides?style=flat-square)](https://github.com/segg21/alltheguides/discussions) ![GitHub](https://img.shields.io/github/license/segg21/alltheguides?style=flat-square)
+![GitHub Repo stars](https://img.shields.io/github/stars/segg21/alltheguides?style=flat-square) ![GitHub forks](https://img.shields.io/github/forks/segg21/alltheguides?style=flat-square) ![GitHub watchers](https://img.shields.io/github/watchers/segg21/alltheguides?style=flat-square) [![GitHub Discussions](https://img.shields.io/github/discussions/segg21/alltheguides?style=flat-square)](https://github.com/segg21/alltheguides/discussions) ![GitHub](https://img.shields.io/github/license/segg21/alltheguides?style=flat-square)
 
 [![GitHub issues](https://img.shields.io/github/issues/segg21/alltheguides?style=flat-square)](https://github.com/segg21/alltheguides/issues) [![GitHub pull requests](https://img.shields.io/github/issues-pr/segg21/alltheguides?style=flat-square)](https://github.com/segg21/alltheguides/pulls)
 
