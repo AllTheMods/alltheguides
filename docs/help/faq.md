@@ -17,9 +17,10 @@ This will attempt to cover all packs.
 ## Technical
 #### Table Of Contents -
 
-* [Modpack Crashes (At Beginning)](#modpack-crashes-at-beginning)
-* [World Crashing (Before / After)](#world-crashing-before-after);
-* [Ticking Entity Or Block](#ticking-entity-or-block)
+* [Failed To Authenticate](#failed-to-authenticate).
+* [Modpack Crashes (At Beginning)](#modpack-crashes-at-beginning).
+* [World Crashing (Before / After)](#world-crashing-before-after).
+* [Ticking Entity Or Block](#ticking-entity-or-block).
 
 ---
 
@@ -30,6 +31,20 @@ This will attempt to cover all packs.
 - **Allocate**: The amount of ram assigned to minecraft. _By default it's always set to 4Gb or lower, and some modpack requires more._
 
 ---
+
+### Failed To Authenticate
+
+??? Info
+
+    Authentication errors can be caused by numerous reasons. TL;TD here's some things you can try/check.
+
+    - Restarting Networking (Unplugging router/modem ("Internet Box(es)")).
+    - Are you using or have **Hamachi** installed? If installed but not using, this could be a culprit.
+    - IPv6 issues. 
+        - Setting this Java argument to force IPv4 `-Djava.net.preferIPv4Stack=true`
+        - Disabling "Internet Protocol Version 6 (TCP/IPv6)" in/on Adapter Settings in Network and Sharing Center.
+    - Flushing DNS > Command Prompt > `ipconfig /flushdns`
+    - Firewall / DDoS protection (Modded MC can potentially flood network with packets considering to be an attack and blocking a specific server ip/inbound connections).
 
 ### Modpack Crashes (At Beginning)
 
