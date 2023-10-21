@@ -35,7 +35,7 @@ This guide is targeted for **Windows**, and **Linux** Distributions.
     - Do **NOT** run server as an **Administrator**, or with **sudo** / **root** privileges.
 - Once you've accepted **EULA**, the server will start running. Startup normally takes 3-5 minutes.
 - Make any changes needed to `server.properties`, `configs`, and or `world/serverconfigs`, and run `startserver.bat/sh` again to start the server.
-    - **Forge 1.17+**, Java arguments are placed with `usr_jvm_args.txt`.
+    - **Forge 1.17+**, Java arguments are placed within `usr_jvm_args.txt`.
     - You may want to delete `world` folder to regenerate world again if changes made. 
     - If importing a world, delete `world` folder, copy your world folder over, and rename it `world`.
     - _Many guides tell you to edit `server-ip` or `server-port`. In most cases you **DO NOT** need to edit these, especially `server-ip`. This can prevent your server from starting._
@@ -67,9 +67,12 @@ Updating ATM servers is pretty simple. There's 3 ways you can accomplish this. M
 
 #### Server Host Custom Jar
 
-If your host requires a `.jar` file, in later versions you cannot run forge directly from a `.jar` file. You would need to use [ServerStarter](https://github.com/BloodyMods/ServerStarter/releases). 
+If server host requires a `.jar` file, in later versions you cannot run forge jar directly.
 
-Download and upload this to your host. Additionally, you'll need to create a config for **ServerStarter** for it to know how to properly install and run your server.
+- Download [ServerStarter](https://github.com/BloodyMods/ServerStarter/releases) jar and upload to server root folder and select this as the custom jar.
+- Download Server Files from CurseForge, extract, and upload files to server.
+
+Create a config file (`server-setup-config.yaml`), and copy the config example below. Modifiy config for pack if necessary, specifically the `mcVersion` and `loaderVersion`, and place config in server root then start server as normal.
 
 ??? Info "Config Example | ATM9"
 
