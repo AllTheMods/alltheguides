@@ -19,17 +19,18 @@ This guide is targeted for **Windows**, and **Linux** Distributions.
 #### Installation
 
 - Go to **CurseForge** and download Server Files for the pack, and unzip archive to an empty folder.
-    - **Windows**: Make sure you do **NOT** install server under a **OneDrive** directory or other synced folder, as this can break installers and corrupt server files
+    - **Windows**: Make sure you do **NOT** unzip server under a **OneDrive** directory or other synced/cloud folders, as this can break installers and corrupt server files.
     - **Linux**: Make sure server folder have r/w permissions.
         - `sudo chmod -R 775 /path/to/server`.
 - Run `startserver.bat` on **Windows**, or `startserver.sh` on **Linux**. When installation is complete, you should see a prompt to accept the **EULA** within `eula.txt` file.
     - If there's no `startserver` script, install **Forge** that comes with server files.
         - `java -jar forge-installer*.jar --installServer`
-    - **Linux**: Script may need execute permissions when running `./startserver.sh`. To fix,
+        - Run `run.bat/sh` script after Forge installation.
+    - **Linux**: Script may need execute permissions when running `./startserver.sh`.
         - Run `sudo chmod +x startserver.sh` once, then run `./startserver.sh`.
-    - Some cases with servers having multiple [Java](java.md) versions installed, the server may not run with the correct version, instead another version defined in **System Environment Variables**. You could,
-        - Edit the script(s) to reflect the correct Java path/binary file.
-        - Update **System Environment Variables**, or **Linux** re-configure Java, 
+    - Some cases with servers having multiple [Java](java.md) versions installed, the server may not run with the correct version, in which case you could,
+        - Edit the script to reflect the direct `java` binary file.
+        - Update System Environment Variables on **Windows**, or **Linux** re-configure Java, 
             - `sudo update-alternatives --config java`.
     - Do **NOT** run server as an **Administrator**, or with **sudo** / **root** privileges.
 - Once you've accepted **EULA**, the server will start running. Startup normally takes 3-5 minutes.
