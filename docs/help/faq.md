@@ -38,7 +38,9 @@ This will attempt to cover all packs.
 
     Authentication errors can be caused by numerous reasons. TL;TD here's some things you can try/check.
 
-    - Restarting Networking (Unplugging router/modem ("Internet Box(es)")).
+    - Re-authenticate your account by logging out and back within your launcher.
+    - Restart launcher.
+    - Restart Network (Unplugging router/modem ("Internet Box(es)")).
     - Are you using or have **Hamachi** installed? If installed but not using, this could be a culprit.
     - IPv6 issues. 
         - Setting this Java argument to force IPv4 `-Djava.net.preferIPv4Stack=true`
