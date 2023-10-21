@@ -53,7 +53,7 @@ Updating ATM servers is pretty simple. There's 3 ways you can accomplish this. M
 
 ##### **Manually**
 
-1. Delete `kubejs`, `defaultconfigs`, `mods`, and `config` folder. Download Server Files from CurseForge
+1. Delete `kubejs`, `defaultconfigs`, `mods`, and `config` folder.
     - Download Server Files from CurseForge
     - If previous pack forge version is different, delete `libraries` folder, and copy over new `startserver.bat/sh` from Server Files, and `forge-installer.jar` if exists.
     - Extract the deleted folders from Server Files into your server folder.
