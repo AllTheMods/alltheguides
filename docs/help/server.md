@@ -39,6 +39,83 @@ This guide is targeted for **Windows**, and **Linux** Distributions.
 !!! Tip "Performance Tips: Check out [Lag / Profiling](lag.md)"
 ---
 
+#### Updating
+
+Updating ATM servers is pretty simple. There's 3 ways you can accomplish this.
+
+##### **Automatic**
+
+1. If you have a server host with a modpack installer, usually you can do a one click pack update within your control panel.
+
+##### **Manually**
+
+1. Download Server Files from CurseForge
+    - Delete `kubejs`, `defaultconfigs`, `mods`, and `config` folder.
+    - If previous pack forge version is different, delete `libraries` folder, and copy over new `startserver.bat/sh` from Server Files, and `forge-installer.jar` if exists.
+    - Extract the deleted folders from Server Files into your server folder.
+
+2. Download Server Files from CurseForge.
+    - Extract Server Files into a new folder.
+    - Copy your `world` folder, and `server.properties` to new folder.
+    - If JourneyMap exists, copy `journeymap` folder aswell.
+
+
+---
+
+#### Server Host Custom Jar
+
+If your host requires a `.jar` file, in later versions you cannot run forge directly from a `.jar` file. You would need to use [ServerStarter](https://github.com/BloodyMods/ServerStarter/releases). 
+
+Download and upload this to your host. Additionally, you'll need to create a config for **ServerStarter** for it to know how to properly install and run your server.
+
+??? Info "Config Example | ATM9"
+
+    !!! Warning "Highlighted lines are imported to be configured"
+
+    ```yaml title='server-setup-config.yaml' hl_lines="4 5 7 8 30"
+    # Version of the specs, only for internal usage if this format should ever change drastically
+    _specver: 2
+    modpack:
+        name: ATM9
+        description: All The Mods 9
+    install:
+        mcVersion: 1.20.1
+        loaderVersion: 47.1.3
+        installerUrl: "https://files.minecraftforge.net/maven/net/minecraftforge/forge/{{@mcversion@}}-{{@loaderversion@}}/forge-{{@mcversion@}}-{{@loaderversion@}}-installer.jar"
+        installerArguments:
+            - "--installServer"
+        modpackFormat: zip
+        baseInstallPath: ~
+        checkFolder: true
+        installLoader: true
+        connectTimeout: 30
+        readTimeout: 30
+    launch:
+        crashLimit: 10
+        maxRam: 8
+        minRam: 4
+        crashTimer: 60min
+        preJavaArgs: ~
+        startFile: "forge-{{@mcversion@}}-{{@loaderversion@}}.jar"
+        startCommand:
+            - "@user_jvm_args.txt"
+            - "@libraries/net/minecraftforge/forge/{{@mcversion@}}-{{@loaderversion@}}/{{@os@}}_args.txt"
+            - "nogui"
+        forcedJavaPath: ~
+        supportedJavaVersions: [17]
+    ```
+
+    ###### mcVersion
+    : Minecraft Version
+
+    ###### loadVersion
+    : Forge Version
+
+    ###### supportedJavaVersions
+    : Support Java Version(s)
+
+---
+
 #### Other Stuff
 
 - Importing a single player world
@@ -46,14 +123,5 @@ This guide is targeted for **Windows**, and **Linux** Distributions.
     - Delete `world` from the server.
     - Copy your save into the server directory, and rename it to `world`.
     - Delete `world/icon.png` (single player worlds can sometimes generate icons that are too large for the server)
-- Uploading to a server host
-    - If your server host uses the `startserver` script, upload all files.
-    - If your server host uses a custom jar, upload all files **EXCEPT**:
-        - `startserver.bat`
-        - `startserver.sh`
-        - `server-setup-config.yaml`
-        - `serverstarter-*.jar`
-        - `modpack-download.zip`
-    - You may need to rename the `forge-1.16.5-*.jar` to whatever your hosting provider expects.
 
 > All The Mods | [GitHub](https://github.com/AllTheMods) | [Discord](https://discord.com/invite/allthemods) | [Akliz Server Hosting](https://www.akliz.net/allthemods)

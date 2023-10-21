@@ -9,7 +9,7 @@ p, ul, li, tr  {
 }
 
 code {
-    overflow-x: auto;
+    text-wrap: wrap;
 }
 
 * {
@@ -35,4 +35,8 @@ div[data-md-type='navigation']{
 img {
     max-width: 400px;
     max-height: 400px;
+}
+
+body > header {
+    border-bottom: 1px solid #bd4638;
 }
