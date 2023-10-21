@@ -67,9 +67,12 @@ Updating ATM servers is pretty simple. There's 3 ways you can accomplish this. M
 
 #### Server Host Custom Jar
 
-If your host requires a `.jar` file, in later versions you cannot run forge directly from a `.jar` file. You would need to use [ServerStarter](https://github.com/BloodyMods/ServerStarter/releases). 
+If server host requires a `.jar` file, in later versions you cannot run forge jar directly.
 
-Download and upload this to your host. Additionally, you'll need to create a config for **ServerStarter** for it to know how to properly install and run your server.
+- Download [ServerStarter](https://github.com/BloodyMods/ServerStarter/releases) jar and upload to server root folder and select this as the custom jar.
+- Download Server Files from CurseForge, extract, and upload files to server.
+
+Create a config file (`server-setup-config.yaml`), and copy the config example below. Modifiy settings for pack if necessary, specifically the `mcVersion` and `loaderVersion`
 
 ??? Info "Config Example | ATM9"
 
