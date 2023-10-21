@@ -8,9 +8,13 @@ description: Get the right Java you need!
 #### Java Versions
 
 - Minecraft **<= 1.15** | [Java 8](https://adoptium.net/?variant=openjdk8&jvmVariant=hotspot)
+    - Linux: `sudo apt install openjdk-8-jdk`
 - Minecraft **1.16**  | [Java 8](https://adoptium.net/?variant=openjdk8&jvmVariant=hotspot) OR [Java 11](https://adoptium.net/?variant=openjdk11&jvmVariant=hotspot)
+    - Linux: `sudo apt install openjdk-8-jdk` OR `sudo apt install openjdk-11-jdk`
 - Minecraft **1.17** | [Java 16](https://adoptium.net/?variant=openjdk16&jvmVariant=hotspot)
+    - Linux: `sudo apt install openjdk-16-jdk`
 - Minecraft **1.18+** | [Java 17](https://adoptium.net/?variant=openjdk17&jvmVariant=hotspot)
+    - Linux: `sudo apt install openjdk-17-jdk`
 
 ---
 
