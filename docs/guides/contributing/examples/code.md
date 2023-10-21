@@ -1,7 +1,5 @@
 # Code
 
-Line numbers can be added to a code block by using the `linenums="<start>"` option directly after the shortcode, whereas `<start>` represents the starting line number. A code block can start from a line number other than `1`, which allows to split large code blocks for readability:
-
 ``````
 ``` py
 import tensorflow as tf
