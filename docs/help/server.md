@@ -1,78 +1,78 @@
 # Server
-> _This is not meant to be a comprehensive guide, just a general overview of the process._
+
+This guide will explain how to setup an AllTheMods server locally, or with a server host.
 
 ---
 
-This guide is targeted for **Windows**, and **Linux** Distributions.
+## Prerequisites
+
+- Server with at-least **8GB**+ RAM (As required for most ATM packs).
+- Specific [Java](java.md) version, based on pack **Minecraft** version.
+    - _Azul Zulu, Adoptium, Eclipse Temurin, Amazon Corretto, or Oracle JDK works_
+- CPU that's atleast **3.5Ghz** of speed.
 
 ---
 
-#### Prerequisites
+## Installation
 
-- Depending on Minecraft version, make sure the proper [Java](java.md) version is being used.
-    - _Azul Zulu OpenJDK, Adoptium, Amazon Corretto, or Oracle JDK all works._
-- Ensure any third-party antivirus programs are disabled or uninstalled.
-    - _**Avast**, **AVG**, and **BitDefender** are known to interfere in the process - others are also likely to cause problems._
+- Download pack Server-Files from **CurseForge**.
 
----
+--- 
 
-#### Installation
+### Local Installation
 
-- Go to **CurseForge** and download Server Files for the pack, and unzip archive to an empty folder.
-    - **Windows**: Make sure you do **NOT** unzip server under a **OneDrive** directory or other synced/cloud folders, as this can break installers and corrupt server files.
-    - **Linux**: Make sure server folder have r/w permissions.
-        - `sudo chmod -R 775 /path/to/server`.
-- Run `startserver.bat` on **Windows**, or `startserver.sh` on **Linux**. When installation is complete, you should see a prompt to accept the **EULA** within `eula.txt` file.
-    - If there's no `startserver` script, install **Forge** that comes with server files.
-        - `java -jar forge-installer*.jar --installServer`
-        - Run `run.bat/sh` script after Forge installation.
-    - **Linux**: Script may need execute permissions when running `./startserver.sh`.
-        - Run `sudo chmod +x startserver.sh` once, then run `./startserver.sh`.
-    - Some cases with servers having multiple [Java](java.md) versions installed, the server may not run with the correct version, in which case you could,
-        - Edit the script to reflect the direct `java` binary file.
-        - Update System Environment Variables on **Windows**, or **Linux** re-configure Java, 
-            - `sudo update-alternatives --config java`.
-    - Do **NOT** run server as an **Administrator**, or with **sudo** / **root** privileges.
-- Once you've accepted **EULA**, the server will start running. Startup normally takes 3-5 minutes.
-- Make any changes needed to `server.properties`, `configs`, and or `world/serverconfigs`, and run `startserver.bat/sh` again to start the server.
-    - **Forge 1.17+**, Java arguments are placed within `usr_jvm_args.txt`.
-    - You may want to delete `world` folder to regenerate world again if changes made. 
-    - If importing a world, delete `world` folder, copy your world folder over, and rename it `world`.
-    - _Many guides tell you to edit `server-ip` or `server-port`. In most cases you **DO NOT** need to edit these, especially `server-ip`. This can prevent your server from starting._
-    
-!!! Tip "Performance Tips: Check out [Lag / Profiling](lag.md)"
----
+!!! Warning "**Windows**: If you have 3rd party Anti-Virus installed, exclude the folder the server will be installed in, as files may get remove or corrupted after extracting Server-Files."
 
-#### Updating
+- Extract downloaded Server-Files to a folder.
+- **Window**: Do not unzip files under **OneDrive** or any other cloud folder, as this can potentially remove / corrupt files.
+- **Linux**: Ensure server folder has read/write permissions, and the script has execute permissions,
+    - `sudo chmod -R 775 /path/to/server/`
+    - `sudo chmod +x startserver.sh`
+- Starting Server: 
+    - **Windows**: Run `startserver.bat`
+    - **Linux**: Run `./startserver.sh`
 
-Updating ATM servers is pretty simple. There's 3 ways you can accomplish this. Make sure you **BACKUP** world folder before proceeding.
+After running, you would be required to accept [Minecraft Eula](https://www.minecraft.net/en-us/eula) in the `eula.txt` file.
 
-##### **Automatic**
+??? Note "There's no `startserver.bat/sh` script?"
+    Install **Forge** first,
 
-1. If you have a server host with a modpack installer, usually you can do a one click pack update within your control panel.
+    - `java -jar forge-installer*.jar --installServer`
+    - You will then instead `run.bat/sh` to start server.
 
-##### **Manually**
+    ??? Tip "There's no `run.bat/sh`?"
+        Expecting this is an older Forge version, you'll need to create a script that launches Forge.
+        ``` title='run.bat/sh'
+        java -Xms4G -Xmx8G -jar forge-*universal.jar
+        ```
 
-1. Delete `kubejs`, `defaultconfigs`, `mods`, and `config` folder.
-    - Download Server Files from CurseForge
-    - If previous pack forge version is different, delete `libraries` folder, and copy over new `startserver.bat/sh` from Server Files, and `forge-installer.jar` if exists.
-    - Extract the deleted folders from Server Files into your server folder.
-
-2. Download Server Files from CurseForge.
-    - Extract Server Files into a new folder.
-    - Copy your `world` folder, and `server.properties` to new folder.
-    - If JourneyMap exists, copy `journeymap` folder aswell.
+??? Note "How to allocate RAM or add Arguments?"
+    Allocating RAM and or adding Arguments are applied within `usr_jvm_args.txt`. Older versions of **Forge** will require adding arguments in the script file, if that file doesn't exist.
 
 ---
 
-#### Server Host Custom Jar
+### Server Host Installation
 
-If server host requires a `.jar` file, in later versions you cannot run forge jar directly.
+Most server host has a one-click server installer you can use, otherwise
+
+- Setup a fresh **Forge** server based on the current **Forge** version of the pack.
+    - If host has no **Forge** installer, read [Server Host Custom Jar](#server-host-custom-jar)
+- Upload extracted Server-Files to host, via **FTP** or **STFP**.
+    - If there's no **FTP** or **SFTP**, you may be able to upload the zip file, and extract on server host. 
+ 
+
+---
+
+## Server Host Custom Jar
+
+If server host requires a `.jar` file, later **Forge** versions cannot be ran directly. If older, you can upload and run the `forge-*universal.jar` file. Otherwise,
 
 - Download [ServerStarter](https://github.com/BloodyMods/ServerStarter/releases) jar and upload to server root folder and select this as the custom jar.
 - Download Server Files from CurseForge, extract, and upload files to server.
 
-Create a config file (`server-setup-config.yaml`), and copy the config example below. Modifiy config for pack if necessary, specifically the `mcVersion` and `loaderVersion`, and place config in server root then start server as normal.
+Create a file named (`server-setup-config.yaml`), and copy / paste the config example below. 
+
+Modifiy config for pack if necessary, specifically the `mcVersion` and `loaderVersion`, and place config in server root then start server as normal.
 
 ??? Info "Config Example | ATM9"
 
@@ -119,6 +119,32 @@ Create a config file (`server-setup-config.yaml`), and copy the config example b
 
     ###### supportedJavaVersions
     : Support Java Version(s)
+
+---
+
+    
+!!! Tip "Performance Tips: Check out [Lag / Profiling](lag.md)"
+---
+
+## Updating
+
+Updating ATM servers is pretty simple. There's 3 ways you can accomplish this. Make sure you **BACKUP** world folder before proceeding.
+
+### **Automatic**
+
+1. If you have a server host with a modpack installer, usually you can do a one click pack update within your control panel.
+
+### **Manually**
+
+1. Delete `kubejs`, `defaultconfigs`, `mods`, and `config` folder.
+    - Download Server Files from CurseForge
+    - If previous pack forge version is different, delete `libraries` folder, and copy over new `startserver.bat/sh` from Server Files, and `forge-installer.jar` if exists.
+    - Extract the deleted folders from Server Files into your server folder.
+
+2. Download Server Files from CurseForge.
+    - Extract Server Files into a new folder.
+    - Copy your `world` folder, and `server.properties` to new folder.
+    - If JourneyMap exists, copy `journeymap` folder aswell.
 
 ---
 

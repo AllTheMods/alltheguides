@@ -33,27 +33,27 @@ These can help both server and client with performance in,
 
 ??? Explanation
 
-    ###### `UnlockExperimentalVMOptions`
+    - `UnlockExperimentalVMOptions`
 
     : Needed for some the below options
 
-    ######  `G1NewSizePercent`
+    - `G1NewSizePercent`
 
     : In CMS and other Generations, tweaking the New Generation results in FIXED SIZE New Gen and usually is done through explicit size setting with -Xmn. With G1, things are better! You now can specify percentages of an overall desired range for the new generation. With these settings, we tell G1 to not use its default 5% for new gen, and instead give it 40%! Minecraft has an extremely high a memory allocation rate, ranging to at least 800 Megabytes a second on a 30 player server! And this is mostly short lived objects (Block Position)
 
     : Now, this means MC REALLY needs more focus on New Generation to be able to even support this allocation rate. If your new gen is too small, you will be running new gen collections 1-2+ times per second, which is really bad.You will have so many pauses that TPS has risk of suffering, and the server will not be able to keep up with the cost of GC’s.Then combine the fact that objects will now promote faster, resulting in your Old Gen growing faster. Given more NewGen, we are able to slow down the intervals of Young Gen collections, resulting in more time for short lived objects to die young and overall more efficient GC behavior.
 
-    ###### `G1MixedGCLiveThresholdPercent`
+    - `G1MixedGCLiveThresholdPercent`
 
     : Controls when to include regions in Mixed GC’s in the Young GC collection, keeping Old Gen tidy without doing a normal Old Gen GC collection. When your memory is less than this percent, old gen won’t even be included in ‘mixed’ collections. Mixed are not as heavy as a full old collection, so having small incremental cleanups of old keeps memory usage light.
 
     : Default is 65 to 85 depending on Java Version, we are setting to 90 to ensure we reclaim garbage in old gen as fast as possible to retain as much free regions as we can.My Old flag set had this at 35 which was a bug. I had the intent of this flag inverted, as I thought 35 was what 65 does. You should not be using 35 for this number.
 
-    ###### `G1ReservePercent=20`
+    - `G1ReservePercent=20`
 
     : MC Memory allocation rate in up to date versions is really insane. We run the risk of a dreaded “to-space exhaustion” not having enough memory free to move data around. This ensures more memory is waiting to be used for this operation. Default is 10, so we are giving another 10 to it.
 
-    ###### `MaxTenuringThreshold=1`
+    - `MaxTenuringThreshold=1`
 
     : Minecraft has a really high allocation rate of memory. Of that memory, most is reclaimed in the eden generation. However transient data will overflow into survivor. Initially played with completely removing Survivor and had decent results, but does result in transient data making its way to Old which is not good.Max Tenuring 1 ensures that we do not promote transient data to old generation, but anything that survives 2 passes of Garbage Collection is just going to be assumed as longer-lived.
 
@@ -61,44 +61,44 @@ These can help both server and client with performance in,
 
     : Considering average GC rate is 10s to the upwards of minutes per young collection, this does not result in any ‘garbage’ being promoted, and just delays longer lived memory to be collected in Mixed GC’s.
 
-    ###### `SurvivorRatio=32`
+    - `SurvivorRatio=32`
 
     : Because we drastically reduced MaxTenuringThreshold, we will be reducing use of survivor space drastically. This frees up more regions to be used by Eden instead.
 
-    ###### `AlwaysPreTouch`
+    - `AlwaysPreTouch`
 
     : AlwaysPreTouch gets the memory setup and reserved at process start ensuring it is contiguous, improving the efficiency of it more. This improves the operating systems memory access speed. Mandatory to use Transparent Huge Pages
 
-    ###### `+DisableExplicitGC`
+    - `+DisableExplicitGC`
 
     : Many plugins think they know how to control memory, and try to invoke garbage collection. Plugins that do this trigger a full garbage collection, triggering a massive lag spike. This flag disables plugins from trying to do this, protecting you from their bad code.
 
-    ###### `MaxGCPauseMillis=200`
+    - `MaxGCPauseMillis=200`
 
     : This setting controls how much memory is used in between the Minimum and Maximum ranges specified for your New Generation. This is a “goal” for how long you want your server to pause for collections. 200 is aiming for at most loss of 4 ticks. This will result in a short TPS drop, however the server can make up for this drop instantly, meaning it will have no meaningful impact to your TPS. 200ms is lower than players can recognize.In testing, having this value constrained to an even lower number results in G1 not recollecting memory fast enough and potentially running out of old gen triggering a Full collection. Just because this number is 200 does not mean every collection will be 200. It means it can use up to 200 if it really needs it, and we need to let it do its job when there is memory to collect.
 
-    ###### `+ParallelRefProcEnabled`
+    - `+ParallelRefProcEnabled`
 
     : Optimizes the GC process to use multiple threads for weak reference checking. Not sure why this isn’t default….
 
-    ###### `G1RSetUpdatingPauseTimePercent=5`
+    - `G1RSetUpdatingPauseTimePercent=5`
 
     : Default is 10% of time spent during pause updating Rsets, reduce this to 5% to make more of it concurrent to reduce pause durations.
 
-    ###### `G1MixedGCCountTarget=4`
+    - `G1MixedGCCountTarget=4`
 
     : Default is 8. Because we are aiming to collect slower, with less old gen usage, try to reclaim old gen memory faster to avoid running out of old.
 
-    ###### `G1HeapRegionSize=8M+`
+    - `G1HeapRegionSize=8M+`
 
     : Default is auto calculated. SUPER important for Minecraft, especially 1.15, as with low memory situations, the default calculation will in most times be too low. Any memory allocation half of this size (4MB) will be treated as “Humongous” and promote straight to old generation and is harder to free. If you allow java to use the default, you will be destroyed with a significant chunk of your memory getting treated as Humongous.
 
-    ###### `+PerfDisableSharedMem`
+    - `+PerfDisableSharedMem`
 
     : Causes GC to write to file system which can cause major latency if disk IO is high – See [JVM MMAP Pause](https://www.evanjones.ca/jvm-mmap-pause.html)
 
 
-    ###### Large Pages
+    - Large Pages
 
     : Also for Large Pages – It’s even more important to use -Xms = -Xmx! Large Pages needs to have all of the memory specified for it or you could end up without the gains. This memory will not be used by the OS anyways, so use it.
     Additionally use these flags (Metaspace is Java 8 Only, don’t use it for Java7):
