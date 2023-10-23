@@ -12,7 +12,7 @@ In **ATM9**, All The Modium has changed in ways different from previous packs. W
 
 - Overworld: (**AllTheModium**)
     - Found in **Deep Dark** Biome, also **Mining Dimension**.
-        - Killing Warden also grants a **Quest** reward Ingot.
+        - Killing **Warden** also grants a Quest reward ATM Ingot.
     - Obtained with a **Netherite** level pick or better. 
 - Nether: (**Vibranium**)
     - Found in **Crimson** and or **Warped** forests.

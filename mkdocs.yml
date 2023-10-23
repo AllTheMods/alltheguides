@@ -48,7 +48,7 @@ theme:
     repo: fontawesome/brands/github
     edit: material/pencil 
     view: material/eye
-  favicon: assets/images/atms.png
+  favicon: assets/images/atms.ico
   logo: assets/images/atms.png
   font:
     text: "Nunito"

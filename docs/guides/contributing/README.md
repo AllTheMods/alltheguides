@@ -20,8 +20,8 @@ nav:
 
     1. You may **NOT** publicly republish **All The Guides** live on another website.
     2. You may **NOT** delete or entirely change another author work (except typos / incorrect information), unless given permission to do so from the original **Author**. 
-    3. No warnings or errors that prevents serve / build.
-        1. If you get any errors or warnings, try/get help resolving them  before pushing. 
+    3. No warnings or errors that prevents `mkdocs serve | build`.
+        1. If you get any errors or warnings, try/get help resolving them before pushing. 
         2. You may **NOT** disable `strict` mode(s) for any reason.
     4. Your document(s) **MUST** contain a `title` and `description` variable. If you created a page, you may add `authors:`, and additional variables if necessary. [Read Below](#document-headers)
     5. Limit or prevent the use of outside links to content (documents or imagery). If possible in the most minimal and or compressed way, include the content with your document.
@@ -35,7 +35,7 @@ nav:
     10. Folders must be in `lowercase` letters, with no spaces.
 ---
 
-**All The Guides** is using [Github Pages](https://pages.github.com/), [MkDocs](https://www.mkdocs.org/) & [Material](https://squidfunk.github.io/mkdocs-material/).
+**All The Guides** is using ~~[Github Pages](https://pages.github.com/)~~, [MkDocs](https://www.mkdocs.org/) & [Material](https://squidfunk.github.io/mkdocs-material/).
 
 ---
 
@@ -45,22 +45,25 @@ We use **Github** for our Packs, Mods, and Guides for Collaboration, and CI/CD p
 
 You will be required to [Serve](#serve), and [Build](#build) this guide, which comes with some minimal [Requirements](#requirements). 
 
-> You're **not** required to have knowledge of them (_specifically **Python**_), but they must be installed..
-
 ---
 
 ### Requirements
 
-- [Python](https://www.python.org/downloads/) 3+ (Latest)
-- Git ([Git Cli](https://cli.github.com/), [Github Desktop](https://desktop.github.com/))
+- [Python](https://www.python.org/downloads/) 3+
+- Git ([Git Cli](https://cli.github.com/), or [Github Desktop](https://desktop.github.com/))
     - _Your editor may already have Git integrated_
     - For quick edits, you could open a codespace on your forked repo using [Github Web Editor](https://docs.github.com/en/codespaces/the-githubdev-web-based-editor).
+
+> You're **not** required to have knowledge of them (_specifically **Python**_), but they must be installed..
 
 ---
 
 ## Setup
 
 Fork [All The Guides](https://github.com/segg21/alltheguides).
+
+!!! Note "Please Uncheck 'Copy the main branch only'"
+    ![](assets/clonedev.png){style='display:block'}
 
 ### Clone / Checkout `dev` branch
 
@@ -84,13 +87,13 @@ Depending on current setup, you may have an editor (_Visual Studio Code_), that 
 
 ??? Warning "Please make sure Workflow is enabled, otherwise PR's will **NOT** be accepted."
 
-    ![](workflow.png)
+    ![](assets/workflow.png)
 
 ---
 
-### Python Requirements
+### Python Dependencies
 
-The Guide uses a hand full of Python requirements that's used to provide more features to the Guide itself. 
+The Guide requires some Python dependencies that's used to build, and provide features to the Guide itself. 
 
 ``` title='To Install'
 pip install -r ./requirements.txt
@@ -104,9 +107,9 @@ pip uninstall -r ./requirements.txt
 
 ## Serve
 
-Serve will launch a server locally to test changes live @ [`127.0.0.1:8000`](http://127.0.0.1:8000). Importantly, it will provide warnings, errors, and mistakes (_spelling errors_). Once changes are satisfied, without issues, test [Build](#build) before pushing your changes.
+Serve will launch a server locally to test changes live @ [`localhost:8000`](http://localhost:8000). Importantly, it will provide warnings, errors, and mistakes (_spelling errors_). Once changes are satisfied without issues, test [Build](#build) before you commit / make a Pull Request.
 
-!!! Information "2 Methods"
+!!! Information "2 methods in serving MkDocs locally"
 
     ```
     mkdocs serve
@@ -124,7 +127,7 @@ Serve will launch a server locally to test changes live @ [`127.0.0.1:8000`](htt
 
 Build will finalize compiling **Markdown** and output **HTML** files in the `site` folder. This folder should be _ignored_. The build should succeed without any warnings or errors before **Committing** and submitting a **Pull Request**.
 
-!!! Information "2 Methods"
+!!! Information "2 methods in building MkDocs locally"
 
     ```
     mkdocs build
@@ -140,7 +143,7 @@ Build will finalize compiling **Markdown** and output **HTML** files in the `sit
 
 ## Commit (Updating)
 
-Once you're _committed_ to your changes, you can then **Commit** your changes, then make a **Pull Request** against both `dev` branches/repositories.
+Once you're _committed_ to your changes, you can then **Commit** your changes, then make a **Pull Request** against both `dev` branches / repositories.
 
 ### Committing Changes
 
@@ -167,7 +170,7 @@ Depending on current setup, you may have an editor (_Visual Studio Code_), that 
 
 ## Pull Request
 
-When submitting a **Pull Request**, you're requesting another Repository to **Pull** from your Repository (Fork), which is what we'll do to approve & accept your changes. This is better done in browser by going to our repository and creating a **Pull Request** against our `dev` branches.
+When submitting a [Pull Request](https://github.com/segg21/alltheguides/compare), you're requesting us to **Pull** changes from your Repository (Fork) to be approve & merged into the official Guide. This is done in browser by going to our repository and creating a [Pull Request](https://github.com/segg21/alltheguides/compare) from your `dev` branch to ours.
 
 ---
 
