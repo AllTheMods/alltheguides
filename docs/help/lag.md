@@ -27,9 +27,13 @@ Observable is an in-game profiler can be used  as OP (_must create keybind_)
 
 ### [Crash Utilities](https://legacy.curseforge.com/minecraft/mc-mods/crash-utilities) (Item Clear)
 
-By default, **Crash Utilities** comes with most of our packs, though one feature **Item Clear** is disabled. It's a very handy feature to have enabled with packs containing farms and automation to prevent massive entity issues which causes lag & crashes, keeping your server entity count low for better performance.
+By default, **Crash Utilities** comes with most of our packs, though one feature **Item Clear** is disabled. It's a very handy feature to have enabled with packs containing farms and automation to prevent massive entity leaks, which causes lag & crashes. This can keep your server entity count low for better performance.
     
-To enable, locate and open `world/serverconfigs/crashutilities-server.toml`. Very top section, set `enabled` to `true`. The `timer` is the amount of times in minutes entities will be checked, followed by an Item Clear chat announcement when the entity `amount` goes over threshold.
+To enable, locate and open `world/serverconfigs/crashutilities-server.toml`. Very top section, set `enabled` to `true`. The `timer` is the amount of time in minutes entities will be checked, followed by an Item Clear chat announcement when the entities goes over the `maximum` threshold.
+
+!!! Warning "When editing configs, please make sure server / client is not running"
+
+    For clients, it's safe to edit `world/serverconfigs/` while not in the world and or restarting entire client.
 
 
 ### Useful Commands
@@ -44,14 +48,35 @@ To enable, locate and open `world/serverconfigs/crashutilities-server.toml`. Ver
     /kill @e[type=!minecraft:player]
     ```
 
+??? Note "Spark"
+
+    ``` title="Run Server Side Profiler (TPS Issues)"
+    /spark profiler --timeout 30
+    ```
+
+    ``` title="Run Client Side Profiler (FPS/TPS Issues)"
+    /sparkc profiler --timeout 30 
+    ```
+
+    !!! Tip "`--only-ticks-over 20` argument will record only ticks that's over 20 that's considered problematic."
+    !!! Tip "`--thread *` can help record all threads Spark may not pick up."
+
 ??? Note "Crash Utilities Commands"
+
+    ``` title="Entities List"
+    /cu entities list
+    ```
 
     ``` title="Item Clear (Must Be Enabled)"
     /cu callItemClear
     ```
 
-    ``` title="Teleport Player To Spawn (Even Offline Players)"
+    ``` title="Teleport Player To Spawn (Even Offline Player(s))"
     /cu unstuck <name>
+    ```
+
+    ``` title='Open Player Inventory (Even Offline Player(s))'
+    /cu inventory <name>
     ```
 
 
