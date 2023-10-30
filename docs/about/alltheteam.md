@@ -5,8 +5,6 @@ description: Current Team Members!
 
 # All The Team
 
-> Listed in no particular order
-
 ---
 
 #### Owner
@@ -51,6 +49,7 @@ description: Current Team Members!
 - `SlackerNet>XI<`
 - `Thunder_Nova the Pun_isher`
 - `uʍopǝpᴉsdn`
+- `Ultramega`
 - `ZephyrWindSpirit 🐉`
 
 ---
