@@ -29,8 +29,6 @@ More information can be found on FTB Wiki: [FTBRanks](https://feedthebeast.notio
 
 > **Config**: `world/serverconfig/ftbranks/ranks.snbt`
 
-
-
 ## [No Fly Zone](https://legacy.curseforge.com/minecraft/mc-mods/no-fly-zone)
 
 In [ATM9](../atm9/README.md), a new mod was introduced to prohibit flight in certain dimensions.  This can be disabled.

@@ -1,5 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Nunito&display=swap');
 
+.center {
+    display: block;
+    margin: auto;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.right {
+    display: block;
+    margin-left: auto;
+}
+
 .md-header__topic {
     font-weight: bold;
 }

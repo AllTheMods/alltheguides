@@ -4,7 +4,7 @@
 
 ## ATM9 Mahou Changes
 
-- Increasing **Innate Cap** requires throwing **Ender Upgrade Orbs** (84 max) in Mahou lake along with **Caliburn**
+- Increasing **Innate Cap** requires throwing **Ender Upgrade Orbs** (83 max) in Mahou lake along with **Caliburn**
 - Converting **Caliburn** to **Morgan** requires killing **Warden** with **Caliburn**
 
 > Mahou Tsukai | [CurseForge](https://legacy.curseforge.com/minecraft/mc-mods/mahou-tsukai)
