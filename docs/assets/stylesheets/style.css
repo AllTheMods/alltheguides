@@ -54,3 +54,12 @@ img {
 body > header {
     border-bottom: 1px solid #bd4638;
 }
+
+div.video-container iframe {
+    aspect-ratio: 9/6 auto;
+    height: auto !important;
+}
+
+.gslide-image img {
+    background: transparent !important; 
+}

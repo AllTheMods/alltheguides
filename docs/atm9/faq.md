@@ -10,7 +10,7 @@ description: ATM9 Frequently Asked Questions
 ---
 
 ??? Question "Why can't I use modular router and watering can?"
-    By default, **Mystical Agriculture** does not allow fake players to automate watering cans. If you dislike this change, it can be within `config/mysticalagriculture-common.toml` > `fakePlayerWatering = true`.
+    By default, **Mystical Agriculture** does not allow fake players to automate watering cans. If you dislike this change, it can be changed within `config/mysticalagriculture-common.toml` > `fakePlayerWatering = true`.
 
 ??? Question "Why is flight disabled?"
     Flight is disabled in certain dimensions (The Other, Blue Skies, and Twilight Forest), to add more difficulty towards progression. If you dislike this change, it can be [disabled](../help/configs.md#no-fly-zone).
