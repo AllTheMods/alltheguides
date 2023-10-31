@@ -43,7 +43,7 @@ To enable, locate and open `world/serverconfigs/crashutilities-server.toml`. Ver
     ``` title="Kill Item Entities (Or Specific Entity)"
     /kill @e[type=minecraft:item]
     ```
-
+    Command may need to be executed more than once to clear all entities. Additionally, the **Crash Utilities** entities list command can be used to locate entities before they're cleared. 
     ``` title="Kill Everything, Except Players"
     /kill @e[type=!minecraft:player]
     ```
