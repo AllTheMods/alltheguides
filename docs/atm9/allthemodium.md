@@ -10,17 +10,17 @@ In **ATM9**, All The Modium has changed in ways different from previous packs. W
 
 **AllTheModium** ores can be found across 3 dimensions: **Overworld**, **Nether**, and **The End**, normally exposed to **AIR**.
 
-- Overworld: (**AllTheModium**) ![](img/allthemodium_ore.gif){.absolute style='margin-left:5px'} ![](img/allthemodium_ingot.png){.absolute style='margin-left:45px'}
+- **AllTheModium**: (Overworld) ![](img/allthemodium_ore.gif){.absolute style='margin-left:5px'} ![](img/allthemodium_ingot.png){.absolute style='margin-left:45px'}
     - Found in [Deep Dark](https://minecraft.fandom.com/wiki/Deep_Dark) Biome, also **Mining Dimension** | Y 65-129.
         - **Mining Dimension** is more rare, atleast 1 ore per chunk.
         - Killing **Warden** also grants a Quest reward ATM Ingot.
     - Obtained with a **Netherite** level pick or better. 
-- Nether: (**Vibranium**) ![](img/vibranium_ore.gif){.absolute style='margin-left:5px'} ![](img/vibranium_ingot.png){.absolute style='margin-left:45px'}
-    - Found in **Nether** dimension.
+- **Vibranium**: (Nether) ![](img/vibranium_ore.gif){.absolute style='margin-left:5px'} ![](img/vibranium_ingot.png){.absolute style='margin-left:45px'}
+    - Found in **Nether** dimension (no longer biome specific).
         - Elevation between Y 64-127
     - Also Found between Y 0-40 within **The Other** dimension.
     - Obtained with an **AllTheModium** level pick or better.
-- End: (**Unobtainium**) ![](img/unobtainium_ore.gif){.absolute style='margin-left:5px'} ![](img/unobtainium_ingot.png){.absolute style='margin-left:45px'}
+- **Unobtainium**: (End) ![](img/unobtainium_ore.gif){.absolute style='margin-left:5px'} ![](img/unobtainium_ingot.png){.absolute style='margin-left:45px'}
     - Found within **End Highlands**.
         - More rare than other ores
     - Obtained with **Vibranium** level pick or better
