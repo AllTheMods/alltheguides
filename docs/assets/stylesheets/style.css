@@ -63,3 +63,9 @@ div.video-container iframe {
 .gslide-image img {
     background: transparent !important; 
 }
+
+hr {
+    border-bottom: 0.05rem solid var(--md-default-fg-color--lightest);
+    display: flow-root;
+    margin: 1.5em 0;
+}
