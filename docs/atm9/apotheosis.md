@@ -31,9 +31,10 @@ After infusing all 10, make 5 of the `Soul-Touched Deepshelf` and 5 `Echoing Dee
 It is now time to make some other shelves that don't require any infusion. You will need to make 3 `Shelf of End-Fused Rectification`. This might require some work.  
 
 You will also need to make a `Draconic Endshelf`. To make the `Infused Dragon's Breath`, place down the 10 Sculkshelves made earlier and add 10 `Melonshelf`. A setup for this can be seen below; the placement of the shelves does not have to be exact.  
-![](https://cdn.discordapp.com/attachments/1118377751976624149/1170172141572984832/2023-10-30_07.55.11.png?ex=655812bb&is=65459dbb&hm=3ad567d19ca24287bc3fda0d0beadaffaa8291243d3517b28c73f308cf2777e9&)
 
-After making the `Draconic Endshelf`, remove the 10 `Melonshelf`. Place the 3 `Shelf of End-Fused Rectification` and the `Draconic Endshelf` in a similar formation as shown in the `Seashelf` image above. This will get you the maximum level of enchanting. Your setup does not have to be in the exact same order as the one below; it is only an example.
+![](img/2023-10-30_07.55.11.png){.center}  
+
+After making the `Draconic Endshelf`, remove the 10 `Melonshelf`. Place the 3 `Shelf of End-Fused Rectification` and the `Draconic Endshelf` in a similar formation as shown in the `Seashelf` image above. This will get you the maximum level of enchanting. Your setup does not have to be in the exact same order as the one below; it is only an example.  
 
 ![](img/68747470733a2f2f696d6775722e636f6d2f625959594157532e706e67.png){.center}
 
