@@ -34,6 +34,24 @@ And multiple attributes at that
 
 > Note: A space cannot be between the link and `{}`.
 
+You can also center images on the page using `{.center}`, and or `{.right}`
+
+`![](link_to_image.png){.center width='75px' height='75px'}`
+
+`![](link_to_image.png){.right width='75px' height='75px'}`
+
+`![](link_to_image.png){.center}`
+
+![](../../../assets/images/atm.png){.center width='75px' height='75px'}
+
+---
+
+![](../../../assets/images/atm.png){.right width='75px' height='75px'}
+
+---
+
+![](../../../assets/images/atm.png){.center}
+
 ### Images With Links
 
 Similar to images, clicking images below would redirect you too google

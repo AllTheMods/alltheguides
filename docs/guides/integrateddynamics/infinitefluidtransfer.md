@@ -38,3 +38,7 @@ The Fluid Exporter exports fluids on the network into the block it is attached t
 The Logic Cable connecting the interface and exporter serves as the network
 
 The Variable Card acts as a boolean true value to enable the **Export All Fluids** mode on the Fluid Exporter
+
+<video width='960' height='384' controls>
+  <source src='../img/JgeZnCD.mp4' type='video/mp4'>
+</video>
