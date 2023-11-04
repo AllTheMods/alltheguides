@@ -121,87 +121,132 @@ For example, if you used a **Yellow Lens** on a **Metallic Flash Memory Program*
 
     ??? Note "Mineral Resource Drops"
 
-        | **Miner** | **Ore** | **Color** | **Dimension** |
+        | **Ore** | **Color** | **Dimension** |
         | ---   | --- | ----- | --------- |
-        | Mineral | Draconium | Purple | All
-        | Mineral | Sulfur | Yellow | All
-        | Mineral | Cinnabar | Brown | Overworld
-        | Mineral | Coal | Black | Overworld
-        | Mineral | Redstone | Red | Overworld
-        | Mineral | Niter | White | Overworld
-        | Mineral | Glowstone | Yellow | Nether
-        | Mineral | Biotite | Light Grey | End
+        | Draconium | Purple | All
+        | Sulfur | Yellow | All
+        | Cinnabar | Brown | Overworld
+        | Coal | Black | Overworld
+        | Redstone | Red | Overworld
+        | Niter | White | Overworld
+        | Glowstone | Yellow | Nether
+        | Biotite | Light Grey | End
 
     ??? Note "Magical Resource Drops"
 
-        | **Miner** | **Ore** | **Color** | **Dimension** |
+        | **Ore** | **Color** | **Dimension** |
         | ---   | --- | ----- | --------- |
-        | Magical | Arcane Crystal | Grey | All
-        | Magical | Dark Runestone | Grey | All
-        | Magical | ~~Rock Crystal~~ | White | All
-        | Magical | Runestone | Grey | All
-        | Magical | ~~Starmetal~~ | Blue | All
-        | Magical | ~~Stella Arcanum~~ | Grey | All
-        | Magical | Vinteum | Blue | All
-        | Magical | Xpetrified | Green | Overworld
-        | Magical | Inferium | Green | Overworld
-        | Magical | Prosperity | Light Grey | Overworld
+        | Arcane Crystal | Grey | All
+        | Dark Runestone | Grey | All
+        | ~~Rock Crystal~~ | White | All
+        | Runestone | Grey | All
+        | ~~Starmetal~~ | Blue | All
+        | ~~Stella Arcanum~~ | Grey | All
+        | Vinteum | Blue | All
+        | Xpetrified | Green | Overworld
+        | Inferium | Green | Overworld
+        | Prosperity | Light Grey | Overworld
 
     ??? Note "Gemstone Resource Drops"
 
-        | **Miner** | **Ore** | **Color** | **Dimension** |
+        | **Ore** | **Color** | **Dimension** |
         | ---   | --- | ----- | --------- |
-        | Gemstone | Apatite | Light Blue | All
-        | Gemstone | Certus Quartz | Light Blue | All
-        | Gemstone | Charged Certus Quartz | Light Blue | All
-        | Gemstone | Dimensional Shard | White | All
-        | Gemstone | Ruby | Red | All
-        | Gemstone | Sapphire | Blue | All
-        | Gemstone | Diamond | Cyan | Overworld
-        | Gemstone | Emerald | Lime | Overworld
-        | Gemstone | Fluorite | Pink | Overworld
-        | Gemstone | Lapis | Blue | Overworld
-        | Gemstone | Nether Quartz | White | Nether
+        | Apatite | Light Blue | All
+        | Certus Quartz | Light Blue | All
+        | Charged Certus Quartz | Light Blue | All
+        | Dimensional Shard | White | All
+        | Ruby | Red | All
+        | Sapphire | Blue | All
+        | Diamond | Cyan | Overworld
+        | Emerald | Lime | Overworld
+        | Fluorite | Pink | Overworld
+        | Lapis | Blue | Overworld
+        | Nether Quartz | White | Nether
 
     ??? Note "Metallic Resource Drops"
 
-        | **Miner** | **Ore** | **Color** | **Dimension** |
+        | **Ore** | **Color** | **Dimension** |
         | ---   | --- | ----- | --------- |
-        | Metallic | Tin | Grey | All
-        | Metallic | Uraninite | Green | All
-        | Metallic | Aluminum | White | Overworld
-        | Metallic | Copper | Orange | Overworld
-        | Metallic | Gold | Yellow | Overworld
-        | Metallic | Iron | White | Overworld
-        | Metallic | Lead | Purple | Overworld
-        | Metallic | Nickel | Grey | Overworld
-        | Metallic | Osmium | Light Blue | Overworld
-        | Metallic | Platinum | Light Blue | Overworld
-        | Metallic | Silver | Light Grey | Overworld
-        | Metallic | Uranium | Green | Overworld
-        | Metallic | Yellorite | Green | Overworld
-        | Metallic | Zinc | Pink | Overworld
-        | Metallic | Ancient Debris | Brown | Nether
-        | Metallic | Cobalt | Blue | Nether
-        | Metallic | Nether Gold | Yellow | Nether
-        | Metallic | AllTheModium (**T3+** - **T6 20x More**) | Yellow | End
-        | Metallic | Vibranium (**T4** - **T7 10x More**) | Green | End
-        | Metallic | Unobtainium (**T5** - **T8 10x More**) | Purple | End
+        | Tin | Grey | All
+        | Uraninite | Green | All
+        | Aluminum | White | Overworld
+        | Copper | Orange | Overworld
+        | Gold | Yellow | Overworld
+        | Iron | White | Overworld
+        | Lead | Purple | Overworld
+        | Nickel | Grey | Overworld
+        | Osmium | Light Blue | Overworld
+        | Platinum | Light Blue | Overworld
+        | Silver | Light Grey | Overworld
+        | Uranium | Green | Overworld
+        | Yellorite | Green | Overworld
+        | Zinc | Pink | Overworld
+        | Ancient Debris | Brown | Nether
+        | Cobalt | Blue | Nether
+        | Nether Gold | Yellow | Nether
+        | AllTheModium (**T3+** - **T6 20x More**) | Yellow | End
+        | Vibranium (**T4** - **T7 10x More**) | Green | End
+        | Unobtainium (**T5** - **T8 10x More**) | Purple | End
 
     ??? Note "Rocky Resource Drops"
 
-        | **Miner** | **Ore** | **Color** | **Dimension** |
+        | **Ore** | **Color** | **Dimension** |
         | ---   | --- | ----- | --------- |
+        | Crying Obsidian | Purple | All
+        | Obsidian | Purple | All
+        | Bone | White | Overworld and Nether
+        | Mica | None | Nether and End
+        | Andesite | Light Grey | Overworld
+        | BOP Sandstone | Based on Colour | Overworld
+        | Cobblestone | Grey | Overworld
+        | Diorite | White | Overworld
+        | Granite | Pink | Overworld
+        | Orange Sandstone | Orange | Overworld
+        | Red Sandstone | Red | Overworld
+        | Sandstone | Yellow | Overworld
+        | Stone | Grey | Overworld
+        | Terracotta | Based on Colour | Overworld
+        | Basalt | Black | Nether
+        | Blackstone | Black | Nether
+        | Gilded Blackstone | Black | Nether
+        | Magma Block | Orange | Nether
+        | Netherrack | Red | Nether
+        | Endstone | Yellow | End
 
     ??? Note "Frozen Resource Drops"
 
-        | **Miner** | **Ore** | **Color** | **Dimension** |
+        | **Ore** | **Color** | **Dimension** |
         | ---   | --- | ----- | --------- |
+        | Black Ice | Black | Overworld
+        | Blue Ice | Light Blue | Overworld
+        | Dry Ice | White | Overworld
+        | Ice | Light Blue | Overworld
+        | Snow | White | Overworld
 
     ??? Note "Loose Resource Drops"
 
-        | **Miner** | **Ore** | **Color** | **Dimension** |
+        | **Ore** | **Color** | **Dimension** |
         | ---   | --- | ----- | --------- |
+        | Gravel | Grey | OW and Nether
+        | Black Sand | Black | Overworld
+        | Blue Sand | Light Blue | Overworld
+        | BYG Glowcelium | Brown | Overworld
+        | Clay | Light Grey | Overworld
+        | Dirt | Brown | Overworld
+        | Limesand | Light Grey | Overworld
+        | Meadow Dirt | Brown | Overworld
+        | Mud | Brown | Overworld
+        | Origin Grass | Green | Overworld
+        | Peat | Brown | Overworld
+        | Pink Sand | Pink | Overworld
+        | Purple Sand | Purple | Overworld
+        | Sand | Yellow | Overworld
+        | Sponge | Yellow | Overworld
+        | White Sand | White | Overworld
+        | Grassy Netherrack | Green | Nether
+        | Nylium Soul Sand | Green | Nether
+        | Quartzite Sand | White | Nether
+        | Soul Sand | Brown | Nether
 
 ## Solar Panel
 
