@@ -21,6 +21,9 @@ description: Known useful commands for most of ATM servers
         ```title="Kill All Entities, Except Players"
         /kill @e[type=!minecraft:player]
         ```
+        ```title="Clear Inventory"
+        /clear
+        ```
 
 ??? Info "Corail Tombstone"
     ## Corail Tombstone
@@ -61,12 +64,41 @@ description: Known useful commands for most of ATM servers
         ```title="Spark TPS Count"
         /spark tps
         ```
+        ```title="Server Ping"
+        /spark ping
+        ```
     === "Admin Commands"
         ```title="Server Profiling"
         /spark profiler --timeout 30
         ```
-    !!! Tip "`--only-ticks-over 20` argument will record only ticks that's over 20 ticks that's considered problematic"
-    !!! Tip "`--thread *` can help record all threads that Spark may not pick up"
+        ```title="Server Health"
+        /spark health
+        /spark health --memory
+        /spark health --network
+        ```
+        ```title="Tick Monitoring"
+        /spark tickmonitor
+        /spark tickmonitor --threshold <percent>
+        /spark tickmonitor --threshold-tick <milliseconds>
+        /spark tickmonitor --without-gc
+        ```
+        ```title="Spark Garbage Collection History"
+        /spark gc
+        ```
+        ```title="Garbage Collection Monitor"
+        /spark gcmonitor
+        ```
+        ```title="Spark Heap Summary"
+        /spark heapsummary
+        ```
+        ```title="Spark Heap Dump"
+        /spark heapdump
+        ```
+        ```title="Past Spark Activity/History"
+        /spark activity
+        ```
+    !!! Tip "`--only-ticks-over 20` argument for profiling will record only ticks that's over 20 ticks that's considered problematic"
+    !!! Tip "`--thread *` for profiling can help record all threads that Spark may not pick up"
 
 ??? Info "FTBChunks"
     ## FTBChunks
@@ -90,9 +122,14 @@ description: Known useful commands for most of ATM servers
 ??? Info "FTBTeams/Party"
     ## FTBTeams/Party
 
+??? Info "FTBQuests"
+    === "Admin Commands"
+        ```title="FTBQuests Edit Mode"
+        /ftbquests editing_mode true
+        ```
+
 ??? Info "Crash Utilities"
     ## Crash Utilities
-    
     === "Admin Commands"
         ```title="Clear Entities (Must be enabled)"
         /cu callItemClear
@@ -102,4 +139,15 @@ description: Known useful commands for most of ATM servers
         ```
         ```title="Teleport Player (Even Offline) to spawn"
         /cu unstuck <name>
+        ```
+
+??? Info "Mahou Tsuaki"
+    ## Mahou Tsuaki
+    === "Player Commands"
+        ```title="Show/Hide Mahou Count"
+        /showmahou
+        ```
+    === "Admin Commands"
+        ```title="MahouSet Morgan Damage"
+        /mahouset morgan @p 5000000
         ```

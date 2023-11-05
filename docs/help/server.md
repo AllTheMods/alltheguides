@@ -40,11 +40,11 @@ If you have multiple [Java](java.md) versions installed, the default `java -vers
 - Extract **Server-Files** to a folder.
 - **Window**: Do not unzip files under **OneDrive** or any other cloud folder, as this can potentially remove / corrupt files.
 - **Linux**: Ensure server folder has read/write permission, and script has execute permission,
-    - Run once: `sudo chmod -R 775 /path/to/server/`
-    - Run once: `sudo chmod +x startserver.sh`
+    - To avoid any _read/write_ permission errors, install server under `/home/<user>/` folder.
+    - Run once: `sudo chmod +x startserver.sh`.
 - Starting Server: 
-    - **Windows**: Run `startserver.bat`
-    - **Linux**: Run `./startserver.sh`
+    - **Windows**: Execute `startserver.bat`
+    - **Linux**: Execute `./startserver.sh`
 
 After running, you're required to accept [Minecraft Eula](https://www.minecraft.net/en-us/eula) in the `eula.txt` file.
 
@@ -153,23 +153,18 @@ Updating ATM servers is pretty simple. There's 3 ways you can accomplish this.
 
 ### **Manually**
 
-1. Delete `kubejs`, `defaultconfigs`, `mods`, and `config` folder.
-    - Download Server Files from CurseForge
-    - If previous pack forge version is different, delete `libraries` folder, and copy over new `startserver.bat/sh` from Server Files, and `forge-installer.jar` if exists.
-    - Extract the deleted folders from Server Files into your server folder.
+1. Backup any modified configs or kubejs scripts, _if any_, to be replaced later.
+    - Download **Server Files** from **CurseForge**
+    - Delete `kubejs`, `defaultconfigs`, `mods`, and `config` folder.
+    - If server forge version is different, delete `libraries` folder, and copy over new `startserver.bat/sh`, & `forge-installer.jar` _if exists_.
+    - Extract the deleted folders from **Server Files** into your server folder.
 
-2. Download Server Files from CurseForge.
-    - Extract Server Files into a new folder.
-    - Copy your `world` folder, and `server.properties` to new folder.
-    - If JourneyMap exists, copy `journeymap` folder aswell.
+2. Download **Server Files** from **CurseForge**.
+    - Extract **Server Files** to a new folder.
+    - Copy `world` folder, `server.properties`, & `eula.txt` to new server folder.
+    - If `journeymap` folder exist, copy over aswell.
+    - _Copy over any modified server configs/kubejs scripts_
 
 ---
-
-??? Info "Other Stuff"
-
-    - If importing a single player world,
-        - Stop the server and delete `world` folder
-        - Copy your single player world folder to server, then rename too `world`.
-        - Delete `world/icon.png` (_single player worlds sometimes generate icons that's too large for servers_)
 
 > All The Mods | [GitHub](https://github.com/AllTheMods) | [Discord](https://discord.com/invite/allthemods) | [Akliz Server Hosting](https://www.akliz.net/allthemods)
