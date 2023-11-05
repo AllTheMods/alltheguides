@@ -122,7 +122,7 @@ For example, if you used a **Yellow Lens** on a **Metallic Flash Memory Program*
     ??? Note "Mineral Resource Drops"
 
         | **Ore** | **Color** | **Dimension** |
-        | ---   | --- | ----- | --------- |
+        | ------- | --------- | ------------- |
         | Draconium | Purple | All
         | Sulfur | Yellow | All
         | Cinnabar | Brown | Overworld
@@ -135,7 +135,7 @@ For example, if you used a **Yellow Lens** on a **Metallic Flash Memory Program*
     ??? Note "Magical Resource Drops"
 
         | **Ore** | **Color** | **Dimension** |
-        | ---   | --- | ----- | --------- |
+        | ------- | --------- | ------------- |
         | Arcane Crystal | Grey | All
         | Dark Runestone | Grey | All
         | ~~Rock Crystal~~ | White | All
@@ -150,7 +150,7 @@ For example, if you used a **Yellow Lens** on a **Metallic Flash Memory Program*
     ??? Note "Gemstone Resource Drops"
 
         | **Ore** | **Color** | **Dimension** |
-        | ---   | --- | ----- | --------- |
+        | ------- | --------- | ------------- |
         | Apatite | Light Blue | All
         | Certus Quartz | Light Blue | All
         | Charged Certus Quartz | Light Blue | All
@@ -166,7 +166,7 @@ For example, if you used a **Yellow Lens** on a **Metallic Flash Memory Program*
     ??? Note "Metallic Resource Drops"
 
         | **Ore** | **Color** | **Dimension** |
-        | ---   | --- | ----- | --------- |
+        | ------- | --------- | ------------- |
         | Tin | Grey | All
         | Uraninite | Green | All
         | Aluminum | White | Overworld
@@ -191,7 +191,7 @@ For example, if you used a **Yellow Lens** on a **Metallic Flash Memory Program*
     ??? Note "Rocky Resource Drops"
 
         | **Ore** | **Color** | **Dimension** |
-        | ---   | --- | ----- | --------- |
+        | ------- | --------- | ------------- |
         | Crying Obsidian | Purple | All
         | Obsidian | Purple | All
         | Bone | White | Overworld and Nether
@@ -216,7 +216,7 @@ For example, if you used a **Yellow Lens** on a **Metallic Flash Memory Program*
     ??? Note "Frozen Resource Drops"
 
         | **Ore** | **Color** | **Dimension** |
-        | ---   | --- | ----- | --------- |
+        | ------- | --------- | ------------- |
         | Black Ice | Black | Overworld
         | Blue Ice | Light Blue | Overworld
         | Dry Ice | White | Overworld
@@ -226,7 +226,7 @@ For example, if you used a **Yellow Lens** on a **Metallic Flash Memory Program*
     ??? Note "Loose Resource Drops"
 
         | **Ore** | **Color** | **Dimension** |
-        | ---   | --- | ----- | --------- |
+        | ------- | --------- | ------------- |
         | Gravel | Grey | OW and Nether
         | Black Sand | Black | Overworld
         | Blue Sand | Light Blue | Overworld
