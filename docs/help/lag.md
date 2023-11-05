@@ -49,32 +49,26 @@ To enable, locate and open `world/serverconfigs/crashutilities-server.toml`. Ver
     ```
 
 ??? Note "Spark"
-
     ``` title="Run Server Side Profiler (TPS Issues)"
     /spark profiler --timeout 30
     ```
-
     ``` title="Run Client Side Profiler (FPS/TPS Issues)"
     /sparkc profiler --timeout 30 
     ```
-
+    
     !!! Tip "`--only-ticks-over 20` argument will record only ticks that's over 20 that's considered problematic."
     !!! Tip "`--thread *` can help record all threads Spark may not pick up."
 
 ??? Note "Crash Utilities Commands"
-
     ``` title="Entities List"
     /cu entities list
     ```
-
     ``` title="Item Clear (Must Be Enabled)"
     /cu callItemClear
     ```
-
     ``` title="Teleport Player To Spawn (Even Offline Player(s))"
     /cu unstuck <name>
     ```
-
     ``` title='Open Player Inventory (Even Offline Player(s))'
     /cu inventory <name>
     ```
