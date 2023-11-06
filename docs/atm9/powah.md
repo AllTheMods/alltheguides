@@ -10,7 +10,7 @@ authors:
 
 ### Power Gen Changes
 
-- **Soul Lava** can now be used in the **Magmator**. This doesn't increase RF/t, but generates 9x more RF per mb.
+- **Soul Lava** can now be used in the **Thermo**. This doesn't increase RF/t, but generates 9x more RF per mb.
 - Early game generators have been given a buff to make it feel better to start in **Powah** vs other mods. The changes are as followed:
 
 #### Furnator

@@ -40,4 +40,12 @@ In **ATM9**, All The Modium has changed in ways different from previous packs. W
 ![](https://images-ext-1.discordapp.net/external/YMZ4-Dl6Ot_zE9sQKVDw0ZV1Dm991WxKcjVudPV2IjU/https/i.imgur.com/Yoyyxcg.png){width='300px'}
 
 - Unobtainium: ![](img/unobtainium_upgrade_smithing_template.png){.absolute style='margin-left:5px'}
-    - Found as loot in **The Other** dungeons inside **Libraries** 
+    - Found as loot in **The Other** dungeons inside **Libraries**
+
+## Smithing Recipe Example
+| Template | Armor | Ingot | Output |
+| :------: | :---: | :---: | :----: |
+| ![](img/netherite_upgrade_smithing_template.png) | ![](img/diamond_chestplate.png) | ![](img/netherite_ingot.png) | ![](img/netherite_chestplate.png)
+| ![](img/allthemodium_upgrade_smithing_template.png) | ![](img/netherite_chestplate.png) | ![](img/allthemodium_ingot.png) | ![](img/allthemodium_chestplate.png)
+| ![](img/vibranium_upgrade_smithing_template.png) | ![](img/allthemodium_chestplate.png) | ![](img/vibranium_ingot.png) | ![](img/vibranium_chestplate.png)
+| ![](img/unobtainium_upgrade_smithing_template.png) | ![](img/vibranium_chestplate.png) | ![](img/unobtainium_ingot.png) | ![](img/unobtainium_chestplate.png)

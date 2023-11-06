@@ -54,12 +54,9 @@
       {% endfor %}
     </ul>
     {% if page and page.meta and page.meta.authors %}
-    <div>
+    <div style="padding:20px">
         <hr>
-        <label class="md-nav__title" for="__toc">
-            <span class="md-nav__icon md-icon"></span>
-            Author(s)
-            </label>
+        <label>Author(s) </label>
           <ul style="list-style: none; padding-left: 0.6rem;" >
               {% for author in page.meta.authors %}
                   <li>{{author}}</li>
