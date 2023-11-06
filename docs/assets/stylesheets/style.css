@@ -60,6 +60,10 @@ div.video-container iframe {
     height: auto !important;
 }
 
+.md-typeset td:not([class]):not(:last-child) {
+    border-right: 1px solid rgba(255,255,255, 0.2);
+}
+
 .gslide-image img {
     background: transparent !important; 
 }
