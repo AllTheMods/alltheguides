@@ -30,15 +30,63 @@ These can help both server and client with performance in,
 
 ---
 
-??? Java Arguments Explanation
+??? Info "Java Arguments Explanation"
 
-    - `UnlockExperimentalVMOptions`
+    - `-Xms, -Xmx`
+
+    : Places boundaries on the heap size to increase the predictability of garbage collection. The heap size is limited in replica servers so that even Full GCs do not trigger SIP retransmissions. **-Xms** sets the starting size to prevent pauses caused by heap expansion.
+
+    - `UseG1GC`
+
+    : Use the Garbage First (G1) Collector.
+
+    - `+ParallelRefProcEnabled`
+
+    : Optimizes the GC process to use multiple threads for weak reference checking. Not sure why this isn't default...
+
+    - `MaxGCPauseMillis=200`
+
+    : This setting controls how much memory is used in between the Minimum and Maximum ranges specified for your New Generation. This is a "goal" for how long you want your server to pause for collections. 200 is aiming for at most loss of 4 ticks. This will result in a short TPS drop, however the server can make up for this drop instantly, meaning it will have no meaningful impact to your TPS. 200ms is lower than players can recognize. In testing, having this value constrained to an even lower number results in G1 not recollecting memory fast enough and potentially running out of old gen triggering a Full collection. Just because this number is 200 does not mean every collection will be 200. It means it can use up to 200 if it really needs it, and we need to let it do its job when there is memory to collect.
+
+    - `+UnlockExperimentalVMOptions`
 
     : Needed for some the below options
+
+    - `+DisableExplicitGC`
+
+    : Many plugins think they know how to control memory, and try to invoke garbage collection. Plugins that do this trigger a full garbage collection, triggering a massive lag spike. This flag disables plugins from trying to do this, protecting you from their bad code.
+
+    - `+AlwaysPreTouch`
+
+    : **AlwaysPreTouch** gets the memory setup and reserved at process start ensuring it is contiguous, improving the efficiency of it more. This improves the operating systems memory access speed. Mandatory to use Transparent Huge Pages.
 
     - `G1NewSizePercent`
 
     : These are the important ones. You now can specify percentages of an overall desired range for the new generation. With these settings, we tell G1 to not use its default 5% for new gen, and instead give it 40%! **Minecraft has an extremely high a memory allocation rate, ranging to at least 800 Megabytes a second on a 30 player server! And this is mostly short-lived objects (Block Position).**
+
+    - `G1MaxNewSizePercent`
+
+    : Percentage (0-100) of the heap size to use as default maximum young gen size.
+
+    - `G1HeapRegionSize`
+
+    : Default is auto calculated. SUPER important for Minecraft, especially 1.15, as with low memory situations, the default calculation will in most times be too low. Any memory allocation half of this size (4MB) will be treated as "Humongous" and promote straight to old generation and is harder to free. If you allow java to use the default, you will be destroyed with a significant chunk of your memory getting treated as Humongous.
+
+    - `G1ReservePercent`
+
+    : MC Memory allocation rate in up-to-date versions is really insane. We run the risk of a dreaded "to-space exhaustion" not having enough memory free to move data around. This ensures more memory is waiting to be used for this operation. Default is 10, so we are giving another 10 to it.
+
+    - `G1HeapWastePercent`
+
+    : Amount of space, expressed as a percentage of the heap size, that G1 is willing not to collect to avoid expensive GCs.
+
+    - `G1MixedGCCountTarget`
+
+    : Default is 8. Because we are aiming to collect slower, with less old gen usage, try to reclaim old gen memory faster to avoid running out of old.
+
+    - `InitiatingHeapOccupancyPercent`
+
+    : Percentage of the (entire) heap occupancy to start a concurrent GC cycle. GCs that trigger a concurrent GC cycle based on the occupancy of the entire heap and not just one of the generations, including G1, use this option. A value of 0 denotes 'do constant GC cycles'. The default value is 45.
 
     - `G1MixedGCLiveThresholdPercent`
 
@@ -46,49 +94,13 @@ These can help both server and client with performance in,
 
     : Default is 65 to 85 depending on Java Version, we are setting to 90 to ensure we reclaim garbage in old gen as fast as possible to retain as much free regions as we can.
 
-    - `G1ReservePercent=20`
-
-    : MC Memory allocation rate in up-to-date versions is really insane. We run the risk of a dreaded "to-space exhaustion" not having enough memory free to move data around. This ensures more memory is waiting to be used for this operation. Default is 10, so we are giving another 10 to it.
-
-    - `MaxTenuringThreshold=1`
-
-    : Minecraft has a really high allocation rate of memory. Of that memory, most is reclaimed in the eden generation. However, transient data will overflow into survivor. Initially played with completely removing Survivor and had decent results, but does result in transient data making its way to Old which is not good.Max Tenuring 1 ensures that we do not promote transient data to old generation, but anything that survives 2 passes of Garbage Collection is just going to be assumed as longer-lived.
-
-    : Doing this greatly reduces pause times in Young Collections as copying data up to 15 times in Survivor space for a tenured object really takes a lot of time for actually old memory. Ideally the GC engine would track average age for objects instead and tenure out data faster, but that is not how it works.
-
-    : Considering average GC rate is 10s to the upwards of minutes per young collection, this does not result in any 'garbage' being promoted, and just delays longer lived memory to be collected in Mixed GC's.
-
-    - `SurvivorRatio=32`
-
-    : Because we drastically reduced MaxTenuringThreshold, we will be reducing use of survivor space drastically. This frees up more regions to be used by Eden instead.
-
-    - `AlwaysPreTouch`
-
-    : AlwaysPreTouch gets the memory setup and reserved at process start ensuring it is contiguous, improving the efficiency of it more. This improves the operating systems memory access speed. Mandatory to use Transparent Huge Pages.
-
-    - `+DisableExplicitGC`
-
-    : Many plugins think they know how to control memory, and try to invoke garbage collection. Plugins that do this trigger a full garbage collection, triggering a massive lag spike. This flag disables plugins from trying to do this, protecting you from their bad code.
-
-    - `MaxGCPauseMillis=200`
-
-    : This setting controls how much memory is used in between the Minimum and Maximum ranges specified for your New Generation. This is a "goal" for how long you want your server to pause for collections. 200 is aiming for at most loss of 4 ticks. This will result in a short TPS drop, however the server can make up for this drop instantly, meaning it will have no meaningful impact to your TPS. 200ms is lower than players can recognize. In testing, having this value constrained to an even lower number results in G1 not recollecting memory fast enough and potentially running out of old gen triggering a Full collection. Just because this number is 200 does not mean every collection will be 200. It means it can use up to 200 if it really needs it, and we need to let it do its job when there is memory to collect.
-
-    - `+ParallelRefProcEnabled`
-
-    : Optimizes the GC process to use multiple threads for weak reference checking. Not sure why this isn't default...
-
-    - `G1RSetUpdatingPauseTimePercent=5`
+    - `G1RSetUpdatingPauseTimePercent`
 
     : Default is 10% of time spent during pause updating Rsets, reduce this to 5% to make more of it concurrent to reduce pause durations.
 
-    - `G1MixedGCCountTarget=4`
+    - `SurvivorRatio`
 
-    : Default is 8. Because we are aiming to collect slower, with less old gen usage, try to reclaim old gen memory faster to avoid running out of old.
-
-    - `G1HeapRegionSize=8M+`
-
-    : Default is auto calculated. SUPER important for Minecraft, especially 1.15, as with low memory situations, the default calculation will in most times be too low. Any memory allocation half of this size (4MB) will be treated as "Humongous" and promote straight to old generation and is harder to free. If you allow java to use the default, you will be destroyed with a significant chunk of your memory getting treated as Humongous.
+    : Because we drastically reduced **MaxTenuringThreshold**, we will be reducing use of survivor space drastically. This frees up more regions to be used by Eden instead.
 
     - `+PerfDisableSharedMem`
 
@@ -96,13 +108,18 @@ These can help both server and client with performance in,
 
     : **Note**: This argument can prevent **VisualVM** from detecting the Java process.
 
+    - `MaxTenuringThreshold`
 
-    - Using Large Pages
+    : Minecraft has a really high allocation rate of memory. Of that memory, most is reclaimed in the eden generation. However, transient data will overflow into survivor. Initially played with completely removing Survivor and had decent results, but does result in transient data making its way to Old which is not good.Max Tenuring 1 ensures that we do not promote transient data to old generation, but anything that survives 2 passes of Garbage Collection is just going to be assumed as longer-lived.
+
+    : Doing this greatly reduces pause times in Young Collections as copying data up to 15 times in Survivor space for a tenured object really takes a lot of time for actually old memory. Ideally the GC engine would track average age for objects instead and tenure out data faster, but that is not how it works.
+
+    : Considering average GC rate is 10s to the upwards of minutes per young collection, this does not result in any 'garbage' being promoted, and just delays longer lived memory to be collected in Mixed GC's.
+
+    - `+UseLargePagesInMetaspace`
 
     : For Large Pages -- It's even more important to use -Xms = -Xmx! Large Pages needs to have all the memory specified for it, or you could end up without the gains. This memory will not be used by the OS anyway, so use it. Additionally, use these flags (Metaspace is Java 8 Only, don't use it for Java7): 
     
-    : `-XX:+UseLargePagesInMetaspace`
+    - `+UseTransparentHugePages`
 
-    - Transparent Huge Pages
-
-    : Controversial feature but may be usable if you can not configure your host for real HugeTLBFS. Try adding `-XX:+UseTransparentHugePages` but it's extremely important you also have AlwaysPreTouch set. Otherwise, THP will likely hurt you. We have not measured how THP works for MC or its impact with AlwaysPreTouch, so this section is for the advanced users who want to experiment.
+    : Controversial feature but may be usable if you can not configure your host for real HugeTLBFS. Try adding, but it's extremely important you also have AlwaysPreTouch set. Otherwise, THP will likely hurt you. We have not measured how THP works for MC or its impact with AlwaysPreTouch, so this section is for the advanced users who want to experiment.
