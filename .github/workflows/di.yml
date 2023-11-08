@@ -32,5 +32,5 @@ jobs:
           path: .cache
           restore-keys: |
             mkdocs-material-
-      - run: pip --disable-pip-version-check install --no-compile -r requirements.txt
+      - run: pip --disable-pip-version-check install --no-compile -r requirements.txt --upgrade
       - run: mkdocs build

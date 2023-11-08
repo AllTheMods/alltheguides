@@ -96,11 +96,11 @@ Depending on current setup, you may have an editor (_Visual Studio Code_), that 
 The Guide requires some Python dependencies that's used to build, and provide features to the Guide itself. 
 
 ``` title='To Install'
-pip install -r ./requirements.txt
+pip install -r ./requirements.txt --upgrade
 ```
 
 ``` title="To Uninstall"
-pip uninstall -r ./requirements.txt
+pip uninstall -r ./requirements.txt -y
 ```
 
 ---
