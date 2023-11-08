@@ -54,3 +54,5 @@ You will need,
 ### Woot
 
 Using **Woot**, you can install the **Summit** perk. This will output **Mob Essence** through **Fluid Output** each operation (simulated mob death). The best mob to use one that has the most **HP**.
+
+!!! Tip "Enchants can be forced onto any item using [Pedestal Anvil!](../pedestals.md)"
