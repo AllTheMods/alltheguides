@@ -2,3 +2,4 @@ site/*
 .cache/*
 extensions/__pycache__/*
 workspace.code-workspace
+.vscode/*

@@ -32,11 +32,10 @@ code {
 
 h1, h2, h3, h4, h5, h6 {
     font-weight: bold !important;
-    color: rgb(186,68,55) !important;
 }
 
 b, strong {
-    color: rgb(220,152,39) !important;
+    color: #ff7700cc !important;
 }
 
 /*
@@ -54,7 +53,7 @@ img {
 }
 
 body > header {
-    border-bottom: 1px solid #bd4638;
+    border-bottom: 1px solid rgb(186,68,55);
 }
 
 div.video-container iframe {
@@ -74,4 +73,33 @@ hr {
     border-bottom: 0.05rem solid var(--md-default-fg-color--lightest);
     display: flow-root;
     margin: 1.5em 0;
+}
+
+.md-copyright__highlight {
+    font-size: 15px;
+}
+
+.cauthor {
+    background-image: linear-gradient(
+        -225deg,
+        #bc4534 0%,
+        #e94f23 29%,
+        #dc9827 67%,
+        #e9bc24 100%
+    );
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+    display: inline-block;
+    font-size: 15px;
+}
+
+@keyframes textclip {
+    to { background-position: 200% center; }
 }

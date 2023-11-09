@@ -1,7 +1,7 @@
 nav:
 #    - Blogs: /atg/blog
     - <b>Home</b>:
-        - index: README.md
+        - Home: README.md
         - All The Mods 9: atm9
         - All The Mods - Volcano Block: atmvb
         - All The Mods - Gravitas: atmg
