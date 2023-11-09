@@ -311,7 +311,7 @@ Let's first see how to draw a circle in blood. It's easy - just take damage, and
     This circle, when placed on the floor, will spawn a lake. Each growth of the lake costs mana. When the lake has reached full size, the caster can throw in an enchanted sword in order to get Caliburn, a holy sword which will have the damage of the sword plus extra based on its enchantments. (hint: holier is better!)
     
     Exchanging a sword costs mana.
-
+    
     The holy sword, Caliburn, has several properties. First, undead and unholy monsters will fear it and attempt to flee. Second, right-clicking will pull both the caster and such monsters closer. Using the keybind, the sword can smite such monsters, with a cooldown. As Caliburn is a sword, the Power Consolidation process can be repeated by simply enchanting it.
 
     Caliburn seems to have some innate limits - maybe there are some items you could offer to the lake with Caliburn, as proof of your purity, to remove these limits?
@@ -407,7 +407,6 @@ Let's first see how to draw a circle in blood. It's easy - just take damage, and
 
     Furthermore, this effect is also applied when hitting things with the dagger.
    
-
 ??? Info "Scrying"
     A Scrying circle on the ground allows the player to see a named mob or player from afar, for a short amount of time. Simply drop a nametag on the circle, and if a mob or player with this name exists, it will be shown with its surroundings.
     
