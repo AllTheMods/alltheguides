@@ -11,8 +11,8 @@ In **ATM9**, All The Modium has changed in ways different from previous packs. W
 **AllTheModium** ores can be found across 3 dimensions: **Overworld**, **Nether**, and **The End**, normally exposed to **AIR**.
 
 - **AllTheModium**: (Overworld) ![](img/allthemodium_ore.gif){.absolute style='margin-left:5px'} ![](img/allthemodium_ingot.png){.absolute style='margin-left:45px'}
-    - Found in [Deep Dark](https://minecraft.fandom.com/wiki/Deep_Dark) Biome, also in **Mining Dimension** deepslate layer | Y 0-10.
-        - **Mining Dimension** is more rare, atleast 1 ore per chunk.
+    - Found in [Deep Dark](https://minecraft.fandom.com/wiki/Deep_Dark) Biome, also in **Mining Dimension** Deep Slate layer | Y 0-10.
+        - **Mining Dimension** is more rare, at-least 1 ore per chunk.
         - Killing **Warden** also grants a Quest reward ATM Ingot.
     - Obtained with a **Netherite** level pick or better. 
 - **Vibranium**: (Nether) ![](img/vibranium_ore.gif){.absolute style='margin-left:5px'} ![](img/vibranium_ingot.png){.absolute style='margin-left:45px'}
@@ -29,17 +29,17 @@ In **ATM9**, All The Modium has changed in ways different from previous packs. W
 
 ### Templates
 
-- AllTheModium: ![](img/allthemodium_upgrade_smithing_template.png){.absolute style='margin-left:5px'} 
+- **AllTheModium**: ![](img/allthemodium_upgrade_smithing_template.png){.absolute style='margin-left:5px'} 
     - Found in **Sus Clay** in **Ancient Cities** within the **Overworld**.
 
 ![](https://media.discordapp.net/attachments/1118377751976624149/1155274362312724560/image.png){width='300px'}
 
-- Vibranium: ![](img/vibranium_upgrade_smithing_template.png){.absolute style='margin-left:5px'}
-    - Found in **Sus Soulsand** in **Bastions** within the **Nether**.
+- **Vibranium**: ![](img/vibranium_upgrade_smithing_template.png){.absolute style='margin-left:5px'}
+    - Found in **Sus SoulSand** in **Bastions** within the **Nether**.
 
 ![](https://images-ext-1.discordapp.net/external/YMZ4-Dl6Ot_zE9sQKVDw0ZV1Dm991WxKcjVudPV2IjU/https/i.imgur.com/Yoyyxcg.png){width='300px'}
 
-- Unobtainium: ![](img/unobtainium_upgrade_smithing_template.png){.absolute style='margin-left:5px'}
+- **Unobtainium**: ![](img/unobtainium_upgrade_smithing_template.png){.absolute style='margin-left:5px'}
     - Found as loot in **The Other** dungeons inside **Libraries**
 
 ## Smithing Recipe Example

@@ -5,6 +5,9 @@ description: All pages of Mahou
 
 # Mahou Book
 
+A mahoutsukai, simply, is a magic user. And congrats! You are one such magic user.
+   
+Let's first see how to draw a circle in blood. It's easy - just take damage, and quickly use the keybind to draw a circle in blood on the floor. If successful, you'll see a blood circle on the ground, and a mana bar (Mahou X/Y) somewhere on your screen. Note: there is a dagger to damage yourself, if you prefer.
 
 ??? Info "Alarm Boundary"
     The Alarm Boundary is perhaps the most basic of boundary magic - it simply alerts you to mobs and players as they enter the range of the boundary.
@@ -60,38 +63,24 @@ description: All pages of Mahou
 ??? Info "Catalysts"
     There are seven catalysts representing each of the known categories of magic. Powdered Catalysts are created by taking a Hammer or a Mortar and Pestle, and smashing these catalysts. 
 
-??? Info "Catalysts2"
     The categories are:
    
-    Iron - Boundaries
-    
-    Ender Pearl - Displacement
-    
-    Diamond - Projection
-    
-    Emerald - Exchange
-    
-    Gold - Mystic
-    
-    Quartz - Intelligence
-    
-    Ender Eye - Mystic Eyes
+    - Iron - Boundaries
+    - Ender Pearl - Displacement
+    - Diamond - Projection
+    - Emerald - Exchange
+    - Gold - Mystic
+    - Quartz - Intelligence
+    - Ender Eye - Mystic Eyes
 
 ??? Info "Categories"
-    Boundaries deal with AOE effects centered on a magic circle.
-    
-    Displacement spells deal with teleportation magic.
-    
-    Projection spells deal with weapons.
-    
-    Exchange spells usually involve a trade of some sort, often to refund or generate mana.
-
-??? Info "Categories2"
-    Mystic spells are unique, often offenseive spells, which provide miscellaneous effects.
-    
-    Mystic Eyes spells deal with sight based effects.
-    
-    Intelligence spells deal with decision making, often focused around entities.
+    - Boundaries deal with AOE effects centered on a magic circle.
+    - Displacement spells deal with teleportation magic.
+    - Projection spells deal with weapons.
+    - Exchange spells usually involve a trade of some sort, often to refund or generate mana.
+    - Mystic spells are unique, often offensive spells, which provide miscellaneous effects.
+    - Mystic Eyes spells deal with sight based effects.
+    - Intelligence spells deal with decision making, often focused around entities.
     
     There are also some rumored secret spells..
 
@@ -115,14 +104,7 @@ description: All pages of Mahou
     
     Clarent's passive, Vengeance, allows it to block attacks. Clarent remembers these attacks, and in its next attack will release its pent up frustrations.
 
-??? Info "Clarent2"
     Lastly, Clarent has the ability to mortally wound its target, leaving them wounds that will damage them should they move too quickly.
-
-??? Info "Cloth Optional"
-    undefined
-
-??? Info "Cloth Required"
-    undefined
 
 ??? Info "Contract"
     When two players create their own contract circles, and stand on them nearby, a contract will be formed between the players. Contracts allow players to bypass certain effects such as boundaries and some mystic eyes. To break a contract, one player need only damage the other.
@@ -132,10 +114,8 @@ description: All pages of Mahou
 ??? Info "Cup Of Heaven"
     The most complex spell, and used primarily as a way of applying mass negative effects. When many of these circles are placed on the floor and activated by a scroll, the external convex polygon (google: Graham Scan) is calculated. The prime factors in the external polygon and those in the internal polygon determine the negative effects. All mobs and players within the external polygon at the time of activation receive these effects.
 
-??? Info "Cup Of Heaven2"
     For example, if a pentagon is made with 5 of these circles, with 4 internal circles (placed anywhere inside the pentagon), the affected mobs will receive Poison 2 and Blindness 1. Why? 4 = 2 * 2. The prime factor 2 maps to poison, and the prime factor 5 maps to blindness. These prime factors go up to 13, including Poison (2), Weakness (3), Blindness (5), Slowness(7), Wither (11), Levitation (13). 
 
-??? Info "Cup Of Heaven3"
     For a cup of heaven which grants poison 1 and wither 1, for example, you could simply create a 22-sided polygon and all mobs inside would be affected.
     
     Mana cost varies depending on the effects and area covered.
@@ -188,7 +168,6 @@ description: All pages of Mahou
 ??? Info "Explosion Staff"
     This scroll summons a staff with explosive power. The staff has a long charge up time (the beam in the middle indicates readiness), and creates a large explosion. Shift right clicking with the staff will change it to fire multiple, smaller, explosions, and shift right clicking again will enable a beam mode.
 
-??? Info "Explosion Staff2"
     When in beam mode the staff's damage accelerates the longer the beam is held. Also, the beam will destroy blocks it comes in contact with.
     
     The scroll drains mana from the caster, mana when using the large explosion mode, mana when using the AOE explosion mode, and mana per tick when using the beam mode.
@@ -211,7 +190,6 @@ description: All pages of Mahou
     
     This spell costs mana every fifth of a second. Naturally, the longer you channel it, the deeper the grave. Your friends should thank you, really. Note: Flight is a natural counter to this spell.
 
-??? Info "Fallen Down2"
     If you shift right click with a Fallen Down scroll, it will switch to beam mode, which will terraform and burn the surrounding mobs and land.
 
 ??? Info "Familiar Exchange"
@@ -242,7 +220,6 @@ description: All pages of Mahou
     
     For example, using it on a player will prevent you from harming that player. Using it on a sheep will prevent you from harming any sheep.
 
-??? Info "Geas2"
     Using it on a named sheep will prevent you from harming that specific sheep. Lastly, using it on a dropped item, will prevent you from picking up that item. Use it without a target to see your current geasa. Creating and removing geasa costs mana each, and having many geasa targeting unnamed mobs will regenerate mana. 
 
 ??? Info "Gems"
@@ -261,58 +238,35 @@ description: All pages of Mahou
 ??? Info "Insight"
     The Mystic Eyes of Insight allow the user to see more information about a target, such as its inventory, and, in the case of living creatures, their buffs, debuffs, etc. The mana cost is per scroll.
 
-??? Info "Intro"
-    A mahoutsukai, simply, is a magic user. And congrats! You are one such magic user.
-   
-    Let's first see how to draw a circle in blood. It's easy - just take damage, and quickly use the keybind to draw a circle in blood on the floor. If successful, you'll see a blood circle on the ground, and a mana bar (Mahou X/Y) somewhere on your screen. Note: there is a dagger to damage yourself, if you prefer.
-
 ??? Info "Kodoku"
     Kodoku refers to the practice of encouraging conflict between a number living things, and then harnessing the strongest surviving thing's essence for power using special Kodoku worms.
     
     Every time a monster kills something, their kodoku value goes up by 1, plus the kodoku value of the monster it killed. When you have a specimen with a high kodoku value, simply place a hungry kodoku worm on it (right-click) and kill the specimen.
 
-??? Info "Kodoku2"
     When a worm consumes the essence of a mob with a high kodoku value, you can simply right-click to pick it up. Worms with high kodoku values have a number of uses.
     
     When burned, these worms will generate mana for any nearby mana circuits. The amount of mana depends on how close to a leyline the burning occurred.
    
     These worms can also be used for sympathetic magic.
 
-??? Info "Kodoku3"
     Sympathetic Magic refers to a symbolic magic, in which a target can be affected remotely through the use of a symbol.
    
     To use a scrying circle for sympathetic magic, it must be actively scrying something. Also, an inventory under the scrying circle must contain Kodoku worms to act as fuel. Worms with higher kodoku values will increase the chance of successful sympathetic magic.
 
-??? Info "Kodoku4"
     When an active scrying circle with Kodoku worms underneath is set up, simply throw items for various effects on top of the circle.
    
-    Blaze Powder - Fire
-    
-    Rabbit Foot - Hop
-    
-    Splash Potions - Effects
-    
-    Glowstone Dust - Glowing
-    
-    (Effects continued on next page.)
-
-??? Info "Kodoku5"
-   
-    Rotten Flesh - Hunger
-    
-    Kodoku worms - Misfortune
+    - Blaze Powder - Fire
+    - Rabbit Foot - Hop
+    - Splash Potions - Effects
+    - Glowstone Dust - Glowing
+    - Rotten Flesh - Hunger
+    - Kodoku worms - Misfortune
    
     Misfortune applies various effects such as being struck by lightning, dropping items, negative looting, tripping, breaking tools, increased aggro, with chances scaling depending on the quality of the worm.
     
-    (Effects continued on next page.)
+    - Ender Pearl - Teleports target (Players must have a contract with caster to be teleported)
+    - Nether Wart - Confusion
 
-??? Info "Kodoku6"
-   
-    Ender Pearl - Teleports target (Players must have a contract with caster to be teleported)
-    
-    Nether Wart - Confusion
-
-??? Info "Kodoku7"
     You can counter sympathetic magic against yourself by keeping a worm with a high kodoku value in your inventory. The higher the value, the less likely the magic will succeed against you, and there's even a chance it will be reflected to the caster.
 
 ??? Info "Leylines"
@@ -338,7 +292,6 @@ description: All pages of Mahou
     
     Villagers, and more so, child villagers, provide a damage bonus for this sword (requires mana), and also heal any damage the sword has.
 
-??? Info "Morgan2"
     Holding right click with this sword releases a ball of evil to stab and pull nearby enemies. Lastly, pressing the keybind with the sword equipped provides a Rage effect, which very briefly boosts attack speed and walking speed.
    
     Both of these abilities invoke a cooldown that prevents either from being used.
@@ -349,9 +302,6 @@ description: All pages of Mahou
 ??? Info "Mystic Code First Sorcery"
     The Mystic Code - First Sorcery is a variant of the mystic code, which has a set durability, but also allows for the reuse of scrolls it contains.
 
-??? Info "No Cloth"
-    undefined
-
 ??? Info "Ordered Displacement"
     An Ordered Displacement circle on the ground teleports any thing on top of it to a nearby Ordered Displacement circle. Which one it teleports you to depends on the order in which you placed the circles. You can sneak to stop teleporting.
     
@@ -361,11 +311,9 @@ description: All pages of Mahou
     This circle, when placed on the floor, will spawn a lake. Each growth of the lake costs mana. When the lake has reached full size, the caster can throw in an enchanted sword in order to get Caliburn, a holy sword which will have the damage of the sword plus extra based on its enchantments. (hint: holier is better!)
     
     Exchanging a sword costs mana.
-
-??? Info "Power Consolidation2"
+    
     The holy sword, Caliburn, has several properties. First, undead and unholy monsters will fear it and attempt to flee. Second, right-clicking will pull both the caster and such monsters closer. Using the keybind, the sword can smite such monsters, with a cooldown. As Caliburn is a sword, the Power Consolidation process can be repeated by simply enchanting it.
 
-??? Info "Power Consolidation3"
     Caliburn seems to have some innate limits - maybe there are some items you could offer to the lake with Caliburn, as proof of your purity, to remove these limits?
 
 ??? Info "Presence Concealment"
@@ -373,7 +321,6 @@ description: All pages of Mahou
    
     When one Ripper is wielded, right clicking will create a thick fog around either the user, or a target the user was looking at. Doing the above with a Ripper in either hand will provide true presence concealment, in addition to the fog, rendering the player and his items invisible.
 
-??? Info "Presence Concealment2"
     Because The Rippers are intended to be dual wielded, it is possible to attack with both simultaneously. Furthermore, attacking from behind a target with a Ripper will deal bonus damage.
    
     Take note that your invisibility will disappear temporarily after you attack, but it will return shortly after. Monsters may or may not be able to track you after you disappear again, so it is recommended to move quickly.
@@ -396,7 +343,6 @@ description: All pages of Mahou
 ??? Info "Projector"
     The Mahoujin Projector is a decorative block, which simply displayes runes and a magic circle. Right clicking on the block allows you to configure the size, angle, color, speed, etc. You can load in custom circles and runes through the config.
 
-??? Info "Projector2"
     The Mahoujin Projector is also wearable! Right click with an armor item on a projector to receive a special enchantment that displays that projector's settings. Right click again to get new settings after modifying.
     
     Also, you can copy and paste from projector to projector by right clicking to copy, and shift right clicking to paste with a normal stick.
@@ -426,17 +372,14 @@ description: All pages of Mahou
     
     Note the following controls carefully:
 
-??? Info "Replica2"
     AOE Teleportation: Save a location with shift+right click. Teleport to it later, along with everything around you by blocking with the shield and pressing. Break a block with Replica to toggle teleporting friendlies only.
    
     Cover Move: Sprint towards a teammate and block to place yourself between them and their closest, most threatening enemy.
 
-??? Info "Replica3"
     Shockwave: Simply blocking with this greatshield is enough to knockback surrounding opponents, dealing damage according to the number of nearby allies you have.
    
     Replicate: Replica has the ability to remember up to 6 damage types that it has blocked. You can choose Shockwave's damage type by pressing.
 
-??? Info "Replica4"
     Note that allies refers to those for which the wielder of Replica has a geas or a contract with.
     
     To get Replica, block an attack with a strengthened shield, in your main hand, while also having Immunity Exchange, maximum Damage Absorption stacks, above 15 armor, and over 100 Death Collection souls .
@@ -457,16 +400,13 @@ description: All pages of Mahou
 ??? Info "Rhongomyniad"
     The Holy Lance, Rhongomyniad, is acquired by throwing a lance into the lake of a Power Consolidation ritual. The Lance Which Brings Stability to the World, Rhongomyniad, can first and foremost act as a normal lance - it can unseat opponents in a joust, depending on its weight and damage, and the speed of the rider. Furthermore, mounted wielders of Rhongomyniad will gain speed in the presence of evil.
 
-??? Info "Rhongomyniad2"
     Rhongomyniad can be placed using shift right-click, where it assumes its role as a purveyor of punishment. Evil creatures and persons, including those who would do harm to those who are not evil, will be smitten within Rhongomyniad's range, according to Rhongomyniad's current attack damage. This will continually drain mana. Right click on the placed lance to re-collect it.
 
 ??? Info "Rule Breaker"
     Acquired through the use of the Probability Alter spell, this dagger allows the user to control their personal probability through the Modulus and Dividend of the dagger. While the modulus is set at creation, the dagger's dividend can be increased by shift right clicking. Specifically, when right clicking with Rule Breaker, the caster will receive a timed buff that returns a specific random number when requested from the player.
 
-??? Info "Rule Breaker2"
     Furthermore, this effect is also applied when hitting things with the dagger.
    
-
 ??? Info "Scrying"
     A Scrying circle on the ground allows the player to see a named mob or player from afar, for a short amount of time. Simply drop a nametag on the circle, and if a mob or player with this name exists, it will be shown with its surroundings.
     
@@ -506,7 +446,6 @@ description: All pages of Mahou
     
     It drains mana on using the scroll, and mana per weapon projected.
 
-??? Info "Treasury Projection2"
     The gauntlet has two other modes upon pressing shift right-click. In AOE mode, weapons will be fired from behind you towards the direction you're looking at, and in Chains mode, chains will spawn near the target you're looking at and, if the target is a creature, attempt to hit them when right-click is held while staring at it. 
 
 ??? Info "Weapon Projectiles"

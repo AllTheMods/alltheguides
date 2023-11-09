@@ -96,7 +96,7 @@ These can help both server and client with performance in,
 
     - `G1RSetUpdatingPauseTimePercent`
 
-    : Default is 10% of time spent during pause updating Rsets, reduce this to 5% to make more of it concurrent to reduce pause durations.
+    : Default is 10% of time spent during pause updating RSets, reduce this to 5% to make more of it concurrent to reduce pause durations.
 
     - `SurvivorRatio`
 
@@ -113,6 +113,7 @@ These can help both server and client with performance in,
     : Minecraft has a really high allocation rate of memory. Of that memory, most is reclaimed in the eden generation. However, transient data will overflow into survivor. Initially played with completely removing Survivor and had decent results, but does result in transient data making its way to Old which is not good.Max Tenuring 1 ensures that we do not promote transient data to old generation, but anything that survives 2 passes of Garbage Collection is just going to be assumed as longer-lived.
 
     : Doing this greatly reduces pause times in Young Collections as copying data up to 15 times in Survivor space for a tenured object really takes a lot of time for actually old memory. Ideally the GC engine would track average age for objects instead and tenure out data faster, but that is not how it works.
+
 
     : Considering average GC rate is 10s to the upwards of minutes per young collection, this does not result in any 'garbage' being promoted, and just delays longer lived memory to be collected in Mixed GC's.
 

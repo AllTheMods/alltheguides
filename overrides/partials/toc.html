@@ -56,10 +56,10 @@
     {% if page and page.meta and page.meta.authors %}
     <div style="padding:20px">
         <hr>
-        <label>Author(s) </label>
+        <label><b>Author{% if page.meta.authors|length > 1 %}s{% endif %}</b></label>
           <ul style="list-style: none; padding-left: 0.6rem;" >
               {% for author in page.meta.authors %}
-                  <li>{{author}}</li>
+                  <li>• {{author}}</li>
               {% endfor %}
           </ul>
     </div>

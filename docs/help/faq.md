@@ -5,22 +5,11 @@ description: Frequently Asked Questions
 
 # F.A.Q
 
-##### This F.A.Q is put into 3 sections. 
+This F.A.Q is put into 3 sections. 
 
 - [Technical](#technical)
 - [Gameplay](#gameplay)
 - [Servers](#servers)
-
-This will attempt to cover all packs.
-
----
-## Technical
-#### Table Of Contents -
-
-* [Failed To Authenticate](#failed-to-authenticate).
-* [Modpack Crashes (At Beginning)](#modpack-crashes-at-beginning).
-* [World Crashing (Before / After)](#world-crashing-before-after).
-* [Ticking Entity Or Block](#ticking-entity-or-block).
 
 ---
 
@@ -29,6 +18,15 @@ This will attempt to cover all packs.
 - **Instance**: The specific modpack or profile folder in question.
 - **Arguments**: Commands/Flags used with Java to help with performance (Most Garbage Collection).
 - **Allocate**: The amount of ram assigned to minecraft. _By default it's always set to 4Gb or lower, and some modpack requires more._
+
+---
+
+## Technical
+
+* [Failed To Authenticate](#failed-to-authenticate).
+* [Modpack Crashes (At Beginning)](#modpack-crashes-at-beginning).
+* [World Crashing (Before / After)](#world-crashing-before-after).
+* [Ticking Entity Or Block](#ticking-entity-or-block).
 
 ---
 
@@ -131,9 +129,7 @@ This will attempt to cover all packs.
 ---
 
 ## Servers
-#### Table Of Contents -
 
 ---
 
 ## Gameplay
-#### Table Of Contents -

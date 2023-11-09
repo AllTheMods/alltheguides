@@ -4,7 +4,7 @@ repo_name: alltheguides
 repo_url: https://github.com/segg21/alltheguides/
 edit_uri: edit/dev/docs/
 use_directory_urls: true
-copyright: Copyright &copy; 2023 - All The Mods | Made By <a href='https://ko-fi.com/segfault' target='_blank'><b>Seg</b></a>
+copyright: All The Mods &trade; | Made By <a href='https://ko-fi.com/segfault' target='_blank' class='cauthor'>Seg</a>
 strict: !ENV [ENABLE_STRICT, true]
 extra:
   generator: true
@@ -26,24 +26,21 @@ theme:
   name: material
   highlightjs: true
   language: en
+  prev_next_buttons_location: none
   features:
     - navigation.instant
-    - navigation.instant.prefetch
-    # - navigation.instant.progress
     - navigation.tracking
     - navigation.tabs
     - navigation.tabs.sticky
-    - navigation.path 
-    - navigation.prune
     - navigation.indexes
     - navigation.top
     - navigation.footer
-    - header.autohide
     - announce.dismiss
     - content.action.edit
     - content.tooltips
     - content.code.copy
     - content.code.annotate
+    - toc.follow
   icon:
     repo: fontawesome/brands/github
     edit: material/pencil 
@@ -133,7 +130,8 @@ markdown_extensions:
   extra: {}
   smarty: {}
   toc: {
-    permalink: true
+    permalink: true,
+    title: <b>Table Of Contents</b>
   }
   admonition: {}
   attr_list: {}

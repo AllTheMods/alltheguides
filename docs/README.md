@@ -6,23 +6,23 @@ comments: false
 
 # Welcome!
 
-To the new **All The Guides**, by **All The Mods**
+To the new **All The Guides**, by **All The Mods** (_ATM_).
 
-This guide is currently a work in progress, so there's a-lot of missing / placeholder information. Want to contribute? Check [About All The Guides](guides/contributing/README.md)
+This guide is currently work-in-progress, so there's a-lot of missing / placeholder information. Want to contribute? Check [About All The Guides](guides/contributing/README.md)
 
 ??? Tip "Guide is only for our packs"
 
-    Our modpack has custom changes and additions, specifically recipes. This means that this guide may or may not work or accurately with other packs!
+    ATM has custom changes and additions, mostly recipes. This means is only for ATM packs, and may not be the same for other packs.
 
 ## Intro
 
-Are you new to **Minecraft**, **Modded** (**All The Mods**), or just need some help getting started? Here you will find some tips & guides on getting started with our **All The Mods** packs!
+Are you new to **Minecraft**, or **All The Mods**, or need help getting started? Here you will find some Tips & Guides on getting started with **All The Mods**!.
 
 ### Getting Started
 
-**All The Mods** packs requires a PC that has at-least **16GB** or more system RAM :material-information-outline:{ title="Random Access Memory" } for the best **playable** experience.
+**All The Mods** packs requires a PC that has at-least **16GB** or more system RAM :material-information-outline:{ title="Random Access Memory" } for the best <u>_playable_</u> experience.
 
-Allocating between **8-12GB** RAM is required for most of our packs. Smaller - designed packs can run with at-least **4GB** allocated. This **must** be changed within your [Launcher](#launchers) settings, as by default **4GB** is assigned, but **8GB** minimum is **required**.
+Allocating between **8-12GB** RAM is required for most of our packs. Smaller (_Lite_) designed packs can run with at-least **4GB** allocated. This <u>must</u> be changed within [Launcher](#launchers) settings. **8GB** minimum is **recommended**.
 
 ### Requirements
 
@@ -32,17 +32,14 @@ Allocating between **8-12GB** RAM is required for most of our packs. Smaller - d
 
 ### Launchers
 
-The most common launchers are [CurseForge](https://www.curseforge.com/download/app), [FTB App](https://www.feed-the-beast.com/ftb-app), [PolyMC](https://polymc.org/), [Prism](https://prismlauncher.org/), [ATLauncher](https://atlauncher.com/) and [GDLauncher](https://gdlauncher.com/en/). You will need one of these launchers to install packs. After installed, sign to your **Microsoft** account, then search for the pack of choice to install. 
+The most common launchers are [CurseForge](https://www.curseforge.com/download/app), [FTB App](https://www.feed-the-beast.com/ftb-app), [PolyMC](https://polymc.org/), [Prism](https://prismlauncher.org/), [ATLauncher](https://atlauncher.com/) and [GDLauncher](https://gdlauncher.com/en/). You will need one of these launchers to install packs. Sign into your **Microsoft** account and search for the pack of choice to install. 
 
-!!! Note
-
+!!! Info "Allocation"
     By default, in the launcher or instance (modpack) settings, **4GB** is allocated. **Recommended** MAX allocation is **8-12GB** | `8192-12288`Mb. You should **never** allocate all of OR more ram than necessary.
 
     Additionally, some launchers may install and use the appropriate version of [Java](help/java.md), though make sure you're using the correct version of [Java](help/java.md) for the **Minecraft** version of the pack installed.
 
-??? Bug "Need Help?"
-
-    Check out or dedicated [Help](help/README.md) section, especially [F.A.Q](help/faq.md)
+!!! Bug "Need Help? Check out the dedicated [Help](help/README.md) section, especially [F.A.Q](help/faq.md)"
 
 ---
 
