@@ -96,7 +96,7 @@ These can help both server and client with performance in,
 
     - `G1RSetUpdatingPauseTimePercent`
 
-    : Default is 10% of time spent during pause updating Rsets, reduce this to 5% to make more of it concurrent to reduce pause durations.
+    : Default is 10% of time spent during pause updating RSets, reduce this to 5% to make more of it concurrent to reduce pause durations.
 
     - `SurvivorRatio`
 

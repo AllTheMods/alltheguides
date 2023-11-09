@@ -28,13 +28,9 @@ theme:
   language: en
   features:
     - navigation.instant
-    - navigation.instant.prefetch
-    # - navigation.instant.progress
     - navigation.tracking
     - navigation.tabs
     - navigation.tabs.sticky
-    - navigation.path 
-    - navigation.prune
     - navigation.indexes
     - navigation.top
     - navigation.footer
@@ -44,6 +40,7 @@ theme:
     - content.tooltips
     - content.code.copy
     - content.code.annotate
+    - toc.follow
   icon:
     repo: fontawesome/brands/github
     edit: material/pencil 
@@ -133,7 +130,8 @@ markdown_extensions:
   extra: {}
   smarty: {}
   toc: {
-    permalink: true
+    permalink: true,
+    title: <b>Table Of Contents</b>
   }
   admonition: {}
   attr_list: {}

@@ -32,16 +32,18 @@ code {
 
 h1, h2, h3, h4, h5, h6 {
     font-weight: bold !important;
+    color: rgb(186,68,55) !important;
 }
 
 b, strong {
-    color: #ff7700cc !important;
+    color: rgb(220,152,39) !important;
 }
 
+/*
 div.md-source__repository{
-    /*font-size: 10px !important;*/
+    font-size: 10px !important;
 }
-
+*/
 div[data-md-type='navigation']{
     font-weight: bold;
 }
