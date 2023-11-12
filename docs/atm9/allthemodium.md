@@ -40,7 +40,7 @@ In **ATM9**, All The Modium has changed in ways different from previous packs. W
 ![](https://images-ext-1.discordapp.net/external/YMZ4-Dl6Ot_zE9sQKVDw0ZV1Dm991WxKcjVudPV2IjU/https/i.imgur.com/Yoyyxcg.png){width='300px'}
 
 - **Unobtainium**: ![](img/unobtainium_upgrade_smithing_template.png){.absolute style='margin-left:5px'}
-    - Found as loot in **The Other** dungeons inside **Libraries**
+    - Found in **The Other** dimension, as chest loot in the underground library of `allthemodium:dungeon` structure.
 
 ## Smithing Recipe Example
 | Template | Armor | Ingot | Output |
