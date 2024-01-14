@@ -2,7 +2,7 @@ name: dev
 on:
   push:
     branches:
-      - *dev*
+      - '*dev*'
 jobs:
   deploy:
     runs-on: ubuntu-latest
