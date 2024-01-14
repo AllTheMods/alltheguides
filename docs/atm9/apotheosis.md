@@ -4,6 +4,7 @@ description: Apotheosis changes
 authors:
     - AlfredGG
     - C-ffeeStain
+    - ArcTrooper
 ---
 
 # Apotheosis
@@ -38,6 +39,42 @@ After making the `Draconic Endshelf`, remove the 10 `Melonshelf`. Place the 3 `S
 
 ![](img/68747470733a2f2f696d6775722e636f6d2f625959594157532e706e67.png){.center}
 
+---
+## Infusion Setups
+
+You do not have to place the blocks exactly as I do, the screenshots are just an example.
+
+### Unbreakable Potion Charms
+
+!!! info "5x Draconic Endshelf, 2x Echoing Deepshelf, 1x Melonshelf, 1x Endshelf"
+	
+![](img/charm.png){.center}
+
+### Superior Sigil of Socketing
+
+!!! info "5x Echoing Deepshelf, 2x Draconic Endshelf, 2x Soul-Touched Deepshelf"
+
+![](img/socketing.png){.center}
+
+### Tome of Superior Scrapping
+
+!!! info "3x Echoing Deepshelf, 1x Soul-Touched Deepshelf, 1x Draconic Endshelf"
+
+![](img/scrapping.png){.center}
+
+### Tome of Extraction
+
+!!! info "3x Echoing Deepshelf, 2x Draconic Endshelf, 1x Soul-Touched Deepshelf"
+
+![](img/extraction.png){.center}
+
+### Library of Alexandria
+
+!!! info "7x Echoing Deepshelf, 3x Draconic Endshelf, 2x Soul-Touched Deepshelf"
+
+![](img/library.png){.center}
+
+---
 ## Spawner Changes
 
 - **Remove AI**: {~~Chorus Fruit ~> Golden Apple ~~}
