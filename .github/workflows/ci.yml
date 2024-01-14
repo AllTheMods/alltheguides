@@ -2,12 +2,12 @@ name: main
 on:
   push:
     branches:
-      - master 
-      - main
+      - master
 permissions:
   contents: write
 jobs:
   deploy:
+    if: github.repository == 'segg21/alltheguides'
     runs-on: ubuntu-latest
     env:
       ENABLE_STRICT: true
