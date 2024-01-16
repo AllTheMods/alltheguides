@@ -3,6 +3,4 @@ Allow: *
 Allow: /
 Allow: /*
 Allow: sitemap.xml
-Disallow: /guides/contributing/*
 Disallow: /guides/contributing/examples/*
-

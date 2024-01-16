@@ -9,7 +9,7 @@ description: Current Team Members!
 
 #### Owner
 
-- `WhatTheDrunk` | **Dev**
+- `WhatTheDrunk` | **Dev**, **Artist**
 
 ---
 
@@ -23,35 +23,45 @@ description: Current Team Members!
 
 ---
 
-#### Devs
+#### Modpack Development Team
 
-- `AlfredGG` | **Dev (QuestDev)**
-- `EnigmaQuip` | **Dev**
+- `DJNifos` | **Dev**
+- `Draxial` | **Dev**
+- `Jebraltar` | **Dev**
+- `radiomike` | **Dev**
+- `uʍopǝpᴉsdn` | **Dev**
+- `ZephyrWindSpirit 🐉` | **Dev**
 
 ---
 
 #### All The Team
 
+- `0mega420`
 - `1Yumi`
 - `Arochio`
 - `BeeJnugggets`
 - `Billy`
 - `Bored`
 - `Brod`
-- `DJNifos`
 - `Drack.ion`
-- `Draxial`
-- `Jebraltar`
+- `KJM`
 - `Klonoa`
 - `LobsterJonn`
 - `screret`
 - `Seg` | [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/segfault){style='position:absolute;margin-left:5px'}
 - `SlackerNet>XI<`
 - `Thunder_Nova the Pun_isher`
-- `uʍopǝpᴉsdn`
 - `Ultramega`
-- `ZephyrWindSpirit 🐉`
 
 ---
 
-> Current as of (10.01.2023)
+#### Former - Retired
+
+- `AlfredGG` | **Dev (QuestDev)**
+- `EnigmaQuip` | **Dev**
+- `Phantom`
+- `Dijkstra`
+
+---
+
+> Current as of (01.14.2024)

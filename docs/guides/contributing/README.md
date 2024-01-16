@@ -32,7 +32,7 @@ nav:
     7. You shall **NOT** touch `mkdocs.yml`, `requirements.txt`, or workflow files, _unless authorized, and you know what you're doing_.
     8. Documentation should ONLY be related to **All The Mods**, if it needs to be.
     9. Javascript is **NOT** allowed.
-    10. Folders must be in `lowercase` letters, with no spaces.
+    10. Folders & files must be in `lowercase` letters, with no spaces.
 ---
 
 **All The Guides** is using ~~[Github Pages](https://pages.github.com/)~~, [MkDocs](https://www.mkdocs.org/) & [Material](https://squidfunk.github.io/mkdocs-material/).
@@ -67,7 +67,7 @@ Fork [All The Guides](https://github.com/segg21/alltheguides).
 
 ### Clone / Checkout `dev` branch
 
-The __`dev`__ branch is the live - up to date branch that should be used _primarily_. You will not be able to submit a **Pull Request** to `main`, or `dev` > `main`, vice versa. Your commiting branch must be the `dev` branch, or a branch that starts with `dev`.
+The __`dev`__ branch is the live - up to date branch that should be used _primarily_. You will not be able to submit a **Pull Request** to `main`, or `dev` > `main`, vice versa. Your commiting branch must be the `dev` branch, or a branch that _starts or ends_ with `dev`.
 
 Depending on current setup, you may have an editor (_Visual Studio Code_), that has **Git** integration. You're free to use this, Github Desktop, or Git _which we'll be using_.
 
