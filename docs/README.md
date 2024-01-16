@@ -10,7 +10,7 @@ To the new **All The Guides**, by **All The Mods** (_ATM_).
 This guide is currently a work in progress, so there's a lot of missing/placeholder information. Want to contribute? Check [About All The Guides](guides/contributing/README.md)
 
 ??? Tip "This Guide is only for our packs"
-    
+
     ATM has custom changes and additions, mostly recipes. This means it's only for ATM packs, and may not be the same for other packs.
 
 ## Intro
@@ -35,9 +35,9 @@ The most common launchers are [CurseForge](https://www.curseforge.com/download/a
 
 !!! Info "Allocation"
 
-    By default, in the launcher or instance (modpack) settings, **4GB** is allocated. **Recommended** MAX allocation is **8-12GB** | `8192-12288`Mb. You should **never** allocate all of or more RAM than necessary.
+    By default, in the launcher or instance (modpack) settings, **4GB** is allocated. **Recommended** MAX allocation is **8-12GB** | `8192-12288`Mb. You should **never** allocate all of or more RAM than necessary.
 
-    Additionally, some launchers may install and use the appropriate version of [Java](help/java.md), though make sure you're using the correct version of [Java](help/java.md) for the **Minecraft** version of the pack installed.
+    Additionally, some launchers may install and use the appropriate version of [Java](help/java.md), though make sure you're using the correct version of [Java](help/java.md) for the **Minecraft** version of the pack installed.
 
 !!! Bug "Need Help? Check out the dedicated [Help](help/README.md) section, especially [F.A.Q](help/faq.md)"
 
