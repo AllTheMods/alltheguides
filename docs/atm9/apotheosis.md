@@ -58,7 +58,7 @@ You do not have to place the blocks exactly as I do, the screenshots are just an
 
 ### Tome of Superior Scrapping
 
-!!! info "3x Echoing Deepshelf, 1x Soul-Touched Deepshelf, 1x Draconic Endshelf"
+!!! info "3x Echoing Deepshelf, 1x Soul-Touched Deepshelf, 1x Endshelf, 1x Draconic Endshelf"
 
 ![](img/scrapping.png){.center}
 
