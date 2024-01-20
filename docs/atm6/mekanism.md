@@ -20,7 +20,7 @@ To get started in **Mekanism** you just need **coal**, **osmium**, **redstone** 
     CI_SA -- Sulfuric Acid --> CDC_HA
     CDC_HA -- Hydrofluoric Acid --> CI_UH[Chemical Infuser]
 
-    U ----> EC_YCU[Electrolytic Separator]
+    U ----> EC_YCU[Enrichment Chamber]
     EC_YCU -- Yellow Cake Uranium --> CO_UO[Chemical Oxidizer]
     CO_UO -- Uranium Oxide --> CI_UH
 
