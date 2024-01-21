@@ -1,5 +1,6 @@
 ---
 title: Extreme Reactors
+description: Exteme Reactors changes
 authors:
   - AlfredGG
 ---  
@@ -10,6 +11,6 @@ authors:
 
 ### Power Gen Changes
 
-!!! Note "Overall Power Gen: {~~ 1x ~> 3x ~~} | 5^3 can produce ~15k RF/t"
+**Overall Power Gen:** {~~ 1x ~> 3x ~~} | 5<sup>3</sup> can produce ~15k RF/t
 
 > Extreme Reactors | [CurseForge](https://legacy.curseforge.com/minecraft/mc-mods/extreme-reactors)

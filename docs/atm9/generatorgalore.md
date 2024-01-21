@@ -1,5 +1,6 @@
 ---
 title: Generator Galore
+description: Generator Galore changes
 authors:
   - AlfredGG
 ---  

@@ -29,6 +29,7 @@ tags on separate lines and adding new lines between the tags and the content.
 
 ==}
 
+---
 ### Highlighting Text
 
 Text can be highlighted with a simple syntax, which is more convenient that directly using the corresponding `mark`, `ins` and `del` HTML tags:
@@ -43,6 +44,7 @@ Text can be highlighted with a simple syntax, which is more convenient that dire
 - ^^This was inserted^^
 - ~~This was deleted~~
 
+---
 ### Sub and Super Scripts
 
 Text can be sub- and superscripted with a simple syntax, which is more convenient than directly using the corresponding `sub` and `sup` HTML tags:
@@ -55,6 +57,7 @@ Text can be sub- and superscripted with a simple syntax, which is more convenien
 - H~2~O
 - A^T^A
 
+---
 ### Adding keyboard keys
 
 Keyboard keys can be rendered with a simple syntax. Consult the Python Markdown Extensions documentation to learn about all available shortcodes:
@@ -65,10 +68,10 @@ Keyboard keys can be rendered with a simple syntax. Consult the Python Markdown 
 
 ++ctrl+alt+del++
 
-
+---
 ## Lists
 
-
+---
 ### Un-Ordered Lists
 
 ```
@@ -89,6 +92,7 @@ Keyboard keys can be rendered with a simple syntax. Consult the Python Markdown 
     * Nam vulputate tincidunt fringilla.
     * Nullam dignissim ultrices urna non auctor.
 
+---
 ### Ordered Lists
 
 ```
@@ -123,6 +127,7 @@ Keyboard keys can be rendered with a simple syntax. Consult the Python Markdown 
         2.  Ut sit amet placerat ante
         3.  Suspendisse ac eros arcu
 
+---
 ### Definition Lists: 
 
 ```
@@ -155,6 +160,7 @@ Keyboard keys can be rendered with a simple syntax. Consult the Python Markdown 
     Nam vulputate tincidunt fringilla.
     Nullam dignissim ultrices urna non auctor.
 
+---
 ### Task Lists
 
 ```
@@ -173,17 +179,19 @@ Keyboard keys can be rendered with a simple syntax. Consult the Python Markdown 
     * [ ] Praesent sed risus massa
 - [ ] Aenean pretium efficitur erat, donec pharetra, ligula non scelerisque
 
+---
 ## Tool Tips
 
 The Markdown syntax allows to specify a `title` for each link, which will render as a tooltip. Add a tooltip to a link with the following lines:
 
-```
+```title="Link Tooltip Title"
 [Hover me](https://example.com "I'm a tooltip!")
 ```
 
 [Hover me](https://example.com "I'm a tooltip!")
 
-```
+---
+```title="Link Reference Tooltip"
 [Hover me][example]
 
   [example]: https://example.com "I'm a tooltip!"
@@ -195,6 +203,7 @@ Tooltips can also be added to link references:
 
   [example]: https://example.com "I'm a tooltip!"
 
+---
 For all other elements, a title can be added by using the Attribute Lists extension:
 
 ```
@@ -203,23 +212,41 @@ For all other elements, a title can be added by using the Attribute Lists extens
 
 :material-information-outline:{ title="Important information" }
 
-```
+---
+### Adding abbreviations
+
+Abbreviations can be defined by using a special syntax similar to URLs and footnotes, starting with a `*` and immediately followed by the term or acronym to be associated in square bracket. Once an abbreviation is defined, it can be used anywhere in the document.
+
+```title="Example Abbreviation Usage"
 The HTML specification is maintained by the W3C.
 
 *[HTML]: Hyper Text Markup Language
 *[W3C]: World Wide Web Consortium
 ```
 
-### Adding abbreviations
+The HTML specification is maintained by the W3C.
 
-Abbreviations can be defined by using a special syntax similar to URLs and footnotes, starting with a `*` and immediately followed by the term or acronym to be associated in square bracket
-
-```
 *[HTML]: Hyper Text Markup Language
 *[W3C]: World Wide Web Consortium
-```
 
+---
 ### Adding a glossary
 
-*[HTML]: Hyper Text Markup Language
-*[W3C]: World Wide Web Consortium
+```title="Example Glossary"
+Lorem ipsum[^1] dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+incididunt ut labore et dolore magna aliqua. Ut enim[^2] ad minim veniam, quis nostrud 
+exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+  [^1]:
+    This is a glossary that will be added at the bottom of the page and is clickable.
+  [^2]:
+    This is also a glossary at the end of the page.
+```
+Lorem ipsum[^1] dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+incididunt ut labore et dolore magna aliqua. Ut enim[^2] ad minim veniam, quis nostrud 
+exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+  [^1]:
+    This is a glossary that will be added at the bottom of the page and is clickable.
+  [^2]:
+    This is also a glossary at the end of the page.
