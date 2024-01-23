@@ -1,5 +1,6 @@
 ---
 title: Powah
+description: Powah changes
 authors:
   - AlfredGG
 ---  
@@ -15,41 +16,41 @@ authors:
 
 #### Furnator
 
-- **Starter**: 80 RF/t (_up from 20_)
-- **Basic**: 160 RF/t (_up from 80_)
-- **Hardened**: 400 RF/t (_up from 200_)
-- **Blazing**: 1000 RF/t (_up from 800_)
+- **Starter**: {~~ 20 ~> 80 RF/t ~~}
+- **Basic**: {~~ 80 ~> 160 RF/t ~~}
+- **Hardened**: {~~ 200 ~> 400 RF/t ~~}
+- **Blazing**: {~~ 800 ~> 1000 RF/t ~~}
 
 #### Magmator
 
-- **Starter**: 80 RF/t (_up from 20_)
-- **Basic**: 160 RF/t (_up from 80_)
-- **Hardened**: 400 RF/t (_up from 200_)
-- **Blazing**: 1000 RF/t (_up from 800_)
+- **Starter**: {~~ 20 ~> 80 RF/t ~~}
+- **Basic**: {~~ 80 ~> 160 RF/t ~~}
+- **Hardened**: {~~ 200 ~> 400 RF/t ~~}
+- **Blazing**: {~~ 800 ~> 1000 RF/t ~~}
 
 #### Thermo Generator
 
-- **Starter**: 40 RF/t (_up from 20_)
-- **Basic**: 80 RF/t (_up from 60_)
-- **Hardened**: 150 RF/t (_up from 125_)
-- **Blazing**: 300 RF/t (_up from 250_)
-- **Niotic**: 600 RF/t (_up from 500_)
-- **Spirited**: 1500 RF/t (_up from 1250_)
-- **Nitro**: 3500 RF/t (_up from 2750_)
+- **Starter**: {~~ 20 ~> 40 RF/t ~~}
+- **Basic**: {~~ 60 ~> 80 RF/t ~~}
+- **Hardened**: {~~ 125 ~> 150 RF/t ~~}
+- **Blazing**: {~~ 250 ~> 300 RF/t ~~}
+- **Niotic**: {~~ 500 ~> 600 RF/t ~~}
+- **Spirited**: {~~ 1250 ~> 1500 RF/t~~}
+- **Nitro**: {~~ 2750 ~> 3500 RF/t ~~}
 
 ??? Note
 
-    While these are small buffs, using **Soul Lava** gets a massive buff here. **Nitro** tier goes from ~25k RF/t to ~31.5k RF/t.*
+    While these are small buffs, using **Soul Lava** gets a massive buff here. **Nitro** tier goes from ~25k RF/t to ~31.5k RF/t.
     
 #### Solar Generators
 
-- **Starter**: 40 RF/t (_up from 20_)
-- **Basic**: 120 RF/t (_up from 60_)
-- **Hardened**: 400 RF/t (_up from 180_)
-- **Blazing**: 1,500 RF/t (_up from 540_)
-- **Niotic**: 5,000 RF/t (_up from 1,620_)
-- **Spirited**: 16,000 RF/t (_up from 5,000_)
-- **Nitro**: 50,000 RF/t (_up from 20,000_)
+- **Starter**: {~~ 20 ~> 40 RF/t ~~}
+- **Basic**: {~~ 60 ~> 120 RF/t ~~}
+- **Hardened**: {~~ 180 ~> 400 RF/t ~~}
+- **Blazing**: {~~ 540 ~> 1500 RF/t ~~}
+- **Niotic**: {~~ 1620 ~> 5000 RF/t ~~}
+- **Spirited**: {~~ 5000 ~> 16000 RF/t ~~}
+- **Nitro**: {~~ 20000 ~> 50000 RF/t ~~}
 
 ??? Note
 

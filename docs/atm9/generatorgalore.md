@@ -1,5 +1,6 @@
 ---
 title: Generator Galore
+description: Generator Galore changes
 authors:
   - AlfredGG
 ---  
@@ -8,7 +9,7 @@ authors:
 
 ### Power Gen Changes
 
-??? Info "Basic Generators"
+???+ Info "Basic Generators"
 
     | Generator | Change 
     | --------- | -------
@@ -20,15 +21,15 @@ authors:
     | Emerald | {~~ 256 ~> 300 ~~} RF/t
     | Netherite | {~~ 256 ~> 500 ~~} RF/t
 
-??? Info "Special Generators"
+???+ Info "Special Generators"
 
     | Generator | Change | Notes |
     | --------- | ------- | ------- |
     | **Enchantment** | {~~ 40 ~> 500 ~~} RF/t |
     | **Magmatic** | {~~ 40 ~> 150 ~~} RF/t |
     | **Ender** | {~~ 40/80 ~> 300/500 ~~} RF/t | **Ender Pearl** or **Eye of Ender** -> {~~ 300 ~> 500 ~~} RF/t. 
-    | **Culinary** | {~~ 8 ~> 10 ~~} RF/t | **ATM Carrot** currently generators 320 RF/t. This would make it 400 RF/t per carrot, which is fair. 
-    | **Halitosis** | {~~ 40 ~> 1k ~~} RF/t | Only way to automate **Dragon's Breath** is HNN. Nerf overall RF given from {~~ 480 ~> 200 ~~}k.
+    | **Culinary** | {~~ 8 ~> 10 ~~} RF/t | **ATM Carrot** currently generates 320 RF/t. This would make it 400 RF/t per carrot, which is fair. 
+    | **Halitosis** | {~~ 40 ~> 1k ~~} RF/t | Only way to automate **Dragon's Breath** is HNN. Nerf overall RF given from {~~ 480k ~> 200k ~~}.
     | **NetherStar** | {~~ 4k ~> 10k ~~}RF/t | Tons of Nether Stars are needed for the star, so choosing this gen should be worth it.
 
 > Generator Galore | [CurseForge](https://legacy.curseforge.com/minecraft/mc-mods/generatorgalore)

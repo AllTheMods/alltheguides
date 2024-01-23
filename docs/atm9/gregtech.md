@@ -1,5 +1,7 @@
 ---
 title: GregTech
+description: 
+authors: 
 ---
 
 # GregTechCEu Modern

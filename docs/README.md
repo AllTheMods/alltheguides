@@ -7,7 +7,7 @@ description: All The Guides For All The Mods Mod Packs!
 
 To the new **All The Guides**, by **All The Mods** (_ATM_).
 
-This guide is currently a work in progress, so there's a lot of missing/placeholder information. Want to contribute? Check [About All The Guides](guides/contributing/README.md)
+This guide is currently a work in progress, so there's a lot of missing/placeholder information. Want to contribute? Check [About All The Guides Contributing](guides/contributing/README.md)
 
 ??? Tip "This Guide is only for our packs"
 

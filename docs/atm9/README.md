@@ -1,3 +1,8 @@
+---
+title: All The Mods 9 Description
+description: ATM9 Intro Description
+---  
+
 # All The Mods 9
 
 **All The Mods** started out as a private pack for just a few friends that turned into something others wanted to play! It has all the basics that most other "big name" packs include but with a nice mix of some of newer or lesser-known mods as well. 
