@@ -1,5 +1,7 @@
 ---
 title: AllTheModium
+description: AllTheModium Documentation
+authors:
 ---
 
 # AllTheModium
