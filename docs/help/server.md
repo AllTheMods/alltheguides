@@ -110,7 +110,7 @@ Modifiy config for pack if necessary, specifically the `mcVersion` and `loaderVe
         description: All The Mods 9
     install:
         mcVersion: 1.20.1
-        loaderVersion: 47.1.3
+        loaderVersion: 47.2.19
         installerUrl: "https://files.minecraftforge.net/maven/net/minecraftforge/forge/{{@mcversion@}}-{{@loaderversion@}}/forge-{{@mcversion@}}-{{@loaderversion@}}-installer.jar"
         installerArguments:
             - "--installServer"
