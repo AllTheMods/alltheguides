@@ -13,7 +13,7 @@ In **ATM9**, All The Modium has changed in ways different from previous packs. W
 **AllTheModium** ores can be found across 3 dimensions: **Overworld**, **Nether**, and **The End**, normally exposed to **AIR**.
 
 - **AllTheModium**: (Overworld) ![](img/allthemodium_ore.gif){.absolute style='margin-left:5px'} ![](img/allthemodium_ingot.png){.absolute style='margin-left:45px'}
-    - Found in [Deep Dark](https://minecraft.fandom.com/wiki/Deep_Dark) Biome, also in **Mining Dimension** Deep Slate layer | Y 0-10.
+    - Found in [Deep Dark](https://minecraft.fandom.com/wiki/Deep_Dark) Biome, also in **Mining Dimension** Deep Slate layer (Y 64-128).
         - **Mining Dimension** is more rare, at-least 1 ore per chunk.
         - Killing **Warden** also grants a Quest reward ATM Ingot.
     - Obtained with a **Netherite** level pick or better. 
