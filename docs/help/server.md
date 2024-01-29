@@ -151,7 +151,7 @@ Updating ATM servers is pretty simple. There's 3 ways you can accomplish this.
 
 1. If you have a server host with a modpack installer, usually you can do a one-click update within your control panel.
 
-### **Manually**
+### **Manually** (2 methods)
 
 1. Backup any modified configs or kubejs scripts, _if any_, to be replaced later.
     - Download **Server Files** from **CurseForge**
@@ -161,7 +161,7 @@ Updating ATM servers is pretty simple. There's 3 ways you can accomplish this.
 
 2. Download **Server Files** from **CurseForge**.
     - Extract **Server Files** to a new folder.
-    - Copy `world` folder, `server.properties`, & `eula.txt` to new server folder.
+    - Copy `world`, `local` folder, `server.properties`, & `eula.txt` to new server folder.
     - If `journeymap` folder exist, copy over aswell.
     - _Copy over any modified server configs/kubejs scripts_
 
