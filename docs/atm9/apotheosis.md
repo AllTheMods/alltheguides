@@ -3,8 +3,8 @@ title: Apotheosis
 description: Apotheosis changes
 authors:
     - AlfredGG
-    - C-ffeeStain
     - ArcTrooper
+    - C-ffeeStain
 ---
 
 # Apotheosis
@@ -17,32 +17,38 @@ Recipes for the shelves in this guide **WILL NOT BE PROVIDED**. Please use JEI. 
 
 ### Seashelf Method
 
-To start, make 17 of the `Seashelf` and place down all but 1 in a formation like the one below.  
+To start, make 16 **Seashelf** and place down all but one in a formation like the one below.  
 
 ![](img/68747470733a2f2f696d6775722e636f6d2f365464724772772e706e67.png){.center}  
 
-Once you've got those down, take your 17th `Seashelf`, place it in the enchanting table, and you should see an Infusion option for 3 EXP. It requires a certain level (mine was 46) to be selectable. Now replace one of the 16 placed `Seashelf` with your `Infused Seashelf`. Repeat this until all the original `Seashelf` have been replaced by their infused variant.  
+Once you've got those down, take your 16th **Seashelf** and place it in the enchanting table. You should see an Infusion option for 3 EXP. Now replace one of the uninfused **Seashelf** with your **Infused Seashelf**. Repeat this until all 16 `Seashelf` are `Infused Seashelf`. You will have 1 extra `Infused Seashelf` at the end.
 
-After this, you'll need to break 9 of the `Infused Seashelf` and make 2 `Heart-Forged Seashelf` and 7 `Crystalline Seashelf`. Place these down where the original 9 were.  
+!!! info "You must be level 45+ to infuse Seashelves"
 
-Now, you will need to make 10 of the `Deepshelf`. With your current setup, you should be able to infuse each and every `Deepshelf`. Infuse all 10. Do not place any of them down just yet.  
+After this, you'll need to break 9 **Infused Seashelf** and make 2 **Heart-Forged Seashelf** and 7 **Crystalline Seashelf**. Place these down where the original 9 were.
 
-After infusing all 10, make 5 of the `Soul-Touched Deepshelf` and 5 `Echoing Deepshelf`. Then, upgrade them to their `Sculkshelf` variant. Press U or right click on the respective shelf in JEI to see what the recipe is to upgrade them.  
+Now, you will need to make 10 **Dormant Deepshelf** and infuse them to their **Deepshelf** varient. You should be able to infuse them with your current setup.
 
-It is now time to make some other shelves that don't require any infusion. You will need to make 3 `Shelf of End-Fused Rectification`. This might require some work.  
+!!! info "You must be level 60+ to infuse Dormant Deepshelves"
 
-You will also need to make a `Draconic Endshelf`. To make the `Infused Dragon's Breath`, place down the 10 Sculkshelves made earlier and add 10 `Melonshelf`. A setup for this can be seen below; the placement of the shelves does not have to be exact.  
+After infusing all 10, make 5 **Soul-Touched Deepshelf** and 5 **Echoing Deepshelf**. Then, upgrade them to their **Sculkshelf** variant. *Press `U` or `right click` on the respective shelf in JEI to see what the recipe is to upgrade them.* 
+
+Now you'll need to make 3 **Shelf of End-Fused Rectification**. This might require some work.  
+
+You will also need to make 1 **Draconic Endshelf**. To make the **Infused Dragon's Breath**, place down the 10 **Sculkshelves** made earlier and add 10 **Melonshelf**. A setup for this can be seen below; the placement of the shelves does not have to be exact.  
+
+!!! info "You must be level 80+ to infuse Dragon's Breath"
 
 ![](img/2023-10-30_07.55.11.png){.center}  
 
-After making the `Draconic Endshelf`, remove the 10 `Melonshelf`. Place the 3 `Shelf of End-Fused Rectification` and the `Draconic Endshelf` in a similar formation as shown in the `Seashelf` image above. This will get you the maximum level of enchanting. Your setup does not have to be in the exact same order as the one below; it is only an example.  
+After making the `Draconic Endshelf`, remove all the `Melonshelf`. Place the 3 **Shelf of End-Fused Rectification** and the **Draconic Endshelf** in a similar formation as shown in the `Seashelf` image above. This will get you the maximum level of enchanting. Your setup does not have to be in the exact same order as the one below; it is only an example.  
 
 ![](img/68747470733a2f2f696d6775722e636f6d2f625959594157532e706e67.png){.center}
 
 ---
 ## Infusion Setups
 
-You do not have to place the blocks exactly as I do, the screenshots are just an example.
+You do not have to place the blocks exactly as I do, these are just an example.
 
 ### Unbreakable Potion Charms
 
@@ -84,7 +90,7 @@ You do not have to place the blocks exactly as I do, the screenshots are just an
 - **Decrease Minimum Spawn Delay**: {~~ Sugar ~> AllTheModium Ingot ~~} | Min {~~ 20 ~> 100 ~~}
 - **Decrease Maximum Spawn Delay**: {~~ Clock ~> Unobtainium Ingot ~~} | Min {~~ 20 ~> 100 ~~}
 
-: The aim of these changes are to make removing **AI** easier, give **Conduits** more of a use, encourage people to look out for good spawners in the world, and bring spawners more in line with the other options available for farming mob drops, like **Hostile Neural Networks** or **Mystical Agriculture** or **Productive Bees** WannaBee mob farms.
+ The aim of these changes are to make removing **AI** easier, give **Conduits** more of a use, encourage people to look out for good spawners in the world, and bring spawners more in line with the other options available for farming mob drops, like **Hostile Neural Networks** or **Mystical Agriculture** or **Productive Bees** WannaBee mob farms.
 
 
 > Apotheosis | [CurseForge](https://legacy.curseforge.com/minecraft/mc-mods/apotheosis)
