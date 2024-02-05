@@ -3,6 +3,8 @@ on:
   push:
     branches:
       - mkdocs
+  pull_request:
+    types: [ opened, synchronize, reopened ]
 jobs:
   deploy:
     runs-on: ubuntu-latest
