@@ -24,7 +24,7 @@ You can either craft a hive or get one from out in the world. Bees will anger if
 
 [Bee Breeding Chart](https://miro.com/app/board/o9J_lLqaxQ4=/?invite_link_id=68812950259)
 
-![IMG](https://allthemods.github.io/alltheguides/assets/images/beemutation.jpeg)
+![IMG](../assets/images/beemutation.jpeg)
 
 ![type:video](https://youtube.com/embed/-As76nEfLP8){width='50%'}
 

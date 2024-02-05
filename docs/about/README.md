@@ -19,7 +19,7 @@ Need hosting? Check out **Akliz** (_With a discount_) on us!
 
 Start playing for only **$20**/m
 
-[![](https://allthemods.github.io/alltheguides/assets/images/akliz.png){style='width:200px'}](https://www.akliz.net/allthemods)
+[![](../assets/images/akliz.png){style='width:200px'}](https://www.akliz.net/allthemods)
 
 Save **20%** off of the first month using coupon code **allthemods**
 
