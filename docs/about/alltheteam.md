@@ -48,7 +48,6 @@ description: Current Team Members!
 - `Klonoa`
 - `LobsterJonn`
 - `screret`
-- `Seg` | [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/segfault){style='position:absolute;margin-left:5px'}
 - `SlackerNet>XI<`
 - `Thunder_Nova the Pun_isher`
 - `Ultramega`
@@ -61,7 +60,8 @@ description: Current Team Members!
 - `EnigmaQuip` | **Dev**
 - `Phantom`
 - `Dijkstra`
+- `Seg` 
 
 ---
 
-> Current as of (01.14.2024)
+> Current as of (02.4.2024)
