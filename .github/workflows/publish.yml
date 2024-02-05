@@ -1,14 +1,8 @@
-name: main
+name: Deploy to Github Pages
 on:
-  push:
-    branches:
-      - main
-      - master
-permissions:
-  contents: write
+  workflow_dispatch:
 jobs:
   deploy:
-    if: github.repository == 'segg21/alltheguides'
     runs-on: ubuntu-latest
     env:
       ENABLE_STRICT: true
@@ -23,8 +17,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: 'main'
-          fetch-depth: '0'
+          ref: mkdocs
+          fetch-depth: 0
       - uses: actions/setup-python@v4
         with:
           python-version: 3.x
@@ -37,12 +31,5 @@ jobs:
           restore-keys: |
             mkdocs-material-
       - run: pip --disable-pip-version-check install --no-compile -r requirements.txt --upgrade
-      - run: mkdocs build
-      - name: Publish to Cloudflare Pages
-        uses: cloudflare/pages-action@v1
-        with:
-          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          projectName: alltheguides
-          branch: main
-          directory: site/
+      - run: git config user.name 'github-actions[bot]' && git config user.email 'github-actions[bot]@users.noreply.github.com'
+      - run: mkdocs gh-deploy

@@ -1,7 +1,7 @@
 site_name: All The Guides
-site_url: https://alltheguides.pages.dev
+site_url: https://allthemods.github.io/alltheguides/
 repo_name: alltheguides
-repo_url: https://github.com/segg21/alltheguides/
+repo_url: https://github.com/AllTheMods/alltheguides/
 edit_uri: edit/dev/docs/
 use_directory_urls: true
 copyright: All The Mods &trade; | Made By <a href='https://ko-fi.com/segfault' target='_blank' class='cauthor'>Seg</a>

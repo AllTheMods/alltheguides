@@ -1,8 +1,8 @@
-name: dev
+name: mkdocs
 on:
   push:
     branches:
-      - '*dev*'
+      - mkdocs
 jobs:
   deploy:
     runs-on: ubuntu-latest
@@ -19,8 +19,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: 'dev'
-          fetch-depth: '0'
+          ref: mkdocs
+          fetch-depth: 0
       - uses: actions/setup-python@v4
         with:
           python-version: 3.x

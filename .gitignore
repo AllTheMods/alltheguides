@@ -3,3 +3,4 @@ site/*
 extensions/__pycache__/*
 workspace.code-workspace
 .vscode/*
+.venv

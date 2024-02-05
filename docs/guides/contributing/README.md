@@ -6,9 +6,9 @@ nav:
     - examples
 ---
 
-# All The Guides [![](https://img.shields.io/github/actions/workflow/status/segg21/alltheguides/ci.yml?style=flat-square&label=Main)](https://github.com/segg21/alltheguides/actions/workflows/ci.yml) [![](https://img.shields.io/github/actions/workflow/status/segg21/alltheguides/di.yml?style=flat-square&label=Dev)](https://github.com/segg21/alltheguides/actions/workflows/di.yml)
+# All The Guides [![](https://img.shields.io/github/actions/workflow/status/AllTheMods/alltheguides/mkdocs.yml?style=flat-square&label=mkdocs)](https://github.com/AllTheMods/alltheguides/actions/workflows/mkdocs.yml) [![](https://img.shields.io/github/actions/workflow/status/AllTheMods/alltheguides/publish.yml?style=flat-square&label=publish)](https://github.com/AllTheMods/alltheguides/actions/workflows/publish.yml)
 
- ![GitHub Repo stars](https://img.shields.io/github/stars/segg21/alltheguides?style=flat-square) ![GitHub forks](https://img.shields.io/github/forks/segg21/alltheguides) ![GitHub watchers](https://img.shields.io/github/watchers/segg21/alltheguides?style=flat-square) ![GitHub](https://img.shields.io/github/license/segg21/alltheguides?style=flat-square)
+ ![GitHub Repo stars](https://img.shields.io/github/stars/AllTheMods/alltheguides?style=flat-square) ![GitHub forks](https://img.shields.io/github/forks/AllTheMods/alltheguides) ![GitHub watchers](https://img.shields.io/github/watchers/AllTheMods/alltheguides?style=flat-square) ![GitHub](https://img.shields.io/github/license/AllTheMods/alltheguides?style=flat-square)
 
 ---
 
@@ -35,7 +35,7 @@ nav:
     10. Folders & files must be in `lowercase` letters, with no spaces.
 ---
 
-**All The Guides** is using ~~[Github Pages](https://pages.github.com/)~~, [MkDocs](https://www.mkdocs.org/) & [Material](https://squidfunk.github.io/mkdocs-material/).
+**All The Guides** is using [Github Pages](https://pages.github.com/), [MkDocs](https://www.mkdocs.org/) & [Material](https://squidfunk.github.io/mkdocs-material/).
 
 ---
 
@@ -60,27 +60,18 @@ You will be required to [Serve](#serve), and [Build](#build) this guide, which c
 
 ## Setup
 
-Fork [All The Guides](https://github.com/segg21/alltheguides).
+Fork [All The Guides](https://github.com/AllTheMods/alltheguides).
 
-!!! Note "Please Uncheck 'Copy the main branch only'"
-    ![](assets/clonedev.png){style='display:block'}
+### Clone / Checkout `mkdocs` branch
 
-### Clone / Checkout `dev` branch
-
-The __`dev`__ branch is the live - up to date branch that should be used _primarily_. You will not be able to submit a **Pull Request** to `main`, or `dev` > `main`, vice versa. Your commiting branch must be the `dev` branch, or a branch that _starts or ends_ with `dev`.
+The __`mkdocs`__ branch is the live - up to date branch that should be used _primarily_. This should be selected by default when you clone the repo.
 
 Depending on current setup, you may have an editor (_Visual Studio Code_), that has **Git** integration. You're free to use this, Github Desktop, or Git _which we'll be using_.
 
 ??? Information "Clone Branch"
 
     ``` title="Change `USERNAME` to your name"
-    git clone -b dev https://github.com/USERNAME/alltheguides
-    ```
-
-    If you've already cloned without specifying a branch, make sure you've changed too `alltheguides` directory (`cd alltheguides`) before running this command.
-    
-    ```
-    git checkout -b dev
+    git clone https://github.com/USERNAME/alltheguides
     ```
 
 ### Enable Workflows
@@ -143,7 +134,7 @@ Build will finalize compiling **Markdown** and output **HTML** files in the `sit
 
 ## Commit (Updating)
 
-Once you're _committed_ to your changes, you can then **Commit** your changes, then make a **Pull Request** against both `dev` branches / repositories.
+Once you're _committed_ to your changes, you can then **Commit** your changes, then make a **Pull Request** against both `mkdocs` branches / repositories.
 
 ### Committing Changes
 
@@ -170,7 +161,7 @@ Depending on current setup, you may have an editor (_Visual Studio Code_), that 
 
 ## Pull Request
 
-When submitting a [Pull Request](https://github.com/segg21/alltheguides/compare), you're requesting us to **Pull** changes from your Repository (Fork) to be approve & merged into the official Guide. This is done in browser by going to our repository and creating a [Pull Request](https://github.com/segg21/alltheguides/compare) from your `dev` branch to ours.
+When submitting a [Pull Request](https://github.com/AllTheMods/alltheguides/compare), you're requesting us to **Pull** changes from your Repository (Fork) to be approve & merged into the official Guide. This is done in browser by going to our repository and creating a [Pull Request](https://github.com/AllTheMods/alltheguides/compare) from your `mkdocs` branch to ours.
 
 ---
 
