@@ -23,7 +23,7 @@ Users can also use the command `/spark profiler --only-ticks-over 100 --timeout 
 
 Observable has the same permission requirements, but users need to set a keybind in their Keybinds settings to open the UI, from there click the profile TPS button and wait for it to complete, then depending on the mc version, you will either get a url, or an in-game table listing what blocks/entities are costing the most TPS, it will also visually highlight blocks with a spectrum color coding from **Green** to **Red**, with things colored in red generally being the worst for performance.
 
-Observable is an in-game profiler can be used  as OP (_must create keybind_)
+Observable is an in-game profiler that can be used by anyone (1.20+, enabled by default in ATM9 and _must create a keybind_). In order to use the "Visit" button on the web page, you _must be op_.
 
 ### [Crash Utilities](https://legacy.curseforge.com/minecraft/mc-mods/crash-utilities) (Item Clear)
 

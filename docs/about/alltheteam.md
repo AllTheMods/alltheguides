@@ -15,7 +15,7 @@ description: Current Team Members!
 
 #### Admins 
 
-- `Oly2o6` | **Dev** | (**Second In Command**) 
+- `oly2o6` | **Dev** | (**Second In Command**) 
 - `Mitchell52` |  **Dev**
 - `MutantGumdrop` | **Dev**
 - `Maddy` | **Dev**
@@ -31,6 +31,11 @@ description: Current Team Members!
 - `radiomike` | **Dev**
 - `uʍopǝpᴉsdn` | **Dev**
 - `ZephyrWindSpirit 🐉` | **Dev**
+- `LobsterJonn` | **Dev**
+- `KJM` | **Dev**
+- `Drack.ion` | **Dev**
+- `Uncandango` | **Dev**
+- `Jebraltar` | **Dev**
 
 ---
 
@@ -43,14 +48,10 @@ description: Current Team Members!
 - `Billy`
 - `Bored`
 - `Brod`
-- `Drack.ion`
-- `KJM`
 - `Klonoa`
-- `LobsterJonn`
-- `screret`
 - `SlackerNet>XI<`
 - `Thunder_Nova the Pun_isher`
-- `Ultramega`
+- `ToshibaMicrowave`
 
 ---
 
@@ -60,8 +61,10 @@ description: Current Team Members!
 - `EnigmaQuip` | **Dev**
 - `Phantom`
 - `Dijkstra`
-- `Seg` 
+- `Seg`
+- `Ultramega`
+- `screret`
 
 ---
 
-> Current as of (02.4.2024)
+> Current as of (02.9.2024)
