@@ -5,18 +5,7 @@ This page will go over extra typography features. If you're not familiar with Ma
 
 [Critic Markup](https://github.com/CriticMarkup/CriticMarkup-toolkit) can be used, which adds the ability to highlight suggested changes, as well as add inline comments to a document:
 
-```
-Text can be {--deleted--} and replacement text {++added++}. This can also be
-combined into {~~one~>a single~~} operation. {==Highlighting==} is also
-possible {>>and comments can be added inline<<}.
-
-{==
-
-Formatting can also be applied to blocks by putting the opening and closing
-tags on separate lines and adding new lines between the tags and the content.
-
-==}
-```
+![](img/formattingworkaround.png){.center}
 
 Text can be {--deleted--} and replacement text {++added++}. This can also be
 combined into {~~one~>a single~~} operation. {==Highlighting==} is also
@@ -60,13 +49,21 @@ Text can be sub- and superscripted with a simple syntax, which is more convenien
 ---
 ### Adding keyboard keys
 
-Keyboard keys can be rendered with a simple syntax. Consult the Python Markdown Extensions documentation to learn about all available shortcodes:
+Keyboard keys can be rendered with a simple syntax. Consult the [Python Markdown Extensions documentation](https://facelessuser.github.io/pymdown-extensions/extensions/keys/) to learn about all available shortcodes:
 
 ```
 ++ctrl+alt+del++
+
+++up+down+left+right++
+
+++lbutton+mbutton+rbutton++
 ```
 
 ++ctrl+alt+del++
+
+++up+down+left+right++
+
+++lbutton+mbutton+rbutton++
 
 ---
 ## Lists
