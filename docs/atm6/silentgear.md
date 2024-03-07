@@ -20,30 +20,22 @@ Check out these links for some additional information on material and additional
 
 #### Custom Constructions
 
-<details>
-    <summary><b>Fireite Uru Paxel</b></summary>
-    <img src='http://i.boredage.com/atg/gg/sgear-paxel.png'/>
-</details>
-<details>
-    <summary><b>Fireite Uru Katana</b></summary>
-    <img src='http://i.boredage.com/atg/gg/sgear-katana.png'/>
-</details>
-<details>
-    <summary><b>Fireite Uru Sword</b></summary>
-    <img src='http://i.boredage.com/atg/gg/sgear-sword.png'/>
-</details>
-<details>
-    <summary><b>Fireite Uru Machete</b></summary>
-    <img src='http://i.boredage.com/atg/gg/sgear-machete.png'/>
-</details>
-<details>
-    <summary><b>Fireite Uru Bow</b></summary>
-    <img src='http://i.boredage.com/atg/gg/sgear-bow.png'/>
-</details>
+??? Information "**Fireite Uru Paxel**"
+    ![paxel tooltip](img/sgear-paxel.png)
 
-<details>
-    <summary><b>Gem & Ingot</b></summary>
-    <img src='http://i.boredage.com/atg/gg/sgear-gemingot.png'/>
-</details>
+??? Information "**Fireite Uru Katana**"
+    ![katana tooltip](img/sgear-katana.png)
+
+??? Information "**Fireite Uru Sword**"
+    ![sword tooltip](img/sgear-sword.png)
+
+??? Information "**Fireite Uru Machete**"
+    ![machete tooltip](img/sgear-machete.png)
+
+??? Information "**Fireite Uru Bow**"
+    ![bow tooltip](img/sgear-bow.png)
+
+??? Information "**Gem & Ingot**"
+    ![gem and ingot tooltip](img/sgear-gemingot.png)
 
 > Silent Gear | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/silent-gear)
