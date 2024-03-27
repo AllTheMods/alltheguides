@@ -19,7 +19,7 @@ Recipes for the shelves in this guide **WILL NOT BE PROVIDED**. Please use JEI. 
 
 To start, make 16 **Seashelf** and place down all but one in a formation like the one below.  
 
-![](img/68747470733a2f2f696d6775722e636f6d2f365464724772772e706e67.png){.center}  
+![](img/seashelf1.png){.center}  
 
 Once you've got those down, take your 16th **Seashelf** and place it in the enchanting table. You should see an Infusion option for 3 EXP. Now replace one of the uninfused **Seashelf** with your **Infused Seashelf**. Repeat this until all 16 `Seashelf` are `Infused Seashelf`. You will have 1 extra `Infused Seashelf` at the end.
 
@@ -39,11 +39,11 @@ You will also need to make 1 **Draconic Endshelf**. To make the **Infused Dragon
 
 !!! info "You must be level 80+ to infuse Dragon's Breath"
 
-![](img/2023-10-30_07.55.11.png){.center}  
+![](img/dragonsbreath.png){.center}  
 
 After making the `Draconic Endshelf`, remove all the `Melonshelf`. Place the 3 **Shelf of End-Fused Rectification** and the **Draconic Endshelf** in a similar formation as shown in the `Seashelf` image above. This will get you the maximum level of enchanting. Your setup does not have to be in the exact same order as the one below; it is only an example.  
 
-![](img/68747470733a2f2f696d6775722e636f6d2f625959594157532e706e67.png){.center}
+![](img/finalsetup.png){.center}
 
 ---
 ## Infusion Setups
