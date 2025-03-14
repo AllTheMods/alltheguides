@@ -7,11 +7,6 @@ authors:
 
 # Apothic Enchanting
 
-???+ success "Updated 12/31/24"
-	Max enchanting progression was redone to reuse shelves that are crafted and to minimize the grind, specifically Heart-Forged Seashelves which require Heart of the Sea. This guide differs from the questline due to it not needing any of the Hellshelves.
-
-	> If you find any typos/errors, ping @ArcTrooper on the [Discord!](https://discord.com/invite/allthemods)
-
 ## Max Enchanting Setup
 
 ??? information "Max Enchanting Shelves List"
@@ -95,13 +90,13 @@ You do not have to place the blocks exactly as I do, these are just an example.
 
 ### Tome of Superior Scrapping
 
-!!! info "3x Soul-Touched Sculkshelf, 1x Draconic Endshelf"
+!!! info "3x Echoing Sculkshelf, 1x Draconic Endshelf"
 
 ![](img/apoth10_supscrapping.png){.center}
 
 ### Tome of Extraction
 
-!!! info "4x Soul-Touched Sculkshelf, 1x Draconic Endshelf"
+!!! info "4x Echoing Sculkshelf, 1x Draconic Endshelf"
 
 ![](img/apoth10_extraction.png){.center}
 

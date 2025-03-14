@@ -30,10 +30,10 @@ authors:
 		It's caused by the `Miner's Fervor` enchantment, remove it and try breaking it again.
 
 ???+ Warning "Technical FAQs"
-	???+ Question "Why isn't '`insert mod name`' in ATM10 yet?"
+	??? Question "Why isn't '`insert mod name`' in ATM10 yet?"
 		ATM packs does not literally contain "All The Mods". Our main focus is having mods that's not: 1) buggy, 2) ruins performance or progression and 3) is updated to 1.21. If a mod supports Minecraft version **1.21**, and **Neo Forge**, you may make a [suggestion](https://github.com/AllTheMods/ATM-10/issues/2).
 	
-	???+ Question "I found a bug/dupe in the pack. How can I report it?"
+	??? Question "I found a bug/dupe in the pack. How can I report it?"
 		To report bugs, dupes or similar, head over to the [ATM10 GitHub](https://github.com/AllTheMods/ATM-10/issues) and open a new issue describing the occurrence.
 
 	??? Question "My screen is shaking like im getting hurt and I can't do anything!"
