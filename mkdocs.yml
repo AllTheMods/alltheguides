@@ -78,7 +78,9 @@ plugins:
       strict: true
   - meta-descriptions
   - tags
-  - mkdocs-video
+  - mkdocs-video:
+      video_autoplay: false
+      video_loop: false
   - markmap
   - git-revision-date-localized:
       type: timeago
