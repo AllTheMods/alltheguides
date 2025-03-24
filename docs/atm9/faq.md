@@ -76,7 +76,9 @@ authors:
 			3. Scroll down and set `Health` to `1`.
 			4. Save the file and start your server.
 		
-		![type:video](img/faqNAHealthvid.mp4)
+		<video controls>
+		  <source src="../img/faqNAHealthvid.mp4" type="video/mp4">
+		</video>
 
 	??? Question "I have my chunks force loaded, but they don't run when I'm logged off."
 		??? Info "In-game (Requires OP)"
