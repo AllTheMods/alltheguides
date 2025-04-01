@@ -1,6 +1,6 @@
 ---
 title: All The Team
-description: Current Team Members!
+description: ATM Team Members!
 ---
 
 # All The Team
@@ -40,6 +40,7 @@ description: Current Team Members!
 - `Toblerone0508`
 - `ToshibaMicrowave`
 - `Uncandango`
+- `ZephyrWindSpirit`
 
 ---
 
@@ -76,8 +77,7 @@ description: Current Team Members!
 - `uʍopǝpᴉsdn`
 - `Yumi`
 - `wva`
-- `ZephyrWindSpirit 🐉`
 
 ---
 
-> Current as of (11/20/2024)
+> Current as of (03/24/2025)
