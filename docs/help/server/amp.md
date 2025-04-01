@@ -6,9 +6,6 @@ authors:
  - ArcTrooper (Editor)
 ---
 
-???+ success "Updated 2/24/25"
-    Guide was updated to reflect the new AMP UI and settings.
-
 # AMP Install Guide
 
 This is a guide for installing ATM10 (and possibly other packs) on CubeCoderz's AMP gameserver hosting software!
@@ -48,9 +45,7 @@ This is a guide for installing ATM10 (and possibly other packs) on CubeCoderz's 
 ![](img/ampSS4.png)
 ![](img/ampSS4(2).png)
 
----
-
-The tabs on the top show the different categories
+- The tabs on the top show the different categories
 
 ![](img/ampSSTabs.png)
 
@@ -67,7 +62,7 @@ The tabs on the top show the different categories
 
 - **Java Version**: `Java 21`
 ???+ note
-	If `Java 21` is not in the dropdown list, you need to close AMP completely, install `Java 21` to the server, then restart AMP.
+	If `Java 21` is not in the dropdown list, you need to close AMP completely, install `Java 21` on the server, then restart AMP.
 
 ![](img/ampSS9.png)
 
@@ -76,6 +71,7 @@ The tabs on the top show the different categories
 ### Server and Startup
 
 - **Server type**: `NeoForge`
+- **Enable TPS Monitoring**: `Off`
 - **NeoForge Version**: Change to current NeoForge version.
 	- For this example the current version is `21.1.119`.
 
@@ -145,11 +141,13 @@ When it finishes, it should say **The server installed successfully**. If it doe
 
 ## Importing the Server Files
 
-On the left menu, select **File Manager**.
+**1.** On the left menu, select **File Manager**.
 
-The easiest way to import the server files is to unzip the files and create a new zip.
+**1.1** The easiest way to import the server files is to unzip the files and create a new zip.
 
-- To remove the double-wrapping (zipping a folder instead of a group of files) of the files:
+???+ note "Removing Double-Wrapping"
+	To remove the double-wrapping (zipping a folder instead of a group of files) of the files:
+	
 	- **Extract** the server files you downloaded from CurseForge into a folder.
 	- Go into the folder inside that folder and then select **all the files** and re-zip them without the containing folder.
 	
@@ -160,17 +158,17 @@ I recommend using **7zip** as this is what I have used for testing.
 
 ---
 
-Drag the newly created zip file into the **File Manager window**. Once it finishes you may need to refresh the page to see the file in the file list.
+**2.** Drag the newly created zip file into the **File Manager window**. Once it finishes you may need to refresh the page to see the file in the file list.
 
 ![](img/ampSS15.png)
 
 ---
 
-Right click the .zip file in the list and chose **Extract Here**. 
+**3.** Right click the .zip file in the list and chose **Extract Here**. 
 
 !!! info "This may take several minutes depending on your server specs and storage speed."
 
-Once it finishes you may need to **refresh** the page to see the newly extracted files populated in the list.
+**4.** Once it finishes you may need to **refresh** the page to see the newly extracted files populated in the list.
 
 ![](img/ampSS16.png)
 ![](img/ampSS17.png)
@@ -205,6 +203,8 @@ It is recommended after the first startup, to stop the server using the red **St
 - Try to connect to the server and verify operation.
 - If you need to add server admin mods, you would place them inside the **mods** folder under **File Manager** while the server is ***stopped***; you can edit files directly from within the file manager in AMP for making changes to the txt config files. 
 !!! danger "Only edit, add, or remove files WHILE THE SERVER IS STOPPED!"
+
+---
 
 ## Changing Server Properties
 

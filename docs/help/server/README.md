@@ -174,7 +174,7 @@ Updating ATM servers is pretty simple. There's 3 ways you can accomplish this.
 
 1. Backup any modified configs or kubejs scripts, _if any_, to be replaced later.
     - Download **Server Files** from **CurseForge**
-    - Delete `kubejs`, `defaultconfigs`, `mods`, and `config` folder.
+    - Delete `kubejs`, `defaultconfigs`, `mods`, and `config` folder from the old installation.
     - If server forge version is different, delete `libraries` folder, and copy over new `startserver.bat/sh`, & `forge-installer.jar` _if exists_.
     - Extract the deleted folders from **Server Files** into your server folder.
 
