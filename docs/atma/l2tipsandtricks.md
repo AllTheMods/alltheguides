@@ -9,7 +9,7 @@ authors:
 
 *Note: These mechanics and recommendations are subject to change due to ongoing ATMA Balancing with the L2 system.*
 
-## Introduction & Setup
+## Introduction
 
 L2 Hostiles adds an adaptive difficulty system where mobs become stronger and gain special abilities (Traits) based on player progression and location. It aims for a more dynamic and challenging experience compared to vanilla or mods like Champions, Scaling Health, or Infernal Mobs, featuring player-specific difficulty scaling and mechanics for creating safe zones.
 
@@ -37,6 +37,7 @@ L2 features an adaptive difficulty system. Mobs gain levels, Traits, increased h
 
     ![Curios For Difficulty Increase](img/l2tat/curios_for_difficulty_increase.png)
     *(Note: From left to right: `Curse of Envy`, `Curse of Greed`, `Curse of Lust`)*
+
 *   **Visit New Dimensions:** Entering dimensions for the first time can increase difficulty. Maximum difficulty levels per dimension (subject to change): *(TODO: Verify these max levels)*
     *   Overworld - lvl 2000
     *   The Beyond - lvl 2000
@@ -61,9 +62,11 @@ L2 features an adaptive difficulty system. Mobs gain levels, Traits, increased h
 *   **Drink a Bottle of Sanity:** The **most efficient** way to quickly lower difficulty.
 
     ![Sanity Bottle](img/l2tat/sanity_bottle.png)
+
 *   **Use a Hostility Orb:** Creates a localized safe zone (chunk section) around the orb where difficulty is permanently nullified, preventing high-level mobs from spawning there. To use it, equip `Detector Glasses` and hold the `Detector Glasses` in your off-hand while placing/interacting with the `Hostility Orb`.
 
     ![Using the Hostility Orb setup](img/l2tat/hostility_orb.png)
+
 *   ~~**Wear Difficulty Nullifying Curios:** Equip specific `Divinity Light` that force your difficulty rating to 0.~~ (Currently unobtainable due to the required trait `Killer Aura` being disabled by default).
 *   **Wear Difficulty Maintainer Curios:** Equip the `Curse of Sloth` to prevent gaining further difficulty levels from most sources.
 
@@ -82,16 +85,20 @@ This outlines the general steps expected for progressing through L2 content:
 4.  Kill mobs that possess specific Traits (`Adaptive`, `Cursed`, `Erosion`, `Corrosion`) to collect `Cursed Droplets`. Alternatively, burn mob drops in fire/lava for a low chance to obtain droplets (`Nether Stars` have the highest chance at 1/64 - check JEI/EMI for details). You can do the same automation setup as the one showed below for the `Hostility Essence`.
 
     ![Cursed Droplets](img/l2tat/cursed_droplet.png)
+
 5.  Craft a `Bottle of Curse` using Cursed Droplets.
 
     ![Bottle of Curse](img/l2tat/bottle_of_curse.png)
+
 6.  Obtain `Captured Wind`. Craft `Wind Capturing Bottle`, get at least a `Novice Spell Book` from **Ars Nouveau** (higher tiers spellbooks and gear isrecommended to have more mana), and create a spell like `Self -> Launch -> Amplify x3`. Spam this spell with empty bottles in your inventory to fill them.
 
     ![Wind Capturing Bottle](img/l2tat/wind_capturing_bottle.png)
     ![Ars Spell For Wind Bottle](img/l2tat/ars_spell_wind_bottle.png)
+
 7.  Craft a `Chaos Ingot`.
 
     ![Chaos Ingot](img/l2tat/chaos_ingot.png)
+
 8.  Craft the **Lv.3 Looting Charm**: `Chaotic Looting Charm`.
 9.  Craft the `Curse of Envy`. Equipping this enables mobs to drop **Trait Symbols** corresponding to their traits.
 10. Continue killing mobs to collect specific **Trait Symbols**.
@@ -99,14 +106,17 @@ This outlines the general steps expected for progressing through L2 content:
 12. Craft the `Curse of Gluttony`. This provides a more sustainable source for `Bottles of Curse`.
 
     ![Curse of Gluttony](img/l2tat/curse_of_gluttony.png)
+
 13. Burn `Bottles of Curse` in lava/fire to obtain `Hostility Essence`. The chance is low (1 in 512), so automation is recommended. Example: A `Barrel` feeding bottles onto a **Create** `Chute` over lava, with a **Sophisticated Storage** `Barrel` + filtered `Magnet Upgrade` nearby to collect the essence.
 
-    ![Hostility Essence](img/l2tat/hostility_essence.png)
     ![Hostility Essence Automation Example](img/l2tat/hostility_essence_automation.png)
+
     ![Magnet Upgrade filtered to only accept Hostility Essence](img/l2tat/magnet_hostility_essence.png)
+
 14. Craft a `Miracle Ingot`.
 
     ![Miracle Ingot](img/l2tat/miracle_ingot.png)
+
 15. Craft the **Lv.4 Looting Charm**: `Miraculous Looting Charm`.
 
 *Note: You can equip multiple **Looting Charms** and **Curses** simultaneously to benefit from all their effects at once.*
