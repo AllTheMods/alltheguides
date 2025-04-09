@@ -1,6 +1,7 @@
 nav:
  - <b>Pack Guides</b>:
    - Home: README.md
+   - All The Mods - Arcana: atma
    - All The Mods 10: atm10
    - All The Mods 9: atm9
    - All The Mods 9 - TTS: atm9tts
@@ -8,7 +9,6 @@ nav:
    - All The Mods - Gravitas: atmg
    - All The Mods 8: atm8
    - All The Mods 7: atm7
-   - All The Mods - Arcana: atma
    - All The Spells - Spellbound: atms
    - All The Mods 6: atm6
    - All The Mods 0: atm0
