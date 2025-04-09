@@ -1,6 +1,6 @@
 ---
 title: L2 Guide
-description: A Guide for L2 Hostiles in ATMA
+description: A Guide for L2 Hostility in ATMA
 authors:
  - Xannaeh
 ---
