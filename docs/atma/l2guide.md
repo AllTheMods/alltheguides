@@ -1,21 +1,28 @@
 ---
 title: L2 Guide
-description: A Guide for L2 Hostility in ATMA
+description: A Guide for L2 Hostility in All the Magic - Arcana
 authors:
  - Xannaeh
 ---
 
 # Guide: L2 Hostility - Difficulty, Traits, & Progression
 
-*Note: These mechanics and recommendations are subject to change due to ongoing ATMA Balancing with the L2 system.*
+***Note: These mechanics and recommendations are subject to change due to ongoing ATM: Arcana Balancing with the L2 system.***
+
+---
 
 ## Introduction
 
-L2 Hostiles adds an adaptive difficulty system where mobs become stronger and gain special abilities (Traits) based on player progression and location. It aims for a more dynamic and challenging experience compared to vanilla or mods like Champions, Scaling Health, or Infernal Mobs, featuring player-specific difficulty scaling and mechanics for creating safe zones.
+L2 Hostiles adds an adaptive difficulty system where mobs become **stronger** and gain special **abilities** (Traits) based on **player progression**
+and location. It aims for a **more dynamic** and **challenging** experience compared to vanilla or mods like Champions, Scaling Health,
+or Infernal Mobs, featuring player-specific difficulty scaling and mechanics for creating safe zones.
+
+---
 
 ## Understanding L2 Difficulty & Mob Levels
 
-L2 features an adaptive difficulty system. Mobs gain levels, Traits, increased health, and increased damage based on several factors. You generally won't encounter high-level mobs with powerful traits early on.
+L2 features an adaptive difficulty system. Mobs gain levels, Traits, increased health, and increased damage based on several factors.
+You generally won't encounter high-level mobs with powerful traits early on.
 
 *   **Mob Level Factors:** A mob's level is determined by:
     *   The dimension it's in.
@@ -36,6 +43,7 @@ L2 features an adaptive difficulty system. Mobs gain levels, Traits, increased h
 *   **Wear Difficulty Curios:** Equip specific Curios that grant bonus difficulty points. The currently available options are shown below:
 
     ![Curios For Difficulty Increase](img/l2tat/curios_for_difficulty_increase.png)
+
     *(Note: From left to right: `Curse of Envy`, `Curse of Greed`, `Curse of Lust`)*
 
 *   **Visit New Dimensions:** Entering dimensions for the first time can increase difficulty giving a +2 lvl of difficulty for each dimension. Maximum difficulty levels per dimension (subject to change): *(TODO: Verify these max levels)*
@@ -74,11 +82,14 @@ L2 features an adaptive difficulty system. Mobs gain levels, Traits, increased h
 
     ![Curse of Sloth](img/l2tat/curse_of_sloth.png)
 
+---
+
 ## Expected L2 Progression Path
 
 This outlines the general steps expected for progressing through L2 content:
 
 ![Looting Charms](img/l2tat/looting_charms.png)
+
 *(Note: From left to right: `Unpolished Looting Charm`, `Magical Looting Charm`, `Chaotic Looting Charm`, `Miraculous Looting Charm`)*
 
 1.  Craft the **Lv.1 Looting Charm**: `Unpolished Looting Charm`.
@@ -123,6 +134,8 @@ This outlines the general steps expected for progressing through L2 content:
 
 *Note: You can equip multiple **Looting Charms** and **Curses** simultaneously to benefit from all their effects at once.*
 
+---
+
 ## Recommendations & Strategies
 
 *Note: Enchantments from L2 Hostility can often be crafted using materials obtained via the Looting Charms.*
@@ -140,11 +153,14 @@ This outlines the general steps expected for progressing through L2 content:
     *   `Hostility Detector` (to check current difficulty levels).
     *   `Hostility Orb` (to create safe zones).
 
+---
+
 ## L2 Traits Overview
 
-Mobs gain traits based on their level and player difficulty. Higher-level traits appear as difficulty increases. Use the in-game Patchouli book (or JEI/tooltips if applicable) for detailed info on specific traits.
+Mobs gain traits based on their level and player difficulty. Higher-level traits appear as difficulty increases.
+Use the in-game Patchouli book (or JEI/tooltips if applicable) for detailed info on specific traits.
 
-**(❗ Default Disabled Traits: `Undying`, `Killer Aura`, `Ragnarok` are powerful Legendary traits that are DISABLED by default in the configuration but can be re-enabled via config/datapack.)**
+**(Default Disabled Traits: `Undying`, `Killer Aura`, `Ragnarok` are powerful Legendary traits that are DISABLED by default in the configuration but can be re-enabled via config/datapack.)**
 
 ### Regular Traits
 
@@ -196,6 +212,8 @@ Inflict corresponding status effects on hit:
 *   `Undying` **(DISABLED BY DEFAULT)**: Respawns after death unless killed with `Cursed` effect.
 *   `Killer Aura` **(DISABLED BY DEFAULT, Lv.300+)**: Deals periodic AoE damage (range indicated by particles).
 *   `Ragnarok` **(DISABLED BY DEFAULT, Lv.600+)**: Temporarily "seals" target's equipment/curios on hit. Hold the item to unseal.
+
+---
 
 ## Mod Interactions & Trait Whitelists
 
