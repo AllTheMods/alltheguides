@@ -38,7 +38,7 @@ L2 features an adaptive difficulty system. Mobs gain levels, Traits, increased h
     ![Curios For Difficulty Increase](img/l2tat/curios_for_difficulty_increase.png)
     *(Note: From left to right: `Curse of Envy`, `Curse of Greed`, `Curse of Lust`)*
 
-*   **Visit New Dimensions:** Entering dimensions for the first time can increase difficulty. Maximum difficulty levels per dimension (subject to change): *(TODO: Verify these max levels)*
+*   **Visit New Dimensions:** Entering dimensions for the first time can increase difficulty giving a +2 lvl of difficulty for each dimension. Maximum difficulty levels per dimension (subject to change): *(TODO: Verify these max levels)*
     *   Overworld - lvl 2000
     *   The Beyond - lvl 2000
     *   Ice and Fire: Dread Lands - lvl 2000
@@ -53,6 +53,8 @@ L2 features an adaptive difficulty system. Mobs gain levels, Traits, increased h
     *   The Nether - lvl 2000
     *   Undergarden - lvl 2000
     *   Mahoutsukai: Reality Marble - lvl 2000
+    *   Ae2: Spatial Storage - lvl 2000
+    *   ~~Data and Essence: Sanctuary - lvl 2000~~ Not implemented yet
 *   **Travel Far from Origin:** Moving a significant distance away from the world spawn point increases difficulty.
 *   **Explore High-Difficulty Areas:** Visit biomes or dimensions that inherently possess a higher base difficulty rating.
 
