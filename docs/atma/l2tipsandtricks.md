@@ -41,7 +41,7 @@ L2 features an adaptive difficulty system. Mobs gain levels, Traits, increased h
 *   **Visit New Dimensions:** Entering dimensions for the first time can increase difficulty giving a +2 lvl of difficulty for each dimension. Maximum difficulty levels per dimension (subject to change): *(TODO: Verify these max levels)*
     *   Overworld - lvl 2000
     *   The Beyond - lvl 2000
-    *   Ice and Fire: Dread Lands - lvl 2000
+    *   ~~Ice and Fire: Dread Lands - lvl 2000~~ Not implemented yet
     *   Deeper and Darker: Otherside - lvl 2000
     *   The End - lvl 2000
     *   Eternal Starlight - lvl 2000
