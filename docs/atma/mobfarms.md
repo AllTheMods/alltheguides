@@ -19,73 +19,93 @@ Understanding vanilla mob spawning is key for many farm designs:
     *   Mobs **randomly despawn** over time if they are further than **32 blocks** away *and* no players are within 128 blocks.
 *   **AFK Spot:** The general 'sweet spot' distance to wait from spawning platforms is often between **24 and 32 blocks** away to maximize spawns within the farm while minimizing spawns elsewhere nearby. Being further (but less than 128 blocks) is also possible depending on the farm design.
 
-*(Note: Apotheosis can override some of these rules for their spawners.)*
+*(Note: Apotheosis can override some of these rules for its spawners.)*
 
 ## Mob Spawning / Resource Generation Methods
 
 ATMA offers several ways to generate mobs or their associated loot:
+
 ### 1. Specialized Modded Methods
 
 These mods provide unique ways to generate mobs or resources without traditional spawning platforms.
 
 *   **Ars Nouveau - Drygmy Farms:**
     *   Utilize `Drygmy` charms placed in `Drygmy Houses` near `Source Jars`.
-    *   Drygmys automatically "farm" specific nearby mobs *without killing them*, generating their drops over time. These mobs should be contained in `Containment Jars`using a `Tablet of Containment` in a `Ritual Brazier`. If you want to keep running this ritual place a `Source Jar` nearby. It's recommented to have a "containment area" where you can tp the mobs using various methods (cover in ars guide).
+    *   Drygmys automatically "farm" specific nearby mobs *without killing them*, generating their drops over time.
+    *   Mobs should be contained nearby, ideally in `Containment Jars` (captured using a `Tablet of Containment` in a `Ritual Brazier` - place a `Source Jar` nearby to sustain the ritual). A dedicated "containment area" with teleportation methods is recommended.
     *   Requires Source generation. More Drygmys speed up generation. Keep them happy with a variety of nearby mobs for optimal rates.
     *   *(This method will be detailed in a specific guide later. For more info, check the official Ars Nouveau Guide: <https://ars.guide/docs/drygmy/guide/>)*
 *   **Evilcraft:**
-    *   Offers potential mob farming or related mechanics, possibly using the `Box of Eternal Closure` or `Vengeance Spirits`.
-    *   Can be a good alternative for mobs difficult to farm otherwise (e.g., Wither Skeletons, potentially Twilight Forest bosses).
-    *   Requires significant amounts of Blood. *(Further details needed)*.
+    *   Offers potential mob farming using the `Box of Eternal Closure` with a `Vengeance Spirits` inside in a `Spirit Furnace`.
+    *   Can be a good alternative for mobs difficult to farm otherwise (e.g., Withers, Twilight Forest bosses).
+    *   Requires significant amounts of Blood.
+    *   *(This method will be detailed in a specific guide later. For the moment you can check the in-game **Evilcraft** Guide `Origins of Darkness`)*.
 *   **Mystical Agriculture:**
     *   Allows you to grow resource seeds, including seeds for many common mob drops (`Inferium`, `Zombie Essence`, `Skeleton Essence`, etc.).
-    *   Bypasses mob spawning entirely for many resources.
 *   **Productive Bees:**
-    *   `Amber Bees` can encase nearby mobs in harvestable amber.
-    *   These amber-encased mobs can be automatically farmed placing a `Wannabee` in a `Beehive` and the amber-encased mob as the feeding item. *(More information in the **Productive Bees** Guide)*.
+    *   `Amber Bees` can encase nearby mobs in harvestable amber blocks.
+    *   Place a `Wannabee` addon in a `Beehive` and feed it the amber-encased mob block to automatically "farm" drops from that mob type over time.
+    *   *(This method will be detailed in a specific guide later. For the moment you can check the in-game **roductive Bees** Guide `Big Books of Bees`. You can also refer to the [ATM9 - Productive Bees Guide](../atm9/productivebees.md) for more information on bees)*.
 
 ### 2. Spawner-Based Farms
 
-These rely on block entities that explicitly spawn mobs.
+These rely on block entities that explicitly spawn mobs or vanilla mechanics.
 
-*   **Vanilla Spawners (Modified by Apotheosis):** Found in dungeons. **Apotheosis** significantly enhances them, allowing pickup (with Silk Touch), changing the spawned mob, and upgrading:
-    *   Spawn Speed
-    *   Spawn Count
-    *   Nearby Entity Check
-    *   Player Activation Range
-    *   Ignoring Spawn Conditions (Light, Space, etc.)
-    *   Redstone Control Option
+*   **Apotheosis Spawners:** Found in dungeons or crafted. **Apotheosis** significantly enhances vanilla spawners, allowing pickup (with Silk Touch) and changing the spawned mob with a spawn egg (use `Capturing` enchantment to get the egg). You can modify their behavior by right-clicking the spawner with specific items:
+
+    | Upgrade Item         | Effect                                                  |
+    | :------------------- | :------------------------------------------------------ |
+    | `Sugar`                | -10 Ticks Minimum Spawn Delay                           |
+    | `Clock`                | -20 Ticks Maximum Spawn Delay                           |
+    | `Fermented Spider Eye` | +2 Spawn Count (Mobs per spawn event)                   |
+    | `Ghast Tear`           | +2 Max Nearby Entities (Limit before stopping spawns)   |
+    | `Prismarine Crystal`   | +4 Blocks Player Activation Range                       |
+    | `Nether Star`          | +Ignore Players Condition (Spawns regardless of players)|
+    | `Soul Lantern`         | +Ignore Light Condition                                 |
+    | `Conduit`              | +Ignore Conditions (Light, Space, etc.)                 |
+    | `Echo Shard`           | +Echoing (Mobs drop extra loot)        |
+    | `Campfire`             | +Burning (Mobs spawn on fire)                           |
+    | `Comparator`           | +Redstone Control (Requires signal to spawn)            |
+    | `Turtle Egg`           | +Youthful (Spawns babies if possible)                   |
+    | `Piston`               | +2 Blocks Spawn Range (Area around spawner mobs appear)|
+    | `Wool`                 | +Silent (No spawning sound)                   |
+    | `Chorus Fruit`         | +No AI (Mobs spawn without AI, good for kill chambers)  |
+    | `Pointed Dripstone`    | -5% Initial Health                                      |
+
+    *Note: Holding `Quartz` in your off-hand while clicking with an upgrade item will **invert** its effect (e.g., Quartz + Sugar = +10 Ticks Minimum Spawn Delay).
+    For more information on the apotheosis spawners you can check the quest line or use JEI/EMI.*
+*  `Source Spawners` from **Ars Nouveau**: They can be used to farm a designated mob located in a `Containment Jar` under the spawner. Require source. Cannot be upgraded like **Apotheosis** ones. Might be easy to use for farm specific mobs that you do not have the spawn egg.
 *   **Enderman Farms:** Classic vanilla design, often built in the End dimension. Relies on attracting Endermen (e.g., with an Endermite) and dropping them to their death or a kill chamber. *(Specific ATMA build details will be covered later).*
-
 
 ## Automated Killing Methods
 
 Once you have mobs spawning, you need ways to kill them automatically:
 
-*   **Ars Nouveau Runes/Turrets:** Create automated spell systems using `Spell Turrets` or triggered `Runes` (e.g., `Damage`, `AoE`, `Explosion`) powered by Source. *(Specific spells and setups will be explain later)*
-*   **Modular Golems:** Design and build custom golems equipped with combat weapons to kill the mobs in the designated killing area. Better synergy with no-ai spawners.
+*   **Ars Nouveau Runes/Turrets:** Create automated spell systems using `Spell Turrets` or triggered `Runes` (e.g., `Damage`, `AoE`, `Explosion`) powered by Source. *(Specific spells and setups will be explained later)*.
+*   **Modular Golems:** Design and build custom golems equipped with combat weapons to kill mobs in a designated area. Works particularly well with spawners set to ignore AI (`No AI` upgrade).
 *   **Reliquary Pedestals:** Use a pedestal equipped with a weapon (like a sword) to attack mobs in range.
 *   **Mahou Tsukai:** Utilize the `Boundary of Drain Life` spell for AoE slow damage and Mahou accumulation (up to the cap).
 *   **Data & Essence (DnE):** Utilize the `Essence Leech` block/mechanic to slowly kill mobs and generate DnE Essence.
 
 *Note: Multiple killing methods can often be combined for faster kills or to gain different types of resources simultaneously (e.g., Mahou, DnE Essence).*
 
-## Loot Considerations
+## Loot Considerations & Extra Resources
 
-Farming in ATMA involves more than just vanilla drops:
+Farming in ATMA involves more than just vanilla drops. Consider these potential outputs:
 
 *   **L2 Hostility Drops:**
-    *   Mobs affected by the L2 Hostility system (based on player difficulty) can drop unique items like `Cursed Droplets` and `Trait Symbols`, crucial for L2 progression. For that the proper **Looting Charms** should be equiped as explained in the [L2 Hostility Guide](l2hostility.md) (Can you add here the reference specific in to the ## Expected L2 Progression Path)
+    *   Mobs affected by the L2 Hostility system (based on player difficulty) can drop unique items like `Cursed Droplets` and `Trait Symbols`, crucial for L2 progression.
+    *   Ensure the appropriate **Looting Charms** are equipped, as explained in the [L2 Hostility Guide > Expected Progression](l2hostility.md#expected-l2-progression-path).
     *   Farm design might need to account for player proximity to maintain difficulty or target specific traits.
 *   **Apotheosis Drops:**
     *   Mobs spawning from Apotheosis spawners or naturally can drop equipment with powerful Apotheosis affixes and `Affix Gems`.
     *   Higher-level mobs (influenced by Apotheosis world tier) have better chances of dropping rarer loot.
-    *   *(++ctrl+T++ to see the current world tier)*
-*   **Evilcraft Blood:** Killing mobs near appropriate Evilcraft blocks/setups can generate Blood for the mod's mechanics. *(More on blood on the **Evilcraft** guide)*
-*  **Source:** Using a vitalik sourcelink will generate source for Ars
-*  **Mahou** can be generated using `Boundary of Drain Life` from mahou stukai
-*  **XP** will be generated and can be easily collected using sophisticated backpacks/chest/drawers with magnet upgrade, tank upgrade and xp pump upgrade
-*  **Charm Fragments** for reliquary can drop
-
+    *   *(Press ++ctrl+T++ (default keybind) to see the current world tier)*.
+*   **Evilcraft Blood:** Killing mobs near appropriate Evilcraft blocks/setups can generate Blood for the mod's mechanics. *(More on blood generation in the **Evilcraft** guide)*.
+*   **Ars Nouveau Source:** Using a `Vitalic Sourcelink` near a killing area can generate Source from mob deaths.
+*   **Mahou Tsukai Mahou:** Can be generated using the `Boundary of Drain Life` killing method.
+*   **Experience (XP):** Mobs drop XP orbs, which can be collected using:
+    *   **Sophisticated Storage:** `Magnet Upgrade`, `Tank Upgrade`, and `XP Pump Upgrade` on backpacks, chests, or barrels.
+*   **Reliquary Charm Fragments:** Can occasionally drop from mobs.
 
 *(This guide will be expanded with more specific details and build examples for each method.)*
