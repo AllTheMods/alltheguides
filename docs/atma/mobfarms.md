@@ -326,6 +326,7 @@ Efficiently handling the large volume of drops from mob farms is crucial. Here a
     *   **Ars Nouveau:** `Spell Turrets` or `Runes` using spells with the `Pickup` effect (AoE pickup).
     *   **Productive Bees:** `Hoarder Bee` placed in a `Beehive` with range upgrades can collect nearby items. *(Note: Not recommended, as bees can die from collateral damage in many killing setups).*
     *   **Ars Nouveau:** Activate a `Ritual of Attraction` in a `Ritual Brazier` and feed it with Source. This will attract mobs and items within an 8-block radius.
+    *   **Ars Nouveau:** A `Containment Jar` with an `Allay` inside will work as a vacuum hopper and deposit the items in an adjacent inventory.
 *   **Item Transport:**
     *   **Data and Essence:** Use `Item Nodes` for transport. *(See DnE guide for configuration).*
     *   **Theurgy:** *(Work In Progress)*. *(See Theurgy guide/quest book for details).*
