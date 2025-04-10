@@ -85,11 +85,13 @@ Once you have mobs spawning, you may need to move them to a comfortable killing 
 
 *   **Vanilla:** Use water or lava streams to push mobs. Remember water and lava flow distance limits and that water cannot be placed in the Nether. *(Note: We will not be explaining vanilla mob farms in this guide)*
 *   **Ars Nouveau:** `Warp Portal` blocks and `Warp Scrolls` can teleport entities.
-* *   **Ars Nouveau:** Activate a `Ritual of Attraction` in a `Ritual Brazier` and feed it with Source. This will attract mobs and items within an 8-block radius.
+*   **Ars Nouveau:** Activate a `Ritual of Attraction` in a `Ritual Brazier` and feed it with Source. This will attract mobs and items within an 8-block radius.
 *   **Ars Nouveau:** Use the `Glyph of Summon Decoy` to summon a decoy, trap it in a `Containment Jar`, power it with redstone, and place the jar where you want mobs (with AI) to move towards.
 *   **Primal Magick:** A `Zephyr Engine` will push mobs away from the direction it faces. A `Void Turbine` will pull mobs towards the direction it faces.
-*   **Reactive:** *(Investigation needed)* - This mod might offer mob manipulation tools.
 *   **Create:** An `Encased Fan` will push or pull mobs depending on the direction of its rotational force.
+*   **Data and Essence:** `Laser Emitter` with push mobs away from them when `Acceleration Lens` is applied.
+*   **Reactive:** *(Investigation needed)* - This mod might offer mob manipulation tools.
+*   **Modualr Golems:***(Investigation needed)* - This mod might offer mob manipulation tools.
 
 ### Setup Examples (Mob Movement)
 
@@ -137,15 +139,30 @@ Once you have mobs spawning, you may need to move them to a comfortable killing 
 
     *(Note: You cannot place one Zephyr directly facing another, as they will nullify each other's effect. The same applies to Void Turbines.)*
 
-=== "Reactive"
-
-    *(Work In Progress - come back later)*
-
 === "Create"
 
     Create Fans can be used in a similar design to the Primal Magick setup, using `Encased Fans` to push or pull mobs towards a desired area based on their rotation direction. Ensure the spawner is centered with an appropriate spawn range for the mobs to spawn within the fan's influence.
 
     ![Create Fan Mob Movement Example](img/mobfarms/create.png)
+
+    *(Note this method is less convenient than the primal magik one because it requires rotational force)*
+
+=== "Data and Essence"
+
+    First you need to have an essence generation going on (More details in the DnE Guide). Craft a few `Laser Emitters` and `Acceleation Lens` and place the lens on the laser, also connect the lasers to the essence network. The design is similar to the Primal Magik and Create ones. Ensure the spawner is centered with an appropriate spawn range for the mobs to spawn within the laser's influence. Lasers will push the mobs away from them at a high speed.
+
+    ![Data and Essence Laser Example](img/mobfarms/dne_laser.png)
+
+    *(Note this method is less convenient than the primal magik one because it consumme essence)*
+
+=== "Reactive"
+
+    *(Work In Progress - come back later)*
+
+=== "Modular Golems"
+
+    *(Work In Progress - come back later)*
+
 
 ## Automated Killing Methods
 
