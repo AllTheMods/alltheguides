@@ -82,11 +82,11 @@ These rely on block entities that explicitly spawn mobs or vanilla mechanics.
 
 Once you have mobs spawning, you may need to move them to a comfortable killing area, potentially even across dimensions. Here are some methods:
 
-*   **Vanilla:** Use water or lava streams to push mobs. Remember water and lava flow distance limits and that water cannot be placed in the Nether. *(Note: We will not be explaining vanilla mobfarms in this guide)*
+*   **Vanilla:** Use water or lava streams to push mobs. Remember water and lava flow distance limits and that water cannot be placed in the Nether. *(Note: We will not be explaining vanilla mob farms in this guide)*
 *   **Ars Nouveau:** `Warp Portal` blocks and `Warp Scrolls` can teleport entities.
 *   **Ars Nouveau:** Use the `Glyph of Summon Decoy` to summon a decoy, trap it in a `Containment Jar`, and place the jar where you want mobs (with AI) to move towards.
 *   **Ars Nouveau:** Activate a `Ritual of Attraction` in a `Ritual Brazier` and feed it with Source. This will attract mobs within an 8-block radius *(verification needed on continuous Source feeding)*.
-*   **Ars Nouveau:** ![TO-DO](img/mobfarms/to-do.png)
+*   **Ars Nouveau:** *(Glyph of Blink?)* ![TODO](img/mobfarms/to-do.png) *(Placeholder - needs method clarification)*
 *   **Primal Magick:** A `Zephyr Engine` will push mobs away from the direction it faces. A `Void Turbine` will pull mobs towards the direction it faces.
 *   **Reactive:** *(Investigation needed)* - This mod might offer mob manipulation tools.
 *   **Create:** An `Encased Fan` will push or pull mobs depending on the direction of its rotational force.
@@ -98,37 +98,37 @@ Once you have mobs spawning, you may need to move them to a comfortable killing 
 
     First, you need to set up the area where you want to kill the mobs. A minimum 2x2 area is recommended to avoid mobs clipping through blocks. Then, with a `Warp Scroll` (for same-dimension movement) or a `Stabilized Warp Scroll` (for interdimensional movement) in your hand, ++shift+rbutton++ in the middle of that killing area to set the teleportation destination.
 
-    ![Killing Area](img/mobfarms/ars_wp_killing_area.png)
+    ![Killing Area Example](img/mobfarms/ars_wp_killing_area.png)
 
-    After that, build the platform where the mobs will spawn. The portal size should accommodate the spawner's spawn range. In this example we are using a 8x8 area for a 7 spawn range. The first layer should be any solid block (where mobs will spawn). Then make a border using `Sourcestone`, `Mirrorweave`, or `Ghostweave` blocks (the last two can mimic the appearance of other blocks). On top of this border, you can place slabs, leaves with water (useful for Endermen to prevent teleporting), or simply build solid walls. The spawner should be elevated in the middle of the platform based on its spawn range (to prevent mobs spawning below the portal). Place solid blocks above the spawner as well to prevent mobs from getting stuck there.
+    After that, build the platform where the mobs will spawn. The portal size should accommodate the spawner's spawn range. In this example, we are using an 8x8 area for a 7-block spawn range. The first layer should be any solid block (where mobs will spawn). Then make a border using `Sourcestone`, `Mirrorweave`, or `Ghostweave` blocks (the last two can mimic the appearance of other blocks). On top of this border, you can place slabs, leaves with water (useful for Endermen to prevent teleporting), or simply build solid walls. The spawner should be elevated in the middle of the platform based on its spawn range (to prevent mobs spawning below the portal). Place solid blocks above the spawner as well to prevent mobs from getting stuck there.
 
-    ![Portal Setup](img/mobfarms/ars_wp_portal_setup.png)
+    ![Portal Setup Example](img/mobfarms/ars_wp_portal_setup.png)
 
     To activate the portal, ensure a `Source Jar` is nearby and throw the configured scroll (linked to the killing area) into the portal frame.
 
-    ![Portal Activation](img/mobfarms/ars_wp_portal_activation.png)
+    ![Portal Activation Example](img/mobfarms/ars_wp_portal_activation.png)
 
-    With this setup, mobs will spawn in one location/dimension (allowing you to benefit from dimension-exclusive drops) and be teleported to your preferred killing area on any dimension (if `Stabilized Warp Scroll` is used).
+    With this setup, mobs will spawn in one location/dimension (allowing you to benefit from dimension-exclusive drops) and be teleported to your preferred killing area on any dimension (if a `Stabilized Warp Scroll` is used).
 
 === "Ars Nouveau Decoy"
 
-    *(WIP, come back latter)*
+    *(Work In Progress - come back later)*
 
 === "Ars Nouveau Ritual of Attraction"
 
-    *(WIP, come back latter)*
+    *(Work In Progress - come back later)*
 
 === "Primal Magick"
 
-    *(WIP, come back latter)*
+    *(Work In Progress - come back later)*
 
 === "Reactive"
 
-    *(WIP, come back latter)*
+    *(Work In Progress - come back later)*
 
 === "Create"
 
-    *(WIP, come back latter)*
+    *(Work In Progress - come back later)*
 
 ## Automated Killing Methods
 
@@ -142,7 +142,7 @@ Once you have the mobs in place, you need ways to kill them automatically:
 *   **Data & Essence (DnE):** Utilize a `Laser Emitter` with a specific lens depending on your needs:
     *   `Harming Lens`: General damage.
     *   `Burning Lens`: Sets mobs on fire.
-    *   *(Note: `Healing Lens` from DnE only heals, it doesn't harm undead like vanilla splash healing potions)*
+    *   *(Note: `Healing Lens` from DnE only heals; it doesn't harm undead like vanilla splash healing potions.)*
 
 *Note: Multiple killing methods can often be combined for faster kills or to gain different types of resources simultaneously (e.g., Mahou, DnE Essence).*
 
@@ -150,46 +150,51 @@ Once you have the mobs in place, you need ways to kill them automatically:
 
 === "Combination of Methods (Recommended)"
 
-    *(WIP, come back latter)*
+    *(Work In Progress - come back later)*
 
 === "Ars Nouveau Runes"
 
-    For setting up the runes, you need to place them on the killing destination with a source jar nearby. I recommend using this spell but you can explore anytihng that you might like.
+    For setting up the runes, place them in the killing destination area with a Source Jar nearby. I recommend using a spell like `Self -> Spark -> Discharge` (or similar AoE damage spells), but feel free to explore other combinations.
 
-    ![Rune Spell](img/mobfarms/ars_rune_spark_discharge.png)
+    ![Example Rune Spell: Spark Discharge](img/mobfarms/ars_rune_spark_discharge.png)
 
-    For making a rune permanent you need a `Runic Chalk` and ++rbutton++ the placed rune. *(Note: For more information on runes refer to the ars guide)*
+    To make a rune permanent, use `Runic Chalk` and ++rbutton++ on the placed rune. *(Note: For more information on runes, refer to the Ars Nouveau guide or in-game documentation.)*
 
-    ![Placed rune](img/mobfarms/ars_placed_rune.png)
+    ![Placed Rune Example](img/mobfarms/ars_placed_rune.png)
 
-    Be aware that mobs killed using runes count as is the player is killing them so they will increase the L2 difficulty, apply any curios item you have equiped as well as your stats, and will drop items that would only drop when mobs killed by player like `Grave Dust` from **Corail Tombstone**.
+    Be aware that mobs killed using runes count *as if the player killed them*. This means:
+    *   They can increase your L2 difficulty.
+    *   They apply effects from Curios you have equipped.
+    *   Your player stats (like critical hit chance/damage from held items) may apply to the rune damage.
+    *   They will drop items that require a player kill, like `Grave Dust` from **Corail Tombstone**.
 
-    ![Ars Rune Killing](img/mobfarms/ars_rune_death.png)
+    ![Example of Mob Killed by Ars Rune](img/mobfarms/ars_rune_death.png)
 
-    As per how to increase the damage made by the runes you should consider equiping ars related gear with the correct threads, potions and other ways explained in the ars guide. Also it's a very good idea that while you AFK your mobfarm you hold a weapon with crit chance and crit dmg to apply it to the runes dmg, as well as the looting nad other enchantments. This part is better defined in the "[Dealing super high amounts of damage](tips.md)" section of the Tips page.
+    To increase rune damage, consider equipping Ars Nouveau related gear with appropriate threads, using potions, and other methods explained in the Ars Nouveau guide. It's also beneficial to hold a weapon with high crit chance/damage and looting enchantments while AFKing, as these stats can apply to rune kills. This concept is better explained in the "[Dealing Super High Amounts of Damage](tips.md)" section of the Tips page.
+
 === "Ars Nouveau Turrets"
 
-    *(WIP, come back latter)*
+    *(Work In Progress - come back later)*
 
 === "Modular Golems"
 
-    *(WIP, come back latter)*
+    *(Work In Progress - come back later)*
 
 === "Reliquiary Pedestals"
 
-    *(WIP, come back latter)*
+    *(Work In Progress - come back later)*
 
 === "Mahou Tsukai"
 
-    *(WIP, come back latter)*
+    *(Work In Progress - come back later)*
 
 === "Data and Essence Leech"
 
-    *(WIP, come back latter)*
+    *(Work In Progress - come back later)*
 
 === "Data and Essence Lasers"
 
-    *(WIP, come back latter)*
+    *(Work In Progress - come back later)*
 
 ## Loot Considerations & Extra Resources
 
@@ -215,10 +220,30 @@ Farming in ATMA involves more than just vanilla drops. Consider these potential 
 
 *(This guide will be expanded with more specific details and build examples for each method.)*
 
+## Collection and Filtering Methods
 
-## Collection and filtering methods
-TODO:list of methods
+Efficiently handling the large volume of drops from mob farms is crucial. Here are some tools and techniques:
 
+*   **Ground Item Collection:**
+    *   **Sophisticated Storage:** Backpacks or chests/barrels with `Magnet Upgrade` (pulls items in range) and optionally `Advanced Magnet Upgrade` (wider range, requires power). Include `Stack Upgrade` for more items per slot capacity, `Tank Upgrade` + `Experience Pump Upgrade` can store the experience
+    *   **Create:** `Conveyor Belts` to move items, `Chutes` for vertical transport, `Encased Fans` can blow items towards collection points.
+    *   ~~**Botania:** `Hopperhock` flower picks up nearby items and places them in adjacent inventories. Can be filtered. Requires mana.~~
+    *   **Occultism:** `Foliot Item Collector` spirit job can pick up items in an area. Requires summoning and assigning the spirit.
+    *   **Vanilla:** Hoppers and Hopper Minecarts (less efficient for large volumes but simple).
+    *   **Ars Nouveau:** Starbuncles can move items to designated chests
+*   **Item Transport:**
+    *   **Data and Essence**; `Item nodes`, see more in the dne guide
+    *   **Theurgy**: se more in the dne guide
+    *   **Ars Nouveau**: starubuncles see more in teh ars guide
+*   **Filtering & Sorting:**
+    *   **Sophisticated Storage:** `Filter Upgrade` (basic filtering), `Advanced Filter Upgrade` (more complex logic), `Void Upgrade` (destroys excess items). Apply directly to storage or backpacks.
+    *   **Create:** `Andesite Funnel` / `Brass Funnel` with filter items set in the UI. `Attribute Filter` for specific NBT/tag filtering. `List Filter` for multiple item types.
+    *   ~~**Functional Storage:** `Void Upgrade` for drawers, filtering inherent in drawer types (1 item per drawer, unless using `Compacting Drawers`).~~
+*   **Storage Solutions:**
+    *   **Sophisticated Storage:** Upgradable Chests, Barrels, and Backpacks. High capacity and utility with upgrades.
+    *   ~~**Functional Storage:** Drawers (`1x1`, `1x2`, `2x2`), `Compacting Drawers`, `Framed Drawers` (customizable appearance), linked via `Drawer Controller`. Excellent for large quantities of single items.~~
+    *   **AE2:** Mass digital storage using `Storage Disks` / `Storage Cells` in `Disk Drives` / `ME Drives`. Access everything via terminals.
 
-## Other tips and tricks!
-* For avoiding the spawn of `Evil Spirits` from **Evilcraft** place `Gemstone Torches` around the killing area.
+## Other Tips and Tricks!
+
+*   For avoiding the spawn of `Vengeance Spirits` from **Evilcraft**, place `Gemstone Torches` from **Primal Magick** around the killing area.
