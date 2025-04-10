@@ -167,10 +167,10 @@ Once you have mobs spawning, you may need to move them to a comfortable killing 
 
 Once you have the mobs in place, you need ways to kill them automatically:
 
-*   **Ars Nouveau Runes/Turrets:** Create automated spell systems using `Spell Turrets` or triggered `Runes` (e.g., `Damage`, `AoE`, `Explosion`) powered by Source. *(Specific spells and setups will be explained later)*.
-*   **Modular Golems:** Design and build custom golems equipped with combat weapons (`Melee Module`, `Ranged Module`) to kill mobs in a designated area. Works particularly well with spawners set to ignore AI (`No AI` upgrade).
+*   **Ars Nouveau Runes/Turrets:** Create automated spell systems using `Spell Turrets` or triggered `Runes` (e.g., `Damage`, `AoE`, `Explosion`) powered by Source.
+*   **Modular Golems:** Design and build custom golems equipped with combat weapons to kill mobs in a designated area. Works particularly well with spawners set to ignore AI (`No AI` upgrade).
 *   **Reliquary Pedestals:** Use a pedestal equipped with a weapon (like a sword) to attack mobs in range.
-*   **Mahou Tsukai:** Utilize the `Boundary of Drain Life` spell for AoE slow damage and Mahou accumulation (up to the cap).
+*   **Mahou Tsukai:** Utilize the `Boundary of Drain Life` scroll for AoE slow damage and Mahou accumulation (up to the cap).
 *   **Data & Essence (DnE):** Utilize the `Essence Leech` block/mechanic to slowly kill mobs and generate DnE Essence.
 *   **Data & Essence (DnE):** Utilize a `Laser Emitter` with a specific lens depending on your needs:
     *   `Harming Lens`: General damage.
@@ -201,10 +201,11 @@ Once you have the mobs in place, you need ways to kill them automatically:
     ![Placed Rune Example](img/mobfarms/ars_placed_rune.png)
 
     Be aware that mobs killed using runes count *as if the player killed them*. This means:
-    *   They can increase your L2 difficulty.
-    *   They apply effects from Curios you have equipped.
-    *   Your player stats (like critical hit chance/damage from held items) may apply to the rune damage.
-    *   They will drop items that require a player kill, like `Grave Dust` from **Corail Tombstone**.
+
+    -   They can increase your L2 difficulty.
+    -   They apply effects from Curios you have equipped.
+    -   Your player stats (like critical hit chance/damage from held items) may apply to the rune damage.
+    -   They will drop items that require a player kill, like `Grave Dust` from **Corail Tombstone**.
 
     ![Example of Mob Killed by Ars Rune](img/mobfarms/ars_rune_death.png)
 
@@ -227,10 +228,11 @@ Once you have the mobs in place, you need ways to kill them automatically:
     ![Modular Golem in Killing Area](img/mobfarms/golem_in_cage.png)
 
     Be aware that mobs killed using golems count *as if the player killed them*. This means:
-    *   They can increase your L2 difficulty.
-    *   They apply effects from Curios you have equipped.
-    *   Your player stats (like critical hit chance/damage from held items) may apply to the golem damage.
-    *   They will drop items that require a player kill, like `Grave Dust` from **Corail Tombstone**.
+
+    -   They can increase your L2 difficulty.
+    -   They apply effects from Curios you have equipped.
+    -   Your player stats (like critical hit chance/damage from held items) may apply to the golem damage.
+    -   They will drop items that require a player kill, like `Grave Dust` from **Corail Tombstone**.
 
 === "Reliquary Pedestals"
 
@@ -239,10 +241,11 @@ Once you have the mobs in place, you need ways to kill them automatically:
     ![Pedestal Killing Example](img/mobfarms/reliquary_pedestal.png)
 
     Be aware that mobs killed using pedestals **DO NOT** count *as if the player killed them*. This means:
-    *   They **CANNOT** increase your L2 difficulty.
-    *   They **CANNOT** apply effects from Curios you have equipped.
-    *   Your player stats (like critical hit chance/damage from held items) **CANNOT** be applied to the pedestal damage.
-    *   They will **NOT** drop items that require a player kill, like `Grave Dust` from **Corail Tombstone**.
+
+    -   They **CANNOT** increase your L2 difficulty.
+    -   They **CANNOT** apply effects from Curios you have equipped.
+    -   Your player stats (like critical hit chance/damage from held items) **CANNOT** be applied to the pedestal damage.
+    -   They will **NOT** drop items that require a player kill, like `Grave Dust` from **Corail Tombstone**.
 
 === "Mahou Tsukai"
 
@@ -251,10 +254,11 @@ Once you have the mobs in place, you need ways to kill them automatically:
     ![Boundary of Drain Life Scroll Placement](img/mobfarms/boundary_of_drain_life.png)
 
     Be aware that mobs killed using this boundary **DO** count *as if the player killed them*. This means:
-    *   They can increase your L2 difficulty.
-    *   They apply effects from Curios you have equipped.
-    *   Your player stats (like critical hit chance/damage from held items) may apply to the boundary damage.
-    *   They will drop items that require a player kill, like `Grave Dust` from **Corail Tombstone**.
+
+    -   They can increase your L2 difficulty.
+    -   They apply effects from Curios you have equipped.
+    -   Your player stats (like critical hit chance/damage from held items) may apply to the boundary damage.
+    -   They will drop items that require a player kill, like `Grave Dust` from **Corail Tombstone**.
 
 === "Data and Essence"
 
@@ -267,16 +271,24 @@ Once you have the mobs in place, you need ways to kill them automatically:
     ![Laser Killing Example](img/mobfarms/dne_laser_kill.png)
 
     Be aware that mobs killed using DnE lasers or leeches **DO NOT** count *as if the player killed them*. This means:
-    *   They **CANNOT** increase your L2 difficulty.
-    *   They **CANNOT** apply effects from Curios you have equipped.
-    *   Your player stats (like critical hit chance/damage from held items) **CANNOT** be applied to the laser/leech damage.
-    *   They will **NOT** drop items that require a player kill, like `Grave Dust` from **Corail Tombstone**.
+
+    -   They **CANNOT** increase your L2 difficulty.
+    -   They **CANNOT** apply effects from Curios you have equipped.
+    -   Your player stats (like critical hit chance/damage from held items) **CANNOT** be applied to the laser/leech damage.
+    -   They will **NOT** drop items that require a player kill, like `Grave Dust` from **Corail Tombstone**.
 
 === "Evilcraft Spikes"
 
     Place a `Powered Sanguinary Pedestal` with some `Spiked Plates` ont top on them on the floor and start collecting the blood as mobs die on them.
 
     ![Evilcraft Spikes Example](img/mobfarms/evilcraft_spikes.png)
+
+    Be aware that mobs killed using `Spikes` **DO NOT** count *as if the player killed them*. This means:
+
+    -   They **CANNOT** increase your L2 difficulty.
+    -   They **CANNOT** apply effects from Curios you have equipped.
+    -   Your player stats (like critical hit chance/damage from held items) **CANNOT** be applied to the laser/leech damage.
+    -   They will **NOT** drop items that require a player kill, like `Grave Dust` from **Corail Tombstone**.
 
 ## Loot Considerations & Extra Resources
 
