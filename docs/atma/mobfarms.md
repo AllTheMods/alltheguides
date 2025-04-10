@@ -89,9 +89,9 @@ Once you have mobs spawning, you may need to move them to a comfortable killing 
 *   **Ars Nouveau:** Use the `Glyph of Summon Decoy` to summon a decoy, trap it in a `Containment Jar`, power it with redstone, and place the jar where you want mobs (with AI) to move towards.
 *   **Primal Magick:** A `Zephyr Engine` will push mobs away from the direction it faces. A `Void Turbine` will pull mobs towards the direction it faces.
 *   **Create:** An `Encased Fan` will push or pull mobs depending on the direction of its rotational force.
-*   **Data and Essence:** `Laser Emitter` with push mobs away from them when `Acceleration Lens` is applied.
+*   **Data and Essence:** `Laser Emitter` with an `Acceleration Lens` will push mobs away from them.
 *   **Reactive:** *(Investigation needed)* - This mod might offer mob manipulation tools.
-*   **Modualr Golems:***(Investigation needed)* - This mod might offer mob manipulation tools.
+*   **Modular Golems:** *(Investigation needed)*
 
 ### Setup Examples (Mob Movement)
 
@@ -163,7 +163,6 @@ Once you have mobs spawning, you may need to move them to a comfortable killing 
 
     *(Work In Progress - come back later)*
 
-
 ## Automated Killing Methods
 
 Once you have the mobs in place, you need ways to kill them automatically:
@@ -177,7 +176,7 @@ Once you have the mobs in place, you need ways to kill them automatically:
     *   `Harming Lens`: General damage.
     *   `Burning Lens`: Sets mobs on fire.
     *   *(Note: `Healing Lens` from DnE only heals; it doesn't harm undead like vanilla splash healing potions.)*
-*   **Evilcraft:** Put `Spikes` on the floor to kill mobs and collect blood.
+*   **Evilcraft:** Place `Spikes` on the floor to kill mobs and collect blood.
 
 *Note: Multiple killing methods can often be combined for faster kills or to gain different types of resources simultaneously (e.g., Mahou, DnE Essence).*
 
@@ -187,9 +186,9 @@ Once you have the mobs in place, you need ways to kill them automatically:
 
     For learning how to set up this, you should check the individual methods.
 
-    ![Complete Mobfarm](img/mobfarms/complete_mobfarm.png)
+    ![Complete Mob Farm Example](img/mobfarms/complete_mobfarm.png)
 
-    ![Complete Mobfarm On Action](img/mobfarms/complete_mobfarm_activate.png)
+    ![Complete Mob Farm In Action](img/mobfarms/complete_mobfarm_activate.png)
 
 === "Ars Nouveau Runes"
 
@@ -217,17 +216,17 @@ Once you have the mobs in place, you need ways to kill them automatically:
 
 === "Modular Golems"
 
-    For this setup you are going to need a `Humanoid Golem` *(Note: this guide will not explain how golems work refer to the in game book for more information or come back later when the **Modular Golems** guide is added)*. The golem needs to benefit from `Immunity` from a `Eternium Humanoid Body` or a  `Eternium Humanoid Legs`. It's recommended to install the max amount of upgrades possible on the golem for maximizing the damage.
-    The golem needs to have equiped a weapon (preferably with max enchantments and max **Apotheosis** affixes and gems) that has sweeping damage, my personal recommendation is the `Unobtanium Scythe` (or any other scythe).
-    You can also equip `Curios` items to enhace even further the golem damage.
+    For this setup, you are going to need a `Humanoid Golem`. *(Note: This guide will not explain how golems work; refer to the in-game book for more information or come back later when the **Modular Golems** guide is added)*. The golem needs to benefit from `Immunity` from an `Eternium Humanoid Body` or `Eternium Humanoid Legs`. It's recommended to install the maximum amount of upgrades possible on the golem for maximizing damage.
+    The golem needs to have a weapon equipped (preferably with max enchantments and max **Apotheosis** affixes and gems) that has sweeping damage. My personal recommendation is the `Unobtainium Scythe` (or any other scythe).
+    You can also equip `Curios` items to enhance the golem's damage even further.
 
-    ![Unobtanium golem](img/mobfarms/unobtanium_golem.png)
+    ![Golem with Unobtainium Scythe](img/mobfarms/unobtanium_golem.png)
 
-    Place the golem inside the killing area and command it to wander around. *(Note: the area must be encapsuled so the golem doesnt run away)*
+    Place the golem inside the killing area and command it to wander around. *(Note: The area must be enclosed so the golem doesn't run away)*
 
-    ![Modular Golem Example](img/mobfarms/golem_in_cage.png)
+    ![Modular Golem in Killing Area](img/mobfarms/golem_in_cage.png)
 
-        Be aware that mobs killed using golems count *as if the player killed them*. This means:
+    Be aware that mobs killed using golems count *as if the player killed them*. This means:
     *   They can increase your L2 difficulty.
     *   They apply effects from Curios you have equipped.
     *   Your player stats (like critical hit chance/damage from held items) may apply to the golem damage.
@@ -235,47 +234,47 @@ Once you have the mobs in place, you need ways to kill them automatically:
 
 === "Reliquary Pedestals"
 
-    This method its simple, you need a `Pedestal` (not the display version), and you power it with redstone, then place any weapon in the altar and enjoy a slow killing. Sweeping edge weapons work better. Remeber to max enchant a Apotheosis afixes and gems to maximize your damage.
+    This method is simple: you need a `Pedestal` (not the display version), power it with redstone, then place any weapon in the altar and enjoy a slow killing process. Sweeping edge weapons work better. Remember to maximize enchantments, Apotheosis affixes, and gems on the weapon to maximize damage. Right now L2 weapons are not compatible with this functionality.
 
-    ![Pedestal Example](img/mobfarms/reliquary_pedestal.png)
+    ![Pedestal Killing Example](img/mobfarms/reliquary_pedestal.png)
 
-        Be aware that mobs killed using pedestals **NOT** count *as if the player killed them*. This means:
-    *   They **CAN NOT** increase your L2 difficulty.
-    *   They **CAN NOT** apply effects from Curios you have equipped.
-    *   Your player stats (like critical hit chance/damage from held items) **CAN NOT** be applied to the pedestal damage.
+    Be aware that mobs killed using pedestals **DO NOT** count *as if the player killed them*. This means:
+    *   They **CANNOT** increase your L2 difficulty.
+    *   They **CANNOT** apply effects from Curios you have equipped.
+    *   Your player stats (like critical hit chance/damage from held items) **CANNOT** be applied to the pedestal damage.
     *   They will **NOT** drop items that require a player kill, like `Grave Dust` from **Corail Tombstone**.
 
 === "Mahou Tsukai"
 
-    You can place `Scrolls of the Boundary of Drain Life` to slowly kill the mobs. *(Note: this guide will not explain how Mhaou Tsukai works for more information refer to the in gmae guide / quest book)*.
+    You can place `Scrolls of the Boundary of Drain Life` to slowly kill the mobs. *(Note: This guide will not explain how Mahou Tsukai works; for more information refer to the in-game guide / quest book)*.
 
-    ![Boundary of Drain Life](img/mobfarms/boundary_of_drain_life.png)
+    ![Boundary of Drain Life Scroll Placement](img/mobfarms/boundary_of_drain_life.png)
 
-        Be aware that mobs killed using golems count *as if the player killed them*. This means:
+    Be aware that mobs killed using this boundary **DO** count *as if the player killed them*. This means:
     *   They can increase your L2 difficulty.
     *   They apply effects from Curios you have equipped.
-    *   Your player stats (like critical hit chance/damage from held items) may apply to the golem damage.
+    *   Your player stats (like critical hit chance/damage from held items) may apply to the boundary damage.
     *   They will drop items that require a player kill, like `Grave Dust` from **Corail Tombstone**.
 
 === "Data and Essence"
 
-    You can place `Essence Leech` as the floor of the mobfarm to slowly exchange the mobs health for essence.
+    You can place `Essence Leech` blocks as the floor of the mob farm to slowly exchange the mobs' health for essence. Leeches work in a 3x3x3 area above themselves.
 
-    ![Essence Leech Example](img/mobfarms/essence_leech.png)
+    ![Essence Leech Killing Example](img/mobfarms/essence_leech.png)
 
-    With that essence you can feed the `Lasers` to kill even faster. For that apply to the `Laser` the `Harming Lens`.
+    With that generated essence, you can feed `Laser Emitters` to kill mobs even faster. For that, apply the `Harming Lens` to the `Laser Emitter`.
 
-    ![Laser Example](img/mobfarms/dne_laser_kill.png)
+    ![Laser Killing Example](img/mobfarms/dne_laser_kill.png)
 
-        Be aware that mobs killed using pedestals **NOT** count *as if the player killed them*. This means:
-    *   They **CAN NOT** increase your L2 difficulty.
-    *   They **CAN NOT** apply effects from Curios you have equipped.
-    *   Your player stats (like critical hit chance/damage from held items) **CAN NOT** be applied to the pedestal damage.
+    Be aware that mobs killed using DnE lasers or leeches **DO NOT** count *as if the player killed them*. This means:
+    *   They **CANNOT** increase your L2 difficulty.
+    *   They **CANNOT** apply effects from Curios you have equipped.
+    *   Your player stats (like critical hit chance/damage from held items) **CANNOT** be applied to the laser/leech damage.
     *   They will **NOT** drop items that require a player kill, like `Grave Dust` from **Corail Tombstone**.
 
 === "Evilcraft Spikes"
 
-    Place a `Powered Sanguinary Pedestal` with some `Spiked Plates` and start collecting the blood.
+    Place a `Powered Sanguinary Pedestal` with some `Spiked Plates` ont top on them on the floor and start collecting the blood as mobs die on them.
 
     ![Evilcraft Spikes Example](img/mobfarms/evilcraft_spikes.png)
 
@@ -287,17 +286,16 @@ Farming in ATMA involves more than just vanilla drops. Consider these potential 
     *   Mobs affected by the L2 Hostility system (based on player difficulty) can drop unique items like `Cursed Droplets` and `Trait Symbols`, crucial for L2 progression.
     *   Ensure the appropriate **Looting Charms** are equipped, as explained in the [L2 Hostility Guide > Expected Progression](l2hostility.md#expected-l2-progression-path).
     *   Farm design might need to account for player proximity to maintain difficulty or target specific traits.
+    *   Only killing methods that count as player kills will trigger these drops reliably.
 *   **Apotheosis Drops:**
     *   Mobs spawning from Apotheosis spawners or naturally can drop equipment with powerful Apotheosis affixes and `Affix Gems`.
     *   Higher-level mobs (influenced by Apotheosis world tier) have better chances of dropping rarer loot.
     *   *(Press ++ctrl+t++ (default keybind) to see the current world tier)*.
-*   **Evilcraft Blood:** Killing mobs near appropriate Evilcraft blocks/setups can generate Blood for the mod's mechanics. *(More on blood generation in the **Evilcraft** guide)*.
+*   **Evilcraft Blood:** Killing mobs near appropriate Evilcraft blocks/setups (like Spikes) can generate Blood for the mod's mechanics. *(More on blood generation in the **Evilcraft** guide)*.
 *   **Ars Nouveau Source:** Using a `Vitalic Sourcelink` near a killing area can generate Source from mob deaths.
 *   **Data and Essence Essence:** Using an `Essence Leech` in the killing area will slowly drain Essence from the mobs.
 *   **Mahou Tsukai Mahou:** Can be generated using the `Boundary of Drain Life` killing method.
-*   **Experience (XP):** Mobs drop XP orbs, which can be collected using:
-    *   **Sophisticated Storage:** `Magnet Upgrade`, `Tank Upgrade`, and `XP Pump Upgrade` on backpacks, chests, or barrels.
-    *   *(Other collection methods like Experience Pylons, Absorption Hoppers, etc.)*
+*   **Experience (XP):** Mobs drop XP orbs.
 *   **Reliquary Charm Fragments:** Can occasionally drop from mobs.
 *   **Occultism Mobs:** Can also be farmed in spawners and with Drygmys. Be aware that rituals like **Occultism's** `Wild Breeze` (the 3 levels of it) spawn multiple mob types, not just the Breeze, and the `No AI` upgrade from Apotheosis may not apply to all spawned entities. Drygmy farms are potentially simpler for `Wild Breeze` farming.
 
