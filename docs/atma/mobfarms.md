@@ -53,24 +53,24 @@ These rely on block entities that explicitly spawn mobs or vanilla mechanics.
 
 *   **Apotheosis Spawners:** Found in dungeons or crafted. **Apotheosis** significantly enhances vanilla spawners, allowing pickup (with Silk Touch) and changing the spawned mob with a spawn egg (use the `Capturing` enchantment to get the egg). You can modify their behavior by right-clicking the spawner with specific items:
 
-    | Upgrade Item           | Effect                                                                                                                                                                                                 |
-    | :--------------------- |:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-    | `Sugar`                | -10 Ticks Minimum Spawn Delay                                                                                                                                                                          |
-    | `Clock`                | -20 Ticks Maximum Spawn Delay                                                                                                                                                                          |
-    | `Fermented Spider Eye` | +2 Spawn Count (Mobs per spawn event)                                                                                                                                                                  |
-    | `Ghast Tear`           | +2 Max Nearby Entities (Limit before stopping spawns)                                                                                                                                                  |
-    | `Prismarine Crystal`   | +4 Blocks Player Activation Range                                                                                                                                                                      |
-    | `Nether Star`          | +Ignore Players Condition (Spawns regardless of players)                                                                                                                                               |
-    | `Soul Lantern`         | +Ignore Light Condition                                                                                                                                                                                |
-    | `Conduit`              | +Ignore Conditions (Light, Space, etc.)                                                                                                                                                                |
-    | `Echo Shard`           | +Echoing (Mobs drop extra loot)                                                                                                                                                                        |
-    | `Campfire`             | +Burning (Mobs spawn on fire)                                                                                                                                                                          |
-    | `Comparator`           | +Redstone Control (Requires signal to spawn). For wireless activating the redstone u can use **Create** `Redstone Link` (best option) or **Ars Nouveau** `Redstone Realy` (works within certain range) |
-    | `Turtle Egg`           | +Youthful (Spawns babies if possible)                                                                                                                                                                  |
-    | `Piston`               | +2 Blocks Spawn Range (Area around spawner mobs appear)                                                                                                                                                |
-    | `Wool`                 | +Silent (No spawning sound)                                                                                                                                                                            |
-    | `Chorus Fruit`         | +No AI (Mobs spawn without AI, good for kill chambers)                                                                                                                                                 |
-    | `Pointed Dripstone`    | -5% Initial Health                                                                                                                                                                                     |
+    | Upgrade Item           | Effect                                                                                                                                                                                               |
+    | :--------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+    | `Sugar`                | -10 Ticks Minimum Spawn Delay                                                                                                                                                                        |
+    | `Clock`                | -20 Ticks Maximum Spawn Delay                                                                                                                                                                        |
+    | `Fermented Spider Eye` | +2 Spawn Count (Mobs per spawn event)                                                                                                                                                                |
+    | `Ghast Tear`           | +2 Max Nearby Entities (Limit before stopping spawns)                                                                                                                                                |
+    | `Prismarine Crystal`   | +4 Blocks Player Activation Range                                                                                                                                                                    |
+    | `Nether Star`          | +Ignore Players Condition (Spawns regardless of players)                                                                                                                                             |
+    | `Soul Lantern`         | +Ignore Light Condition                                                                                                                                                                              |
+    | `Conduit`              | +Ignore Conditions (Light, Space, etc.)                                                                                                                                                              |
+    | `Echo Shard`           | +Echoing (Mobs drop extra loot)                                                                                                                                                                      |
+    | `Campfire`             | +Burning (Mobs spawn on fire)                                                                                                                                                                        |
+    | `Comparator`           | +Redstone Control (Requires signal to spawn). For wireless activation, you can use **Create** `Redstone Link` (best option) or **Ars Nouveau** `Redstone Relay` (works within a certain range). |
+    | `Turtle Egg`           | +Youthful (Spawns babies if possible)                                                                                                                                                                |
+    | `Piston`               | +2 Blocks Spawn Range (Area around spawner mobs appear)                                                                                                                                              |
+    | `Wool`                 | +Silent (No spawning sound)                                                                                                                                                                          |
+    | `Chorus Fruit`         | +No AI (Mobs spawn without AI, good for kill chambers)                                                                                                                                               |
+    | `Pointed Dripstone`    | -5% Initial Health                                                                                                                                                                                   |
 
     *Note: Holding `Quartz` in your off-hand while clicking with an upgrade item will **invert** its effect (e.g., Quartz + Sugar = +10 Ticks Minimum Spawn Delay).
     For more information on the Apotheosis spawners, you can check the quest line or use JEI/EMI.*
@@ -86,6 +86,7 @@ Once you have mobs spawning, you may need to move them to a comfortable killing 
 *   **Ars Nouveau:** `Warp Portal` blocks and `Warp Scrolls` can teleport entities.
 *   **Ars Nouveau:** Use the `Glyph of Summon Decoy` to summon a decoy, trap it in a `Containment Jar`, and place the jar where you want mobs (with AI) to move towards.
 *   **Ars Nouveau:** Activate a `Ritual of Attraction` in a `Ritual Brazier` and feed it with Source. This will attract mobs within an 8-block radius *(verification needed on continuous Source feeding)*.
+*   **Ars Nouveau:** ![TO-DO](img/mobfarms/to-do.png)
 *   **Primal Magick:** A `Zephyr Engine` will push mobs away from the direction it faces. A `Void Turbine` will pull mobs towards the direction it faces.
 *   **Reactive:** *(Investigation needed)* - This mod might offer mob manipulation tools.
 *   **Create:** An `Encased Fan` will push or pull mobs depending on the direction of its rotational force.
@@ -99,14 +100,19 @@ Once you have mobs spawning, you may need to move them to a comfortable killing 
 
 === "Ars Nouveau Warp Portal"
 
-    First, you need to set up the area where you want to kill the mobs. I recommend at least a 2x2 to avoid mob clipping. Then with a `Warp Scroll` (for the same dimension movement) or a `Stabilized Warp Scroll` (for interdimesnion movement) in your hand ++shift+right-button++ in the middle of that area to set the teleportation destination.
-    ![Killing Area](img/mobfarms/ars_wp_killing_area.png)
-    After that, you need to build up the place where the mobs will be spawning. The portal characteristics should be based on the `Spawner` spawn range. The first layer should be any solid block (where mobs will spawn), then make a border with `Sourcestone`, `Mirrorweave` or `Ghostweave` (the last two can change the apperance to any block in the game), on top of that border you can either place slabs, leaves with water (useful for endermen) or simply make a solid wall. The spawner should be elevated in the middle of the platform depending on the spawn range of your spawner (to avoid having mobs spawning below the portal), as well as have solid blocks placed on top of the spawner to avoid mobs getting stuck in there.
-    ![Portal Setup](img/mobfarms/ars_wp_portal_setup.png)
-    For activating the portal you need to have a source jar nearby and throw the scroll that you configured before linked to the killing area.
-    ![Portal Activation](img/mobfarms/ars_wp_portal_activation.png)
-    With that you will have the mobs getting spawned in one place and dimension (so you can benefit of exclusive drops from certain dimensions) and kill them wherever you prefer.
+    First, you need to set up the area where you want to kill the mobs. A minimum 2x2 area is recommended to avoid mobs clipping through blocks. Then, with a `Warp Scroll` (for same-dimension movement) or a `Stabilized Warp Scroll` (for interdimensional movement) in your hand, ++shift+rbutton++ in the middle of that killing area to set the teleportation destination.
 
+    ![Killing Area](img/mobfarms/ars_wp_killing_area.png)
+
+    After that, build the platform where the mobs will spawn. The portal size should accommodate the spawner's spawn range. In this example we are using a 8x8 area for a 7 spawn range. The first layer should be any solid block (where mobs will spawn). Then make a border using `Sourcestone`, `Mirrorweave`, or `Ghostweave` blocks (the last two can mimic the appearance of other blocks). On top of this border, you can place slabs, leaves with water (useful for Endermen to prevent teleporting), or simply build solid walls. The spawner should be elevated in the middle of the platform based on its spawn range (to prevent mobs spawning below the portal). Place solid blocks above the spawner as well to prevent mobs from getting stuck there.
+
+    ![Portal Setup](img/mobfarms/ars_wp_portal_setup.png)
+
+    To activate the portal, ensure a `Source Jar` is nearby and throw the configured scroll (linked to the killing area) into the portal frame.
+
+    ![Portal Activation](img/mobfarms/ars_wp_portal_activation.png)
+
+    With this setup, mobs will spawn in one location/dimension (allowing you to benefit from dimension-exclusive drops) and be teleported to your preferred killing area on any dimension (if `Stabilized Warp Scroll` is used).
 
 === "Ars Nouveau Decoy"
 
@@ -140,6 +146,7 @@ Once you have the mobs in place, you need ways to kill them automatically:
 *   **Data & Essence (DnE):** Utilize a `Laser Emitter` with a specific lens depending on your needs:
     *   `Harming Lens`: General damage.
     *   `Burning Lens`: Sets mobs on fire.
+    *   *(Note: `Healing Lens` from DnE only heals, it doesn't harm undead like vanilla splash healing potions)*
 
 *Note: Multiple killing methods can often be combined for faster kills or to gain different types of resources simultaneously (e.g., Mahou, DnE Essence).*
 
@@ -173,11 +180,9 @@ Once you have the mobs in place, you need ways to kill them automatically:
 
     *(Example + images go here)*
 
-
 === "Combination of Methods"
 
     *(Example + images go here)*
-
 
 ## Loot Considerations & Extra Resources
 
@@ -193,12 +198,12 @@ Farming in ATMA involves more than just vanilla drops. Consider these potential 
     *   *(Press ++ctrl+t++ (default keybind) to see the current world tier)*.
 *   **Evilcraft Blood:** Killing mobs near appropriate Evilcraft blocks/setups can generate Blood for the mod's mechanics. *(More on blood generation in the **Evilcraft** guide)*.
 *   **Ars Nouveau Source:** Using a `Vitalic Sourcelink` near a killing area can generate Source from mob deaths.
-*   **Data and Essence Essence:** Using a `Essence Leech` in the killing area will slowly drain essence from the mobs.
+*   **Data and Essence Essence:** Using an `Essence Leech` in the killing area will slowly drain Essence from the mobs.
 *   **Mahou Tsukai Mahou:** Can be generated using the `Boundary of Drain Life` killing method.
 *   **Experience (XP):** Mobs drop XP orbs, which can be collected using:
     *   **Sophisticated Storage:** `Magnet Upgrade`, `Tank Upgrade`, and `XP Pump Upgrade` on backpacks, chests, or barrels.
     *   *(Other collection methods like Experience Pylons, Absorption Hoppers, etc.)*
 *   **Reliquary Charm Fragments:** Can occasionally drop from mobs.
-*   **Occultism mobs** can be also farmed in spawners and with drygmes. Just beaware that rituals that **Occultism* `Wild Breeze` (the 3 levels of it) spawners spawn multiple mobs, not only the breeze and to that mobs the NO AI from Apotheoisis doenst apply. Drygme farm is recommended for `Wild Breeze` farming.
+*   **Occultism Mobs:** Can also be farmed in spawners and with Drygmys. Be aware that rituals like **Occultism's** `Wild Breeze` (the 3 levels of it) spawn multiple mob types, not just the Breeze, and the `No AI` upgrade from Apotheosis may not apply to all spawned entities. Drygmy farms are potentially simpler for `Wild Breeze` farming.
 
 *(This guide will be expanded with more specific details and build examples for each method.)*
