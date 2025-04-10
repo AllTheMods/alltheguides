@@ -1,5 +1,5 @@
 ---
-title: L2 Guide
+title: L2 Hostility
 description: A Guide for L2 Hostility in All the Magic - Arcana
 authors:
  - Xannaeh
