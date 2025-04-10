@@ -323,13 +323,13 @@ Efficiently handling the large volume of drops from mob farms is crucial. Here a
     *   **Occultism:** `Foliot Item Collector` spirit job can pick up items in an area. Requires summoning and assigning the spirit.
     *   **Vanilla:** Hoppers and Hopper Minecarts (less efficient for large volumes but simple).
     *   **Ars Nouveau:** `Starbuncles` can move items to designated chests or inventories. *(See Ars Nouveau guide for details on configuration).*
-    *   **Ars Nouveau:** `Spell Turrets` or `Runes` using spells with the `Pickup` effect (AoE pickup).
+    *   **Ars Nouveau:** `Spell Turrets` or `Runes` using spells with the `Pickup` effect (AoE pickup) with a container placed next to the turret.
     *   **Productive Bees:** `Hoarder Bee` placed in a `Beehive` with range upgrades can collect nearby items. *(Note: Not recommended, as bees can die from collateral damage in many killing setups).*
     *   **Ars Nouveau:** Activate a `Ritual of Attraction` in a `Ritual Brazier` and feed it with Source. This will attract mobs and items within an 8-block radius.
     *   **Ars Nouveau:** A `Containment Jar` with an `Allay` inside will work as a vacuum hopper and deposit the items in an adjacent inventory.
 *   **Item Transport:**
     *   **Data and Essence:** Use `Item Nodes` for transport. *(See DnE guide for configuration).*
-    *   **Theurgy:** *(Work In Progress)*. *(See Theurgy guide/quest book for details).*
+    *   **Theurgy:** `Mercurial Item Inserter` and `Mercurial Item Extractor` can move items when connected with `Mercurial Copper Wire`.
     *   **Ars Nouveau:** `Starbuncles` can transport items between inventories based on configuration. *(See Ars Nouveau guide).*
     *   **Ars Nouveau:** `Spell Turrets` using spells with `Toss` (requires precise aiming), `Pierce` might also be applied to split the loot in different containers.
     *   **Create:** `Conveyor Belts`, `Chutes`, `Mechanical Arms` (for precise sorting/movement), `Item Vaults` for bulk storage/transport on contraptions.
@@ -337,7 +337,7 @@ Efficiently handling the large volume of drops from mob farms is crucial. Here a
 *   **Filtering & Sorting:**
     *   **Sophisticated Storage:** `Filter Upgrade` (basic filtering), `Advanced Filter Upgrade` (more complex logic), `Void Upgrade` (destroys excess items). Apply directly to storage or backpacks.
     *   **Create:** `Andesite Funnel` / `Brass Funnel` with filter items set in the UI. `Attribute Filter` for specific NBT/tag filtering. `List Filter` for multiple item types.
-    *   **Theurgy:** *(Work In Progress)*. *(See Theurgy guide/quest book for details).*
+    *   **Theurgy:** `Mercurial List Filter` and `Mercurial Attribute Filter` work like Create filters but can be applied in Theurgy inserters/extractors.
     *   **Ars Nouveau:** `Starbuncles` can be configured with filters to only pick up or deposit specific items. *(See Ars Nouveau guide).*
 *   **Storage Solutions:**
     *   **Sophisticated Storage:** Upgradable Chests, Barrels, and Backpacks. High capacity and utility with upgrades.
