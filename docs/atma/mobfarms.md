@@ -42,7 +42,7 @@ These mods provide unique ways to generate mobs or resources without traditional
     *   *(This method will be detailed in a specific guide later. For the moment, you can check the in-game **Evilcraft** Guide `Origins of Darkness`)*.
 *   **Mystical Agriculture:**
     *   Allows you to grow resource seeds, including seeds for many common mob drops (`Inferium`, `Zombie Essence`, `Skeleton Essence`, etc.).
-    *  *(This method will be detailed in a specific guide later.)*.
+    *   *(This method will be detailed in a specific guide later.)*
 *   **Productive Bees:**
     *   `Amber Bees` can encase nearby mobs in harvestable amber blocks.
     *   Place a `Wannabee` addon in a `Beehive` and feed it the amber-encased mob block to automatically "farm" drops from that mob type over time.
@@ -111,17 +111,17 @@ Once you have mobs spawning, you may need to move them to a comfortable killing 
 
 === "Ars Nouveau Ritual of Attraction"
 
-    First you need to craft a `Tablet of Attraction` and a `Ritual Brazier`. Place it in a place with a nearby spawner. Recommended to place it on the air so the mobs stack below. Source will be needed.
+    First, you need to craft a `Tablet of Attraction` and a `Ritual Brazier`. Place the Brazier in a central location near the spawner. It's recommended to place it somewhat elevated so mobs gather below it. Activating the ritual (using the Tablet on the Brazier and then ++rbutton++) requires a continuous supply of Source.
 
     ![Tablet Of Attraction Ritual Example](img/mobfarms/tablet_of_attraction.png)
 
 === "Primal Magick"
 
-    First you are going to need `Zephyr Engine` and `Void Turbine` as well as any restone power source. And then yopu can design something similar as what we have in the image to move the mobs to the desired corner (a `Magma Block`in this example). Beaware that the spawner must be on the middle of the construction with a proper spawn range to make the mobs spawn in the correct place. Zephyrs will repell mobs and void will attract them.
+    First, you will need `Zephyr Engines` and `Void Turbines`, as well as a redstone power source. You can then design an arrangement similar to the image below to push/pull mobs towards a desired corner (a `Magma Block` in this example). Be aware that the spawner must be centered within the setup with an appropriate spawn range to ensure mobs spawn correctly. Zephyrs repel mobs, and Void Turbines attract them.
 
-    ![Primal magick Example](img/mobfarms/primal_magick.png)
+    ![Primal Magick Mob Movement Example](img/mobfarms/primal_magick.png)
 
-    *(Note: you can' place on zephyr in front of the other ass they will nullify the effect. Same with the voids.
+    *(Note: You cannot place one Zephyr directly facing another, as they will nullify each other's effect. The same applies to Void Turbines.)*
 
 === "Reactive"
 
@@ -129,9 +129,9 @@ Once you have mobs spawning, you may need to move them to a comfortable killing 
 
 === "Create"
 
-    Create Fans can be used in a similar desing as the primal magik one, with `Encased Fan` puling and pushing the mobs utowardss a desired area. Beaware that the spawner must be on the middle of the construction with a proper spawn range to make the mobs spawn in the correct place.
+    Create Fans can be used in a similar design to the Primal Magick setup, using `Encased Fans` to push or pull mobs towards a desired area based on their rotation direction. Ensure the spawner is centered with an appropriate spawn range for the mobs to spawn within the fan's influence.
 
-![Create Example](img/mobfarms/create.png)
+    ![Create Fan Mob Movement Example](img/mobfarms/create.png)
 
 ## Automated Killing Methods
 
@@ -233,38 +233,36 @@ Efficiently handling the large volume of drops from mob farms is crucial. Here a
     *   **Occultism:** `Foliot Item Collector` spirit job can pick up items in an area. Requires summoning and assigning the spirit.
     *   **Vanilla:** Hoppers and Hopper Minecarts (less efficient for large volumes but simple).
     *   **Ars Nouveau:** `Starbuncles` can move items to designated chests or inventories. *(See Ars Nouveau guide for details on configuration).*
-    *   **Ars Nouveau:** `Spell Turrets` or `Runes` using spells with `Pickup` effect (AoE pickup).
-    *   **Productive Bees:** `Hoarder Bee` placed in a `Beehive` with range upgrades can collect nearby items. *(Note: Not recommended as the bees can die for collateral damage)*
+    *   **Ars Nouveau:** `Spell Turrets` or `Runes` using spells with the `Pickup` effect (AoE pickup).
+    *   **Productive Bees:** `Hoarder Bee` placed in a `Beehive` with range upgrades can collect nearby items. *(Note: Not recommended, as bees can die from collateral damage in many killing setups).*
     *   **Ars Nouveau:** Activate a `Ritual of Attraction` in a `Ritual Brazier` and feed it with Source. This will attract mobs and items within an 8-block radius.
 *   **Item Transport:**
     *   **Data and Essence:** Use `Item Nodes` for transport. *(See DnE guide for configuration).*
-    *   **Theurgy:** *(Work in Progress)*. *(See Theurgy guide for details).*
+    *   **Theurgy:** *(Work In Progress)*. *(See Theurgy guide/quest book for details).*
     *   **Ars Nouveau:** `Starbuncles` can transport items between inventories based on configuration. *(See Ars Nouveau guide).*
-    *   **Ars Nouveau:** `Spell Turrets` using spells with `Toss` (requires precise aiming or target blocks) or potentially `Containment Jar` interactions.
+    *   **Ars Nouveau:** `Spell Turrets` using spells with `Toss` (requires precise aiming), `Pierce` might also be applied to split the loot in different containers.
     *   **Create:** `Conveyor Belts`, `Chutes`, `Mechanical Arms` (for precise sorting/movement), `Item Vaults` for bulk storage/transport on contraptions.
-    *   **Ender Chests**: Useful for long-distance transport or buffering items before processing/storage.
+    *   **`Ender Chests`**: Useful for long-distance transport or buffering items before processing/storage.
 *   **Filtering & Sorting:**
     *   **Sophisticated Storage:** `Filter Upgrade` (basic filtering), `Advanced Filter Upgrade` (more complex logic), `Void Upgrade` (destroys excess items). Apply directly to storage or backpacks.
     *   **Create:** `Andesite Funnel` / `Brass Funnel` with filter items set in the UI. `Attribute Filter` for specific NBT/tag filtering. `List Filter` for multiple item types.
-    *   **Theurgy:** *(Work in Progress)*. *(See Theurgy guide for details).*
+    *   **Theurgy:** *(Work In Progress)*. *(See Theurgy guide/ quest book for details).*
     *   **Ars Nouveau:** `Starbuncles` can be configured with filters to only pick up or deposit specific items. *(See Ars Nouveau guide).*
 *   **Storage Solutions:**
     *   **Sophisticated Storage:** Upgradable Chests, Barrels, and Backpacks. High capacity and utility with upgrades.
     *   **AE2:** Mass digital storage using `Storage Cells` in `ME Drives`. Access everything via terminals (`Crafting Terminal`, `Pattern Terminal`, etc.).
 
-### Specific mob farm filtering methods
+### Specific Mob Farm Filtering Methods
 
-
-=== "L2 Traits"
-
-    *(Work In Progress - come back later)*
-
-=== "Apotheosis"
+=== "L2 Traits Filtering"
 
     *(Work In Progress - come back later)*
 
+=== "Apotheosis Affix Item Filtering"
+
+    *(Work In Progress - come back later)*
 
 ## Other Tips and Tricks!
 
 *   For avoiding the spawn of `Vengeance Spirits` from **Evilcraft**, place `Gemstone Torches` from **Primal Magick** around the killing area.
-*   If you are not trying to farm **L2** `Traits` is recommended to have the chunk difficulty cleared of where the spawner is.
+*   If you are not trying to farm **L2** `Trait Symbols` or other difficulty-scaled drops, it's recommended to clear the chunk difficulty where the spawner is located using a `Hostility Orb` to potentially reduce lag or unwanted mob strength increases.
