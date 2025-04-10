@@ -7,7 +7,8 @@ authors:
 
 # Guide: Mob Farms in All The Magic - Arcana
 
-Welcome, aspiring mob farmers! If you're looking to efficiently gather mob loot in the ATMA modpack, you've come to the right place. This guide will cover various methods for spawning or generating mobs/resources and different techniques for automatically killing them and collecting their drops.
+Welcome, aspiring mob farmers! If you're looking to efficiently gather mob loot in the ATMA modpack, you've come to the right place.
+This guide will cover various methods for spawning or generating mobs/resources and different techniques for automatically killing them and collecting their drops.
 
 ## Fundamental Mob Spawning Mechanics (Vanilla)
 
@@ -20,6 +21,8 @@ Understanding vanilla mob spawning is key for many farm designs:
 *   **AFK Spot:** The general 'sweet spot' distance to wait from spawning platforms is often between **24 and 32 blocks** away to maximize spawns within the farm while minimizing spawns elsewhere nearby. Being further (but less than 128 blocks) is also possible depending on the farm design.
 
 *(Note: Apotheosis can override some of these rules for its spawners.)*
+
+---
 
 ## Mob Spawning / Resource Generation Methods
 
@@ -54,30 +57,32 @@ These rely on block entities that explicitly spawn mobs or vanilla mechanics.
 
 *   **Apotheosis Spawners:** Found in dungeons or crafted. **Apotheosis** significantly enhances vanilla spawners, allowing pickup (with Silk Touch) and changing the spawned mob with a spawn egg (use the `Capturing` enchantment to get the egg). You can modify their behavior by right-clicking the spawner with specific items:
 
-    | Upgrade Item           | Effect                                                                                                                                                                                               |
-    | :--------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-    | `Sugar`                | -10 Ticks Minimum Spawn Delay                                                                                                                                                                        |
-    | `Clock`                | -20 Ticks Maximum Spawn Delay                                                                                                                                                                        |
-    | `Fermented Spider Eye` | +2 Spawn Count (Mobs per spawn event)                                                                                                                                                                |
-    | `Ghast Tear`           | +2 Max Nearby Entities (Limit before stopping spawns)                                                                                                                                                |
-    | `Prismarine Crystal`   | +4 Blocks Player Activation Range                                                                                                                                                                    |
-    | `Nether Star`          | +Ignore Players Condition (Spawns regardless of players)                                                                                                                                             |
-    | `Soul Lantern`         | +Ignore Light Condition                                                                                                                                                                              |
-    | `Conduit`              | +Ignore Conditions (Light, Space, etc.)                                                                                                                                                              |
-    | `Echo Shard`           | +Echoing (Mobs drop extra loot)                                                                                                                                                                      |
-    | `Campfire`             | +Burning (Mobs spawn on fire)                                                                                                                                                                        |
+    | Upgrade Item           | Effect                                                                                                                                                                                          |
+    |:-----------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+    | `Sugar`                | -10 Ticks Minimum Spawn Delay                                                                                                                                                                   |
+    | `Clock`                | -20 Ticks Maximum Spawn Delay                                                                                                                                                                   |
+    | `Fermented Spider Eye` | +2 Spawn Count (Mobs per spawn event)                                                                                                                                                           |
+    | `Ghast Tear`           | +2 Max Nearby Entities (Limit before stopping spawns)                                                                                                                                           |
+    | `Prismarine Crystal`   | +4 Blocks Player Activation Range                                                                                                                                                               |
+    | `Nether Star`          | +Ignore Players Condition (Spawns regardless of players)                                                                                                                                        |
+    | `Soul Lantern`         | +Ignore Light Condition                                                                                                                                                                         |
+    | `Conduit`              | +Ignore Conditions (Light, Space, etc.)                                                                                                                                                         |
+    | `Echo Shard`           | +Echoing (Mobs drop extra loot)                                                                                                                                                                 |
+    | `Campfire`             | +Burning (Mobs spawn on fire)                                                                                                                                                                   |
     | `Comparator`           | +Redstone Control (Requires signal to spawn). For wireless activation, you can use **Create** `Redstone Link` (best option) or **Ars Nouveau** `Redstone Relay` (works within a certain range). |
-    | `Turtle Egg`           | +Youthful (Spawns babies if possible)                                                                                                                                                                |
-    | `Piston`               | +2 Blocks Spawn Range (Area around spawner mobs appear)                                                                                                                                              |
-    | `Wool`                 | +Silent (No spawning sound)                                                                                                                                                                          |
-    | `Chorus Fruit`         | +No AI (Mobs spawn without AI, good for kill chambers)                                                                                                                                               |
-    | `Pointed Dripstone`    | -5% Initial Health                                                                                                                                                                                   |
+    | `Turtle Egg`           | +Youthful (Spawns babies if possible)                                                                                                                                                           |
+    | `Piston`               | +2 Blocks Spawn Range (Area around spawner mobs appear)                                                                                                                                         |
+    | `Wool`                 | +Silent (No spawning sound)                                                                                                                                                                     |
+    | `Chorus Fruit`         | +No AI (Mobs spawn without AI, good for kill chambers)                                                                                                                                          |
+    | `Pointed Dripstone`    | -5% Initial Health                                                                                                                                                                              |
 
     *Note: Holding `Quartz` in your off-hand while clicking with an upgrade item will **invert** its effect (e.g., Quartz + Sugar = +10 Ticks Minimum Spawn Delay).
     For more information on the Apotheosis spawners, you can check the quest line or use JEI/EMI.*
 
 *   `Source Spawners` from **Ars Nouveau**: They can be used to farm a designated mob located in a `Containment Jar` under the spawner. Require Source. Cannot be upgraded like **Apotheosis** ones. Might be easy to use for farming specific mobs for which you do not have the spawn egg.
 *   **Enderman Farms:** Classic vanilla design, often built in the End dimension. Relies on attracting Endermen (e.g., with an Endermite) and dropping them to their death or a kill chamber. *(Specific ATMA build details will be covered later).*
+
+---
 
 ## Ways To Move The Mobs
 
@@ -97,11 +102,18 @@ Once you have mobs spawning, you may need to move them to a comfortable killing 
 
 === "Ars Nouveau Warp Portal (Recommended)"
 
-    First, you need to set up the area where you want to kill the mobs. A minimum 2x2 area is recommended to avoid mobs clipping through blocks. Then, with a `Warp Scroll` (for same-dimension movement) or a `Stabilized Warp Scroll` (for interdimensional movement) in your hand, ++shift+rbutton++ in the middle of that killing area to set the teleportation destination.
+    First, you need to set up the area where you want to kill the mobs. A minimum 2x2 area is recommended to avoid mobs clipping through blocks.
+    Then, with a `Warp Scroll` (for same-dimension movement) or a `Stabilized Warp Scroll` (for interdimensional movement) in your hand, ++shift+rbutton++ in the middle
+    of that killing area to set the teleportation destination.
 
     ![Killing Area Example](img/mobfarms/ars_wp_killing_area.png)
 
-    After that, build the platform where the mobs will spawn. The portal size should accommodate the spawner's spawn range. In this example, we are using an 8x8 area for a 7-block spawn range. The first layer should be any solid block (where mobs will spawn). Then make a border using `Sourcestone`, `Mirrorweave`, or `Ghostweave` blocks (the last two can mimic the appearance of other blocks). On top of this border, you can place slabs, leaves with water (useful for Endermen to prevent teleporting), or simply build solid walls. The spawner should be elevated in the middle of the platform based on its spawn range (to prevent mobs spawning below the portal). Place solid blocks above the spawner as well to prevent mobs from getting stuck there.
+    After that, build the platform where the mobs will spawn. The portal size should accommodate the spawner's spawn range.
+    In this example, we are using an 8x8 area for a 7-block spawn range. The first layer should be any solid block (where mobs will spawn).
+    Then make a border using `Sourcestone`, `Mirrorweave`, or `Ghostweave` blocks (the last two can mimic the appearance of other blocks).
+    On top of this border, you can place slabs, leaves with water (useful for Endermen to prevent teleporting), or simply build solid walls.
+    The spawner should be elevated in the middle of the platform based on its spawn range (to prevent mobs spawning below the portal).
+    Place solid blocks above the spawner as well to prevent mobs from getting stuck there.
 
     ![Portal Setup Example](img/mobfarms/ars_wp_portal_setup.png)
 
@@ -109,11 +121,13 @@ Once you have mobs spawning, you may need to move them to a comfortable killing 
 
     ![Portal Activation Example](img/mobfarms/ars_wp_portal_activation.png)
 
-    With this setup, mobs will spawn in one location/dimension (allowing you to benefit from dimension-exclusive drops) and be teleported to your preferred killing area on any dimension (if a `Stabilized Warp Scroll` is used).
+    With this setup, mobs will spawn in one location/dimension (allowing you to benefit from dimension-exclusive drops) and be teleported to your preferred killing area
+    on any dimension (if a `Stabilized Warp Scroll` is used).
 
 === "Ars Nouveau Ritual of Attraction"
 
-    First, you need to craft a `Tablet of Attraction` and a `Ritual Brazier`. Place the Brazier in a central location near the spawner. It's recommended to place it somewhat elevated so mobs gather below it. Activating the ritual (using the Tablet on the Brazier and then ++rbutton++) requires a continuous supply of Source.
+    First, you need to craft a `Tablet of Attraction` and a `Ritual Brazier`. Place the Brazier in a central location near the spawner.
+    It's recommended to place it somewhat elevated so mobs gather below it. Activating the ritual (using the Tablet on the Brazier and then ++rbutton++) requires a continuous supply of Source.
 
     ![Tablet Of Attraction Ritual Example](img/mobfarms/tablet_of_attraction.png)
 
@@ -125,15 +139,20 @@ Once you have mobs spawning, you may need to move them to a comfortable killing 
 
     Once you have done that, set up a `Tablet of Containment` on a `Ritual Brazier` powered by Source and trap the decoy in a `Containment Jar`.
 
-    Finally, place the jar containing the decoy where you want to attract the mobs (works with or without AI) and power it with redstone. *(Note that this method is generally more efficient than the Ritual of Attraction because you are not continuously spending Source after setup)*
+    Finally, place the jar containing the decoy where you want to attract the mobs (works with or without AI) and power it with redstone.
+    *(Note that this method is generally more efficient than the Ritual of Attraction because you are not continuously spending Source after setup)*
 
     ![Decoy Jar Placement Example](img/mobfarms/decoy_example.png)
 
-    *(Note: Ritual of Attraction will attract both **mobs** and **items**, while the Decoy only attracts **mobs**. The Ritual tends to keep mobs on the ground below it, while the Decoy can pull mobs towards it even if it's floating, so design your kill chamber accordingly.)*
+    *(Note: Ritual of Attraction will attract both **mobs** and **items**, while the Decoy only attracts **mobs**.
+    The Ritual tends to keep mobs on the ground below it, while the Decoy can pull mobs towards it even if it's floating, so design your kill chamber accordingly.)*
 
 === "Primal Magick"
 
-    First, you will need `Zephyr Engines` and `Void Turbines`, as well as a redstone power source. You can then design an arrangement similar to the image below to push/pull mobs towards a desired corner (a `Magma Block` in this example). Be aware that the spawner must be centered within the setup with an appropriate spawn range to ensure mobs spawn correctly. Zephyrs repel mobs, and Void Turbines attract them.
+    First, you will need `Zephyr Engines` and `Void Turbines`, as well as a redstone power source.
+    You can then design an arrangement similar to the image below to push/pull mobs towards a desired corner (a `Magma Block` in this example).
+    Be aware that the spawner must be centered within the setup with an appropriate spawn range to ensure mobs spawn correctly.
+    Zephyrs repel mobs, and Void Turbines attract them.
 
     ![Primal Magick Mob Movement Example](img/mobfarms/primal_magick.png)
 
@@ -141,7 +160,8 @@ Once you have mobs spawning, you may need to move them to a comfortable killing 
 
 === "Create"
 
-    Create Fans can be used in a similar design to the Primal Magick setup, using `Encased Fans` to push or pull mobs towards a desired area based on their rotation direction. Ensure the spawner is centered with an appropriate spawn range for the mobs to spawn within the fan's influence.
+    Create Fans can be used in a similar design to the Primal Magick setup, using `Encased Fans` to push or pull mobs towards a desired area based on their rotation direction.
+    Ensure the spawner is centered with an appropriate spawn range for the mobs to spawn within the fan's influence.
 
     ![Create Fan Mob Movement Example](img/mobfarms/create.png)
 
@@ -149,7 +169,10 @@ Once you have mobs spawning, you may need to move them to a comfortable killing 
 
 === "Data and Essence"
 
-    First you need to have an essence generation going on (More details in the DnE Guide). Craft a few `Laser Emitters` and `Acceleation Lens` and place the lens on the laser, also connect the lasers to the essence network. The design is similar to the Primal Magik and Create ones. Ensure the spawner is centered with an appropriate spawn range for the mobs to spawn within the laser's influence. Lasers will push the mobs away from them at a high speed.
+    First you need to have an essence generation going on (More details in the DnE Guide).
+    Craft a few `Laser Emitters` and `Acceleation Lens` and place the lens on the laser, also connect the lasers to the essence network.
+    The design is similar to the Primal Magik and Create ones. Ensure the spawner is centered with an appropriate spawn range for the mobs to spawn within the laser's influence.
+    Lasers will push the mobs away from them at a high speed.
 
     ![Data and Essence Laser Example](img/mobfarms/dne_laser.png)
 
@@ -162,6 +185,8 @@ Once you have mobs spawning, you may need to move them to a comfortable killing 
 === "Modular Golems"
 
     *(Work In Progress - come back later)*
+
+---
 
 ## Automated Killing Methods
 
@@ -192,7 +217,8 @@ Once you have the mobs in place, you need ways to kill them automatically:
 
 === "Ars Nouveau Runes"
 
-    For setting up the runes, place them in the killing destination area with a Source Jar nearby. I recommend using a spell like `Self -> Spark -> Discharge` (or similar AoE damage spells), but feel free to explore other combinations.
+    For setting up the runes, place them in the killing destination area with a Source Jar nearby.
+    I recommend using a spell like `Self -> Spark -> Discharge` (or similar AoE damage spells), but feel free to explore other combinations.
 
     ![Example Rune Spell: Spark Discharge](img/mobfarms/ars_rune_spark_discharge.png)
 
@@ -209,7 +235,9 @@ Once you have the mobs in place, you need ways to kill them automatically:
 
     ![Example of Mob Killed by Ars Rune](img/mobfarms/ars_rune_death.png)
 
-    To increase rune damage, consider equipping Ars Nouveau related gear with appropriate threads, using potions, and other methods explained in the Ars Nouveau guide. It's also beneficial to hold a weapon with high crit chance/damage and looting enchantments while AFKing, as these stats can apply to rune kills. This concept is better explained in the "[Dealing Super High Amounts of Damage](tips.md)" section of the Tips page.
+    To increase rune damage, consider equipping Ars Nouveau related gear with appropriate threads, using potions, and other methods explained in the Ars Nouveau guide.
+    It's also beneficial to hold a weapon with high crit chance/damage and looting enchantments while AFKing, as these stats can apply to rune kills.
+    This concept is better explained in the "[Dealing Super High Amounts of Damage](tips.md)" section of the Tips page.
 
 === "Ars Nouveau Turrets"
 
@@ -217,8 +245,12 @@ Once you have the mobs in place, you need ways to kill them automatically:
 
 === "Modular Golems"
 
-    For this setup, you are going to need a `Humanoid Golem`. *(Note: This guide will not explain how golems work; refer to the in-game book for more information or come back later when the **Modular Golems** guide is added)*. The golem needs to benefit from `Immunity` from an `Eternium Humanoid Body` or `Eternium Humanoid Legs`. It's recommended to install the maximum amount of upgrades possible on the golem for maximizing damage.
-    The golem needs to have a weapon equipped (preferably with max enchantments and max **Apotheosis** affixes and gems) that has sweeping damage. My personal recommendation is the `Unobtainium Scythe` (or any other scythe).
+    For this setup, you are going to need a `Humanoid Golem`.
+    *(Note: This guide will not explain how golems work; refer to the in-game book for more information or come back later when the **Modular Golems** guide is added)*.
+    The golem needs to benefit from `Immunity` from an `Eternium Humanoid Body` or `Eternium Humanoid Legs`.
+    It's recommended to install the maximum amount of upgrades possible on the golem for maximizing damage.
+    The golem needs to have a weapon equipped (preferably with max enchantments and max **Apotheosis** affixes and gems) that has sweeping damage.
+    My personal recommendation is the `Unobtainium Scythe` (or any other scythe).
     You can also equip `Curios` items to enhance the golem's damage even further.
 
     ![Golem with Unobtainium Scythe](img/mobfarms/unobtanium_golem.png)
@@ -236,7 +268,8 @@ Once you have the mobs in place, you need ways to kill them automatically:
 
 === "Reliquary Pedestals"
 
-    This method is simple: you need a `Pedestal` (not the display version), power it with redstone, then place any weapon in the altar and enjoy a slow killing process. Sweeping edge weapons work better. Remember to maximize enchantments, Apotheosis affixes, and gems on the weapon to maximize damage. Right now L2 weapons are not compatible with this functionality.
+    This method is simple: you need a `Pedestal` (not the display version), power it with redstone, then place any weapon in the altar and enjoy a slow killing process.
+    Sweeping edge weapons work better. Remember to maximize enchantments, Apotheosis affixes, and gems on the weapon to maximize damage. Right now L2 weapons are not compatible with this functionality.
 
     ![Pedestal Killing Example](img/mobfarms/reliquary_pedestal.png)
 
@@ -290,6 +323,8 @@ Once you have the mobs in place, you need ways to kill them automatically:
     -   Your player stats (like critical hit chance/damage from held items) **CANNOT** be applied to the laser/leech damage.
     -   They will **NOT** drop items that require a player kill, like `Grave Dust` from **Corail Tombstone**.
 
+---
+
 ## Loot Considerations & Extra Resources
 
 Farming in ATMA involves more than just vanilla drops. Consider these potential outputs:
@@ -312,6 +347,8 @@ Farming in ATMA involves more than just vanilla drops. Consider these potential 
 *   **Occultism Mobs:** Can also be farmed in spawners and with Drygmys. Be aware that rituals like **Occultism's** `Wild Breeze` (the 3 levels of it) spawn multiple mob types, not just the Breeze, and the `No AI` upgrade from Apotheosis may not apply to all spawned entities. Drygmy farms are potentially simpler for `Wild Breeze` farming.
 
 *(This guide will be expanded with more specific details and build examples for each method.)*
+
+---
 
 ## Collection and Filtering Methods
 
@@ -352,6 +389,8 @@ Efficiently handling the large volume of drops from mob farms is crucial. Here a
 === "Apotheosis Affix Item Filtering"
 
     *(Work In Progress - come back later)*
+
+---
 
 ## Other Tips and Tricks!
 
