@@ -82,7 +82,7 @@ These rely on block entities that explicitly spawn mobs or vanilla mechanics.
 
 Once you have mobs spawning, you may need to move them to a comfortable killing area, potentially even across dimensions. Here are some methods:
 
-*   **Vanilla:** Use water or lava streams to push mobs. Remember water and lava flow distance limits and that water cannot be placed in the Nether.
+*   **Vanilla:** Use water or lava streams to push mobs. Remember water and lava flow distance limits and that water cannot be placed in the Nether. *(Note: We will not be explaining vanilla mobfarms in this guide)*
 *   **Ars Nouveau:** `Warp Portal` blocks and `Warp Scrolls` can teleport entities.
 *   **Ars Nouveau:** Use the `Glyph of Summon Decoy` to summon a decoy, trap it in a `Containment Jar`, and place the jar where you want mobs (with AI) to move towards.
 *   **Ars Nouveau:** Activate a `Ritual of Attraction` in a `Ritual Brazier` and feed it with Source. This will attract mobs within an 8-block radius *(verification needed on continuous Source feeding)*.
@@ -94,11 +94,7 @@ Once you have mobs spawning, you may need to move them to a comfortable killing 
 
 ### Setup Examples (Mob Movement)
 
-=== "Vanilla"
-
-    *(Example + images go here)*
-
-=== "Ars Nouveau Warp Portal"
+=== "Ars Nouveau Warp Portal (Recommended)"
 
     First, you need to set up the area where you want to kill the mobs. A minimum 2x2 area is recommended to avoid mobs clipping through blocks. Then, with a `Warp Scroll` (for same-dimension movement) or a `Stabilized Warp Scroll` (for interdimensional movement) in your hand, ++shift+rbutton++ in the middle of that killing area to set the teleportation destination.
 
@@ -116,23 +112,23 @@ Once you have mobs spawning, you may need to move them to a comfortable killing 
 
 === "Ars Nouveau Decoy"
 
-    *(Example + images go here)*
+    *(WIP, come back latter)*
 
 === "Ars Nouveau Ritual of Attraction"
 
-    *(Example + images go here)*
+    *(WIP, come back latter)*
 
 === "Primal Magick"
 
-    *(Example + images go here)*
+    *(WIP, come back latter)*
 
 === "Reactive"
 
-    *(Example + images go here)*
+    *(WIP, come back latter)*
 
 === "Create"
 
-    *(Example + images go here)*
+    *(WIP, come back latter)*
 
 ## Automated Killing Methods
 
@@ -152,37 +148,48 @@ Once you have the mobs in place, you need ways to kill them automatically:
 
 ### Setup Examples (Killing Methods)
 
+=== "Combination of Methods (Recommended)"
+
+    *(WIP, come back latter)*
+
 === "Ars Nouveau Runes"
 
-    *(Example + images go here)*
+    For setting up the runes, you need to place them on the killing destination with a source jar nearby. I recommend using this spell but you can explore anytihng that you might like.
 
+    ![Rune Spell](img/mobfarms/ars_rune_spark_discharge.png)
+
+    For making a rune permanent you need a `Runic Chalk` and ++rbutton++ the placed rune. *(Note: For more information on runes refer to the ars guide)*
+
+    ![Placed rune](img/mobfarms/ars_placed_rune.png)
+
+    Be aware that mobs killed using runes count as is the player is killing them so they will increase the L2 difficulty, apply any curios item you have equiped as well as your stats, and will drop items that would only drop when mobs killed by player like `Grave Dust` from **Corail Tombstone**.
+
+    ![Ars Rune Killing](img/mobfarms/ars_rune_death.png)
+
+    As per how to increase the damage made by the runes you should consider equiping ars related gear with the correct threads, potions and other ways explained in the ars guide. Also it's a very good idea that while you AFK your mobfarm you hold a weapon with crit chance and crit dmg to apply it to the runes dmg, as well as the looting nad other enchantments. This part is better defined in the "[Dealing super high amounts of damage](tips.md)" section of the Tips page.
 === "Ars Nouveau Turrets"
 
-    *(Example + images go here)*
+    *(WIP, come back latter)*
 
 === "Modular Golems"
 
-    *(Example + images go here)*
+    *(WIP, come back latter)*
 
 === "Reliquiary Pedestals"
 
-    *(Example + images go here)*
+    *(WIP, come back latter)*
 
 === "Mahou Tsukai"
 
-    *(Example + images go here)*
+    *(WIP, come back latter)*
 
 === "Data and Essence Leech"
 
-    *(Example + images go here)*
+    *(WIP, come back latter)*
 
 === "Data and Essence Lasers"
 
-    *(Example + images go here)*
-
-=== "Combination of Methods"
-
-    *(Example + images go here)*
+    *(WIP, come back latter)*
 
 ## Loot Considerations & Extra Resources
 
@@ -207,3 +214,11 @@ Farming in ATMA involves more than just vanilla drops. Consider these potential 
 *   **Occultism Mobs:** Can also be farmed in spawners and with Drygmys. Be aware that rituals like **Occultism's** `Wild Breeze` (the 3 levels of it) spawn multiple mob types, not just the Breeze, and the `No AI` upgrade from Apotheosis may not apply to all spawned entities. Drygmy farms are potentially simpler for `Wild Breeze` farming.
 
 *(This guide will be expanded with more specific details and build examples for each method.)*
+
+
+## Collection and filtering methods
+TODO:list of methods
+
+
+## Other tips and tricks!
+* For avoiding the spawn of `Evil Spirits` from **Evilcraft** place `Gemstone Torches` around the killing area.
