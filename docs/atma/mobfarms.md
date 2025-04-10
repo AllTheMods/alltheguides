@@ -89,7 +89,8 @@ Once you have mobs spawning, you may need to move them to a comfortable killing 
 *   **Primal Magick:** A `Zephyr Engine` will push mobs away from the direction it faces. A `Void Turbine` will pull mobs towards the direction it faces.
 *   **Reactive:** *(Investigation needed)* - This mod might offer mob manipulation tools.
 *   **Create:** An `Encased Fan` will push or pull mobs depending on the direction of its rotational force.
-*   *(Other potential methods like Create contraptions, pedestals, etc., could be added here)*
+*   **Ars Nouveau:** Use the `Glyph of Summon Decoy` to summon a decoy, trap it in a `Containment Jar`, power it by redstone, and place the jar where you want mobs (with AI) to move towards.
+
 
 ### Setup Examples (Mob Movement)
 
@@ -115,6 +116,20 @@ Once you have mobs spawning, you may need to move them to a comfortable killing 
 
     ![Tablet Of Attraction Ritual Example](img/mobfarms/tablet_of_attraction.png)
 
+=== "Ars Nouveau Decoy"
+
+    First you need to create the spell touch->decoy, to summon a decoy.
+
+    ![Decoy Spell](img/mobfarms/decoy_spell.png)
+
+    Once you done that set up a `Containment Tablet` on a `Ritual Brazier` powered by source and trap the decoy in the jar.
+
+    Finally you need to place the decoy where you want to attract the mobs (works with out without AI) to kill them and power it with redstone. *(Note that this method is more efficient than the ritual of attraction because you are not spending sourvce)*
+
+    ![Decoy Example](img/mobfarms/decoy_example.png)
+
+    *(Note Ritual of attraction will attract both mobs and items while decoy only items. Ritual of attraction will keep the mobs on the ground while decoy will magnet them to the jar if its floating so prepare the mobfarm with that in mind)*
+
 === "Primal Magick"
 
     First, you will need `Zephyr Engines` and `Void Turbines`, as well as a redstone power source. You can then design an arrangement similar to the image below to push/pull mobs towards a desired corner (a `Magma Block` in this example). Be aware that the spawner must be centered within the setup with an appropriate spawn range to ensure mobs spawn correctly. Zephyrs repel mobs, and Void Turbines attract them.
@@ -132,6 +147,7 @@ Once you have mobs spawning, you may need to move them to a comfortable killing 
     Create Fans can be used in a similar design to the Primal Magick setup, using `Encased Fans` to push or pull mobs towards a desired area based on their rotation direction. Ensure the spawner is centered with an appropriate spawn range for the mobs to spawn within the fan's influence.
 
     ![Create Fan Mob Movement Example](img/mobfarms/create.png)
+
 
 ## Automated Killing Methods
 
