@@ -177,6 +177,7 @@ Once you have the mobs in place, you need ways to kill them automatically:
     *   `Harming Lens`: General damage.
     *   `Burning Lens`: Sets mobs on fire.
     *   *(Note: `Healing Lens` from DnE only heals; it doesn't harm undead like vanilla splash healing potions.)*
+*   **Evilcraft:** Put `Spikes` on the floor to kill mobs and collect blood.
 
 *Note: Multiple killing methods can often be combined for faster kills or to gain different types of resources simultaneously (e.g., Mahou, DnE Essence).*
 
@@ -184,7 +185,11 @@ Once you have the mobs in place, you need ways to kill them automatically:
 
 === "Combination of Methods (Recommended)"
 
-    *(Work In Progress - come back later)*
+    For learning how to set up this, you should check the individual methods.
+
+    ![Complete Mobfarm](img/mobfarms/complete_mobfarm.png)
+
+    ![Complete Mobfarm On Action](img/mobfarms/complete_mobfarm_activate.png)
 
 === "Ars Nouveau Runes"
 
@@ -212,23 +217,67 @@ Once you have the mobs in place, you need ways to kill them automatically:
 
 === "Modular Golems"
 
-    *(Work In Progress - come back later)*
+    For this setup you are going to need a `Humanoid Golem` *(Note: this guide will not explain how golems work refer to the in game book for more information or come back later when the **Modular Golems** guide is added)*. The golem needs to benefit from `Immunity` from a `Eternium Humanoid Body` or a  `Eternium Humanoid Legs`. It's recommended to install the max amount of upgrades possible on the golem for maximizing the damage.
+    The golem needs to have equiped a weapon (preferably with max enchantments and max **Apotheosis** affixes and gems) that has sweeping damage, my personal recommendation is the `Unobtanium Scythe` (or any other scythe).
+    You can also equip `Curios` items to enhace even further the golem damage.
 
-=== "Reliquiary Pedestals"
+    ![Unobtanium golem](img/mobfarms/unobtanium_golem.png)
 
-    *(Work In Progress - come back later)*
+    Place the golem inside the killing area and command it to wander around. *(Note: the area must be encapsuled so the golem doesnt run away)*
+
+    ![Modular Golem Example](img/mobfarms/golem_in_cage.png)
+
+        Be aware that mobs killed using golems count *as if the player killed them*. This means:
+    *   They can increase your L2 difficulty.
+    *   They apply effects from Curios you have equipped.
+    *   Your player stats (like critical hit chance/damage from held items) may apply to the golem damage.
+    *   They will drop items that require a player kill, like `Grave Dust` from **Corail Tombstone**.
+
+=== "Reliquary Pedestals"
+
+    This method its simple, you need a `Pedestal` (not the display version), and you power it with redstone, then place any weapon in the altar and enjoy a slow killing. Sweeping edge weapons work better. Remeber to max enchant a Apotheosis afixes and gems to maximize your damage.
+
+    ![Pedestal Example](img/mobfarms/reliquary_pedestal.png)
+
+        Be aware that mobs killed using pedestals **NOT** count *as if the player killed them*. This means:
+    *   They **CAN NOT** increase your L2 difficulty.
+    *   They **CAN NOT** apply effects from Curios you have equipped.
+    *   Your player stats (like critical hit chance/damage from held items) **CAN NOT** be applied to the pedestal damage.
+    *   They will **NOT** drop items that require a player kill, like `Grave Dust` from **Corail Tombstone**.
 
 === "Mahou Tsukai"
 
-    *(Work In Progress - come back later)*
+    You can place `Scrolls of the Boundary of Drain Life` to slowly kill the mobs. *(Note: this guide will not explain how Mhaou Tsukai works for more information refer to the in gmae guide / quest book)*.
 
-=== "Data and Essence Leech"
+    ![Boundary of Drain Life](img/mobfarms/boundary_of_drain_life.png)
 
-    *(Work In Progress - come back later)*
+        Be aware that mobs killed using golems count *as if the player killed them*. This means:
+    *   They can increase your L2 difficulty.
+    *   They apply effects from Curios you have equipped.
+    *   Your player stats (like critical hit chance/damage from held items) may apply to the golem damage.
+    *   They will drop items that require a player kill, like `Grave Dust` from **Corail Tombstone**.
 
-=== "Data and Essence Lasers"
+=== "Data and Essence"
 
-    *(Work In Progress - come back later)*
+    You can place `Essence Leech` as the floor of the mobfarm to slowly exchange the mobs health for essence.
+
+    ![Essence Leech Example](img/mobfarms/essence_leech.png)
+
+    With that essence you can feed the `Lasers` to kill even faster. For that apply to the `Laser` the `Harming Lens`.
+
+    ![Laser Example](img/mobfarms/dne_laser_kill.png)
+
+        Be aware that mobs killed using pedestals **NOT** count *as if the player killed them*. This means:
+    *   They **CAN NOT** increase your L2 difficulty.
+    *   They **CAN NOT** apply effects from Curios you have equipped.
+    *   Your player stats (like critical hit chance/damage from held items) **CAN NOT** be applied to the pedestal damage.
+    *   They will **NOT** drop items that require a player kill, like `Grave Dust` from **Corail Tombstone**.
+
+=== "Evilcraft Spikes"
+
+    Place a `Powered Sanguinary Pedestal` with some `Spiked Plates` and start collecting the blood.
+
+    ![Evilcraft Spikes Example](img/mobfarms/evilcraft_spikes.png)
 
 ## Loot Considerations & Extra Resources
 
