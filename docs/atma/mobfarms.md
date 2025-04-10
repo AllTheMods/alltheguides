@@ -85,12 +85,11 @@ Once you have mobs spawning, you may need to move them to a comfortable killing 
 
 *   **Vanilla:** Use water or lava streams to push mobs. Remember water and lava flow distance limits and that water cannot be placed in the Nether. *(Note: We will not be explaining vanilla mob farms in this guide)*
 *   **Ars Nouveau:** `Warp Portal` blocks and `Warp Scrolls` can teleport entities.
-*   **Ars Nouveau:** Activate a `Ritual of Attraction` in a `Ritual Brazier` and feed it with Source. This will attract mobs and items within an 8-block radius.
+* *   **Ars Nouveau:** Activate a `Ritual of Attraction` in a `Ritual Brazier` and feed it with Source. This will attract mobs and items within an 8-block radius.
+*   **Ars Nouveau:** Use the `Glyph of Summon Decoy` to summon a decoy, trap it in a `Containment Jar`, power it with redstone, and place the jar where you want mobs (with AI) to move towards.
 *   **Primal Magick:** A `Zephyr Engine` will push mobs away from the direction it faces. A `Void Turbine` will pull mobs towards the direction it faces.
 *   **Reactive:** *(Investigation needed)* - This mod might offer mob manipulation tools.
 *   **Create:** An `Encased Fan` will push or pull mobs depending on the direction of its rotational force.
-*   **Ars Nouveau:** Use the `Glyph of Summon Decoy` to summon a decoy, trap it in a `Containment Jar`, power it by redstone, and place the jar where you want mobs (with AI) to move towards.
-
 
 ### Setup Examples (Mob Movement)
 
@@ -118,17 +117,17 @@ Once you have mobs spawning, you may need to move them to a comfortable killing 
 
 === "Ars Nouveau Decoy"
 
-    First you need to create the spell touch->decoy, to summon a decoy.
+    First, you need to create the spell `Touch -> Decoy` (or similar) to summon a decoy.
 
-    ![Decoy Spell](img/mobfarms/decoy_spell.png)
+    ![Decoy Spell Example](img/mobfarms/decoy_spell.png)
 
-    Once you done that set up a `Containment Tablet` on a `Ritual Brazier` powered by source and trap the decoy in the jar.
+    Once you have done that, set up a `Tablet of Containment` on a `Ritual Brazier` powered by Source and trap the decoy in a `Containment Jar`.
 
-    Finally you need to place the decoy where you want to attract the mobs (works with out without AI) to kill them and power it with redstone. *(Note that this method is more efficient than the ritual of attraction because you are not spending sourvce)*
+    Finally, place the jar containing the decoy where you want to attract the mobs (works with or without AI) and power it with redstone. *(Note that this method is generally more efficient than the Ritual of Attraction because you are not continuously spending Source after setup)*
 
-    ![Decoy Example](img/mobfarms/decoy_example.png)
+    ![Decoy Jar Placement Example](img/mobfarms/decoy_example.png)
 
-    *(Note Ritual of attraction will attract both mobs and items while decoy only items. Ritual of attraction will keep the mobs on the ground while decoy will magnet them to the jar if its floating so prepare the mobfarm with that in mind)*
+    *(Note: Ritual of Attraction will attract both **mobs** and **items**, while the Decoy only attracts **mobs**. The Ritual tends to keep mobs on the ground below it, while the Decoy can pull mobs towards it even if it's floating, so design your kill chamber accordingly.)*
 
 === "Primal Magick"
 
@@ -147,7 +146,6 @@ Once you have mobs spawning, you may need to move them to a comfortable killing 
     Create Fans can be used in a similar design to the Primal Magick setup, using `Encased Fans` to push or pull mobs towards a desired area based on their rotation direction. Ensure the spawner is centered with an appropriate spawn range for the mobs to spawn within the fan's influence.
 
     ![Create Fan Mob Movement Example](img/mobfarms/create.png)
-
 
 ## Automated Killing Methods
 
@@ -262,7 +260,7 @@ Efficiently handling the large volume of drops from mob farms is crucial. Here a
 *   **Filtering & Sorting:**
     *   **Sophisticated Storage:** `Filter Upgrade` (basic filtering), `Advanced Filter Upgrade` (more complex logic), `Void Upgrade` (destroys excess items). Apply directly to storage or backpacks.
     *   **Create:** `Andesite Funnel` / `Brass Funnel` with filter items set in the UI. `Attribute Filter` for specific NBT/tag filtering. `List Filter` for multiple item types.
-    *   **Theurgy:** *(Work In Progress)*. *(See Theurgy guide/ quest book for details).*
+    *   **Theurgy:** *(Work In Progress)*. *(See Theurgy guide/quest book for details).*
     *   **Ars Nouveau:** `Starbuncles` can be configured with filters to only pick up or deposit specific items. *(See Ars Nouveau guide).*
 *   **Storage Solutions:**
     *   **Sophisticated Storage:** Upgradable Chests, Barrels, and Backpacks. High capacity and utility with upgrades.
@@ -270,7 +268,7 @@ Efficiently handling the large volume of drops from mob farms is crucial. Here a
 
 ### Specific Mob Farm Filtering Methods
 
-=== "L2 Traits Filtering"
+=== "L2 Trait Symbol Filtering"
 
     *(Work In Progress - come back later)*
 
