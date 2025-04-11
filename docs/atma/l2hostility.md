@@ -40,29 +40,13 @@ You generally won't encounter high-level mobs with powerful traits early on.
 
 *   **Kill Mobs:** The primary method of gaining difficulty.
 *   **Drink a Cursed Bottle:** The **most efficient** way to quickly raise difficulty, giving **+50 levels** per bottle consumed.
-*   **Wear Difficulty Curios:** Equip specific Curios that grant bonus difficulty points. The currently available options are shown below:
+*   **Wear Difficulty Curios:** Equip specific Curios that grant bonus of +50 difficulty levels. The currently available options are shown below:
 
     ![Curios For Difficulty Increase](img/l2tat/curios_for_difficulty_increase.png)
 
-    *(Note: From left to right: `Curse of Envy`, `Curse of Greed`, `Curse of Lust`)*
+    *(Note: From left to right: `Curse of Envy`, `Curse of Greed`, `Curse of Lust`,  `Curse of Warth`)*
 
-*   **Visit New Dimensions:** Entering dimensions for the first time can increase difficulty giving a +2 lvl of difficulty for each dimension. Maximum difficulty levels per dimension (subject to change): *(TODO: Verify these max levels)*
-    *   Overworld - lvl 2000
-    *   The Beyond - lvl 2000
-    *   ~~Ice and Fire: Dread Lands - lvl 2000~~ Not implemented yet
-    *   Deeper and Darker: Otherside - lvl 2000
-    *   The End - lvl 2000
-    *   Eternal Starlight - lvl 2000
-    *   Twilight Forest - lvl 2000
-    *   The Other - lvl 2000
-    *   The Bumblezone - lvl 2000
-    *   ATM Mining Dimension - lvl 2000
-    *   Mysticrift Pharaohs Legacy: Sahara - lvl 2000
-    *   The Nether - lvl 2000
-    *   Undergarden - lvl 2000
-    *   Mahoutsukai: Reality Marble - lvl 2000
-    *   Ae2: Spatial Storage - lvl 2000
-    *   ~~Data and Essence: Sanctuary - lvl 2000~~ Not implemented yet
+*   **Visit New Dimensions:** Entering dimensions for the first time can increase difficulty giving a +2 lvl of difficulty for each dimension. Most of the dimensions will add a multiplicative of 1.5x of you current level allowing to mobs to reach a maximum level of 3000; in the overworld this multiplicative vary between 1x and 1.5x.
 *   **Travel Far from Origin:** Moving a significant distance away from the world spawn point increases difficulty.
 *   **Explore High-Difficulty Areas:** Visit biomes or dimensions that inherently possess a higher base difficulty rating.
 
