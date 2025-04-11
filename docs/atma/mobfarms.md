@@ -80,7 +80,7 @@ These rely on block entities that explicitly spawn mobs or vanilla mechanics.
     For more information on the Apotheosis spawners, you can check the quest line or use JEI/EMI.*
 
 *   `Source Spawners` from **Ars Nouveau**: They can be used to farm a designated mob located in a `Containment Jar` under the spawner. Require Source. Cannot be upgraded like **Apotheosis** ones. Might be easy to use for farming specific mobs for which you do not have the spawn egg.
-*   **Enderman Farms:** Classic vanilla design, often built in the End dimension. Relies on attracting Endermen (e.g., with an Endermite) and dropping them to their death or a kill chamber. *(Specific ATMA build details will be covered later).*
+*   **Enderman Farms:** Classic vanilla design, often built in the End dimension. Relies on attracting Endermen (e.g., with an Endermite) and dropping them to their death or a kill chamber. *(Specific ATMA build details are covered in the L2 Mobfarm at the end of the guide).*
 
 ---
 
@@ -165,18 +165,18 @@ Once you have mobs spawning, you may need to move them to a comfortable killing 
 
     ![Create Fan Mob Movement Example](img/mobfarms/create.png)
 
-    *(Note this method is less convenient than the primal magik one because it requires rotational force)*
+    *(Note: This method is less convenient than the Primal Magick one because it requires rotational force.)*
 
 === "Data and Essence"
 
-    First you need to have an essence generation going on (More details in the DnE Guide).
-    Craft a few `Laser Emitters` and `Acceleation Lens` and place the lens on the laser, also connect the lasers to the essence network.
-    The design is similar to the Primal Magik and Create ones. Ensure the spawner is centered with an appropriate spawn range for the mobs to spawn within the laser's influence.
-    Lasers will push the mobs away from them at a high speed.
+    First, you need to have an essence generation going on (More details in the DnE Guide).
+    Craft a few `Laser Emitters` and `Acceleration Lens` and place the lens on the laser, also connect the lasers to the essence network.
+    The design is similar to the Primal Magick and Create ones. Ensure the spawner is centered with an appropriate spawn range for the mobs to spawn within the laser's influence.
+    Lasers with this lens will push mobs away from them at a high speed.
 
     ![Data and Essence Laser Example](img/mobfarms/dne_laser.png)
 
-    *(Note this method is less convenient than the primal magik one because it consumme essence)*
+    *(Note: This method is less convenient than Primal Magick because it consumes essence.)*
 
 === "Reactive"
 
@@ -313,7 +313,7 @@ Once you have the mobs in place, you need ways to kill them automatically:
 
 === "Evilcraft Spikes"
 
-    Place a `Powered Sanguinary Pedestal` with some `Spiked Plates` ont top on them on the floor and start collecting the blood as mobs die on them.
+    Place a `Powered Sanguinary Pedestal` with some `Spiked Plates` on top of them on the floor and start collecting the blood as mobs die on them.
 
     ![Evilcraft Spikes Example](img/mobfarms/evilcraft_spikes.png)
 
@@ -321,7 +321,7 @@ Once you have the mobs in place, you need ways to kill them automatically:
 
     -   They **CANNOT** increase your L2 difficulty.
     -   They **CANNOT** apply effects from Curios you have equipped.
-    -   Your player stats (like critical hit chance/damage from held items) **CANNOT** be applied to the laser/leech damage.
+    -   Your player stats (like critical hit chance/damage from held items) **CANNOT** be applied to the spike damage.
     -   They will **NOT** drop items that require a player kill, like `Grave Dust` from **Corail Tombstone**.
 
 ---
@@ -382,76 +382,78 @@ Efficiently handling the large volume of drops from mob farms is crucial. Here a
     *   **Sophisticated Storage:** Upgradable Chests, Barrels, and Backpacks. High capacity and utility with upgrades.
     *   **AE2:** Mass digital storage using `Storage Cells` in `ME Drives`. Access everything via terminals (`Crafting Terminal` or `Wireless Crafting Terminal`).
 
-### Specific Mob Farm Filtering Methods
+### Specific Mob Farms and Filtering Methods
 
 === "Apotheosis Affix Item Filtering"
 
-    In this section of the guide we will be explaining how to filter apotheosis affixed items.
+    In this section of the guide, we will explain how to filter Apotheosis affixed items.
 
-    *(Note: this is just on axample, there are multiple ways to do it)*
+    *(Note: This is just one example; there are multiple ways to achieve this.)*
 
-    ![Apotheosis Mobfarm Example](img/mobfarms/apo_mobfarm.png)
+    ![Apotheosis Mob Farm Example](img/mobfarms/apo_mobfarm.png)
 
-    First just set up the mobfarm the way you want. In this case we will be using **Ars Nouveau** portals and **Runes** for doing the mobs transportation and killing.
-    For the item collection we are using **Sophisticated Storage** `Netherite Double Chest` with a `Magnet Upgrade`, a few `Void Upgrades` to jsut filter out things that we do not want to store on our main system.
+    First, set up the mob farm the way you want. In this case, we will be using **Ars Nouveau** portals and **Runes** for mob transportation and killing.
+    For item collection, we are using a **Sophisticated Storage** `Netherite Double Chest` with a `Magnet Upgrade`, and a few `Void Upgrades` to filter out things we do not want to store on our main system.
 
-    ![Chests placement](img/mobfarms/apo_mobf_1.png)
+    ![Chest Placement](img/mobfarms/apo_mobf_1.png)
 
-    We also placed a few **Sophisticated Storage** `Netherite Backpack` with `Advanced Magnet Upgrade` (filtered) and `Stack Upgrade` for more capacity per slot, `Tank Upgrade` + `Experience Pump Upgrade` to store XP
-
-    *(Note: all items from sophisticated storage can be linked together using a `Storage Tool`.)*
+    We also placed a few **Sophisticated Storage** `Netherite Backpacks` with `Advanced Magnet Upgrade` (filtered to not pick up items), `Stack Upgrade` for more capacity per slot, `Tank Upgrade` + `Experience Pump Upgrade` to store XP.
 
     ![Backpack Configuration](img/mobfarms/apo_backapck.png)
 
-    *(Note: ensure to disable the pickup items in the magnet upgrade in the backpacks)*
+    *(Note: Ensure to disable the pickup items option in the `Magnet Upgrade` settings in the backpacks.)*
 
-    As you can see we are also using **Data and Essence** `Item Nodes` with `Universal Sigil Upgrade: Speed` to move the items from the mobfarm to another place.
-    You can use any prefered way of moving items.
+    As you can see, we are also using **Data and Essence** `Item Nodes` with `Universal Sigil Upgrade: Speed` to move the items from the mob farm to another place.
+    You can use any preferred way of moving items.
 
-    ![Intermediate Storage](img/mobfarms/apo_mobf_2.png)
+    ![Intermediate Storage Setup](img/mobfarms/apo_mobf_2.png)
 
-    Then, we are using in this case an intermediate storage system to store the items from the mobfarm before separating the items that will go to our main network and to be destroyed.
-    This storage is using **Sophisticated Storage** chests. A `Storage Controller` will be required here for connecting all the chest and be able to use all the functionalities of the mod.
+    *(Note: All items from Sophisticated Storage can be linked together using a `Storage Tool`.)*
 
-    ![Ae2 Storage](img/mobfarms/apo_mobf_3.png)
+    Then, we are using an intermediate storage system (**Sophisticated Storage** chests in this example) to store items from the mob farm before separating the items that will go to our main network versus those to be destroyed or salvaged.
+    A `Storage Controller` is required here for connecting all the chests and enabling full functionality.
 
-    For selecting the Items that we want to move to the main network (**AE2 in our case**) you need to do some filtering.
-    We are using **Theurgy** `Mercurial Attribute Filter` to select items with the tags `#c:tools`and `#c:armors` and we set the filter to `Deny-List` to not allow these items go to our main network.
-    We are also using **Theurgy** `Item Extractor` for extracting the items from a `Storage Output` from **Sophisticated Storrage** ad inserting them with the `Item Inserter` into an **AE2** `ME Interface`.
+    ![AE2 Integration Point](img/mobfarms/apo_mobf_3.png)
 
-    *(Note: for speeding up the item transportation you can add more extractors/inserters and more ME Interfaces)*
+    For selecting the Items that we want to move to the main network (**AE2** in our case), you need to do some filtering.
+    We are using a **Theurgy** `Item Extractor` to pull items from a `Storage Output` (linked to the intermediate chests via the controller) and inserting them with an `Item Inserter` into an **AE2** `ME Interface`.
 
-    Applying the filter in the extractor should be enough, if that is not enough you can add it also to the inserter.
+    *(Note: For speeding up the item transportation, you can add more extractors/inserters and more ME Interfaces.)*
 
-    ![Mercurial Attribute Filter](img/mobfarms/apo_mobf_4.png)
+    We are also using a **Theurgy** `Mercurial Attribute Filter` to select items with the tags `#c:tools` and `#c:armors`, and we set the filter to `Deny-List` to **prevent** these items from going directly to our main AE2 network.
+    Applying the filter in the extractor should be enough; if not, you can add it to the inserter as well.
 
-    Now our intermediate storage should only have tools and armors.
-    We will be using the same filter than before to extrc this items but not isntead of `Deny-List` it should be an `Allow-List (Any)`.
-    Same as before, use extractors and inserters to move the items to a first barrel.
+    ![Mercurial Attribute Filter Deny List](img/mobfarms/apo_mobf_4.png)
 
-    ![Apotheosis Filtering Side](img/mobfarms/apo_mobf_5.png)
+    Now, our intermediate storage should only contain tools and armors.
+    We will use the same filter type (`Mercurial Attribute Filter` with `#c:tools` and `#c:armors`) but set to `Allow-List (Any)` to **extract only** these items.
+    Use extractors and inserters to move these items into the first barrel of the salvaging line.
 
-    The solution that has worked the best for me to filter the apotheosis gear is something like in the image.
-    A **Sophisticated Storage** `Netheri Barrel` surrounded with **Apotheosis** `Salvaging Tables`.
-    All the barrels in the line have the same configuration.
-    Use an `Advanced Hopper Upgrade` with the configurations of `Pull/Push` to the sides you need in your build (that depends on the barrel and building orientation, so the image is only an example).
-    This will make the armors that have `Affixes` go into the `Salvaging Tables` as well as the output returnn to the chest.
-    Then you need to set to `Push` to the face of the barrel that is touching the next barrel to send the results of the salvagigs as well as the tools and armors that didnt have space in the first slavagins tables. (This deppends on your mobfarm speed).
+    ![Apotheosis Salvaging Line Setup](img/mobfarms/apo_mobf_5.png)
 
-    *(Note: This can scale all that you need)*
+    The solution that has worked best for me to filter and salvage **Apotheosis gear** is shown in the image.
+    A **Sophisticated Storage** `Netherite Barrel` is surrounded by **Apotheosis** `Salvaging Tables`.
+    All the barrels in the line have the same configuration:
+    Use an `Advanced Hopper Upgrade` configured to `Pull/Push` to the necessary sides (this depends on your build orientation - the image is just an example).
+    This setup makes items with `Affixes` go into the `Salvaging Tables`, and the resulting salvage materials return to the chest.
+    Then, set the upgrade to `Push` towards the next barrel in the line to send the salvage results, as well as any tools/armor that couldn't fit into the first set of salvaging tables (this depends on your mob farm speed and salvaging speed).
 
-    ![Moving Items in the Barrels](img/mobfarms/apo_barrel_moving.png)
+    *(Note: This salvaging line can be scaled in any direction as much as needed.)*
 
-    The last barrel in the line does not have attached any `Salvaging Tables` because is out output barrel. in this case we can put a `Advanced Void Upgrade` in `Block Mode` with the apotheosis items you want to store at the end.
-    This barrel can be linked back to your main storage if you want because it will only allow these filtered items to exist in there so you can ensure that no armor or tool go to your system.
+    ![Item Movement Between Barrels](img/mobfarms/apo_barrel_moving.png)
 
-    ![Apotheosis Fial Barrel](img/mobfarms/apo_barrel_filtering.png)
+    The last barrel in the line does not have `Salvaging Tables` attached because it's our final output barrel for the salvaged materials.
+    In this case, we can put an `Advanced Void Upgrade` in `Block Mode` with the specific Apotheosis materials you want to store (e.g., Gem Dust, Salvaged Materials).
+    This barrel can then be linked back to your main storage system if desired, as it will only contain the filtered salvage materials.
 
-    *(Note: in this example we are farming Zombies with no AI from a apotheosis maximized spawner. Ideally holding a max upgraded weaponn with looting, scavenger and loot piñata to maximize the drops)*
+    ![Apotheosis Final Output Barrel](img/mobfarms/apo_barrel_filtering.png)
+
+    *(Note: In this example, we are farming Zombies with No AI from an Apotheosis maximized spawner. Ideally, hold a max upgraded weapon with `Looting`, `Scavenger`, and `Loot Piñata` enchantments while AFKing to maximize drops.)*
 
 === "L2 Trait Symbol Filtering"
 
     *(Work In Progress - come back later)*
+
 ---
 
 ## Other Tips and Tricks!
