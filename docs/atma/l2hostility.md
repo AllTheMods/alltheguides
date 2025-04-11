@@ -40,7 +40,7 @@ You generally won't encounter high-level mobs with powerful traits early on.
 
 *   **Kill Mobs:** The primary method of gaining difficulty.
 *   **Drink a Cursed Bottle:** The **most efficient** way to quickly raise difficulty, giving **+50 levels** per bottle consumed.
-*   **Wear Difficulty Curios:** Equip specific Curios that grant bonus difficulty points. The currently available options are shown below:
+*   **Wear Difficulty Curios:** Equip specific Curios that grant bonus of +50 difficulty levels. The currently available options are shown below:
 
     ![Curios For Difficulty Increase](img/l2tat/curios_for_difficulty_increase.png)
 
