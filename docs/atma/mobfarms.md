@@ -80,7 +80,7 @@ These rely on block entities that explicitly spawn mobs or vanilla mechanics.
     For more information on the Apotheosis spawners, you can check the quest line or use JEI/EMI.*
 
 *   `Source Spawners` from **Ars Nouveau**: They can be used to farm a designated mob located in a `Containment Jar` under the spawner. Require Source. Cannot be upgraded like **Apotheosis** ones. Might be easy to use for farming specific mobs for which you do not have the spawn egg.
-*   **Enderman Farms:** Classic vanilla design, often built in the End dimension. Relies on attracting Endermen (e.g., with an Endermite) and dropping them to their death or a kill chamber. *(Specific ATMA build details will be covered later).*
+*   **Enderman Farms:** Classic vanilla design, typically built in the End dimension. Relies on attracting Endermen (e.g., with an Endermite) and dropping them to their death or a kill chamber. *(Specific ATMA build details for L2 farming are covered below).*
 
 ---
 
@@ -165,18 +165,18 @@ Once you have mobs spawning, you may need to move them to a comfortable killing 
 
     ![Create Fan Mob Movement Example](img/mobfarms/create.png)
 
-    *(Note this method is less convenient than the primal magik one because it requires rotational force)*
+    *(Note: This method is less convenient than the Primal Magick one because it requires rotational force.)*
 
 === "Data and Essence"
 
-    First you need to have an essence generation going on (More details in the DnE Guide).
-    Craft a few `Laser Emitters` and `Acceleation Lens` and place the lens on the laser, also connect the lasers to the essence network.
-    The design is similar to the Primal Magik and Create ones. Ensure the spawner is centered with an appropriate spawn range for the mobs to spawn within the laser's influence.
-    Lasers will push the mobs away from them at a high speed.
+    First, you need to have an essence generation going on (More details in the DnE Guide).
+    Craft a few `Laser Emitters` and `Acceleration Lens` and place the lens on the laser, also connect the lasers to the essence network.
+    The design is similar to the Primal Magick and Create ones. Ensure the spawner is centered with an appropriate spawn range for the mobs to spawn within the laser's influence.
+    Lasers with this lens will push mobs away from them at a high speed.
 
     ![Data and Essence Laser Example](img/mobfarms/dne_laser.png)
 
-    *(Note this method is less convenient than the primal magik one because it consumme essence)*
+    *(Note: This method is less convenient than Primal Magick because it consumes essence.)*
 
 === "Reactive"
 
@@ -218,7 +218,8 @@ Once you have the mobs in place, you need ways to kill them automatically:
 === "Ars Nouveau Runes"
 
     For setting up the runes, place them in the killing destination area with a Source Jar nearby.
-    I recommend using a spell like `Self -> Spark -> Discharge` (or similar AoE damage spells), but feel free to explore other combinations.
+    I recommend using a spell like `Touch -> Rune -> Sensitive -> Spark -> Discharge` (or similar AoE damage spells), but feel free to explore other combinations.
+    *(Note: Sensitive makes the rune act as a player)*
 
     ![Example Rune Spell: Spark Discharge](img/mobfarms/ars_rune_spark_discharge.png)
 
@@ -226,7 +227,7 @@ Once you have the mobs in place, you need ways to kill them automatically:
 
     ![Placed Rune Example](img/mobfarms/ars_placed_rune.png)
 
-    Be aware that mobs killed using runes count *as if the player killed them*. This means:
+    Be aware that mobs killed using `Sensitive` runes count *as if the player killed them*. This means:
 
     -   They can increase your L2 difficulty.
     -   They apply effects from Curios you have equipped.
@@ -269,7 +270,7 @@ Once you have the mobs in place, you need ways to kill them automatically:
 === "Reliquary Pedestals"
 
     This method is simple: you need a `Pedestal` (not the display version), power it with redstone, then place any weapon in the altar and enjoy a slow killing process.
-    Sweeping edge weapons work better. Remember to maximize enchantments, Apotheosis affixes, and gems on the weapon to maximize damage. Right now L2 weapons are not compatible with this functionality.
+    Sweeping edge weapons work better. Remember to maximize enchantments, Apotheosis affixes, and gems on the weapon to maximize damage. Currently, L2 weapons are not compatible with this functionality.
 
     ![Pedestal Killing Example](img/mobfarms/reliquary_pedestal.png)
 
@@ -312,7 +313,7 @@ Once you have the mobs in place, you need ways to kill them automatically:
 
 === "Evilcraft Spikes"
 
-    Place a `Powered Sanguinary Pedestal` with some `Spiked Plates` ont top on them on the floor and start collecting the blood as mobs die on them.
+    Place a `Powered Sanguinary Pedestal` with some `Spiked Plates` on top of them on the floor and start collecting the blood as mobs die on them.
 
     ![Evilcraft Spikes Example](img/mobfarms/evilcraft_spikes.png)
 
@@ -320,7 +321,7 @@ Once you have the mobs in place, you need ways to kill them automatically:
 
     -   They **CANNOT** increase your L2 difficulty.
     -   They **CANNOT** apply effects from Curios you have equipped.
-    -   Your player stats (like critical hit chance/damage from held items) **CANNOT** be applied to the laser/leech damage.
+    -   Your player stats (like critical hit chance/damage from held items) **CANNOT** be applied to the spike damage.
     -   They will **NOT** drop items that require a player kill, like `Grave Dust` from **Corail Tombstone**.
 
 ---
@@ -363,12 +364,13 @@ Efficiently handling the large volume of drops from mob farms is crucial. Here a
     *   **Ars Nouveau:** `Spell Turrets` or `Runes` using spells with the `Pickup` effect (AoE pickup) with a container placed next to the turret.
     *   **Productive Bees:** `Hoarder Bee` placed in a `Beehive` with range upgrades can collect nearby items. *(Note: Not recommended, as bees can die from collateral damage in many killing setups).*
     *   **Ars Nouveau:** Activate a `Ritual of Attraction` in a `Ritual Brazier` and feed it with Source. This will attract mobs and items within an 8-block radius.
-    *   **Ars Nouveau:** A `Containment Jar` with an `Allay` inside will work as a vacuum hopper and deposit the items in an adjacent inventory.
+    *   **Ars Nouveau:** A `Containment Jar` with an `Allay` inside will work as a vacuum hopper and deposit the items in an adjacent inventory. They work every 40 ticks. ~~They work instant.~~
+    *   **Data and Essence:** A `Vacuum` with a container on top. Can attract items 10 blocks in all directions and collects them in a 3x3x3 area placing them in the container on top.
 *   **Item Transport:**
     *   **Data and Essence:** Use `Item Nodes` for transport. *(See DnE guide for configuration).*
     *   **Theurgy:** `Mercurial Item Inserter` and `Mercurial Item Extractor` can move items when connected with `Mercurial Copper Wire`.
     *   **Ars Nouveau:** `Starbuncles` can transport items between inventories based on configuration. *(See Ars Nouveau guide).*
-    *   **Ars Nouveau:** `Spell Turrets` using spells with `Toss` (requires precise aiming), `Pierce` might also be applied to split the loot in different containers.
+    *   **Ars Nouveau:** `Spell Turrets` using spells with `Toss` (requires precise aiming); `Pierce` might also be applied to split the loot among different containers.
     *   **Create:** `Conveyor Belts`, `Chutes`, `Mechanical Arms` (for precise sorting/movement), `Item Vaults` for bulk storage/transport on contraptions.
     *   **`Ender Chests`**: Useful for long-distance transport or buffering items before processing/storage.
 *   **Filtering & Sorting:**
@@ -378,21 +380,114 @@ Efficiently handling the large volume of drops from mob farms is crucial. Here a
     *   **Ars Nouveau:** `Starbuncles` can be configured with filters to only pick up or deposit specific items. *(See Ars Nouveau guide).*
 *   **Storage Solutions:**
     *   **Sophisticated Storage:** Upgradable Chests, Barrels, and Backpacks. High capacity and utility with upgrades.
-    *   **AE2:** Mass digital storage using `Storage Cells` in `ME Drives`. Access everything via terminals (`Crafting Terminal`, `Pattern Terminal`, etc.).
+    *   **AE2:** Mass digital storage using `Storage Cells` in `ME Drives`. Access everything via terminals (`Crafting Terminal` or `Wireless Crafting Terminal`).
 
-### Specific Mob Farm Filtering Methods
+---
 
-=== "L2 Trait Symbol Filtering"
-
-    *(Work In Progress - come back later)*
-
+## Specific Farm Guides & Filtering Setups
 === "Apotheosis Affix Item Filtering"
 
-    *(Work In Progress - come back later)*
+    In this section of the guide, we will explain how to filter Apotheosis affixed items.
+
+    *(Note: This is just one example; there are multiple ways to achieve this.)*
+
+    ![Apotheosis Mob Farm Example](img/mobfarms/apo_mobfarm.png)
+
+    First, set up the mob farm the way you want. In this case, we will be using **Ars Nouveau** portals and **Runes** for mob transportation and killing.
+    For item collection, we are using a **Sophisticated Storage** `Netherite Double Chest` with a `Magnet Upgrade`, and a few `Void Upgrades` to filter out things we do not want to store on our main system.
+
+    ![Chest Placement](img/mobfarms/apo_mobf_1.png)
+
+    We also placed a few **Sophisticated Storage** `Netherite Backpacks` with `Advanced Magnet Upgrade` (filtered to not pick up items), `Stack Upgrade` for more capacity per slot, `Tank Upgrade` + `Experience Pump Upgrade` to store XP.
+
+    ![Backpack Configuration](img/mobfarms/apo_backapck.png)
+
+    *(Note: Ensure to disable the pickup items option in the `Magnet Upgrade` settings in the backpacks.)*
+
+    As you can see, we are also using **Data and Essence** `Item Nodes` with `Universal Sigil Upgrade: Speed` to move the items from the mob farm to another place.
+    You can use any preferred way of moving items.
+
+    ![Intermediate Storage Setup](img/mobfarms/apo_mobf_2.png)
+
+    *(Note: All items from Sophisticated Storage can be linked together using a `Storage Tool`.)*
+
+    Then, we are using an intermediate storage system (**Sophisticated Storage** chests in this example) to store items from the mob farm before separating the items that will go to our main network versus those to be destroyed or salvaged.
+    A `Storage Controller` is required here for connecting all the chests and enabling full functionality.
+
+    ![AE2 Integration Point](img/mobfarms/apo_mobf_3.png)
+
+    For selecting the Items that we want to move to the main network (**AE2** in our case), you need to do some filtering.
+    We are using a **Theurgy** `Item Extractor` to pull items from a `Storage Output` (linked to the intermediate chests via the controller) and inserting them with an `Item Inserter` into an **AE2** `ME Interface`.
+
+    *(Note: For speeding up the item transportation, you can add more extractors/inserters and more ME Interfaces.)*
+
+    We are also using a **Theurgy** `Mercurial Attribute Filter` to select items with the tags `#c:tools` and `#c:armors`, and we set the filter to `Deny-List` to **prevent** these items from going directly to our main AE2 network.
+    Applying the filter in the extractor should be enough; if not, you can add it to the inserter as well.
+
+    ![Mercurial Attribute Filter Deny List](img/mobfarms/apo_mobf_4.png)
+
+    Now, our intermediate storage should only contain tools and armors.
+    We will use the same filter type (`Mercurial Attribute Filter` with `#c:tools` and `#c:armors`) but set to `Allow-List (Any)` to **extract only** these items.
+    Use extractors and inserters to move these items into the first barrel of the salvaging line.
+
+    ![Apotheosis Salvaging Line Setup](img/mobfarms/apo_mobf_5.png)
+
+    The solution that has worked best for me to filter and salvage **Apotheosis gear** is shown in the image.
+    A **Sophisticated Storage** `Netherite Barrel` is surrounded by **Apotheosis** `Salvaging Tables`.
+    All the barrels in the line have the same configuration:
+    Use an `Advanced Hopper Upgrade` configured to `Pull/Push` to the necessary sides (this depends on your build orientation - the image is just an example).
+    This setup makes items with `Affixes` go into the `Salvaging Tables`, and the resulting salvage materials return to the chest.
+    Then, set the upgrade to `Push` towards the next barrel in the line to send the salvage results, as well as any tools/armor that couldn't fit into the first set of salvaging tables (this depends on your mob farm speed and salvaging speed).
+
+    *(Note: This salvaging line can be scaled in any direction as much as needed.)*
+
+    ![Item Movement Between Barrels](img/mobfarms/apo_barrel_moving.png)
+
+    The last barrel in the line does not have `Salvaging Tables` attached because it's our final output barrel for the salvaged materials.
+    In this case, we can put an `Advanced Void Upgrade` in `Block Mode` with the specific Apotheosis materials you want to store (e.g., Gem Dust, Salvaged Materials).
+    This barrel can then be linked back to your main storage system if desired, as it will only contain the filtered salvage materials.
+
+    ![Apotheosis Final Output Barrel](img/mobfarms/apo_barrel_filtering.png)
+
+    *(Note: In this example, we are farming Zombies with No AI from an Apotheosis maximized spawner. Ideally, hold a max upgraded weapon with `Looting`, `Scavenger`, and `Loot Piñata` enchantments while AFKing to maximize drops.)*
+
+=== "Enderman Farm (L2 Trait Symbol Focus)"
+
+    Building an efficient Enderman farm, especially for L2 drops, requires specific considerations:
+
+    For maximum efficiency, you will need to build at least 128 blocks away from the main End island; you can go even further to ensure no other Endermen spawn nearby.
+
+    ![Distance from the End island](img/mobfarms/enderman_farm_1.png)
+
+    Create a large spawning platform at **Y=1**. The size of this platform can be as big as you desire (and the portal allowsd you) – larger platforms generally yield higher rates. Use `End Stone` or other valid spawnable blocks.
+
+    ![Spawning area](img/mobfarms/enderman_farm_2.png)
+
+    Border the platform with `Sourcestone` from **Ars Nouveau** . On top of the border, place waterlogged `Leaves` to prevent Endermen from spawning on or teleporting onto the border.
+
+    ![Border and Ceiling Setup](img/mobfarms/enderman_farm_3.png)
+
+    Place your AFK spot at least 32 blocks away from the spawning platform. The killing zone is better placed even further away so you don't receive any collateral damage from high-level L2 mobs, but ensure it remains less than 128 blocks from your AFK spot to prevent despawning.
+    In this example, we are using **Ars Nouveau** `Runes` (configured with `Sensitive`) to kill the Endermen, as this counts as a player kill for L2 drops.
+    It's recommended to encapsulate the Endermen in a small killing area (at least 2x2) to prevent them from clipping through blocks or exhibiting strange behavior. A low ceiling (perhaps 6 blocks high) above the *killing* area itself can sometimes help manage their positioning if needed.
+
+    You can collect the items using **Sophisticated Storage** containers with `Magnet Upgrades`. Transport the items back to the Overworld using colored `Ender Chests`.
+
+    *(Note: The walkable spawning area **cannot** be taller than 2 blocks high to prevent Endermen teleportation. The ceiling and walls of that area should ideally be waterlogged leaves.)*
+
+    ![Item Collection Example](img/mobfarms/enderman_farm_4.png)
+
+    For your protection while AFKing, given the multiple dangerous effects and damage types L2 mobs possess, build a secure waiting area. A 1x2 space surrounded by 3 layers of `Obsidian` (with a layer of waterlogged `Leaves` on top) is a robust option.
+
+    ![AFK Area Example](img/mobfarms/enderman_farm_5.png)
+
+    *(**Crucial Note:** Remember to have your **L2 Hostility** `Looting Charms` and relevant `Curses` equipped in your Curios slots, as explained in the [L2 Hostility Guide > Expected Progression](l2hostility.md#expected-l2-progression-path). Holding a weapon with high looting while AFKing is also highly recommended when using player-kill methods like Sensitive Runes.)*
+
+    ![Curios Slots with L2 Gear](img/mobfarms/enderman_farm_6.png)
 
 ---
 
 ## Other Tips and Tricks!
 
-*   For avoiding the spawn of `Vengeance Spirits` from **Evilcraft**, place `Gemstone Torches` from **Primal Magick** around the killing area.
-*   If you are not trying to farm **L2** `Trait Symbols` or other difficulty-scaled drops, it's recommended to clear the chunk difficulty where the spawner is located using a `Hostility Orb` to potentially reduce lag or unwanted mob strength increases.
+*   For avoiding the spawn of `Vengeance Spirits` from **Evilcraft**, place `Gemstone Torches` from **Evilcraft** around the killing area.
+*   If you are not actively farming **L2** `Trait Symbols` or other difficulty-scaled drops, consider placing a `Hostility Orb` from **L2 Hostility** near your spawner(s) to set the chunk difficulty to 0. This can prevent unwanted increases in mob strength and potentially reduce lag.
