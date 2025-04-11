@@ -452,7 +452,36 @@ Efficiently handling the large volume of drops from mob farms is crucial. Here a
 
 === "L2 Trait Symbol Filtering"
 
-    *(Work In Progress - come back later)*
+    For building the most efficient enderman farm you will need to be at least 128 blocks away from the mai lad, you can go even further.
+
+    ![Distance from the end island](img/mobfarms/enderman_farm_1.png)
+
+    We need to create a platform at Y=1  to maximize the efficiecy. The size of this platform can be as big as you want.
+
+    ![Spawning area](img/mobfarms/enderman_farm_2.png)
+
+    Border the platfor with `Sourcestone` from **Ars Nouveau** and on top of the border place leaves waterlogged to avoid any possible enderman spawn/teleportation.
+
+    ![Killing Area](img/mobfarms/enderman_farm_3.png)
+
+    Place the waiting zone at at least 32 blocks away from the spawning zone. The killing zone is better off placed ever further away so you dont recive any colateral damage from the L2 mobs but less than 128 blocks to prevent them from despawning.
+    In this case, we are using **Ars Nouveau** `Runes` to kill the endermen.
+    I recommend placing also a small celling 6 blocks above the killing area to avoid weird endermen behavior.
+    Is also necesary to encapsulate the endermen in an area at least 2x2 to avoid them to clip on block and weird behavior.
+
+    You can collect the items using **Sophisticated Storage** and transpor the items to the voerworld with colored `Ender Chests`.
+
+    *(Note: The walkable area *CANNOT* be taller than 2 blocks to avoid endermen teleportation. Celling and walls should be leaves waterlogged.)*
+
+    ![collecting items](img/mobfarms/enderman_farm_4.png)
+
+    As for your protectio when afking, because of the multiple effects and damage types that L2 mobs can do, my waiting area is a 1x2 area surrounded by a 3 layers obsidian (with a cape of waterlogged leaves on top).
+
+    ![Afking area](img/mobfarms/enderman_farm_5.png)
+
+    *(Note: remember to have equiped in your curios slots the curses and looting charms explained in the [L2 Hostility Guide > Expected Progression](l2hostility.md#expected-l2-progression-path))*
+
+    ![Curios Slots](img/mobfarms/enderman_farm_6.png)
 
 ---
 
