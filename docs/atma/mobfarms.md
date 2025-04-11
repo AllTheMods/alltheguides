@@ -80,7 +80,7 @@ These rely on block entities that explicitly spawn mobs or vanilla mechanics.
     For more information on the Apotheosis spawners, you can check the quest line or use JEI/EMI.*
 
 *   `Source Spawners` from **Ars Nouveau**: They can be used to farm a designated mob located in a `Containment Jar` under the spawner. Require Source. Cannot be upgraded like **Apotheosis** ones. Might be easy to use for farming specific mobs for which you do not have the spawn egg.
-*   **Enderman Farms:** Classic vanilla design, often built in the End dimension. Relies on attracting Endermen (e.g., with an Endermite) and dropping them to their death or a kill chamber. *(Specific ATMA build details are covered in the L2 Mobfarm at the end of the guide).*
+*   **Enderman Farms:** Classic vanilla design, typically built in the End dimension. Relies on attracting Endermen (e.g., with an Endermite) and dropping them to their death or a kill chamber. *(Specific ATMA build details for L2 farming are covered below).*
 
 ---
 
@@ -227,7 +227,7 @@ Once you have the mobs in place, you need ways to kill them automatically:
 
     ![Placed Rune Example](img/mobfarms/ars_placed_rune.png)
 
-    Be aware that mobs killed using runes count *as if the player killed them*. This means:
+    Be aware that mobs killed using `Sensitive` runes count *as if the player killed them*. This means:
 
     -   They can increase your L2 difficulty.
     -   They apply effects from Curios you have equipped.
@@ -270,7 +270,7 @@ Once you have the mobs in place, you need ways to kill them automatically:
 === "Reliquary Pedestals"
 
     This method is simple: you need a `Pedestal` (not the display version), power it with redstone, then place any weapon in the altar and enjoy a slow killing process.
-    Sweeping edge weapons work better. Remember to maximize enchantments, Apotheosis affixes, and gems on the weapon to maximize damage. Right now L2 weapons are not compatible with this functionality.
+    Sweeping edge weapons work better. Remember to maximize enchantments, Apotheosis affixes, and gems on the weapon to maximize damage. Currently, L2 weapons are not compatible with this functionality.
 
     ![Pedestal Killing Example](img/mobfarms/reliquary_pedestal.png)
 
@@ -365,12 +365,12 @@ Efficiently handling the large volume of drops from mob farms is crucial. Here a
     *   **Productive Bees:** `Hoarder Bee` placed in a `Beehive` with range upgrades can collect nearby items. *(Note: Not recommended, as bees can die from collateral damage in many killing setups).*
     *   **Ars Nouveau:** Activate a `Ritual of Attraction` in a `Ritual Brazier` and feed it with Source. This will attract mobs and items within an 8-block radius.
     *   **Ars Nouveau:** A `Containment Jar` with an `Allay` inside will work as a vacuum hopper and deposit the items in an adjacent inventory. They work every 40 ticks. ~~They work instant.~~
-    *   **Data and Essence:** A `Vacuum` with a container on top. Can attracts items 10 blocks in all directions and collects them in a 3x3x3 area placing them on the container on top.
-* **Item Transport:**
+    *   **Data and Essence:** A `Vacuum` with a container on top. Can attract items 10 blocks in all directions and collects them in a 3x3x3 area placing them in the container on top.
+*   **Item Transport:**
     *   **Data and Essence:** Use `Item Nodes` for transport. *(See DnE guide for configuration).*
     *   **Theurgy:** `Mercurial Item Inserter` and `Mercurial Item Extractor` can move items when connected with `Mercurial Copper Wire`.
     *   **Ars Nouveau:** `Starbuncles` can transport items between inventories based on configuration. *(See Ars Nouveau guide).*
-    *   **Ars Nouveau:** `Spell Turrets` using spells with `Toss` (requires precise aiming), `Pierce` might also be applied to split the loot in different containers.
+    *   **Ars Nouveau:** `Spell Turrets` using spells with `Toss` (requires precise aiming); `Pierce` might also be applied to split the loot among different containers.
     *   **Create:** `Conveyor Belts`, `Chutes`, `Mechanical Arms` (for precise sorting/movement), `Item Vaults` for bulk storage/transport on contraptions.
     *   **`Ender Chests`**: Useful for long-distance transport or buffering items before processing/storage.
 *   **Filtering & Sorting:**
@@ -382,8 +382,9 @@ Efficiently handling the large volume of drops from mob farms is crucial. Here a
     *   **Sophisticated Storage:** Upgradable Chests, Barrels, and Backpacks. High capacity and utility with upgrades.
     *   **AE2:** Mass digital storage using `Storage Cells` in `ME Drives`. Access everything via terminals (`Crafting Terminal` or `Wireless Crafting Terminal`).
 
-### Specific Mob Farms and Filtering Methods
+---
 
+## Specific Farm Guides & Filtering Setups
 === "Apotheosis Affix Item Filtering"
 
     In this section of the guide, we will explain how to filter Apotheosis affixed items.
@@ -450,42 +451,43 @@ Efficiently handling the large volume of drops from mob farms is crucial. Here a
 
     *(Note: In this example, we are farming Zombies with No AI from an Apotheosis maximized spawner. Ideally, hold a max upgraded weapon with `Looting`, `Scavenger`, and `Loot Piñata` enchantments while AFKing to maximize drops.)*
 
-=== "L2 Trait Symbol Filtering"
+=== "Enderman Farm (L2 Trait Symbol Focus)"
 
-    For building the most efficient enderman farm you will need to be at least 128 blocks away from the mai lad, you can go even further.
+    Building an efficient Enderman farm, especially for L2 drops, requires specific considerations:
 
-    ![Distance from the end island](img/mobfarms/enderman_farm_1.png)
+    For maximum efficiency, you will need to build at least 128 blocks away from the main End island; you can go even further to ensure no other Endermen spawn nearby.
 
-    We need to create a platform at Y=1  to maximize the efficiecy. The size of this platform can be as big as you want.
+    ![Distance from the End island](img/mobfarms/enderman_farm_1.png)
+
+    Create a large spawning platform at **Y=1**. The size of this platform can be as big as you desire (and the portal allowsd you) – larger platforms generally yield higher rates. Use `End Stone` or other valid spawnable blocks.
 
     ![Spawning area](img/mobfarms/enderman_farm_2.png)
 
-    Border the platfor with `Sourcestone` from **Ars Nouveau** and on top of the border place leaves waterlogged to avoid any possible enderman spawn/teleportation.
+    Border the platform with `Sourcestone` from **Ars Nouveau** . On top of the border, place waterlogged `Leaves` to prevent Endermen from spawning on or teleporting onto the border.
 
-    ![Killing Area](img/mobfarms/enderman_farm_3.png)
+    ![Border and Ceiling Setup](img/mobfarms/enderman_farm_3.png)
 
-    Place the waiting zone at at least 32 blocks away from the spawning zone. The killing zone is better off placed ever further away so you dont recive any colateral damage from the L2 mobs but less than 128 blocks to prevent them from despawning.
-    In this case, we are using **Ars Nouveau** `Runes` to kill the endermen.
-    I recommend placing also a small celling 6 blocks above the killing area to avoid weird endermen behavior.
-    Is also necesary to encapsulate the endermen in an area at least 2x2 to avoid them to clip on block and weird behavior.
+    Place your AFK spot at least 32 blocks away from the spawning platform. The killing zone is better placed even further away so you don't receive any collateral damage from high-level L2 mobs, but ensure it remains less than 128 blocks from your AFK spot to prevent despawning.
+    In this example, we are using **Ars Nouveau** `Runes` (configured with `Sensitive`) to kill the Endermen, as this counts as a player kill for L2 drops.
+    It's recommended to encapsulate the Endermen in a small killing area (at least 2x2) to prevent them from clipping through blocks or exhibiting strange behavior. A low ceiling (perhaps 6 blocks high) above the *killing* area itself can sometimes help manage their positioning if needed.
 
-    You can collect the items using **Sophisticated Storage** and transpor the items to the voerworld with colored `Ender Chests`.
+    You can collect the items using **Sophisticated Storage** containers with `Magnet Upgrades`. Transport the items back to the Overworld using colored `Ender Chests`.
 
-    *(Note: The walkable area *CANNOT* be taller than 2 blocks to avoid endermen teleportation. Celling and walls should be leaves waterlogged.)*
+    *(Note: The walkable spawning area **cannot** be taller than 2 blocks high to prevent Endermen teleportation. The ceiling and walls of that area should ideally be waterlogged leaves.)*
 
-    ![collecting items](img/mobfarms/enderman_farm_4.png)
+    ![Item Collection Example](img/mobfarms/enderman_farm_4.png)
 
-    As for your protectio when afking, because of the multiple effects and damage types that L2 mobs can do, my waiting area is a 1x2 area surrounded by a 3 layers obsidian (with a cape of waterlogged leaves on top).
+    For your protection while AFKing, given the multiple dangerous effects and damage types L2 mobs possess, build a secure waiting area. A 1x2 space surrounded by 3 layers of `Obsidian` (with a layer of waterlogged `Leaves` on top) is a robust option.
 
-    ![Afking area](img/mobfarms/enderman_farm_5.png)
+    ![AFK Area Example](img/mobfarms/enderman_farm_5.png)
 
-    *(Note: remember to have equiped in your curios slots the curses and looting charms explained in the [L2 Hostility Guide > Expected Progression](l2hostility.md#expected-l2-progression-path))*
+    *(**Crucial Note:** Remember to have your **L2 Hostility** `Looting Charms` and relevant `Curses` equipped in your Curios slots, as explained in the [L2 Hostility Guide > Expected Progression](l2hostility.md#expected-l2-progression-path). Holding a weapon with high looting while AFKing is also highly recommended when using player-kill methods like Sensitive Runes.)*
 
-    ![Curios Slots](img/mobfarms/enderman_farm_6.png)
+    ![Curios Slots with L2 Gear](img/mobfarms/enderman_farm_6.png)
 
 ---
 
 ## Other Tips and Tricks!
 
 *   For avoiding the spawn of `Vengeance Spirits` from **Evilcraft**, place `Gemstone Torches` from **Evilcraft** around the killing area.
-*   If you are not trying to farm **L2** `Trait Symbols` or other difficulty-scaled drops, it's recommended to clear the chunk difficulty where the spawner is located using a `Hostility Orb` to potentially reduce lag or unwanted mob strength increases.
+*   If you are not actively farming **L2** `Trait Symbols` or other difficulty-scaled drops, consider placing a `Hostility Orb` from **L2 Hostility** near your spawner(s) to set the chunk difficulty to 0. This can prevent unwanted increases in mob strength and potentially reduce lag.
