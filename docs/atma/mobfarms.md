@@ -218,7 +218,8 @@ Once you have the mobs in place, you need ways to kill them automatically:
 === "Ars Nouveau Runes"
 
     For setting up the runes, place them in the killing destination area with a Source Jar nearby.
-    I recommend using a spell like `Self -> Spark -> Discharge` (or similar AoE damage spells), but feel free to explore other combinations.
+    I recommend using a spell like `Touch -> Rune -> Sensitive -> Spark -> Discharge` (or similar AoE damage spells), but feel free to explore other combinations.
+    *(Note: Sensitive makes the rune act as a player)*
 
     ![Example Rune Spell: Spark Discharge](img/mobfarms/ars_rune_spark_discharge.png)
 
@@ -363,8 +364,9 @@ Efficiently handling the large volume of drops from mob farms is crucial. Here a
     *   **Ars Nouveau:** `Spell Turrets` or `Runes` using spells with the `Pickup` effect (AoE pickup) with a container placed next to the turret.
     *   **Productive Bees:** `Hoarder Bee` placed in a `Beehive` with range upgrades can collect nearby items. *(Note: Not recommended, as bees can die from collateral damage in many killing setups).*
     *   **Ars Nouveau:** Activate a `Ritual of Attraction` in a `Ritual Brazier` and feed it with Source. This will attract mobs and items within an 8-block radius.
-    *   **Ars Nouveau:** A `Containment Jar` with an `Allay` inside will work as a vacuum hopper and deposit the items in an adjacent inventory.
-*   **Item Transport:**
+    *   **Ars Nouveau:** A `Containment Jar` with an `Allay` inside will work as a vacuum hopper and deposit the items in an adjacent inventory. They work every 40 ticks. ~~They work instant.~~
+    *   **Data and Essence:** A `Vacuum` with a container on top. Can attracts items 10 blocks in all directions and collects them in a 3x3x3 area placing them on the container on top.
+* **Item Transport:**
     *   **Data and Essence:** Use `Item Nodes` for transport. *(See DnE guide for configuration).*
     *   **Theurgy:** `Mercurial Item Inserter` and `Mercurial Item Extractor` can move items when connected with `Mercurial Copper Wire`.
     *   **Ars Nouveau:** `Starbuncles` can transport items between inventories based on configuration. *(See Ars Nouveau guide).*
@@ -378,21 +380,81 @@ Efficiently handling the large volume of drops from mob farms is crucial. Here a
     *   **Ars Nouveau:** `Starbuncles` can be configured with filters to only pick up or deposit specific items. *(See Ars Nouveau guide).*
 *   **Storage Solutions:**
     *   **Sophisticated Storage:** Upgradable Chests, Barrels, and Backpacks. High capacity and utility with upgrades.
-    *   **AE2:** Mass digital storage using `Storage Cells` in `ME Drives`. Access everything via terminals (`Crafting Terminal`, `Pattern Terminal`, etc.).
+    *   **AE2:** Mass digital storage using `Storage Cells` in `ME Drives`. Access everything via terminals (`Crafting Terminal` or `Wireless Crafting Terminal`).
 
 ### Specific Mob Farm Filtering Methods
+
+=== "Apotheosis Affix Item Filtering"
+
+    In this section of the guide we will be explaining how to filter apotheosis affixed items.
+
+    *(Note: this is just on axample, there are multiple ways to do it)*
+
+    ![Apotheosis Mobfarm Example](img/mobfarms/apo_mobfarm.png)
+
+    First just set up the mobfarm the way you want. In this case we will be using **Ars Nouveau** portals and **Runes** for doing the mobs transportation and killing.
+    For the item collection we are using **Sophisticated Storage** `Netherite Double Chest` with a `Magnet Upgrade`, a few `Void Upgrades` to jsut filter out things that we do not want to store on our main system.
+
+    ![Chests placement](img/mobfarms/apo_mobf_1.png)
+
+    We also placed a few **Sophisticated Storage** `Netherite Backpack` with `Advanced Magnet Upgrade` (filtered) and `Stack Upgrade` for more capacity per slot, `Tank Upgrade` + `Experience Pump Upgrade` to store XP
+
+    *(Note: all items from sophisticated storage can be linked together using a `Storage Tool`.)*
+
+    ![Backpack Configuration](img/mobfarms/apo_backapck.png)
+
+    *(Note: ensure to disable the pickup items in the magnet upgrade in the backpacks)*
+
+    As you can see we are also using **Data and Essence** `Item Nodes` with `Universal Sigil Upgrade: Speed` to move the items from the mobfarm to another place.
+    You can use any prefered way of moving items.
+
+    ![Intermediate Storage](img/mobfarms/apo_mobf_2.png)
+
+    Then, we are using in this case an intermediate storage system to store the items from the mobfarm before separating the items that will go to our main network and to be destroyed.
+    This storage is using **Sophisticated Storage** chests. A `Storage Controller` will be required here for connecting all the chest and be able to use all the functionalities of the mod.
+
+    ![Ae2 Storage](img/mobfarms/apo_mobf_3.png)
+
+    For selecting the Items that we want to move to the main network (**AE2 in our case**) you need to do some filtering.
+    We are using **Theurgy** `Mercurial Attribute Filter` to select items with the tags `#c:tools`and `#c:armors` and we set the filter to `Deny-List` to not allow these items go to our main network.
+    We are also using **Theurgy** `Item Extractor` for extracting the items from a `Storage Output` from **Sophisticated Storrage** ad inserting them with the `Item Inserter` into an **AE2** `ME Interface`.
+
+    *(Note: for speeding up the item transportation you can add more extractors/inserters and more ME Interfaces)*
+
+    Applying the filter in the extractor should be enough, if that is not enough you can add it also to the inserter.
+
+    ![Mercurial Attribute Filter](img/mobfarms/apo_mobf_4.png)
+
+    Now our intermediate storage should only have tools and armors.
+    We will be using the same filter than before to extrc this items but not isntead of `Deny-List` it should be an `Allow-List (Any)`.
+    Same as before, use extractors and inserters to move the items to a first barrel.
+
+    ![Apotheosis Filtering Side](img/mobfarms/apo_mobf_5.png)
+
+    The solution that has worked the best for me to filter the apotheosis gear is something like in the image.
+    A **Sophisticated Storage** `Netheri Barrel` surrounded with **Apotheosis** `Salvaging Tables`.
+    All the barrels in the line have the same configuration.
+    Use an `Advanced Hopper Upgrade` with the configurations of `Pull/Push` to the sides you need in your build (that depends on the barrel and building orientation, so the image is only an example).
+    This will make the armors that have `Affixes` go into the `Salvaging Tables` as well as the output returnn to the chest.
+    Then you need to set to `Push` to the face of the barrel that is touching the next barrel to send the results of the salvagigs as well as the tools and armors that didnt have space in the first slavagins tables. (This deppends on your mobfarm speed).
+
+    *(Note: This can scale all that you need)*
+
+    ![Moving Items in the Barrels](img/mobfarms/apo_barrel_moving.png)
+
+    The last barrel in the line does not have attached any `Salvaging Tables` because is out output barrel. in this case we can put a `Advanced Void Upgrade` in `Block Mode` with the apotheosis items you want to store at the end.
+    This barrel can be linked back to your main storage if you want because it will only allow these filtered items to exist in there so you can ensure that no armor or tool go to your system.
+
+    ![Apotheosis Fial Barrel](img/mobfarms/apo_barrel_filtering.png)
+
+    *(Note: in this example we are farming Zombies with no AI from a apotheosis maximized spawner. Ideally holding a max upgraded weaponn with looting, scavenger and loot piñata to maximize the drops)*
 
 === "L2 Trait Symbol Filtering"
 
     *(Work In Progress - come back later)*
-
-=== "Apotheosis Affix Item Filtering"
-
-    *(Work In Progress - come back later)*
-
 ---
 
 ## Other Tips and Tricks!
 
-*   For avoiding the spawn of `Vengeance Spirits` from **Evilcraft**, place `Gemstone Torches` from **Primal Magick** around the killing area.
+*   For avoiding the spawn of `Vengeance Spirits` from **Evilcraft**, place `Gemstone Torches` from **Evilcraft** around the killing area.
 *   If you are not trying to farm **L2** `Trait Symbols` or other difficulty-scaled drops, it's recommended to clear the chunk difficulty where the spawner is located using a `Hostility Orb` to potentially reduce lag or unwanted mob strength increases.
