@@ -87,7 +87,7 @@ This outlines the general steps expected for progressing through L2 content:
 
     ![Bottle of Curse](img/l2tat/bottle_of_curse.png)
 
-6.  Obtain `Captured Wind`. Craft `Wind Capturing Bottle`, get at least a `Novice Spell Book` from **Ars Nouveau** (higher tiers spellbooks and gear is recommended to have more mana), and create a spell like `Self -> Launch -> Amplify x3 -> Glide` *(Note: you need to be gliding to ir to work)*. Spam this spell with empty bottles in your inventory to fill them.
+6.  Obtain `Captured Wind`. Craft `Wind Capturing Bottle`, get at least a `Novice Spell Book` from **Ars Nouveau** (higher tiers spellbooks and gear is recommended to have more mana), and create a spell like `Self -> Launch -> Amplify x3 -> Glide` *(Note: you need to be gliding to it to work)*. Spam this spell with empty bottles in your inventory to fill them.
 
     ![Wind Capturing Bottle](img/l2tat/wind_capturing_bottle.png)
     ![Ars Spell For Wind Bottle](img/l2tat/ars_spell_wind_bottle.png)
