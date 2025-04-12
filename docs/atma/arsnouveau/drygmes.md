@@ -248,4 +248,4 @@ A Drygmy can also become a player's familiar, providing passive buffs when activ
 
 *Sources used for this guide include the [ars guide](https://ars.guide/docs/drygmy/guide/) and [ars wiki](https://www.arsnouveau.wiki/category/automation/entry/drygmy_charm/).*
 
-> Ars Noveau | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/ars-nouveau) | [Ars Guide](https://ars.guide/) | [Wiki](https://www.arsnouveau.wiki/)
+> Ars Nouveau | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/ars-nouveau) | [Ars Guide](https://ars.guide/) | [Wiki](https://www.arsnouveau.wiki/)
