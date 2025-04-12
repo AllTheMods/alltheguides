@@ -94,7 +94,54 @@ offhand you can clear the difficulty on area.[Click here for more information](l
 5. **Hexerei**
 * `Reading Glasses`:  Allows zooming in pressing ++z++
 
-4. **Aesthetic ONLY Items:** *(These provide no functional benefit when equipped)*
+6. **Artifacts**
+The relics/artifacts share the experience earned and they gain experience while using the relics skills.
+
+![Head Artifacts](head_artifacts.png)
+
+*   `Whoopee Cushion`: Chance to knock back nearby entities and apply nausea when taking damage or crouching frequently.
+*   `Angler's Hat`: Chance to increase the amount of catch received while fishing, potentially repeating multiple times.
+*   `Cowboy Hat`: Increases movement speed, jump height, and safe fall height of mounts. When used (activated ability), allows riding and controlling *any* mob for a short duration (up to 12.5s at max level), followed by a cooldown (1 minute).
+*   `Night Vision Goggles`: Enhances brightness in poorly lit areas and reduces the effectiveness of Blindness and Darkness effects.
+*   `Novelty Drinking Hat` and `Plastic Drinking Hat`: Increases drinking speed for potions and other items with a drinking animation. Replenishes hunger points when consuming liquids (potions, water bottles, etc.).
+*   `Snorkel`: Removes the fog effect when submerged in liquids. Applies a Water Breathing effect for a duration upon full submersion.
+*   `Supersticious Hat`: Chance to apply an additional level of Looting to defeated mobs, potentially repeating multiple times.
+*   `Villager Hat`: Prevents naturally spawned Iron Golems from attacking the player. Increases the discount when trading with villagers.
+
+7. **Reliquified Twilight Forest**
+The relics share the experience earned and they gain experience while using the relics skills.
+
+![Head Reliquified Twilight Forest](reliquified_tf_head.png)
+
+*   `Lich Crown` All skeletons become friendly towards the player.
+*   `Soulbound Gems:` Allows the `Lich Crown` to be inlaid with up to 18 special gems. Each unique gem unlocks a new ability, while additional gems of the same type increase the level of the corresponding ability.
+    *   **To insert:** Right-click the Crown while holding the gem in your inventory.
+    *   **To remove:** Ensure your cursor is empty and right-click the Crown.
+    *  *(Note: you can place the gems in any desired combination. adding more of the same gem will increase the power of the specific skill)*
+        *   `Absortion Gem:` When the player's health falls below 20%, for 5 seconds, drains 31.2% (at max level) of their max health from all targets within 14 blocks (at max level). Afterward, it enters a cooldown of 2 seconds. *(Likely a passive Curio, perhaps Necklace or Charm)*
+        *   `Necromancy Gem:` Every 4 seconds (at max level), spawns a mini-zombie that fights for the player, dealing 12 damage (at max level) to targets. The total number of active mini-zombies cannot exceed 20 (at max level). *(Likely a passive Curio)*
+        *   `Shielding Gem:` Every 0.7 seconds (at max level), creates a shield around the player that completely blocks most directed attacks. The number of active shields cannot exceed 23 (at max level) at a time. *(Likely a passive Curio)*
+        *   `Twilight Gem:` Applies a stacking frostbite effect for 14 seconds (at max level) on attack. Once the effect exceeds 7 seconds, the target takes 1 damage through armor every 2 seconds until the effect ends. *(Likely a Hands/Glove or Weapon-related Curio)*
+        *   `Frost Gem:` When looking at a target and pressing LMB (Left Mouse Button), launches a twilight projectile moving at approximately 3 blocks per second, dealing 13 damage (at max level). Does not work if the target is within melee range. *(Likely an activated ability Curio, perhaps Ring or Hands)*
+*   `Thorn Crown:` When activated, worsens vision but enhances smell, allowing the detection of valuable ores within a 16 block radius (at max level). Also allows storing up to 5 ore blocks inside the "nose",
+preventing the sense from detecting those specific blocks again. To store ore, right-click the nose in the inventory with it. To extract ore, the cursor must be empty.
+Grants the player full resistance to any 'thorn' damage (like from armor enchantments or mob abilities).
+*   `Deer Antler:` Upon touching a target (likely unarmed attack), deals 7 damage (at max level) and has a 30% chance (at max level) to paralyze them for 6 seconds (at max level).
+When used on a creature whose hitbox volume does not exceed 2048 blocks (at max level), places it on the player's antlers and prevents it from dealing damage to the player.
+
+8. **Reliquified Ars Nouveau**
+The relics share the experience earned and they gain experience while using the relics skills.
+
+![Head Reliquified Ars Nouveau](reliquified_ars_head.png)
+
+*   `Horn of the Wild Hunter:` Summons 2 invulnerable wolves that fight alongside the player. Each wolf deals an additional 15 damage (at max level).
+*   `Whirlisprig Petals:` Holding the jump key gently lifts the player upwards for up to 0.5 seconds (at max level). When falling from a dangerous height, automatically grants the Slow Falling effect.
+
+
+9. **Aesthetic ONLY Items:** *(These provide no functional benefit when equipped)*
+
+![Head Aesthetic ONLY Items](aesthetic_head.png)
+
 *   Trophies from **Twilight Forest**: `Twilight Lich Trophy`, `Snow Queen Trophy`, `Questing Ram Trophy`, `Naga Trophy`, `Alpha Yeti Trophy`, `Minoshroom Trophy`, `Knight Phantom Trophy`, `Hydra Trophy`, `Ur-Ghast Trophy`
 *   Other **Twilight Forest**: `Moonworm`, `Cicada`, `Firefly`
 *   **Cataclysm**: `Aptrgangr Head`, `Draugur Head`, `Kobolediator Head`
@@ -106,11 +153,10 @@ offhand you can clear the difficulty on area.[Click here for more information](l
 
 ## How to Equip Curios Items
 
-1.  Open your inventory (Default key: 'E').
-2.  Press the **Curios key** (Default key: 'G') to open the Curios slots GUI.
-3.  Identify the appropriate slot type for the item you want to equip (e.g., Head, Back, Hands, Belt, Charm, Ring, Focus).
-4.  Drag the desired Curios item from your main inventory into a compatible empty slot in the Curios GUI.
-5.  The item is now equipped, and its effects (if any) should be active!
+1.  Press the **Curios key** (Default key: 'G') to open the Curios slots GUI.
+2.  Identify the appropriate slot type for the item you want to equip (e.g., Head, Back, Hands, Belt, Charm, Ring, Focus).
+3.  Drag the desired Curios item from your main inventory into a compatible empty slot in the Curios GUI.
+4.  The item is now equipped, and its effects (if any) should be active!
 
 ---
 
