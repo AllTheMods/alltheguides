@@ -25,7 +25,7 @@ There are two main ways to get started with Drygmys:
 ### 2. Trading
 
 *   `Drygmy Tokens` can sometimes be obtained by trading with a Level 4 **Shady Wizard Villager** (requires an `Arcane Core` as their workstation).
-
+![Shady Wizard](../img/arsnouveau/drygmys/shady_wizard.png)
 ---
 
 ## Summoning and Housing Your Drygmy
