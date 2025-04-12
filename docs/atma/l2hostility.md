@@ -285,3 +285,5 @@ minecraft:spider
 minecraft:cave_spider
 minecraft:creeper
 ```
+
+> L2Hostility | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/l2hostility)
