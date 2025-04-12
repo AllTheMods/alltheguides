@@ -4,6 +4,7 @@ description: A Guide for Ars Nouveau - Drygmys in All the Magic - Arcana
 authors:
  - Xannaeh
 ---
+
 ## Drygmys
 
 Drygmys are passive, nature-oriented sprites often found near wild animals, seemingly tending to them. They are relatively rare but can spawn in most environments. Their primary function is to passively generate mob drops and experience orbs from nearby creatures *without* harming them.
