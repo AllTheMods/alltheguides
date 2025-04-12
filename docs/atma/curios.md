@@ -60,14 +60,14 @@ Here are examples of items that fit into specific Curios slots available in ATMA
 
 ### Head Slot
 
-![Head Slot Icon](head_slot.png)
+![Head Slot Icon](img/curios/head_slot.png)
 
 *   **Description:** A slot for items worn on the head, often providing utility or visual effects. Items here can typically also be worn in the vanilla helmet armor slot.
 *   **Fucntionality**:
 *   **Compatibility** :Items tagged `#curios:head` fit here.
 *   **Examples:**
 
-![head_slot_items.png](head_slot_items.png)
+![head_slot_items.png](img/curios/head_slot_items.png)
 
 1.   **Occultism:**
    *   `Otherworld Goggles`: Grants the permanent **Third Eye** effect, allowing the wearer to see hidden Otherworld blocks and entities related to **Occultism**.
@@ -81,7 +81,7 @@ and it provides no visual change in the Curios slot either.
    * **Ars Technica** `Spy Monocle`: Allows zooming in pressing ++g++.
    * `Alchemist's Crown`: Allows opening a potion radial menu pressing ++g++ when `Potion Flaks` on the inventory
 
-![Alchemist's Crown Radial Menu](alchemist_crown.png)
+![Alchemist's Crown Radial Menu](img/curios/alchemist_crown.png)
 
 5. **L2Hostility**
     * `Oddeyes Glasses`:  When equipped in a Head slot, grants **+2 Head slots**.
