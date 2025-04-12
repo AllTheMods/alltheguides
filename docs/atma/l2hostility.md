@@ -46,6 +46,10 @@ You generally won't encounter high-level mobs with powerful traits early on.
 
     *(Note: From left to right: `Curse of Envy`, `Curse of Greed`, `Curse of Lust`,  `Curse of Warth`)*
 
+    ![Abyssal Thorn](img/l2tat/byssal_thorn.png)
+
+    *(Note: `Abyssal Thorn` can only be wear in the `L2Hotility - Curse` curios slot while the other 4 can go in the `Charm` slot)*
+
 *   **Visit New Dimensions:** Entering dimensions for the first time can increase difficulty giving a +2 lvl of difficulty for each dimension. Most of the dimensions will add a multiplicative of 1.5x of you current level allowing to mobs to reach a maximum level of 3000; in the overworld this multiplicative vary between 1x and 1.5x.
 *   **Travel Far from Origin:** Moving a significant distance away from the world spawn point increases difficulty.
 *   **Explore High-Difficulty Areas:** Visit biomes or dimensions that inherently possess a higher base difficulty rating.
@@ -143,6 +147,7 @@ This outlines the general steps expected for progressing through L2 content:
 
 Mobs gain traits based on their level and player difficulty. Higher-level traits appear as difficulty increases.
 Use the in-game Patchouli book (or JEI/tooltips if applicable) for detailed info on specific traits.
+To see how to make a Mob Farm to get these traits go to the [Enderman Farm (L2 Trait Symbol Focus)](mobfarms.md/#__tabbed_3_2).
 
 **(Default Disabled Traits: `Undying`, `Killer Aura`, `Ragnarok` are powerful Legendary traits that are DISABLED by default in the configuration but can be re-enabled via config/datapack.)**
 
