@@ -70,35 +70,35 @@ Here are examples of items that fit into specific Curios slots available in ATMA
 ![head_slot_items.png](img/curios/head_slot_items.png)
 
 1.   **Occultism:**
-   *   `Otherworld Goggles`: Grants the permanent **Third Eye** effect, allowing the wearer to see hidden Otherworld blocks and entities related to **Occultism**.
+*   `Otherworld Goggles`: Grants the permanent **Third Eye** effect, allowing the wearer to see hidden Otherworld blocks and entities related to **Occultism**.
 This ability, referred to as "seeing beyond the veil," is normally temporary and achieved by consuming `Demon's Dream` herbs.
 
 2.   **The Bumblezone:**
-   *   `Flower Headwear`: Prevents bees from becoming angry and attracts them when worn in the *armor* slot. **Functionality may not work correctly when equipped in the Curios slot**,
+*   `Flower Headwear`: Prevents bees from becoming angry and attracts them when worn in the *armor* slot. **Functionality may not work correctly when equipped in the Curios slot**,
 and it provides no visual change in the Curios slot either.
 
 3. **Ars Nouveau** and addons
-   * **Ars Technica** `Spy Monocle`: Allows zooming in pressing ++g++.
-   * `Alchemist's Crown`: Allows opening a potion radial menu pressing ++g++ when `Potion Flaks` on the inventory
+* **Ars Technica** `Spy Monocle`: Allows zooming in pressing ++g++.
+* `Alchemist's Crown`: Allows opening a potion radial menu pressing ++g++ when `Potion Flaks` on the inventory
 
 ![Alchemist's Crown Radial Menu](img/curios/alchemist_crown.png)
 
 5. **L2Hostility**
-    * `Oddeyes Glasses`:  When equipped in a Head slot, grants **+2 Head slots**.
-    * `Detector Glasses`: Allow you to see invisible mobs, and see mobs when you have blindness or darkness effects. Additionally while holding a `Hostility Detector` on the
+* `Oddeyes Glasses`:  When equipped in a Head slot, grants **+2 Head slots**.
+* `Detector Glasses`: Allow you to see invisible mobs, and see mobs when you have blindness or darkness effects. Additionally while holding a `Hostility Detector` on the
 offhand you can clear the difficulty on area.[Click here for more information](l2hostility.md/#ways-to-decrease-player-difficulty).
 
 5. **Create**
-    * `Engineer's Goggles`:  add description
+* `Engineer's Goggles`:  add description
 
 5. **Hexerei**
-    * `Reading Glasses`:  Allows zooming in pressing ++z++
+* `Reading Glasses`:  Allows zooming in pressing ++z++
 
 4. **Aesthetic ONLY Items:** *(These provide no functional benefit when equipped)*
-   *   Trophies from **Twilight Forest**: `Twilight Lich Trophy`, `Snow Queen Trophy`, `Questing Ram Trophy`, `Naga Trophy`, `Alpha Yeti Trophy`, `Minoshroom Trophy`, `Knight Phantom Trophy`, `Hydra Trophy`, `Ur-Ghast Trophy`
-   *   Other **Twilight Forest**: `Moonworm`, `Cicada`, `Firefly`
-   *   **Cataclysm**: `Aptrgangr Head`, `Draugur Head`, `Kobolediator Head`
-   *   **Starbunclemania**: `Whirly Propeller`, `Alakakrinas Hat`, `Drygme Horns`, `Sea Bunny`, `Starby Ears`
+*   Trophies from **Twilight Forest**: `Twilight Lich Trophy`, `Snow Queen Trophy`, `Questing Ram Trophy`, `Naga Trophy`, `Alpha Yeti Trophy`, `Minoshroom Trophy`, `Knight Phantom Trophy`, `Hydra Trophy`, `Ur-Ghast Trophy`
+*   Other **Twilight Forest**: `Moonworm`, `Cicada`, `Firefly`
+*   **Cataclysm**: `Aptrgangr Head`, `Draugur Head`, `Kobolediator Head`
+*   **Starbunclemania**: `Whirly Propeller`, `Alakakrinas Hat`, `Drygme Horns`, `Sea Bunny`, `Starby Ears`
 
 *(List other slot types like Back, Body, Charm, Necklace, Belt, Ring, Hands, Feet as needed, with examples)*
 
