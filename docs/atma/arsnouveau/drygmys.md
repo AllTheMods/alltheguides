@@ -4,6 +4,7 @@ description: A Guide for Ars Nouveau - Drygmys in All the Magic - Arcana
 authors:
  - Xannaeh
 ---
+
 ## Drygmys
 
 Drygmys are passive, nature-oriented sprites often found near wild animals, seemingly tending to them. They are relatively rare but can spawn in most environments. Their primary function is to passively generate mob drops and experience orbs from nearby creatures *without* harming them.
@@ -247,4 +248,4 @@ A Drygmy can also become a player's familiar, providing passive buffs when activ
 
 *Sources used for this guide include the [ars guide](https://ars.guide/docs/drygmy/guide/) and [ars wiki](https://www.arsnouveau.wiki/category/automation/entry/drygmy_charm/).*
 
-> Ars Noveau | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/ars-nouveau) | [Ars Guide](https://ars.guide/) | [Wiki](https://www.arsnouveau.wiki/)
+> Ars Nouveau | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/ars-nouveau) | [Ars Guide](https://ars.guide/) | [Wiki](https://www.arsnouveau.wiki/)
