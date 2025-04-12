@@ -1,5 +1,5 @@
 ---
-title: Curios Guide
+title: Curios
 description: A Guide for Curios Slots and Items in All the Magic - Arcana (ATMA)
 authors:
  - Xannaeh
@@ -145,7 +145,7 @@ Here are examples of items that fit into specific Curios slots available in ATMA
 *   **Cataclysm**: `Aptrgangr Head`, `Draugur Head`, `Kobolediator Head`
 *   **Starbunclemania**: `Whirly Propeller`, `Alakakrinas Hat`, `Drygme Horns`, `Sea Bunny`, `Starby Ears`
 
-*(List other slot types like Back, Body, Charm, Necklace, Belt, Ring, Hands, Feet as needed, with examples)*
+*(WIP: List other slot types like Back, Body, Charm, Necklace, Belt, Ring, Hands, Feet as needed, with examples)*
 
 ---
 

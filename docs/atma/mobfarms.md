@@ -1,5 +1,5 @@
 ---
-title: Mob Farms Guide
+title: Mob Farms
 description: A guide on how to farm mob loot in All the Magic - Arcana (ATMA)
 authors:
  - Xannaeh
