@@ -104,19 +104,19 @@ Generates Source by consuming compatible fluids from tanks placed directly below
 
 === "Agronomic Sourcelink"
 
-    A classic source farm made early game uses `Sourceberrys` and Starbuncles. The starbuncles automatically collect any mature `Sourceberry` and stores them in the linked storage.
+    A classic early-game Source farm uses `Sourceberry Bushes` and `Starbuncles`. The Starbuncles can be configured to automatically harvest mature `Sourceberries` and store them in a linked inventory (like a chest). The `Agronomic Sourcelink` placed nearby will then generate Source as the berries regrow.
 
-    ![Agronomic Sourcelink](../img/arsnouveau/source/agronomik.png)
+    ![Agronomic Sourcelink Example](../img/arsnouveau/source/agronomik.png)
 
 === "Mycelial Sourcelink"
 
-    To the `Sourceberrys` farm you can attach a `Mycelial Sourcelink` to consume those `Sourceberries`.
+    You can attach a `Mycelial Sourcelink` to the output of the `Sourceberry` farm mentioned before. Configure a `Starbuncle` (or other transport method) to move the harvested `Sourceberries` from the storage chest onto `Item Pedestals` adjacent to the `Mycelial Sourcelink`. The Sourcelink will consume the berries from the pedestals to generate Source.
 
-    ![Mycelial Sourcelink](../img/arsnouveau/source/mycelial.png)
+    ![Mycelial Sourcelink Example](../img/arsnouveau/source/mycelial.png)
 
 === "Alchemical Sourcelink"
 
-    *(Work in Progress)*
+    *(Work In Progress)*
 
 === "Vitalic Sourcelink"
 
@@ -124,26 +124,26 @@ Generates Source by consuming compatible fluids from tanks placed directly below
 
 === "Volcanic Sourcelink"
 
-    You can simply have a starbuncle getting burneable items from a inventory and placing them on `Pedestals` for the `Volcanic Sourcelink` to consume them.
+    You can simply have a `Starbuncle` configured to take burnable items (like coal, logs, or blaze rods) from an inventory (e.g., a chest) and place them onto `Item Pedestals` adjacent to the `Volcanic Sourcelink`. The Sourcelink will consume the fuel from the pedestals.
 
-    ![Volcanic Sourcelink](../img/arsnouveau/source/volcanic.png)
+    ![Volcanic Sourcelink Example](../img/arsnouveau/source/volcanic.png)
 
 === "Fluid Sourcelink"
 
     In this example, we are going to generate Source with Lava. For that, locate a lava lake in the Nether (one that is bottomless).
-    Place a **Create** `Hose Pulley` and deploy the hose until it reaches the bottom of the lake using a `Handcrank`.
-    Place an `Ender Tank` directly on the `Hose Pulley` block (click the glass block, not the hose) and configure it with piston upgrades to enable pumping.
+    Place a **Create** `Hose Pulley` and deploy the hose using a `Hand Crank` until it reaches the bottom of the lake.
+    Place an `Ender Tank` directly on the `Hose Pulley` block (click the glass block block, not the hose) and configure it with piston upgrades to enable pumping/extraction.
 
     ![Hose Pulley Setup](../img/arsnouveau/source/hose_setup.png)
 
-    Place a redstone signal to activate its pumping capability. The tank configuration should look something like this:
+    Provide a redstone signal (e.g., place a `Lever` on the tank and turn it on) to activate its pumping capability. The tank configuration should look something like this (showing fluid inside):
 
     ![Ender Tank Configuration](../img/arsnouveau/source/ender_tank_config.png)
 
     Now you can go back to your base and use this lava in the `Fluid Sourcelink`. Place another `Ender Tank` (with the same color code) near the `Fluid Sourcelink`.
     You can use any fluid transport system, but Ender Tanks are simple for cross-dimensional transfer.
-    In this example we are using a  `Starbuncle` equipped with a **Starbunclemania** `Starbucket` that allow them move fluids between tanks/machines,
-    configured to take from the Ender Tank and deposit into a tank below the Sourcelink.
+    In this example, we are using a `Starbuncle` equipped with a **Starbunclemania** `Starbucket` which allows them to move fluids between tanks/machines.
+    Configure the Starbuncle to take Lava from the Ender Tank and deposit it into the `Fluid Sourcelink`.
 
     ![Lava Fluid Sourcelink Setup](../img/arsnouveau/source/fluid_sourcelink_1.png)
 
