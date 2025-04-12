@@ -1,2 +1,5 @@
 ﻿nav:
+ - README.md
+ - name: drygmys.md
+ - name2: source.md
  - ...
