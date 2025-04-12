@@ -82,7 +82,7 @@ A Drygmy Henge's efficiency, which directly impacts the *number* of random loot 
 *   **First Entity Bonus:** The very first unique entity type (or `Containment Jar` with an entity) added near the Henge provides +1 drop count.
 *   **Quantity Bonus:** Each of the first 5 entities (or `Containment Jars`) near the Henge provides +1 drop count (maximum of +5 from this bonus).
 *   **Unique Bonus:** Each *unique* type of entity near the Henge provides +2 drop count.
-*   **Containment Jars:** Mobs captured inside `Containment Jars` placed within the Henge's 10x10x10 range count towards these bonuses just like living entities *(Note: Living entities have a lower action range)*.
+*   **Containment Jars:** Mobs captured inside `Containment Jars` placed within the Henge's 10x10x10 range count towards these bonuses just like living entities. *(Note: Living entities might have a slightly smaller interaction range compared to jars.)*
 
 **Example:** A single entity (like a cow in a jar) near a Henge provides:
 Base (1) + First Entity (1) + Quantity (1 for being one of the first 5) + Unique (2 for being the first unique type) = **5 drops** per cycle.
@@ -98,10 +98,10 @@ Understanding the underlying mechanics helps maximize farm efficiency.
 
 ### Loot Table Generation
 
-1.  **Pooling:** The potential drops from *all* valid entities (mobs with loot tables, excluding blacklisted ones like Players/Drygmys/Twilight Forest Bosses) within the Henge's range are combined into one large loot pool for that specific Henge.
-2.  **No Loot Chance:** If an entity has items in its loot table that don't drop 100% of the time (e.g., Wither Skeleton Skulls), there's a chance that a "no loot" result (represented internally as `Air`) is added to the pool for that entity. More low-chance items means a higher chance of getting nothing from that mob's contribution.
-3.  **Exclusions:** Special drops not part of standard loot tables (like `Nether Stars`) are not generated.
-4.  **Biasing:** Adding multiple instances of the *same* mob type *can* increase the chance of getting drops from that specific mob relative to others.
+1.  **Pooling:** The potential drops from *all* valid entities (mobs with defined loot tables, excluding blacklisted ones like Players, Drygmys, Twilight Forest Bosses, etc.) within the Henge's range are combined into one large loot pool for that specific Henge.
+2.  **No Loot Chance:** If an entity has items in its loot table that don't drop 100% of the time (e.g., `Wither Skeleton Skulls`), there's a chance that a "no loot" result (represented internally as `Air`) is added to the pool for that entity. More low-chance items mean a higher chance of getting nothing from that mob's contribution to a specific drop slot.
+3.  **Exclusions:** Special drops not part of standard loot tables (like `Nether Stars` from the Wither) are generally not generated. Boss mobs are often excluded.
+4.  **Biasing:** Adding multiple instances of the *same* mob type *can* slightly increase the chance of getting drops from that specific mob relative to others, effectively weighting the pool if many *different* unique mob types are also present.
 5.  **Dropless Entities:** Mobs *without* loot tables ([Dropless Mobs List](#dropless-mobs-list)) can still contribute to the *drop count* via the Happiness bonuses (Quantity/Unique) without adding items (or "no loot" chances) to the loot pool. Use these strategically to increase the number of items generated per cycle from your desired mobs that *do* have loot tables.
 
 ### Item Generation
@@ -117,11 +117,11 @@ Understanding the underlying mechanics helps maximize farm efficiency.
     *   For every 12 points in the reduced sum (XP * 0.25), one `Greater Experience Gem` is generated.
     *   After subtracting XP accounted for by Greater Gems, for every 3 remaining points, one standard `Experience Gem` is generated.
     *   If there's any positive remainder (1 or 2) after calculating standard gems, one additional `Experience Gem` is generated.
-5.  **Notes:** Duplicates don't penalize XP generation; unique types don't provide bonus XP. Special XP drops (like Ender Dragon) are ignored.
+5.  **Notes:** Duplicates don't penalize XP generation; unique types don't provide bonus XP. Special XP drops (like Ender Dragon boss fight XP) are ignored.
 
 ### Henge Progress & Drygmy Behavior
 
-*   **Cycle Check:** The `Henge` checks if its progress bar is full every **100 ticks** (5 seconds). Progress accumulated beyond the cap within that 100-tick window before the check occurs is wasted. ~~Therefore, there is no benefit to trying to tick accelerate the `Henge` itself.~~ (Unconfirmed data)
+*   **Cycle Check:** The `Henge` checks if its progress bar is full every **100 ticks** (5 seconds). Progress accumulated beyond the cap within that 100-tick window before the check occurs is wasted. Therefore, there is no benefit to trying to tick accelerate the `Henge` itself.
 *   **Drygmy Contribution:** A Drygmy contributes progress to the Henge *after* completing its **100-tick** (5 seconds) "channeling" (dancing) animation next to a valid entity or jar.
 *   **Cooldown:** After successfully channeling, a Drygmy waits **100 ticks** (5 seconds) before attempting to find another entity and start its next channeling animation.
 *   **Pathing Skip:** If a Drygmy cannot pathfind directly to its chosen entity/jar (e.g., it's enclosed in glass, too far, or blocked by solid blocks), it may skip the movement phase and start dancing immediately *if* it's already within the required interaction range.
@@ -134,66 +134,64 @@ Understanding the underlying mechanics helps maximize farm efficiency.
 ### Dropless Mobs List
 
 This is not exhaustive but includes common examples of mobs that contribute to happiness bonuses but not the loot pool:
-## Minecraft vanilla
 
+#### Minecraft Vanilla
+*   `minecraft:allay`
+*   `minecraft:axolotl`
+*   `minecraft:endermite`
+*   `minecraft:frog`
+*   `minecraft:ocelot`
+*   `minecraft:silverfish`
+*   `minecraft:tadpole`
+*   `minecraft:vex`
+*   `minecraft:wolf`
+*   ~~`minecraft:wandering_trader`~~
+*   ~~`minecraft:villager`~~
+*   ~~`minecraft:bat`~~
+*   ~~`minecraft:bee`~~
+*   ~~`minecraft:wither`~~
+*   ~~`minecraft:ender_dragon`~~*
 
-* `minecraft:allay`
-* `minecraft:axolotl`
-* `minecraft:endermite`
-* `minecraft:frog`
-* `minecraft:ocelot`
-* `minecraft:silverfish`
-* `minecraft:tadpole`
-* `minecraft:vex`
-* `minecraft:wolf`
-* ~~`minecraft:wandering_trader`~~
-* ~~`minecraft:villager`~~
-* ~~`minecraft:bat`~~
-* ~~`minecraft:bee`~~
-* ~~`minecraft:wither`~~
-* ~~`minecraft:ender_dragon`~~
+#### Ars Nouveau
+*   `ars_nouveau:wilden_chimera`
+*   `ars_nouveau:starbuncle`
+*   `ars_nouveau:whirlisprig`
+*   `ars_nouveau:wixie`
+*   `ars_nouveau:amethyst_golem`
+*   `ars_nouveau:bookwyrm`
+*   ~~`ars_nouveau:drygme`~~ *(Drygmys don't count)*
+*   Summoned mobs from spells and animated blocks (e.g., `Summon Undead`, `Animate Block`) *(Might drop Apotheosis gems)*
 
-## Ars Nouveau
-* `ars_nouveau:wilden_chimera`
-* `ars_nouveau:starbuncle`
-* `ars_nouveau:whirlisprig`
-* `ars_nouveau:wixie`
-* `ars_nouveau:amethyst_golem`
-* `ars_nouveau:bookwyrm`
-* ~~`ars_nouveau:drygme`~~ Drygmes don't count
-* Summoned mobs with spells and animated blocks (They might drop apotheoisis gems)
+#### Ars Elemental
+*   `ars_elemental:firenando` (also known as `Flarecannon`)
+*   `ars_elemental:siren`
 
-## Ars Elemental
-* `ars_elemental:firenando` (also known as `Flarecannon`)
-* `ars_elemental:siren`
+#### Data and Essence
+*   `datanessence:ancient_sentinel`
 
-## Data and Essence
-* `datanessence:ancient_sentinel`
+#### ForceCraft
+*   `forcecraft:fairy`
 
-## Force Craft
-* `forcecraft:fairy`
+#### Minecolonies
+*   It's highly probable that colonists and guards do not drop items via Drygmys.
 
-## Minecolonies
-* It's highly probable that colonists and guards do not drop items
+#### Corail Tombstone
+*   `tombstone:grave_guardian`
+*   `tombstone:spectral_wolf`
 
-## Corail Tombstone
-* `tombstone:grave_guardian`
-* `tombstone:spectral_wolf`
+#### Ice and Fire Community Edition
+*   `iceandfire:fire_dragon`
+*   `iceandfire:lightning_dragon`
+*   `iceandfire:ice_dragon`
 
-## Ice and Fire Community Edition
-* `iceandfire:fire_dragon`
-* `iceandfire:lightning_dragon`
-* `iceandfire:ice_dragon`
+#### Mahou Tsukai
+*   `mahoutsukai:familiar_entity`
 
-## Mahou Tsukai
-* `mahoutsukai:familiar_entity`
+#### Hexerei
+*   `hexerei:crow`
+*   `hexerei:owl`
 
-## Hexeri
-* `hexerei:crow`
-* `hexerei:owl`
-
-## Occultism
-
+#### Occultism
 *   `occultism:bat_familiar`
 *   `occultism:beaver_familiar`
 *   `occultism:beholder_familiar`
@@ -212,16 +210,17 @@ This is not exhaustive but includes common examples of mobs that contribute to h
 *   `occultism:headless_familiar`
 *   `occultism:mummy_familiar`
 *   `occultism:shub_niggurath_familiar`
-* Crushers and transporters also are valid options.
+*   `Marid`, `Djinni`, `Foliot`, `Afrit` crushers
+*   `Foliot Transporters`
 
-
-*(Note: this may vary with the updates of the pack adding or removing some loot tables to the mobs. Also for the moment not all the mobs without loot tables are presented here, for adding more contact me on the ATM discord @Xannaeh)*
+*(Note: This list may vary with pack updates or mod configurations. Always test in-game if unsure. For additions or corrections, contact @Xannaeh on the ATM discord.)*
 
 ---
 
 ### Drygmy Mob Farm Example
 
-In this image you can see how 20 `Drygmes` farm `Pigliches` in a efficient way making the `Drygmes` happier with mobs without drop loot tables. This case gives 32 `Piglich Hearts` per iteration.
+In this image, you can see how 20 `Drygmys` farm `Pigliches`. To maximize efficiency, the `Drygmys` are made happier (increasing drops per cycle) using several mobs without loot tables (like those listed above) placed in `Containment Jars`. This specific setup yields 32 `Piglich Hearts` per iteration.
+
 ![Drygme Mob Farm Example 1](../img/arsnouveau/drygmys/drygmy_farm_1.png)
 
 ---
