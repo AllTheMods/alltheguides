@@ -81,7 +81,7 @@ especially `Blazing Archwood`. Also generates "Heat" (Progress) as it burns fuel
     *   Other Fuel: `burn_time_ticks / 12` Source (1 Progress)
         *   Current good fuel options in the pack:
             *   **Primal Magick** `Block of Ignyx`: ~10667 Source, 1 Progress
-            * *(Note: due to the sourcelink buffer capped to 20000 anything further than this is not a good consumable because it will go to waste)
+            * *(Note: due to the sourcelink buffer capped to 20000 anything further than this is not a good consumable because it will go to waste)*
             *   ~~**Mystical Agradditions** `Insanium Coal Block`: 57750 Source, 1 Progress~~
             *   ~~`Block of Blaze Rods x5` ~118098008 Source, 1 Progress~~
             * *(Note:More can be found using JEI/EMI, there the burn items are shown, for doing the calculations multiply it by 200 and divide it by 12)*
