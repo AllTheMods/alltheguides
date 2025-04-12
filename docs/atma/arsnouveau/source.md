@@ -18,7 +18,7 @@ Source must be actively generated using different types of **Sourcelinks**. Each
 
 ### Common Sourcelink Properties
 
-*   **Max Source Buffer:** Most Sourcelinks have an internal buffer (typically 20,000 Source, but varies).
+*   **Max Source Buffer:** Most Sourcelinks have an internal buffer (20,000 Source).
 *   **Transfer Rate:** They transfer Source to nearby jars periodically (every 5 seconds), but generation can be faster (every 2 seconds).
 *   **Jar Range:** Sourcelinks typically output Source to jars within a 5-block radius.
 *   **Optimization Tip:** Sometimes it's more efficient to connect a `Source Relay: Splitter` directly to Sourcelinks using the `Dominion Wand` to extract Source if the production rate exceeds the Sourcelink's direct transfer rate to jars.
@@ -81,8 +81,9 @@ especially `Blazing Archwood`. Also generates "Heat" (Progress) as it burns fuel
     *   Other Fuel: `burn_time_ticks / 12` Source (1 Progress)
         *   Current good fuel options in the pack:
             *   **Primal Magick** `Block of Ignyx`: ~10667 Source, 1 Progress
-            *   **Mystical Agradditions** `Insanium Coal Block`: 57750 Source, 1 Progress
-            *   `Block of Blaze Rods x5` ~118098008 Source, 1 Progress
+            * *(Note: due to the sourcelink buffer capped to 20000 anything further than this is not a good consumable because it will go to waste)
+            *   ~~**Mystical Agradditions** `Insanium Coal Block`: 57750 Source, 1 Progress~~
+            *   ~~`Block of Blaze Rods x5` ~118098008 Source, 1 Progress~~
             * *(Note:More can be found using JEI/EMI, there the burn items are shown, for doing the calculations multiply it by 200 and divide it by 12)*
 *   **Block Conversion (Uses Progress):**
     *   `Stone` (`c:stones`) -> `Magma Block`: 150 Progress
