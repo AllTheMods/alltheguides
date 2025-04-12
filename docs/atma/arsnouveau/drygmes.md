@@ -222,7 +222,7 @@ This is not exhaustive but includes common examples of mobs that contribute to h
 ### Drygmy Mob Farm Example
 
 In this image you can see how 20 `Drygmes` farm `Pigliches` in a efficient way making the `Drygmes` happier with mobs without drop loot tables. This case gives 32 `Piglich Hearts` per iteration.
-![Drygme Mob Farm Example 1](drygmy_farm_1.png)
+![Drygme Mob Farm Example 1](../img/arsnouveau/drygmys/drygmy_farm_1.png)
 
 ---
 
