@@ -7,7 +7,7 @@ authors:
 
 # Guide: Curios Slots & Items
 
-This guide covers the Curios API, how to gain additional slots, and provides details on specific Curios items available in ATMA, with examples from various mods.
+This guide covers the Curios API, how to gain additional slots, and provides details on specific Curios items available in ATMA, with examples from various mods including Artifacts and Relics.
 
 ## Understanding Curios: The Accessory API
 
@@ -20,9 +20,185 @@ This guide covers the Curios API, how to gain additional slots, and provides det
 *   **More Equipment Slots:** Allows mods to add slots for items like rings, necklaces, belts, charms, back items, headgear, hand items, and more.
 *   **Centralized Management:** All extra accessory slots are managed through a single GUI, typically opened by pressing the **'G' key** (configurable in Controls). This keeps your main inventory screen cleaner.
 *   **Flexibility:** Items can often be equipped into multiple compatible slot types (e.g., some head items might fit in the helmet slot or a Curios head slot).
-*   **Compatibility:** Standard mechanics like Mending, Unbreaking, and Curses generally work with items in Curios slots.
+*   **Compatibility:** Standard Minecraft mechanics like Mending, Unbreaking, and Curses generally work with items in Curios slots.
 
 ![Curios Slots GUI Example](img/curios/curios_slots.png)
+
+---
+
+## How to Equip Curios Items
+
+1.  Press the **Curios key** (Default key: 'G') to open the Curios slots GUI.
+2.  Identify the appropriate slot type for the item you want to equip (e.g., Head, Back, Necklace, Hands, Belt, Charm, Ring, Focus).
+3.  Drag the desired Curios item from your main inventory into a compatible empty slot in the Curios GUI.
+4.  The item is now equipped, and its effects (if any) should be active!
+
+---
+
+## Example Loadouts & Combinations
+
+Here are some example combinations of Curios items tailored for specific goals. Mix and match based on your needs and item availability! Remember that items granting more slots (`Oddeyes Glasses`, `Triple Strip Cape`, `Infinity Glove`, `Leather Belt`) are key to enabling more powerful combinations.
+
+### 1. Mining Focus
+
+*This combination prioritizes mining speed, ore detection, auto-smelting, and related bonuses.*
+
+*   **Hands:** `Digging Claws` (Artifacts) - Reduces tool level requirement, increases mining speed.
+*   **Hands:** `Pickaxe Heater` (Artifacts) - Autosmelts mined blocks using a charge buffer.
+*   **Bracelet:** `Onion Ring` (Artifacts) - Mining speed based on saturation, chance to restore hunger/saturation when mining.
+*   **Necklace:** `Lucky Scarf` (Artifacts) - Chance for bonus Luck levels when mining (potentially more drops).
+*   **Head:** `Thorn Crown` (Reliquified TF) - Detect valuable ores nearby (activate ability).
+*   **Focus:** `Focus of Transmutation` (Ars Technica) - Improves processing glyphs like `Obliterate` or `Whirl` if using Ars Nouveau for ore processing.
+
+> ***How it works:*** *You mine faster, potentially breaking blocks you normally couldn't, autosmelt ores, detect hidden ores, get bonus luck, and sustain yourself while doing it. If using Ars magic, the Focus enhances ore doubling.*
+
+### 2. Mob Looting Focus
+
+*This focuses on increasing drops from mobs, specifically general loot and Hostility mod drops.*
+
+*   **Head:** `Superstitious Hat` (Artifacts) - Chance to add temporary Looting levels on kill.
+*   **Charm/Curse:** `Curse of Greed` (L2Hostility) - Doubles Hostility loot drop chance (+50 difficulty).
+*   **Charm/Curse:** `Curse of Envy` (L2Hostility) - Enables trait symbol drops when killing mobs with traits (+50 difficulty).
+*   **Charm/Curse:** `Curse of Lust` (L2Hostility) - Mobs drop their equipped items (+50 difficulty).
+*   **Charm/Curse:** `Looting Charms` (L2Hostility - various tiers) - Enable specific hostility trait drops.
+*   **(Air Spell Focus):** `Focus of Air` (Ars Nouveau) + `Cut` Glyph - Chance to drop mob heads/skulls on kill with the spell.
+
+> ***How it works:*** *Increases general loot via temporary Looting, significantly boosts specific loot from the L2Hostility mod (at the cost of increased difficulty), and potentially allows head collection via Ars Nouveau. Note: Hostility curses significantly increase mob difficulty.*
+
+### 3. Mob Experience Focus
+
+*Maximize the experience points gained from killing mobs.*
+
+*   **Hands:** `Golden Hook` (Artifacts) - Increases XP gained from mob kills.
+*   **Ring:** `Emerald Stoneplate Ring` (Iron's Spells 'n Spellbooks) - Slain creatures drop +25% experience.
+
+> ***How it works:*** *These two items directly add bonuses to your XP gain from killing mobs, speeding up leveling and enchanting.*
+
+### 4. Fire Resistance Focus
+
+*Protect yourself from fire, lava, and heat.*
+
+*   **Charm:** `Charm of Emberward` (Ars Additions) - Nullifies Fire Damage (charges).
+*   **Ring:** `Fireward Ring` (Iron's Spells 'n Spellbooks) - Grants complete fire immunity.
+*   **Feet:** `Strider Shoes` (Artifacts) - Walk on lava (sneaking), hot floor immunity.
+*   **Feet:** `Magma Walker` (Relics) - Hot block immunity, temporary lava walking.
+*   **Charm:** `Obsidian Skull` (Artifacts) - Absorbs fire damage temporarily (buffer).
+*   **Back:** `Chromatic Cloak` (Reliquified TF) + **Orange Wool** - Grants Fire Resistance buff.
+*   **Bracelet:** `Flaming Bracer` (Reliquified Ars Nouveau) - Grants *Magic* fire immunity.
+
+> ***How it works:*** *Multiple options provide full immunity or specific utility like lava walking or temporary absorption. Choose based on availability and slot usage.*
+
+### 5. More Damage Focus
+
+*Increase your damage output, both melee and magical.*
+
+**General/Melee Damage:**
+
+*   **Hands:** `Power Glove` (Artifacts) - Huge damage boost, adds attack cooldown.
+*   **Hands:** `Feral Claws` (Artifacts) - Attack speed increase per consecutive hit.
+*   **Hands:** `Rage Glove` (Relics) - Damage increases per hit (also increases damage taken).
+*   **Hands:** `Giant's Glove` (Reliquified TF) - Increases size/stats of held item.
+*   **Bracelet:** `Bangle of [Element]` (Ars Nouveau) - Adds elemental effects/damage on hit.
+*   **Charm/Curse:** `Curse of Wrath` (L2Hostility) - Damage bonus vs higher level mobs.
+
+**Spell Damage:**
+
+*   **Spell Book Slot:** Highest tier Spell Book with relevant % Spell Power bonuses.
+*   **Hands:** `Glove of Sorcerer` (Glimmering Tales) - +25% Magic Damage.
+*   **Charm:** `Charm of Strength` (Glimmering Tales) - +50% Magic Damage.
+*   **Charm:** `Charm of [Element]` (Glimmering Tales) - Huge boosts (+100%) to specific elemental damage types.
+*   **Focus:** `Focus of [Element]` (Ars Nouveau) - Boosts spells of the attuned school.
+*   **Bracelet:** `Bangle of [Element/Theme]` (Ars Nouveau) - Boosts damage of corresponding spell school.
+*   **Ring:** `Affinity Rings` (Iron's Spells 'n Spellbooks) - +1 level to spells of that element.
+*   **Hands:** `Archmage Glove` (Reliquified Ars Nouveau) - Chance for spells to repeat without mana cost.
+*   **Charm:** `Emblem of Assault` (Reliquified Ars Nouveau) - Auto-casts linked spell on attack.
+
+> ***How it works:*** *Choose items based on your combat style. Spellcasters prioritize Spell Books, Magic Damage boosts, and element-specific items. Melee users focus on attack speed, raw damage, or life steal.*
+
+### 6. Easy Travel Focus
+
+*Improve movement speed, offer flight, teleportation, or special terrain traversal.*
+
+**Ground Speed & Jumping:**
+
+*   **Feet:** `Running Shoes` (Artifacts) - Increases run speed.
+*   **Feet:** `Bunny Hoppers` (Artifacts) - High jump.
+*   **Ring:** `Ring of Jumping` (Ars Nouveau) - Mid-air jumps (mana cost).
+*   **Charm:** `Cloud in a Bottle` (Artifacts) - Extra air jumps.
+
+**Flight & Levitation:**
+
+*   **Back:** `Whirlisprig Broom` (Reliquified Ars Nouveau) - Summon flying broom.
+*   **Belt:** `Belt of Levitation` (Ars Nouveau) - Allows levitation.
+*   **Head:** `Whirlisprig Petals` (Reliquified Ars Nouveau) - Hold jump to lift, auto Slow Falling.
+
+**Special Terrain & Water:**
+
+*   **Feet:** `Strider Shoes` (Artifacts) / `Magma Walker` (Relics) - Lava walking.
+*   **Feet:** `Aqua-Dashers` (Artifacts) / `Aqua Walker` (Relics) - Water walking.
+*   **Feet:** `Flippers` (Artifacts) / `Amphibian Boot` (Relics) - Swim speed.
+*   **Feet:** `Steadfast Spikes` (Artifacts) / `Scaled Cloak` (Reliquified TF) - Wall climbing/sliding.
+
+**Teleportation & Utility:**
+
+*   **Charm:** `Warp Drive` (Artifacts) - Line-of-sight teleport.
+*   **Hands:** `Ender Hand` (Relics) - Swap position with target.
+*   **Feet:** `Phantom Boot` (Relics) - Creates temporary blocks underfoot.
+*   **Necklace:** `Coin of Fortune` (Reliquary) - Item/XP vacuum.
+
+> ***How it works:*** *Combine flight, speed boosts, terrain walkers, and teleports as needed. Phantom Boots are great for bridging gaps.*
+
+### 7. Maximum Slot Combination
+
+*Focus on equipping items that grant *more* Curios slots.*
+
+*   **Head:** `Oddeyes Glasses` (L2Hostility) - **+2 Head slots**.
+*   **Back:** `Triple Strip Cape` (L2Hostility) - **+3 Back slots**.
+*   **Hands:** `Infinity Glove` (L2Hostility) - **+5 Ring slots**, **+1 Charm slot**.
+*   **Belt:** `Leather Belt` (Relics) - Up to **+8 Charm slots**.
+
+> ***How it works:*** *Dramatically increases the number of Head, Back, Ring, and Charm items you can wear, enabling powerful stacking builds.*
+
+### 8. Ars Nouveau Spell Master Combination (Example: Fire)
+
+*Maximize the power of a specific Ars Nouveau spell school.*
+
+*   **Focus:** `Focus of Fire` (Ars Nouveau)
+*   **Bracelet:** `Bangle of Fire` (Ars Nouveau)
+*   **Ring:** `Ring of Greater Discount` (Ars Nouveau)
+*   **Hands:** `Archmage Glove` (Reliquified Ars Nouveau)
+*   **Necklace:** `Amulet of Mana Regen` / `Amulet of Mana Boost` (Ars Nouveau)
+*   **Charm:** `Charm of Flame` (Glimmering Tales) - *If available/stacking mods*
+*   **Spell Book:** `Ignis Spellbook` / `Blaze Instruction Manual`
+
+> ***How it works:*** *Deeply specialize in one element for massive damage, cost reduction, and potential spell duplication. Substitute items for other elements as needed.*
+
+### 9. "Untouchable" Tank Combination
+
+*Focus on survival, damage mitigation, and death prevention.*
+
+*   **Heart Amulet:** `Heart Amulet` / `Soul Amulet` (Baubley Heart Canisters) + Canisters
+*   **Charm:** `Crystal Heart` (Artifacts) - Max Health boost.
+*   **Charm:** `Charm of Second Wind` (Ars Additions) - Single death prevention (charges).
+*   **Charm:** `Totem of Dream` / `Eternal Totem of Dream` (L2Complements) - Return to spawn on death.
+*   **Feet:** `Kitty Slippers` (Artifacts) - Chance to survive fatal damage.
+*   **Necklace:** `Holy Locket` (Reliquified) - Temporary immortality on kill.
+*   **Ring:** `Ring of Divinity` (L2Hostility) - Magic damage immunity.
+*   **Back:** `Cloak of Concealment` (Reliquified Ars Nouveau) - Mana Barrier.
+
+> ***How it works:*** *Stack maximum health, multiple death cheats, damage absorption/immunity. Resource management (mana, charges) is key.*
+
+### 10. Hostility Farmer Combination
+
+*Designed for tackling high difficulty while maximizing L2Hostility loot.*
+
+*   **Looting Items:** `Superstitious Hat` (Artifacts), `Curse of Greed`, `Curse of Envy`, `Curse of Lust`, `Looting Charm` (L2Hostility).
+*   **Combat Scaling:** `Curse of Wrath` (L2Hostility) - Damage bonus vs higher level mobs, effect immunities.
+*   **Defense:** `Ring of Reflection` (L2Hostility), Survival items from "Tank" build.
+*   **Offense:** High Damage items from "More Damage" build.
+
+> ***How it works:*** *Embrace high difficulty for maximum Hostility loot. `Curse of Wrath` and `Ring of Reflection` are crucial. Requires strong offense and defense.*
+
 
 ---
 
@@ -50,7 +226,7 @@ Here are examples of items that fit into specific Curios slots available in ATMA
 
 ### Spell Focus Slot
 
-![Spell Focus Slot Icon](img/curios/spell_focus_slot.png)
+![Spell Focus Slot Icon Placeholder](img/curios/spell_focus_slot.png)
 
 *   **Description:** A dedicated slot primarily used by **Ars Nouveau** for its `Spell Foci`.
 *   **Functionality:** Equipping a Focus provides passive benefits and enhances certain spells or schools of magic.
@@ -62,7 +238,7 @@ Here are examples of items that fit into specific Curios slots available in ATMA
     #### Common Mechanics for Elemental Focus (Earth, Water, Fire, Air)
     *   **Attunement:** Each elemental focus is attuned to a specific school of magic (e.g., Focus of Earth -> Earth School).
     *   **Amplification & Discount:** While equipped, spells (glyphs) belonging to the attuned school are generally stronger and/or cost less mana.
-    *   **Lesser Focus Drawback:** The basic ("Lesser") version of these elemental Focus often weakens spells from the *other* three elemental schools (Fire, Water, Earth, Air).
+    *   **Lesser Focus Drawback:** The basic ("Lesser") version of these elemental Foci often weakens spells from the *other* three elemental schools (Fire, Water, Earth, Air).
     *   **Major Focus Bonus:** An upgraded version typically provides an additional, more powerful bonus under specific conditions, likely alongside the amplification/discount.
 
     #### 1. Ars Nouveau - Elemental Foci
@@ -137,17 +313,16 @@ Here are examples of items that fit into specific Curios slots available in ATMA
             *   2x Damage: For the `Obliterate` glyph.
 ### Head Slot
 
-![Head Slot Icon](img/curios/head_slot.png)
+![Head Slot Icon Placeholder](img/curios/head_slot.png)
 
-*   **Description:** A slot for items worn on the head, often providing utility or visual effects. Items here can typically also be worn in the vanilla helmet armor slot.
-*   **Functionality:** Varies greatly depending on the item equipped.
-*   **Compatibility:** Items tagged `#curios:head` fit here.
+*   **Description:** Slot for headwear, providing utility or visuals. Can often fit in the helmet slot too.
+*   **Compatibility:** Items tagged `#curios:head`.
 *   **Examples:**
 
     ![Various Head Slot Items](img/curios/head_slot_items.png)
 
     #### 1. Occultism
-    *   `Otherworld Goggles`: Grants the permanent **Third Eye** effect, allowing the wearer to see hidden Otherworld blocks and entities related to Occultism. This ability, referred to as "seeing beyond the veil," is normally temporary and achieved by consuming `Demon's Dream` herbs.
+    *   `Otherworld Goggles`: Permanent **Third Eye** effect (see Occultism elements).
 
     #### 2. The Bumblezone
     *   `Flower Headwear`: Prevents bees from becoming angry and attracts them when worn in the *armor* slot. **Functionality may not work correctly when equipped in the Curios slot**, and it provides no visual change in the Curios slot either.
@@ -155,6 +330,7 @@ Here are examples of items that fit into specific Curios slots available in ATMA
     #### 3. Ars Nouveau & Addons
     *   **(Ars Technica)** `Spy Monocle`: Allows zooming in by pressing ++g++ (configurable).
     *   `Alchemist's Crown`: Allows opening a potion radial menu by pressing ++g++ (configurable) when `Potion Flasks` are in the inventory.
+
         ![Alchemist's Crown Radial Menu](img/curios/alchemist_crown.png)
 
     #### 4. L2Hostility
@@ -174,12 +350,12 @@ Here are examples of items that fit into specific Curios slots available in ATMA
 
     *   `Whoopee Cushion`: Grants`Flatulence`. Chance to knock back nearby entities and apply nausea when taking damage or crouching frequently.
     *   `Angler's Hat`: Grants `Generous Catch`. Chance to increase the amount of catch received while fishing, potentially repeating multiple times.
-    *   `Cowboy Hat`: Grants `Gallop` (Increases mount speed, jump height, safe fall height) and `Lasso` (Activated: Ride/control any mob temporarily, 1m cooldown).
+    *   `Cowboy Hat`: Grants `Gallop`: Increases mount speed, jump height, safe fall height and `Lasso`: Activated: Ride/control any mob temporarily, 1m cooldown.
     *   `Night Vision Goggles`: Grants `Gamma Vision`. Enhances brightness and reduces Blindness/Darkness effectiveness.
-    *   `Novelty Drinking Hat` / `Plastic Drinking Hat`: Grants `Quick Drink` (Increases drinking speed) and `Life-Giving Sip` (Replenishes hunger when drinking).
-    *   `Snorkel`: Grants `Clear Vision` (Removes water fog) and `Breath Control` (Grants Water Breathing upon submersion).
+    *   `Novelty Drinking Hat` / `Plastic Drinking Hat`: Grants `Quick Drink`: Increases drinking speed and `Life-Giving Sip`: Replenishes hunger when drinking.
+    *   `Snorkel`: Grants `Clear Vision`: Removes water fog and `Breath Control`: Grants Water Breathing upon submersion).
     *   `Superstitious Hat`: Grants `Big Loot`. Chance to add temporary Looting levels on kill, potentially repeating.
-    *   `Villager Hat`: Grants `Innocent Appearance` (Prevents Iron Golem aggression) and increases trading discounts.
+    *   `Villager Hat`: Grants `Innocent Appearance`: Prevents Iron Golem aggression and increases trading discounts.
 
     #### 8. Reliquified Twilight Forest
     *Note: Relics share experience earned and level up through use.*
@@ -214,85 +390,80 @@ Here are examples of items that fit into specific Curios slots available in ATMA
     *(These provide no functional benefit when equipped)*
 
     ![Head Aesthetic ONLY Item Examples](img/curios/aesthetic_head.png)
-
-    *   Trophies from **Twilight Forest**: `Twilight Lich Trophy`, `Snow Queen Trophy`, `Questing Ram Trophy`, `Naga Trophy`, `Alpha Yeti Trophy`, `Minoshroom Trophy`, `Knight Phantom Trophy`, `Hydra Trophy`, `Ur-Ghast Trophy`
-    *   Other **Twilight Forest**: `Moonworm`, `Cicada`, `Firefly`
-    *   **Cataclysm**: `Aptrgangr Head`, `Draugur Head`, `Kobolediator Head`
-    *   **Starbunclemania**: `Whirly Propeller`, `Alakakrinas Hat`, `Drygme Horns`, `Sea Bunny`, `Starby Ears`
+    *   **Twilight Forest Trophies**: `Twilight Lich Trophy`, `Snow Queen Trophy`, `Questing Ram Trophy`, `Naga Trophy`, `Alpha Yeti Trophy`, `Minoshroom Trophy`, `Knight Phantom Trophy`, `Hydra Trophy`, `Ur-Ghast Trophy`.
+    *   **Twilight Forest Critters**: `Moonworm`, `Cicada`, `Firefly`.
+    *   **Cataclysm Heads**: `Aptrgangr`, `Draugur`, `Kobolediator`.
+    *   **Starbunclemania**: `Whirly Propeller`, `Alakakrinas Hat`, `Drygme Horns`, `Sea Bunny`, `Starby Ears`.
 
 ### Necklace Slot
 
-![Necklace Slot Icon](img/curios/necklace_slot.png)
+![Necklace Slot Icon Placeholder](img/curios/necklace_slot.png)
 
-*   **Description:** A slot for necklaces, amulets, and pendants, often providing passive buffs or utility effects.
-*   **Functionality:** Varies greatly depending on the item equipped.
-*   **Compatibility:** Items tagged `#curios:necklace` fit here.
+*   **Description:** Slot for necklaces, amulets providing passive buffs/utility.
+*   **Compatibility:** Items tagged `#curios:necklace`.
 *   **Examples:**
 
     ![Necklace Slot Items](img/curios/neck_items.png)
 
     #### 1. Ars Nouveau
-    *   `Amulet of Mana Boost`: Increases maximum mana by +50.
-    *   `Amulet of Mana Regen`: Increases mana regeneration rate by +3.
+    *   `Amulet of Mana Boost`: +50 Max Mana.
+    *   `Amulet of Mana Regen`: +3 Mana Regen.
 
     #### 2. Reliquary
     *   `Coin of Fortune`: Automatically draws in nearby items and experience orbs. Can be activated (++shift+rbutton++) and held (++rbutton++) for a larger vacuum effect.
 
     #### 3. Nature's Aura
-    *   `Amulet of Wrath`: *(No tooltip provided - likely enhances combat capabilities)*.
+    *   `Amulet of Wrath`: *(Likely combat buff)*.
 
     #### 4. Iron's Spells 'n Spellbooks & Addons
 
-    ![Iron's Spells 'n  Spellbooks Necklaces](img/curios/irons_necklaces.png)
+    ![Iron's Spells 'n Spellbooks Necklaces](img/curios/irons_necklaces.png)
 
-    *   `Amulet of Concentration`: Makes long-cast spells uninterruptible.
-    *   `Conjurer's Talisman`: Increases summon damage by 10%.
-    *   `Heavy Chain`: Increases spell resistance by 15%.
-    *   `Amethyst Resonant Charm`: Increases mana regeneration by 15%.
-    *   `Amulet of Teleportation`: *(No tooltip provided - likely enhances teleportation spells or grants a teleport ability)*.
-    *   **(Traveloptics)** `Energy Unbound Necklace`: Allows free look and slow movement while casting Death Laser (reduces laser damage).
-    *   **(Traveloptics)** `Sigil of the Spider Sorcerer`: Allows wall climbing while Aspect of the Spider is active; hitting enemies while active poisons them.
-    *   **(Traveloptics)** `Amulet of Spectral Shift`: Spectral Blink spell now teleports the *target* entity to your location while crouching.
-    *   **Jewelry Crafting:** `Simple Amulets`, `Simple Chains`, `Amulet of Protection` can be crafted. *(Refer to Iron's Spells 'n Spellbooks Guide - WIP)*.
+    *   `Amulet of Concentration`: Uninterruptible casting.
+    *   `Conjurer's Talisman`: +10% Summon Damage.
+    *   `Heavy Chain`: +15% Spell Resistance.
+    *   `Amethyst Resonant Charm`: +15% Mana Regen.
+    *   `Amulet of Teleportation`: *(Likely teleport related)*.
+    *   **(Traveloptics)** `Energy Unbound Necklace`: Free look/slow move during Death Laser (dmg penalty).
+    *   **(Traveloptics)** `Sigil of the Spider Sorcerer`: Wall climb with Aspect of Spider, chance to poison on hit.
+    *   **(Traveloptics)** `Amulet of Spectral Shift`: Spectral Blink teleports *target* to you (crouching).
+    *   **Jewelry Crafting:** Various craftable amulets/chains. (`Simple Amulets`, `Simple Chains`, `Amulet of Protection`) *(WIP Guide)*.
 
     #### 5. Silent Gear
-    *   **Special Mention:** `Necklace Blueprint`. Used to craft necklaces using Silent Gear's material system. *(Refer to Silent Gear Guide - WIP)*.
+    *   `Necklace Blueprint`: Used for crafting Silent Gear necklaces. *(WIP Guide)*.
 
     #### 6. Artifacts
     *Note: Artifacts share experience earned and level up through use.*
 
     ![Necklace Artifact Examples](img/curios/necklace_artifacts.png)
 
-    *   **`Flame Pendant`**: Grants `Fiery Defense` (Chance to ignite attackers).
-    *   **`Shock Pendant`**: Grants `Electric Resistance` (Immunity to lightning) and `Lightning Defense` (Chance to strike attackers with lightning).
-    *   **`Thorn Pendant`**: Grants `Poisonous Defense` (Chance to reflect damage and poison attackers).
-    *   **`Panic Necklace`**: Grants `Panic` (Increases movement speed based on nearby hostile mobs targeting you).
-    *   **`Cross Necklace`**: Grants `Invincibility` (Increases invulnerability duration after taking damage).
-    *   **`Scarf of Invisibility`**: Grants `Silent Step` (Grants invisibility, breaks temporarily on interaction or when targeted).
-    *   **`Charm of Shrinking`**: Grants `Compression` (Reduces player size).
-    *   **`Charm of Sinking`**: Grants `Anchor` (Increases sinking speed) and `Diver` (Restores air while on underwater floor).
-    *   **`Lucky Scarf`**: Grants `Treasure Hunter` (Chance to add temporary Luck levels when mining, potentially repeating).
+    *   `Flame Pendant` (`Fiery Defense`): Chance to ignite attackers.
+    *   `Shock Pendant` (`Electric Resistance`+`Lightning Defense`): Lightning immunity, chance to strike attackers.
+    *   `Thorn Pendant` (`Poisonous Defense`): Chance to reflect damage & poison attackers.
+    *   `Panic Necklace` (`Panic`): Speed boost based on nearby hostiles targeting you.
+    *   `Cross Necklace` (`Invincibility`): Increases invulnerability frames.
+    *   `Scarf of Invisibility` (`Silent Step`): Grants invisibility (breaks temporarily).
+    *   `Charm of Shrinking` (`Compression`): Reduces player size.
+    *   `Charm of Sinking` (`Anchor`+`Diver`): Faster sinking, restores air on seabed.
+    *   `Lucky Scarf` (`Treasure Hunter`): Chance for bonus Luck levels when mining, repeats.
 
     #### 7. Reliquified Amulets
     *Note: Relics share experience earned and level up through use.*
 
     ![Relic Necklace Examples](img/curios/relic_necklaces.png)
-
-    *   **`Reflecting Necklace`**: Accumulates damage taken, then explodes dealing damage and stunning targets based on stored damage.
-    *   **`Jellyfish Necklace`**: Grants `Power over the sea` (No sinking), `Electrical Discharge` (Damage on collision), and `Paralysis` (Paralyzes on discharge).
-    *   **`Holy Locket`**:
+    *   `Reflecting Necklace`: Stores damage, explodes dealing damage/stun.
+    *   `Jellyfish Necklace` (Combined): No sinking, damage on collision, paralyzes on collision.
+    *   `Holy Locket`
         *   `Faith` (Toggleable): **Holiness (Red):** Steals healing from nearby entities. **Unholiness (Blue):** Deals damage to nearby entities based on healing received.
         *   `Penitence`: Ignites undead and increases damage dealt to them.
         *   `Ascension`: Killing targets grants temporary stacking immortality.
 
 ### Back Slot
 
-![Back Slot Icon](img/curios/back_slot.png)
+![Back Slot Icon Placeholder](img/curios/back_slot.png)
 
-
-*   **Description:** A slot for items worn on the back, such as capes, backpacks, quivers, or wings. These often provide utility, storage, or movement enhancements. Items here can typically also be worn in the vanilla chestplate armor slot if they are armor pieces (like Elytra).
-*   **Functionality:** Varies greatly, including inventory expansion, ranged weapon utility, flight, or passive buffs.
-*   **Compatibility:** Items tagged `#curios:back` fit here.
+*   **Description:** Slot for back items like capes, backpacks, wings. Provides utility, storage, movement.
+*   **Compatibility:** Items tagged `#curios:back`.
 *   **Examples:**
 
     ![Back Slot Items](img/curios/back_slot_items.png)
@@ -306,56 +477,42 @@ Here are examples of items that fit into specific Curios slots available in ATMA
     *   *(Note: A dedicated guide for L2Backpacks with detailed functionality is planned).*
 
     #### 2. L2Hostility
-    *   `Triple Strip Cape`: When equipped in a Back slot, grants **+3 Back slots**.
+    *   `Triple Strip Cape`: **+3 Back slots**.
 
     #### 3. Sophisticated Backpacks
     *   `Backpack`: Provides highly configurable and upgradeable extra inventory storage accessible via hotkey or placing the backpack. Can be equipped in the Back slot.
     *   *(Note: A dedicated guide for Sophisticated Storage/Backpacks with detailed functionality is planned).*
 
     #### 4. Silent Gear
-    *   **Special Mention:** `Elytra Blueprint`. Used to craft Elytra using Silent Gear's material system, allowing for customization of flight properties and durability. *(Refer to Silent Gear Guide - WIP for crafting details)*.
+    *   `Elytra Blueprint`: Used for crafting Silent Gear Elytra. *(WIP Guide)*.
 
     #### 5. Relics
     *Note: Relics share experience earned and level up through use.*
 
     ![Relics Back](img/curios/relics_back.png)
 
-    *   **`Midnight Robe` (Combined Relic)**:
-        *   Grants `Vanish`: Grants complete invisibility and increases movement speed (up to 157% at max level) when the light level is 12 or less.
-        *   Grants `Betrayal`: Attacking while `Vanish` is active deals increased damage (up to 250% at max level), marks a circle (10 blocks radius at max level) around the target, and dispels invisibility. `Vanish` cannot be reactivated until the wearer leaves the circle.
-    *   **`Elytra Booster`**:
-        *   Grants `Acceleration`: Uses furnace fuel added to the relic to fill an internal buffer (max 350 units at max level). Activating the ability while flying with elytra increases flight speed (up to 48 blocks/sec at max level) by consuming fuel.
+    *   `Midnight Robe` (`Vanish`+`Betrayal`): Invisibility/speed in low light, bonus damage on attack from invis (breaks invis temporarily).
+    *   `Elytra Booster` (`Acceleration`): Uses fuel for elytra speed boost (activated).
 
     #### 6. Reliquified Ars Nouveau
     *Note: Relics share experience earned and level up through use.*
 
     ![Reliquified Ars Nouveau Back](img/curios/reliquified_ars_back.png)
 
-    *   **`Whirlisprig Broom`**:
-        *   Grants `Witch's Call`: Summons a controllable broom (standard movement keys) with a max flight height (80 blocks above ground at max level). Broom has health (20 at max level, regenerates every 5s), disappears if health depletes (1 min cooldown). Sprinting consumes mana (45/sec at max level) and increases speed (by 300% at max level).
-    *   **`Spiked Cloak`**:
-        *   Grants `Boiling Point`: When taking damage equal to a percentage of max health (60% at max level), fires several spikes dealing damage (15 each at max level). If triggered again within a time window (30s at max level), spike damage doubles and the cooldown resets. Bonus damage resets if the timer expires.
-    *   **`Cloak of Concealment`**:
-        *   Grants `Mana Barrier`: Absorbs incoming damage by consuming mana (25 per point of damage at max level). If mana drops too low for absorption, the ability goes on cooldown (10 seconds at max level).
+    *   `Whirlisprig Broom` (`Witch's Call`): Summon controllable flying broom.
+    *   `Spiked Cloak` (`Boiling Point`): Fires damaging spikes on taking significant damage, bonus damage on rapid triggers.
+    *   `Cloak of Concealment` (`Mana Barrier`): Absorbs damage using mana, cooldown on mana depletion.
 
     #### 7. Reliquified Twilight Forest
     *Note: Relics share experience earned and level up through use.*
 
     ![Reliquified Twilight Forest Back](img/curios/reliquified_tft_back.png)
 
-    *   **`Charm Backpack`**:
-        *   Grants `Charm Storage`: Allows storing charms (up to 13 at max level) inside the backpack (++rbutton++ on backpack with charm). Prevents charm destruction upon activation, instead putting the backpack on cooldown (2.5 minutes per charm level at max level). Extract charms with an empty cursor. Only for base Twilight Forest Charms (`Charm of Life` and `Charm of Keeping`)
-    *   **`Steel Cape`**:
-        *   Grants `Invulnerability`: Reduces incoming damage mitigated by armor by a flat amount (2 points at max level). If damage isn't fully blocked, has a chance (50% at max level) to launch a steel orb at the attacker, dealing damage (12 at max level) and stunning (5 seconds at max level).
-    *   **`Scaled Cloak`**:
-        *   Grants `Grip`: Allows climbing walls for a duration (25 seconds at max level), then slowly slide down.
-        *   Grants `Elusive Stare`: When taking damage, has a chance (125% at max level - likely guarantees activation) to make the attacker miss if the player maintains eye contact.
-    *   **`Invisibility Cloak`**:
-        *   Grants `Imperial Attire`: Hides the appearance of equipped armor (cosmetic).
-        *   Grants `Camouflage`: Grants full invisibility after standing still or sneaking without interruption for a duration (1 second at max level).
-    *   **`Chromatic Cloak`**:
-        *   Grants `Spectrum Magic`: Stores colored wool (up to 16 slots, 48 units each at max level). Each active wool color grants a specific effect for a duration (29 seconds at max level), consuming one unit. Insert/extract wool via ++rbutton++.
-        *   Grants `Color Focus`: Increases the effect level based on the number of identical-colored wool slots (up to level 14 at max level).
+    *   `Charm Backpack` (`Charm Storage`): Stores TF Charms, prevents destruction on use (puts backpack on cooldown).
+    *   `Steel Cape` (`Invulnerability`): Flat damage reduction, chance to fire stunning projectile on hit.
+    *   `Scaled Cloak` (`Grip`+`Elusive Stare`): Wall climbing, chance to make attacker miss if looking at them.
+    *   `Invisibility Cloak` (`Imperial Attire`+`Camouflage`): Hides armor cosmetically, grants invisibility when still/sneaking.
+    *   `Chromatic Cloak` (`Spectrum Magic`+`Color Focus`): Stores colored wool, grants buffs based on active wool colors (consumes wool). Effect level scales with number of same-colored wools.
         *   **Wool Effects:**
             *   White: Levitation Resistance
             *   Light Gray: Reflection (Reflect projectiles?)
@@ -376,32 +533,28 @@ Here are examples of items that fit into specific Curios slots available in ATMA
 
 ### Body Slot
 
-![Body Slot Icon](img/curios/body_slot_icon.png)
+![Body Slot Icon Placeholder](img/curios/body_slot_icon.png)
 
-*   **Description:** Currently only one item available.
-*   **Functionality:** Currently only one item available.
-*   **Compatibility:** Items tagged `#curios:body` fit here.
+*   **Description:** General slot for body-worn items.
+*   **Compatibility:** Items tagged `#curios:body`.
 *   **Examples:**
 
     ![Body Slot Items](img/curios/body_slot_items.png)
 
     #### 1. Reliquary
-    *   `Twilight Cloak`: Makes you invisible in darkness.
-
+    *   `Twilight Cloak`: Invisibility in darkness.
 
 ### Bracelet Slot
 
-![Bracelet Slot Icon](img/curios/bracelet_slot.png)
+![Bracelet Slot Icon Placeholder](img/curios/bracelet_slot.png)
 
-*   **Description:** A slot typically used for bracelets or bangles worn on the wrist. These often provide passive buffs related to specific magic schools or attributes. By default, players have **two** bracelet slots available.
-*   **Functionality:** Primarily provides passive statistical bonuses, often enhancing specific types of magic, movement speed in certain conditions, or granting resistances.
-*   **Compatibility:** Items tagged `#curios:bracelet` fit here.
+*   **Description:** Slot for wrist-worn items. Default: 2 slots.
+*   **Compatibility:** Items tagged `#curios:bracelet`.
 *   **Examples:**
 
     ![Various Bracelet Slot Items](img/curios/bracelet_slot_items.png)
 
     #### 1. Ars Nouveau
-
     ![Ars Nouveau Bracelet](img/curios/ars_bracelet.png)
 
     *   **`Enchanter's Bangle`**: Base item used to craft elemental/themed bangles. Provides a slight boost to overall spellcasting.
@@ -430,103 +583,50 @@ Here are examples of items that fit into specific Curios slots available in ATMA
         *   Grants a small health boost (+4 Max Health).
 
     #### 2. Iron's Spells 'n Spellbooks (Addon: Traveloptics)
-    *   **`Nightstalker's Band`**:
-        *   Allows the `Reversal` spell to be cast without a weapon.
-        *   Reflecting a projectile grants the `Assassin` effect for 5 seconds (boosts movement speed and greatly enhances attack damage). Effect ends upon striking an entity.
-    *   **`Azure Ignition Bracelet`**:
-        *   Permanently ignites Ignis-themed spells with soul fire, increasing their damage.
+    *   `Nightstalker's Band`: Allows weaponless `Reversal`, grants `Assassin` buff on reflection.
+    *   `Azure Ignition Bracelet`: Ignites Ignis spells with soul fire (bonus damage).
 
     #### 3. Silent Gear
-    *   **Special Mention:** `Bracelet Blueprint`. Used to craft bracelets using Silent Gear's material system, allowing for customization of effects and stats. *(Refer to Silent Gear Guide - WIP for crafting details)*.
+    *   `Bracelet Blueprint`: Used for crafting Silent Gear bracelets. *(WIP Guide)*.
 
     #### 4. Artifacts
     *Note: Artifacts share experience earned and level up through use.*
-    *   **`Withered Bracelet`**:
-        *   Grants `Wither Resistance`: Complete immunity to wither damage.
-        *   Grants `Withering Touch`: Chance (up to 80% at max level) to apply Wither effect to attacked targets for a duration (12 seconds at max level).
-    *   **`Onion Ring`**:
-        *   Grants `Miner's Hunger`: Increases block mining speed (by 4.5% at max level) per unit of the player's saturation.
-        *   Grants `Raw Appetite`: When mining blocks, has a chance (30% at max level) to restore 1 hunger point and 0.5 saturation.
+
+    *   `Withered Bracelet` (`Wither Resistance`+`Withering Touch`): Wither immunity, chance to apply Wither on hit.
+    *   `Onion Ring` (`Miner's Hunger`+`Raw Appetite`): Mining speed based on saturation, chance to restore hunger/saturation when mining.
 
     #### 5. Reliquified Ars Nouveau
     *Note: Relics share experience earned and level up through use.*
-    *   **`Flaming Bracer` (Combined Relic)**:
-        *   *(Base)* Grants `Pyrophagy`: Complete immunity to magical fire damage.
-        *   *(Gem)* Grants `Pyrokinesis`: When dealing melee damage to a burning target, has a chance (90% at max level) to release magical fire. If successful, the ability repeats, releasing additional bursts (up to 9 total triggers at max level).
 
+    *   `Flaming Bracer` (`Pyrophagy`+`Pyrokinesis`): Magic fire immunity, chance for extra fire bursts on melee hit vs burning target, repeats.
 
 ### Hostility Curse Slot
 
-![Hostility Curse Slot Icon](img/curios/hostility_curse_slot.png)
+![Hostility Curse Slot Icon Placeholder](img/curios/hostility_curse_slot.png)
 
-*   **Description:** A specific slot added by **L2Hostility**, primarily intended for its "Curse" items. These items interact directly with the L2Hostility mod's difficulty and loot mechanics, often increasing difficulty in exchange for potential rewards or altering how loot/traits drop. Many items fitting here can *also* be equipped in the standard `Charm` slot, but some effects might differ or only apply when in the Curse slot.
-*   **Functionality:** Modifies L2Hostility mechanics, usually involving increased difficulty, altered loot tables, trait acquisition, or immunity to certain negative effects.
-*   **Compatibility:** Items tagged `curios:hostility_curse` fit here. Note that `Abyssal Thorn`, `Abrahadabra`, and `Greed of Nidhoggur` *only* fit in this slot, while others may also fit in `curios:charm`.
+*   **Description:** Slot added by **L2Hostility** for "Curse" items, interacting with difficulty/loot mechanics. Many also fit the `Charm` slot.
+*   **Compatibility:** Items tagged `#curios:hostility_curse`. (`Abyssal Thorn`, `Abrahadabra`, `Greed of Nidhoggur` are Curse slot ONLY).
 *   **Examples:**
 
     ![Various Hostility Curse Items](img/curios/hostility_curse_items.png)
 
     #### 1. L2Hostility
-    *   **Looting Charms (`Unpolished`, `Magical`, `Chaotic`, `Miraculous`)**:
-        *   Enables some hostility trait drops (check JEI for specifics for each tier).
-        *   Can be worn in **Charm** or **Curse** slots.
-    *   **`Curse of Envy`**:
-        *   Get trait items when killing mobs with traits (2% chance per trait rank).
-        *   Increases player difficulty by +50 when worn (either slot).
-        *   Can be worn in **Charm** or **Curse** slots.
-    *   **`Curse of Greed`**:
-        *   Doubles (x2.0) hostility loot drop chance.
-        *   Increases player difficulty by +50 when worn (either slot).
-        *   Can be worn in **Charm** or **Curse** slots.
-    *   **`Curse of Lust`**:
-        *   Mobs you kill will drop all their equipped items.
-        *   Increases player difficulty by +50 when worn (either slot).
-        *   Can be worn in **Charm** or **Curse** slots.
-    *   **`Curse of Wrath`**:
-        *   Gain 1% attack damage per difficulty level difference against mobs with higher levels.
-        *   Grants immunity to Blindness, Darkness, Mining Fatigue, Nausea, Slowness, Weakness.
-        *   Increases player difficulty by +50 when worn (either slot).
-        *   Can be worn in **Charm** or **Curse** slots.
-    *   **`Curse of Sloth`**:
-        *   Prevents gaining difficulty by killing mobs.
-        *   Prevents mobs you kill from dropping hostility loot.
-        *   Can be worn in **Charm** or **Curse** slots.
-    *   **`Curse of Gluttony`**:
-        *   Get `Bottle of Curse` when killing mobs with a level (2% chance per level).
-        *   Can be worn in **Charm** or **Curse** slots.
-    *   **`Abyssal Thorn`**:
-        *   Mobs get all possible traits at their level.
-        *   If `Curse of Envy` is also equipped, mobs will always drop trait symbols for those traits when killed.
-        *   Can **only** be worn in the **Curse** slot.
-
-    *   **Currently Unobtainable Items:** *(Note: The following items require traits/materials that are currently disabled or unavailable for crafting in ATMA. This might change in future updates.)*
-        *   **`Abrahadabra`**:
-            *   When a mob trait tries to apply an effect to you, apply it to surrounding enemies targeting you instead.
-            *   Increases player difficulty by +100 when worn.
-            *   Can **only** be worn in the **Curse** slot.
-        *   **`Curse of Pride`**:
-            *   Gain 1% health and 1% attack damage per difficulty level.
-            *   Mob traits will be +100% more frequent.
-            *   Can be worn in **Charm** or **Curse** slots.
-        *   **`Greed of Nidhoggur`**:
-            *   Doubles (x2.0) hostility loot drop chance.
-            *   Mobs you kill drop +1% loot per mob level.
-            *   Increases player difficulty by +100 when worn.
-            *   Can **only** be worn in the **Curse** slot.
-        *   **`Divinity Cross`**:
-            *   Prevents the Cleanse effect from clearing Level 1 beneficial effects.
-            *   Can be worn in **Charm** or **Curse** slots.
-        *   **`Divinity Light`**:
-            *   Keeps your adaptive level at 0.
-            *   Can be worn in **Charm** or **Curse** slots.
+    *   Looting Charms (`Unpolished`, `Magical`, `Chaotic`, `Miraculous`): Enable trait drops. (Also fits **Charm**)
+    *   `Curse of Envy`: Enables trait symbol drops, +50 difficulty. (Also fits **Charm**)
+    *   `Curse of Greed`: x2 Hostility loot chance, +50 difficulty. (Also fits **Charm**)
+    *   `Curse of Lust`: Mobs drop equipped items, +50 difficulty. (Also fits **Charm**)
+    *   `Curse of Wrath`: Damage bonus vs higher level mobs, grants effect immunities, +50 difficulty. (Also fits **Charm**)
+    *   `Curse of Sloth`: Prevents difficulty gain from kills, mobs drop no hostility loot. (Also fits **Charm**)
+    *   `Curse of Gluttony`: Chance for `Bottle of Curse` on kill. (Also fits **Charm**)
+    *   `Abyssal Thorn`: Mobs get all possible traits, guarantees symbol drops with Envy. (**Curse Only**)
+    *   *(Currently Unobtainable):* `Abrahadabra` (Reflects negative trait effects, +100 difficulty, **Curse Only**), `Curse of Pride` (HP/Dmg per difficulty, +100% trait frequency, Also **Charm**), `Greed of Nidhoggur` (x2 Hostility loot, +Loot per mob level, +100 difficulty, **Curse Only**), `Divinity Cross` (Prevents Cleanse on Lv1 buffs, Also **Charm**), `Divinity Light` (Keeps adaptive level at 0, Also **Charm**).
 
 ### Hands Slot
 
-![Hands Slot Icon](img/curios/hands_slot.png)
+![Hands Slot Icon Placeholder](img/curios/hands_slot.png)
 
-*   **Description:** A slot for items worn on the hands, typically gloves or other hand-related accessories. These often grant combat bonuses, utility functions, or interact with specific mod mechanics. By default, players have **two** hands slots available.
-*   **Functionality:** Varies widely, from accessing remote storage and applying on-hit effects to granting additional Curios slots or modifying damage types/mechanics.
-*   **Compatibility:** Items tagged `#curios:hands` fit here.
+*   **Description:** Slot for gloves/hand accessories. Default: 2 slots.
+*   **Compatibility:** Items tagged `#curios:hands`.
 *   **Examples:**
 
     ![Various Hands Slot Items](img/curios/hands_slot_items.png)
@@ -535,15 +635,14 @@ Here are examples of items that fit into specific Curios slots available in ATMA
     *   `Storage Accessor` (Storage Remote): Allows remote access to an Occultism storage network (Dimensional Storage Actuator). Requires binding to an actuator first.
 
     #### 2. Cataclysm Items
-    *   `Blazing Grips`: On hit, chance to apply `Blazing Brand` to the target.
-    *   `Sticky Gloves`: Blocks the looting mechanic of Koboletons (from Cataclysm).
+    *   `Blazing Grips`: Chance to apply `Blazing Brand` on hit.
+    *   `Sticky Gloves`: Blocks Koboleton looting mechanic.
 
     #### 3. L2Hostility
-    *   `Infinity Glove`: When worn, grants **+5 Ring slots** and **+1 Charm slot**.
-    *   `Imagine Breaker`: All melee damage bypasses magical protection. Mobs killed while wearing this will not drop hostility loot.
-    *   `Flaming Thorn`: When damaging a mob, inflict Soul Flame for 5 seconds with a level equal to the total number of effects that mob has.
-    *   **Currently Unobtainable Items:** *(Note: The following item requires traits/materials that are currently disabled or unavailable for crafting in ATMA. This might change in future updates.)*
-        *   `Platinum Star`: All melee damage bypasses damage cooldown. (Can also be worn in **Charm** slot).
+    *   `Infinity Glove`: **+5 Ring slots**, **+1 Charm slot**.
+    *   `Imagine Breaker`: Melee bypasses magic protection (disables hostility loot).
+    *   `Flaming Thorn`: Inflict Soul Flame on damage based on target effects.
+    *   *(Currently Unobtainable):* `Platinum Star` (Melee bypasses damage cooldown, also fits **Charm**).
 
     #### 4. Glimmering Tales
     *   `Glove of Thunder`: [Thunder] spell damage bypasses damage cooldown. Reduces Mana Regen by 25% (x0.75 multiplier).
@@ -554,232 +653,185 @@ Here are examples of items that fit into specific Curios slots available in ATMA
     #### 5. Relics
     *Note: Relics share experience earned and level up through use.*
 
-    *   **`Rage Glove`**:
-        *   Grants `Berserker Rage`: Attacks within 8s of the last add a charge. Increases damage (+15%/charge) but also damage taken (+3.8%/charge). Failing to attack resets charges.
-        *   Grants `Phlebotomy`: Increases attack speed (+1.5%) and movement speed (+5%). Grants passive health regen (+0.01% per missing % health).
-        *   Grants `Spurt` (Activated): Dashes (up to 32 blocks), igniting, bleeding, and attacking targets in path. Deals bonus damage (+0.5 per Berserker Rage charge), empties charge buffer, then goes on cooldown (6.9s).
-    *   **`Ender Hand`**:
-        *   Grants `Neutrality`: Makes Endermen neutral towards the wearer.
-        *   Grants `End Transposition` (Activated): Swaps the wearer and the target along the line of sight (up to 80 blocks).
-    *   **`Wool Mitten`**:
-        *   Grants `Mold`: Collect snow (++rmb++ empty hand) to form hardened snowballs (up to 96 units). Hitting a target deals damage (0.5), stuns (0.125s), and freezes (0.125s per unit size). Holding snowballs without the relic equipped freezes the player.
+    *   `Rage Glove` (`Berserker Rage`+`Phlebotomy`+`Spurt`-Activated): Damage/damage taken increase per hit, passive speed/regen, dash attack consumes charges.
+    *   `Ender Hand` (`Neutrality`+`End Transposition`-Activated): Endermen neutral, swaps position with target.
+    *   `Wool Mitten` (`Mold`): Collect snow to throw hardened snowballs (damage/stun/freeze).
 
     #### 6. Reliquified Ars Nouveau
     *Note: Relics share experience earned and level up through use.*
 
-    *   **`Archmage Glove`**:
-        *   Grants `Dexterous Fingers`: When casting a spell, chance (75% at max level) to cast it again. Repeats do not consume mana but continue until the chance fails (max 5 total repetitions). Works only on pink-colored spells (RGB: 255 25 180).
+    *   `Archmage Glove` (`Dexterous Fingers`): Chance for spells to repeat multiple times without mana cost.
 
     #### 7. Reliquified Twilight Forest
     *Note: Relics share experience earned and level up through use.*
 
-    *   **`Giant's Glove`**:
-        *   Grants `Giant's Grip`: Increases the size and stats of the held item by 50% (at max level).
+    *   `Giant's Glove` (`Giant's Grip`): Increases size/stats of held item.
 
     #### 8. Artifacts
-    *Note: Artifacts share experience earned and level up through use.*
+    *Note: Relics share experience earned and level up through use.*
 
-    *   **`Digging Claws`**:
-        *   Grants `Pickaxe Hands`: Reduces the required tool level for all blocks by 1.
-        *   Grants `Fast Mining`: Increases block mining speed (by 175% at max level).
-    *   **`Feral Claws`**:
-        *   Grants `Beast's Fury`: Increases attack speed (by 33% at max level) for each consecutive attack within 3 seconds. Loses 1 charge per second otherwise. Attacking with an unfilled attack speed bar resets accumulated charges.
-    *   **`Power Glove`**:
-        *   Grants `Power Strike`: Increases damage dealt (by 500% at max level) but enters a 5-second cooldown after each attack.
-    *   **`Fire Gauntlet`**:
-        *   Grants `Fire Wave`: When attacking, releases several sparks that home in on nearby targets, igniting them (for 10 seconds at max level) and dealing damage (50% of attack damage at max level). The number of sparks is determined by repeated checks of a chance (75% at max level); each successful check releases one additional spark, stopping once a check fails.
-    *   **`Pocket Piston`**:
-        *   Grants `Concentrated Strike`: Increases knockback in melee attacks (by 100% at max level).
-        *   Grants `Long Reach`: Increases maximum interaction range with the world (by 100% at max level).
-    *   **`Vampiric Glove`**:
-        *   Grants `Life Steal`: Heals the player for a percentage (40% at max level) of the damage dealt.
-    *   **`Golden Hook`**:
-        *   Grants `Thirst for Knowledge`: Increases experience gained from killing mobs (by 100% at max level).
-    *   **`Pickaxe Heater`**:
-        *   Grants `Heat Concentration`: Smelts any mined block if possible, consuming one charge from a buffer (capacity 75 units at max level). The buffer regenerates 1 charge every 1 second (at max level).
+    *   `Digging Claws` (`Pickaxe Hands`+`Fast Mining`): Reduces tool level req, increases mining speed.
+    *   `Feral Claws` (`Beast's Fury`): Attack speed increase per consecutive hit.
+    *   `Power Glove` (`Power Strike`): Huge damage boost, but adds cooldown after each attack.
+    *   `Fire Gauntlet` (`Fire Wave`): Releases homing fire sparks on attack.
+    *   `Pocket Piston` (`Concentrated Strike`+`Long Reach`): Increases melee knockback and interaction range.
+    *   `Vampiric Glove` (`Life Steal`): Heals based on damage dealt.
+    *   `Golden Hook` (`Thirst for Knowledge`): Increases XP gained from mob kills.
+    *   `Pickaxe Heater` (`Heat Concentration`): Autosmelts mined blocks using regenerating charge buffer.
 
 ### Ring Slot
 
-![Ring Slot Icon](img/curios/ring_slot.png)
+![Ring Slot Icon Placeholder](img/curios/ring_slot.png)
 
-*   **Description:** A slot for rings worn on the fingers. These commonly provide passive statistical bonuses, often enhancing magical capabilities, regeneration, or specific elemental affinities. Players start with two default ring slots, but this number can be increased by items like the `Infinity Glove`.
-*   **Functionality:** Typically grants percentage increases to stats like Maximum Mana, Mana Regeneration, or affinity with specific magical elements (which usually reduces mana costs and potentially increases damage/effectiveness of related spells). Also includes utility rings with unique effects.
-*   **Compatibility:** Items tagged `#curios:ring` fit here.
+*   **Description:** Slot for rings. Default: 2 slots (+5 from Infinity Glove).
+*   **Compatibility:** Items tagged `#curios:ring`.
 *   **Examples:**
 
     ![Various Ring Slot Items](img/curios/ring_slot_items.png)
 
     #### 1. Glimmering Tales
-    *   **`Golden Ring`**: +10% Max Mana.
-    *   **`Ring of Regeneration`**: +10% Max Mana, +30% Mana Regen.
-    *   **`Ring of Nature`**: +10% Max Mana, +10% Earth Affinity, +10% Life Affinity, +10% Flame Affinity, +10% Snow Affinity.
-    *   **`Ring of Earth`**: +20% Max Mana, +50% Earth Affinity.
-    *   **`Ring of Life`**: +20% Max Mana, +50% Life Affinity.
-    *   **`Ring of Thunder`**: +30% Max Mana, +50% Thunder Affinity.
-    *   **`Ring of Ocean`**: +20% Max Mana, +50% Ocean Affinity.
-    *   **`Ring of Snow`**: +20% Max Mana, +50% Snow Affinity.
-    *   **`Ring of Flame`**: +20% Max Mana, +50% Flame Affinity.
+    *   `Golden Ring`: +10% Max Mana.
+    *   `Ring of Regeneration`: +10% Max Mana, +30% Mana Regen.
+    *   `Ring of Nature`: +10% Max Mana, +10% Earth Affinity, +10% Life Affinity, +10% Flame Affinity, +10% Snow Affinity.
+    *   `Ring of Earth`: +20% Max Mana, +50% Earth Affinity.
+    *   `Ring of Life`: +20% Max Mana, +50% Life Affinity.
+    *   `Ring of Thunder`: +30% Max Mana, +50% Thunder Affinity.
+    *   `Ring of Ocean`: +20% Max Mana, +50% Ocean Affinity.
+    *   `Ring of Snow`: +20% Max Mana, +50% Snow Affinity.
+    *   `Ring of Flame`: +20% Max Mana, +50% Flame Affinity.
 
     #### 2. L2Hostility
-    *   **`Ring of Corrosion`**: When you deal damage, damages the target's equipment by 20% of max durability. When you take damage, damages your equipment by 20% of max durability.
-    *   **`Ring of Reflection`**: When a mob trait tries to apply a negative effect on you, apply it to surrounding enemies targeting you instead.
-    *   **`Ring of Divinity`**: Grants immunity to magic damage and provides a permanent Cleanse effect.
-    *   **`Ring of Ocean`**: You will always be wet.
-    *   **`Ring of Healing`**: Heals 3% of max health every second.
-    *   **Currently Unobtainable Items:** *(Note: The following items require traits/materials that are currently disabled or unavailable for crafting in ATMA. This might change in future updates.)*
-        *   **`Ring of Life`**: Prevents losing more than 90% of your max health in a single instance of damage.
-        *   **`Ring of Incarceration`**: When sneaking, applies the Incarceration effect to you and all mobs within your attack range.
+    *   `Ring of Corrosion`: Damages target/self equipment durability on hit/being hit.
+    *   `Ring of Reflection`: Reflects negative trait effects onto attackers.
+    *   `Ring of Divinity`: Magic damage immunity, permanent Cleanse.
+    *   `Ring of Ocean`: Keeps player always wet.
+    *   `Ring of Healing`: Passive % health regen.
+    *   *(Currently Unobtainable):* `Ring of Life` (Prevents >90% single instance damage), `Ring of Incarceration` (Applies Incarceration effect while sneaking).
 
     #### 3. Silent Gear
-    *   **Special Mention:** `Ring Blueprint`. Used to craft rings using Silent Gear's material system, allowing for customization of effects and stats. *(Refer to Silent Gear Guide - WIP for crafting details)*.
+    *   `Ring Blueprint`: Used for crafting Silent Gear rings. *(WIP Guide)*.
 
     #### 4. Nature's Aura
-    *   **`Ring of Last Chance`** (Death Ring): *(Exact effect TBC - likely prevents death under certain conditions, possibly consuming Aura or durability)*.
+    *   `Ring of Last Chance`: *(Likely death prevention)*.
 
     #### 5. Ars Nouveau
-    *   **`Ring of Jumping`**: Allows the user to continue jumping in the air, consuming mana with each jump.
-    *   **`Ring of Lesser Discount`**: Reduces the mana cost of all spells by 10. Grants +10 Max Mana and +1 Mana Regen.
-    *   **`Ring of Greater Discount`**: Reduces the mana cost of all spells by 20. Grants +10 Max Mana and +1 Mana Regen. (Slightly larger discount than the Lesser version).
+    *   `Ring of Jumping`: Allows the user to continue jumping in the air, consuming mana with each jump.
+    *   `Ring of Lesser Discount`: Reduces the mana cost of all spells by 10. Grants +10 Max Mana and +1 Mana Regen.
+    *   `Ring of Greater Discount`: Reduces the mana cost of all spells by 20. Grants +10 Max Mana and +1 Mana Regen. (Slightly larger discount than the Lesser version).
 
     #### 6. Occultism
-    *   **`Familiar Ring`**: Used to capture and store Occultism Familiars. When equipped with a familiar inside, grants the familiar's passive bonuses. An empty ring provides no benefit. *(Refer to Occultism Guide - WIP for Familiar details)*.
+    *   `Familiar Ring`: Stores Occultism Familiars, grants their passive bonus.
 
     #### 7. Reliquified Ars Nouveau
     *Note: Relics share experience earned and level up through use.*
-    *   **`Mana Ring`**: Grants `Mana Compression`: Increases maximum Mana (+200 points at max level) and Mana Regeneration (+5 points/sec at max level).
-    *   **`Ring of Thrift`**: Grants `Reserve`: When casting a spell, chance (50% at max level) that no mana will be consumed.
+
+    *   `Mana Ring` (`Mana Compression`): Increases Max Mana and Mana Regen.
+    *   `Ring of Thrift` (`Reserve`): Chance for spells to consume no mana.
 
     #### 8. Cataclysm Spellbooks
     *   **`Leviathan's Blessing`**: +20% Abyssal Spell Power, provides immunity to abyssal effects.
 
     #### 9. Iron's Spells 'n Spellbooks & Addons
-    *   **(Base Mod)** `Signet of the Betrayer`: +10% Eldritch Spell Power. Passive (5s cooldown): Deal extra damage based on target's maximum mana.
-    *   **(Base Mod)** `Emerald Stoneplate Ring`: Slain creatures drop +25% experience.
-    *   **(Base Mod)** `Ring of Mana`: +100 Max Mana.
-    *   **(Base Mod)** `Fireward Ring`: Grants fire immunity.
-    *   **(Base Mod)** `Ring of Visibility`: Allows invisible creatures to be seen. (Note: Item ID might still be `invisibility_ring`).
-    *   **(Base Mod)** `Poisonward Ring`: Grants poison immunity.
-    *   **(Base Mod)** `Ring of Expulsion`: Passive (10s cooldown): When attacked, emit an expulsive burst of air (knockback).
-    *   **(Base Mod)** `Ring of Expediency`: +15% Cast Time Reduction.
-    *   **(Base Mod)** `Silver Ring`: +25 Max Mana.
-    *   **(Base Mod)** `Ring of Recovery`: +15% Cooldown Reduction.
-    *   **(Base Mod)** `Frostward Ring`: Grants freezing immunity.
-    *   **(Base Mod) Affinity Rings** (`Ring of Fire Affinity`, `Ring of Ice Affinity`, etc.): Crafted by combining a `Ring of No Affinity` with an elemental runestone in the Arcane Anvil. Grants +1 level to spells of the corresponding element (e.g., `Ring of Fire Affinity` boosts Fire spells).
+    *   `Signet of the Betrayer`: +10% Eldritch Spell Power. Passive (5s cooldown): Deal extra damage based on target's maximum mana.
+    *   `Emerald Stoneplate Ring`: Slain creatures drop +25% experience.
+    *   `Ring of Mana`: +100 Max Mana.
+    *   `Fireward Ring`: Grants fire immunity.
+    *   `Ring of Visibility`: Allows invisible creatures to be seen. (Note: Item ID might still be `invisibility_ring`).
+    *   `Poisonward Ring`: Grants poison immunity.
+    *   `Ring of Expulsion`: Passive (10s cooldown): When attacked, emit an expulsive burst of air (knockback).
+    *   `Ring of Expediency`: +15% Cast Time Reduction.
+    *   `Silver Ring`: +25 Max Mana.
+    *   `Ring of Recovery`: +15% Cooldown Reduction.
+    *   `Frostward Ring`: Grants freezing immunity.
+    *   **Affinity Rings** (`Ring of Fire Affinity`, `Ring of Ice Affinity`, etc.): Crafted by combining a `Ring of No Affinity` with an elemental runestone in the Arcane Anvil. Grants +1 level to spells of the corresponding element (e.g., `Ring of Fire Affinity` boosts Fire spells).
     *   **Jewelry Crafting:** Rings can be crafted using the Jewelry Forge. *(Refer to Iron's Spells 'n Spellbooks Guide - WIP)*.
     *   **(Traveloptics Addon)** `Firestorm Ring`: Transforms meteors from Meteor Storm spell into exploding flare bombs with flame jets. Spell can no longer directly target entities. (Can also fit in **Talent** slot).
     *   **(Traveloptics Addon)** `Aetherial Despair Ring`: Axe Blades of Despair spell gain vertical trajectory and move 50% faster. (Can also fit in **Talent** slot).
 
     #### 10. Relics
     *Note: Relics share experience earned and level up through use.*
-    *   ~~**`Leafy Ring [WIP]`**: Grants `Hide`: *(Functionality currently undefined/Work In Progress)*.~~
-    *   **`Chorus Inhibitor`**: Grants `Teleportation Control`: Using a chorus fruit teleports the wearer to a block along the line of sight (up to 96 blocks at max level), then goes on cooldown (5 seconds at max level).
-    *   **`Bastion Ring` (Combined Relic)**:
-        *   Grants `Recognition`: Makes Piglins neutral. The nearest Piglin indicates the location of a nearby Bastion Remnant.
-        *   Grants `Respect`: Each trade with Piglins has multiple 50% chances to yield an additional trade result (up to 11 extra results possible at max level).
-
+    *   ~~`Leafy Ring [WIP]`~~
+    *   `Chorus Inhibitor` (`Teleportation Control`): Chorus fruit teleports along line of sight (cooldown).
+    *   `Bastion Ring` (Combined - `Recognition`+`Respect`): Piglins neutral, indicates Bastions, chance for bonus Piglin trades.
 
 ### Belt Slot
 
-![Belt Slot Icon](img/curios/belt_slot.png)
+![Belt Slot Icon Placeholder](img/curios/belt_slot.png)
 
-*   **Description:** A slot for items worn around the waist, typically belts or sashes. These often provide utility functions, passive buffs, or grant additional Curios slots.
-*   **Functionality:** Can range from granting extra Charm slots, providing movement abilities like levitation, giving random potion effects, or offering remote access to storage systems.
-*   **Compatibility:** Items tagged `#curios:belt` fit here.
+*   **Description:** Slot for belts/sashes. Provides utility, buffs, or extra slots.
+*   **Compatibility:** Items tagged `#curios:belt`.
 *   **Examples:**
 
     ![Various Belt Slot Items](img/curios/belt_slot_items.png)
 
     #### 1. Ars Nouveau & Addons
-    *   **(Base Mod)** `Belt of Levitation`: Allows the user to levitate a moderate distance. Sneak while falling or jumping to rise. Reduces a small amount of fall damage while worn.
-    *   **(Base Mod)** `Belt of Unstable Gifts`: Occasionally grants a random positive potion effect for a short duration, with varying strengths.
-    *   **(Ars Additions)** `Warp Index`: Bind to an Ars Nouveau Storage Lectern (++lshift+rbutton++) to remotely access its stored Spell Tomes via a keybind. Works only within the **same dimension** as the Lectern, which must be chunk-loaded.
-    *   **(Ars Additions)** `Stabilized Warp Index`: Functions like the Warp Index but works **across dimensions**. Requires the Storage Lectern to be chunk-loaded.
+    *   `Belt of Levitation`: Allows levitation (sneak while falling/jumping).
+    *   `Belt of Unstable Gifts`: Grants random temporary potion effects.
+    *   **(Ars Additions)** `Warp Index`: Remote access to Storage Lectern (same dimension).
+    *   **(Ars Additions)** `Stabilized Warp Index`: Remote access to Storage Lectern (cross-dimension).
 
     #### 2. Occultism
-    *   `Surprisingly Substantial Satchel`: Acts as portable storage, linked to the player's Occultism Dimensional Storage system. Requires binding.
+    *   `Surprisingly Substantial Satchel`: Acts like a backpack.
 
     #### 3. Nature's Aura
     *   `Aura Cache`: Stores a small amount of Aura that the player can use.
     *   `Aura Trove`: Stores a larger amount of Aura than the Aura Cache.
 
     #### 4. Reliquary
-    *   `Charm Belt`: Holds mob charms (e.g., Creeper Charm, Skeleton Charm). Exact function TBC (likely prevents mob spawns or grants effects).
+    *   `Charm Belt`: Holds mob charms.
 
     #### 5. Artifacts
     *Note: Artifacts share experience earned and level up through use.*
-    *   **`Helium Flamingo`**: Grants `Air Swimmer`: When performing a double jump, allows floating in the air (up to 15 seconds at max level). Movement speed in air is proportional to swimming speed plus a bonus (90% at max level).
+
+    *   `Helium Flamingo` (`Air Swimmer`): Allows floating after double jump.
 
     #### 6. Relics
-    *Note: Relics share experience earned and level up through use.*
-    *   **`Drowned Belt` (Combined Relic)**:
-        *   *(Base)* Grants `Load Capacity`: Increases the maximum number of amulet equipment slots (+12 at max level).
-        *   *(Gem)* Grants `Dead Height`: Reduces swimming speed (by 0% at max level - no reduction) and increases sinking speed (by 0% at max level - no increase). *(Note: Values might be bugged or intended to be non-negative)*.
-        *   *(Gem)* Grants `Water Flows`: Increases damage dealt by the player underwater (by 400% at max level).
-        *   *(Gem)* Grants `Water Attraction`: Allows the trident's Riptide enchantment to be used without rain or water, adding a cooldown (0 seconds per enchantment level at max level).
-    *   **`Hunter Belt` (Combined Relic)**:
-        *   *(Base)* Grants `Load Capacity`: Increases the maximum number of amulet equipment slots (+12 at max level).
-        *   *(Gem)* Grants `Training`: Increases the damage dealt by the wearer's pets (by 500% at max level).
-    *   **`Leather Belt`**:
-        *   Grants `Load Capacity`: Increases the maximum number of amulet equipment slots (+13 at max level).
+    *Note: Artifacts share experience earned and level up through use.*
 
+    *   `Drowned Belt` (`Load Capacity`+`Dead Height`+`Water Flows`+`Water Attraction`): +Amulet slots, modifies swim/sink speed, increases underwater damage, allows Riptide without water/rain.
+    *   `Hunter Belt` (`Load Capacity`+`Training`): +Amulet slots, increases pet damage.
+    *   `Leather Belt` (`Load Capacity`): +Amulet slots (up to 8). This is the one that gives more slots.
 
 ### Feet Slot
 
-![Feet Slot Icon](img/curios/feet_slot.png)
+![Feet Slot Icon Placeholder](img/curios/feet_slot.png)
 
-*   **Description:** A slot for items worn on the feet, such as boots, shoes, or flippers. These typically provide movement-related benefits, environmental interactions, or defensive perks. Can often be worn in the vanilla boots armor slot as well.
-*   **Functionality:** Enhances movement speed (running, swimming, on specific blocks), allows walking on liquids or hazardous blocks, grants jump boosts, reduces fall damage, or provides resistances/utility effects.
-*   **Compatibility:** Items tagged `#curios:feet` fit here.
+*   **Description:** Slot for footwear. Enhances movement, environment interaction, defense. Can often fit vanilla boots slot.
+*   **Compatibility:** Items tagged `#curios:feet`.
 *   **Examples:**
 
     ![Various Feet Slot Items](img/curios/feet_slot_items.png)
 
     #### 1. Artifacts
     *Note: Artifacts share experience earned and level up through use.*
-    *   **`Strider Shoes`**: Allows standing on lava while sneaking. Grants protection against hot floor damage (e.g., magma blocks).
-    *   **`Aqua-Dashers`**: Allows walking on fluids (water, lava) while sprinting.
-    *   **`Rooted Boots`**: Grants `Herbivory`: Every 1.7 seconds (at max level), transforms the grass block beneath the player into dirt, restoring 1 hunger and saturation point.
-    *   **`Flippers`**: Grants `Fish Tail`: Increases the player's swimming speed (by 140% at max level).
-    *   **`Steadfast Spikes`**:
-        *   Grants `Clinging Claws`: Allows slow wall sliding, negating fall damage.
-        *   Grants `Grip`: Increases resistance to knockback and slippery blocks (by 75% at max level).
-    *   **`Snowshoes`**:
-        *   Grants `Light Step`: Allows walking on powder snow without sinking.
-        *   Grants `Snow Walker`: Increases movement speed on snow (by 80% at max level).
-    *   **`Running Shoes`**: Grants `High Stride`: Increases the player's running speed (by 240% at max level).
-    *   **`Kitty Slippers`**:
-        *   Grants `Cat's Gaze`: Scares away Creepers and Phantoms near the player.
-        *   Grants `Soft Paws`: Increases safe falling height (by 20 blocks at max level).
-        *   Grants `Nine Lives`: Has a chance (35% at max level) to save the player from fatal damage, leaving them with 1 health point.
-    *   **`Bunny Hoppers`**: Grants `Jumper`: Allows high jumps by continuously holding the jump key (up to 0.75 seconds charge at max level).
+
+    *   `Strider Shoes`: Walk on lava (sneaking), hot floor immunity.
+    *   `Aqua-Dashers`: Walk on fluids (sprinting).
+    *   `Rooted Boots` (`Herbivory`): Converts grass to dirt below, restores hunger/saturation.
+    *   `Flippers` (`Fish Tail`): Increases swim speed.
+    *   `Steadfast Spikes` (`Clinging Claws`+`Grip`): Wall slide (negates fall damage), knockback/slip resistance.
+    *   `Snowshoes` (`Light Step`+`Snow Walker`): Walk on powder snow, speed boost on snow.
+    *   `Running Shoes` (`High Stride`): Increases run speed.
+    *   `Kitty Slippers` (`Cat's Gaze`+`Soft Paws`+`Nine Lives`): Scares creepers/phantoms, increases safe fall height, chance to survive fatal damage.
+    *   `Bunny Hoppers` (`Jumper`): Hold jump for high jump.
 
     #### 2. Relics
-    *Note: Relics share experience earned and level up through use.*
-    *   **`Aqua Walker`**: Grants `Moisture Resistance`: Allows walking on water for a period. After time runs out, boots sink, pulling the wearer down. Requires drying away from water (drying time depends on saturation level).
-    *   **`Magma Walker` (Combined Relic)**:
-        *   Grants `Heat Resistance`: Suppresses damage from hot blocks.
-        *   Grants `Fiery Tread`: Allows walking on lava for a time (100 seconds at max level) without sinking or taking damage. After time runs out, boots overheat, dealing damage proportional to overheating level. Requires cooling away from lava (cooling time depends on overheating level).
-    *   **`Ice Skates` (Combined Relic)**:
-        *   Grants `Skating`: Increases movement speed on ice (by 87% per second of sliding at max level). Modifier stops increasing if sliding duration exceeds 10 seconds.
-        *   Grants `Ram`: Upon collision with targets while `Skating`, deals damage (5 per second of sliding at max level).
-    *   **`Ice Breaker` (Combined Relic)**:
-        *   Grants `Sustainability`: Increases fall speed, boosts knockback resistance (by 100% at max level), and removes sliding on blocks.
-        *   Grants `Earthquake`: Prolonged use while falling until landing creates a shockwave (radius 20 blocks at max level), dealing damage (up to 17.5 at max level) and knocking back targets. Power depends on fall distance.
-    *   **`Roller Skates`**: Grants `Acceleration`: Increases movement speed (by 130% per second of movement at max level). Modifier stops increasing if movement duration exceeds 21 seconds. All blocks become slippery.
-    *   **`Amphibian Boot` (Combined Relic)**:
-        *   Grants `Fins`: Increases swimming speed (by 14% per second of swimming at max level). Modifier stops increasing if swimming duration exceeds 21 seconds.
-        *   Grants `Slipping`: Increases movement speed in the rain (by 10% per second of movement at max level). Modifier stops increasing if duration exceeds 12.5 seconds.
-        *   Grants `Gills`: Chance (45% at max level) to not consume an air unit while swimming or in other conditions.
-    *   **`Phantom Boot`**: Grants `Phantom Bridge`: Creates temporary phantom blocks beneath the player's feet that any relic owner can walk on. Standing still for too long (6 seconds at max level) causes falling through until solid ground. Sneaking forces falling through.
-    *   **`Springy Boot`**: Grants `Elasticity`: Increases block elasticity (by 100% at max level compared to slime blocks), enabling bouncing off them on landing. When activated on the ground, launches the player into the air.
+    *Note: Artifacts share experience earned and level up through use.*
+
+    *   `Aqua Walker` (`Moisture Resistance`): Temporary water walking.
+    *   `Magma Walker` (Combined - `Heat Resistance`+`Fiery Tread`): Hot block immunity, temporary lava walking.
+    *   `Ice Skates` (Combined - `Skating`+`Ram`): Speed boost on ice, damage on collision while skating.
+    *   `Ice Breaker` (Combined - `Sustainability`+`Earthquake`): Faster fall speed, KB resist, no sliding; falling creates damaging shockwave.
+    *   `Roller Skates` (`Acceleration`): Speed boost while moving, makes blocks slippery.
+    *   `Amphibian Boot` (Combined - `Fins`+`Slipping`+`Gills`): Swim speed boost, speed boost in rain, chance to not consume air.
+    *   `Phantom Boot` (`Phantom Bridge`): Creates temporary blocks underfoot.
 
 ### Charm Slot
 
-![Charm Slot Icon](img/curios/charm_slot.png)
+![Charm Slot Icon Placeholder](img/curios/charm_slot.png)
 
-*   **Description:** A slot for small magical charms, often providing passive utility, protection, or specific conditional effects. The number of available Charm slots can be significantly increased by items like the `Leather Belt` (+8) and `Infinity Glove` (+1).
-*   **Functionality:** Highly varied, ranging from environmental protection (fire, water breathing, falling), death prevention, mob interaction changes, to modifying L2Hostility mechanics. Some charms have limited charges and require recharging, while others are single-use.
-*   **Compatibility:** Items tagged `#curios:charm` fit here. Many items tagged `#curios:hostility_curse` can also fit in this slot.
+*   **Description:** Slot for small charms. Provides passive utility, protection, conditional effects. Slot count increased by `Leather Belt` (+8) and `Infinity Glove` (+1).
+*   **Compatibility:** Items tagged `#curios:charm`. Many `#curios:hostility_curse` items also fit.
 *   **Examples:**
 
     ![Various Charm Slot Items](img/curios/charm_slot_items.png)
@@ -821,15 +873,13 @@ Here are examples of items that fit into specific Curios slots available in ATMA
     #### 3. Artifacts
     *Note: Artifacts share experience earned and level up through use.*
 
-    *   **`Cloud in a Bottle`**: Grants `Air Jump`: Allows additional air jumps (up to 13 at max level).
-    *   **`Obsidian Skull`**: Grants `Heat Resistance`: Completely absorbs damage from fire sources (up to 12 seconds at max level). If no fire damage is taken for 3 seconds, absorption time regenerates each second.
-    *   **`Antidote Vessel`**:
-        *   Grants `Poison Resistance`: Reduces the duration of negative effects received (by 80% at max level).
-        *   Grants `Alchemical Touch`: Each successful attack steals duration (7.5 seconds at max level) from all positive effects on the target.
-    *   **`Universal Attractor`**: Grants `Magnetism`: Toggleable ability with 3 modes: Attraction (Red - pulls items in 15 block radius), Repulsion (Blue - pushes items away), Neutrality (Purple - disables effect).
-    *   **`Crystal Heart`**: Grants `Will to Live`: Increases the player's maximum health (by 18 points / 9 hearts at max level).
-    *   **`Chorus Totem`**: Grants `Temporal Loop`: Each attack against the wearer has a chance per percent of missing health (7% at max level) to teleport the attacker to a random location within a radius (14 blocks at max level).
-    *   **`Warp Drive`**: Grants `Translocation`: Teleports the player along their line of sight (up to 100 blocks at max level), then goes on cooldown (1 second at max level).
+    *   `Cloud in a Bottle` (`Air Jump`): Grants extra air jumps.
+    *   `Obsidian Skull` (`Heat Resistance`): Absorbs fire damage temporarily, regenerates.
+    *   `Antidote Vessel` (`Poison Resistance`+`Alchemical Touch`): Reduces negative effect duration, steals positive effect duration on hit.
+    *   `Universal Attractor` (`Magnetism`): Toggleable item attraction/repulsion.
+    *   `Crystal Heart` (`Will to Live`): Increases Max Health.
+    *   `Chorus Totem` (`Temporal Loop`): Chance per missing health to teleport attacker on hit.
+    *   `Warp Drive` (`Translocation`): Line-of-sight teleport (activated, cooldown).
 
     #### 4. Glimmering Tales
     *   **`Charm of Strength`**: +50% Magic Damage.
@@ -848,7 +898,7 @@ Here are examples of items that fit into specific Curios slots available in ATMA
     *   **`Environmental Ocular`**: *(Tooltip missing - Likely an improved version of the Environmental Eye, perhaps with greater range or detail).*
 
     #### 6. Apotheosis
-    *   **Potion Charms** (e.g., `Charm of Night Vision`, `Charm of Strength`, etc.): Crafted by combining a potion with Glowstone Dust and Echo Shards. Provides the corresponding potion effect passively while equipped (or in inventory if enabled). Effect duration matches the potion used.
+    *   Potion Charms: Provide passive potion effect (matches potion used).
 
     #### 7. The Twilight Forest
     *(Note: These charms are typically single-use and consumed upon activation).*
@@ -860,35 +910,32 @@ Here are examples of items that fit into specific Curios slots available in ATMA
     *   **`Charm of Keeping III`**: Prevents loss of all inventory items on death. Consumed on use.
 
     #### 8. Relics (Reliquified)
-    *Note: Relics share experience earned and level up through use.*
+    *Note: Artifacts share experience earned and level up through use.*
 
-    *   **`Spore Sack`**: Grants `Spore Mist`: When health drops below 50%, releases homing spores (up to 20). Spores deal damage equal to % missing health (75% at max level) and block healing for 5s. Can trigger again once health rises above 50%.
-    *   **`Shadow Glaive` (Combined Relic)**:
-        *   Grants `Mayhem`: Dealing damage has a chance (25%) to trigger a projectile that bounces chaotically between nearby targets (within 16 blocks) up to 10 times, dealing % of trigger damage (50%).
-        *   Grants `Cloning`: Each projectile bounce from `Mayhem` has a chance (20%) to spawn an additional identical projectile.
+    *   `Spore Sack` (`Spore Mist`): Releases homing spores on low health (damage, block healing).
+    *   `Shadow Glaive` (`Mayhem`+`Cloning`): Chance on damage for bouncing projectile, chance for bounces to duplicate.
 
     #### 9. Reliquified Ars Nouveau
-    *Note: Relics share experience earned and level up through use.*
+    *Note: Artifacts share experience earned and level up through use.*
 
-    *   **`Quantum Bubble`**: Grants `Quantification`: When an enemy projectile appears within 2 blocks, activates an aura (up to 16s) that halts and traps hostile projectiles in bubbles for 8s. Goes on cooldown (13s) after aura expires.
-    *   **`Emblem of Defense`**: Grants `Defense`: Automatically applies a linked spell (max 10 components, must start with 'Touch') to an enemy attacking the player, then goes on cooldown (10s). Requires inscribing spell via Scribe's Table.
-    *   **`Emblem of Assault`**: Grants `Assault`: Automatically applies a linked spell (max 10 components, must start with 'Touch') to the attacked target, then goes on cooldown (15s). Requires inscribing spell via Scribe's Table.
+    *   `Quantum Bubble` (`Quantification`): Creates aura that traps hostile projectiles nearby.
+    *   `Emblem of Defense` (`Defense`): Automatically applies a linked spell (max 10 components, must start with 'Touch') to an enemy attacking the player, then goes on cooldown (10s). Requires inscribing spell via Scribe's Table.
+    *   `Emblem of Assault` (`Assault`): Automatically applies a linked spell (max 10 components, must start with 'Touch') to the attacked target, then goes on cooldown (15s). Requires inscribing spell via Scribe's Table.
 
     #### 10. Reliquified Twilight Forest
     *Note: Relics share experience earned and level up through use.*
 
-    *   **`Cicada in a Bottle`**: Grants `Cicada's Curse`: Chance on hit (70% at max level) to inflict Cicada's Curse on the target for 12s, forcing nearby mobs to attack that target.
-    *   **`Firefly Queen`**: Grants `Glowkeeper`: Generates firefly larva in an internal buffer (max 8) every 2s. When in complete darkness, consumes 1 larva to place a temporary firefly nearby for light.
-    *   **`Twilight Feather`**: Grants `Execution`: When attacking a target whose health doesn't exceed % of player's max health (5% at max level), chance to instantly execute it, transforming it into a small bird.
-    *   **`Bottle of Maple Syrup`**: Grants `Sugar Rush`: Eating a waffle increases health regen (by 200%) for 20s (effect stacks). Chance (75%) the waffle won't be consumed.
+    *   `Cicada in a Bottle` (`Cicada's Curse`): Chance on hit to force nearby mobs to attack target.
+    *   `Firefly Queen` (`Glowkeeper`): Generates charges, consumes charge to place temporary light source in darkness.
+    *   `Twilight Feather` (`Execution`): Chance to instantly kill low-health targets.
+    *   `Bottle of Maple Syrup` (`Sugar Rush`): Eating waffles grants stacking regen, chance to not consume waffle.
 
 ### Talent Slot
 
-![Talent Slot Icon](img/curios/talent_slot.png) or ![Talent Slot Icon 2](img/curios/talent_slot_2.png)
+![Talent Slot Icon Placeholder](img/curios/talent_slot.png) / ![Talent Slot Icon 2 Placeholder](img/curios/talent_slot_2.png)
 
-*   **Description:** A slot seemingly intended for specialized items that grant or modify abilities, often related to specific spells or mechanics from particular mods. In ATMA, this slot is primarily utilized by the **Traveloptics** addon for **Iron's Spells 'n Spellbooks**.
-*   **Functionality:** Items in this slot typically alter how specific spells function or provide passive benefits related to certain spell schools or actions. Many items that fit here can also fit into other slots (Ring, Necklace, Bracelet), providing flexibility.
-*   **Compatibility:** Items tagged `#curios:talent` fit here.
+*   **Description:** Slot primarily used by **Traveloptics** (Iron's Spells 'n Spellbooks addon) for items modifying specific spells or granting related passives. Many items also fit other slots (Ring, Necklace, Bracelet).
+*   **Compatibility:** Items tagged `#curios:talent`.
 *   **Examples:**
 
     ![Various Talent Slot Items](img/curios/talent_slot_items.png)
@@ -905,11 +952,11 @@ Here are examples of items that fit into specific Curios slots available in ATMA
 
 ### Spell Book Slot
 
-![Spell Book Slot Icon](img/curios/spell_book_slot.png)
+![Spell Book Slot Icon Placeholder](img/curios/spell_book_slot.png)
 
-*   **Description:** A dedicated slot introduced by **Iron's Spells 'n Spellbooks** specifically for holding Spell Books. Equipping a Spell Book here allows the player to access and cast the spells inscribed within it using the spell selection and casting keybinds (default 'C' and 'V').
-*   **Functionality:** Primarily serves as the container for learned spells. Additionally, equipped Spell Books often provide passive statistical bonuses, such as increased Max Mana, Cooldown Reduction, Cast Time Reduction, or bonuses to specific spell schools (e.g., Fire Spell Power). The number of spells a book can hold varies by tier and type.
-*   **Compatibility:** Items tagged `#curios:spellbook` fit here. This includes books from Iron's Spells 'n Spellbooks and its various addons, as well as All the Wizard Gear.
+*   **Description:** Slot added by **Iron's Spells 'n Spellbooks** for holding Spell Books. Allows casting via keybinds.
+*   **Functionality:** Holds spells, often provides passive bonuses (Max Mana, CDR, Cast Time, Spell Power).
+*   **Compatibility:** Items tagged `#curios:spellbook`. Includes books from base mod, addons, All the Wizard Gear.
 *   **Examples:**
 
     ![Various Spell Book Slot Items](img/curios/spell_book_slot_items.png)
@@ -958,11 +1005,10 @@ Here are examples of items that fit into specific Curios slots available in ATMA
 
 ### Bundle Slot
 
-![Bundle Slot Icon](img/curios/bundle_slot.png)
+![Bundle Slot Icon Placeholder](img/curios/bundle_slot.png)
 
-*   **Description:** A slot designed to hold pouch-like items that offer portable storage, similar to the vanilla Bundle concept but integrated with Curios.
-*   **Functionality:** Provides extra inventory space accessible via a keybind while the item is equipped in this slot (or held in the hotbar).
-*   **Compatibility:** Items tagged `#curios:bundle` fit here.
+*   **Description:** Slot for pouch-like items offering portable storage.
+*   **Compatibility:** Items tagged `#curios:bundle`.
 *   **Examples:**
 
     ![Various Bundle Slot Items](img/curios/bundle_slot_items.png)
@@ -973,11 +1019,11 @@ Here are examples of items that fit into specific Curios slots available in ATMA
 
 ### Heart Amulet Slot
 
-![Heart Amulet Slot Icon](img/curios/heart_amulet_slot.png)
+![Heart Amulet Slot Icon Placeholder](img/curios/heart_amulet_slot.png)
 
-*   **Description:** A dedicated slot added by **Baubley Heart Canisters** specifically for the `Heart Amulet` and its variants.
-*   **Functionality:** When equipped, these amulets allow the player to store various types of Heart Canisters (Red, Orange, Yellow, Green, Blue) or potentially interact with other health-related mechanics. Each canister stored typically increases the player's maximum health. The amulet itself can be opened (++rbutton++) to manage its contents.
-*   **Compatibility:** Items tagged `#curios:heart_amulet` fit here.
+*   **Description:** Slot added by **Baubley Heart Canisters** for `Heart Amulets`.
+*   **Functionality:** Holds Heart Canisters, which increase max health. Open via ++rbutton++.
+*   **Compatibility:** Items tagged `#curios:heart_amulet`.
 *   **Examples:**
 
     ![Heart Amulet Items](img/curios/bhc_amulets.png)
@@ -990,43 +1036,25 @@ Here are examples of items that fit into specific Curios slots available in ATMA
 
 ## Other Artifacts & Relics (Non-Curios)
 
-These items from the Artifacts and Relics mods provide effects but are typically held or used directly, rather than equipped in a dedicated Curios slot. Some might have alternative equip slots (like the Umbrella potentially fitting 'Back'), but their primary function often involves holding them.
+These items provide effects but are typically held or used directly, not equipped in Curios slots (though some might have niche compatibility).
 
 ![Other Artifacts & Relics](img/curios/other_artifacts.png)
 
 ### 1. Relics
 *Note: Relics share experience earned and level up through use.*
 
-*   **`Infinite Ham` (Combined Relic)**: *(Held food item)*
-    *   Grants `Regeneration`: Every 10 seconds (at max level), regenerates up to 6 edible chunks, each restoring 13 hunger points. When consumed, the relic automatically uses the required number of chunks to replenish the player's hunger. (Note: Does not improve max health).
-    *   Grants `Marinade`: Allows applying potion effects to the relic by left-clicking it with a potion in the inventory. Each time the relic is consumed, it applies these effects to the player for 9 seconds per hunger point restored. Using a water bottle clears the last applied potion effect.
-    *   Grants `Meat Bat`: Allows the relic to be used as a melee weapon, dealing 7 damage and stunning the target for 0.5 seconds per chunk. Consumes all chunks when attacking, regardless of the target's remaining health.
-*   **`Space Dissector`**: *(Held item)*
-    *   Grants `Dissection`: Holding RMB creates a portal at a point along the line of sight. Releasing RMB within a distance of 112 blocks creates a second portal, linking it to the first. When a living entity approaches a portal, it is teleported to the linked portal. Portals do not function if impassable blocks are in their way. After 60 seconds, the portals close and disappear.
-*   **`Magic Mirror`**: *(Held item)*
-    *   Grants `Wormhole`: Upon use, teleports the owner to their spawn point if it is within 6000 blocks, then goes on cooldown for 30 seconds.
-*   **`Blazing Flask`**: *(Held item)*
-    *   Grants `Eternal fire`: Using the ability on a block creates a restricted flight zone with a maximum flight speed of 8 blocks per second and a height of 15 blocks. The area size depends on the amount of fire within a radius of 5 blocks around the center, but if there is no fire at all, the zone will not be created.
+*   **`Infinite Ham`**: Never-ending food source, can store/apply potion effects, usable as weapon.
+*   **`Space Dissector`**: Creates linked portals for entity teleportation (temporary).
+*   **`Magic Mirror`**: Teleports player to spawn point (cooldown).
+*   **`Blazing Flask`**: Creates temporary restricted flight zone (requires fire nearby).
 
 ### 2. Artifacts
-*Note: Artifacts share experience earned and level up through use.*
+*Note: Relics share experience earned and level up through use.*
 
-*   **`Everlasting Beef`**: *(Food item)* Food item that is not consumed upon eating. Restores a small amount of hunger and saturation.
-*   **`Eternal Steak`**: *(Food item)* Food item that is not consumed upon eating. Restores more hunger and saturation than Everlasting Beef.
-*   **`Umbrella`**: *(Held item - might also fit Back slot)*
-    *   Grants `Soft Fall`: When held, reduces the player's vertical speed, negating fall damage.
-    *   Grants `Glide` (Push): Pressing LMB while gliding propels the player backward and triggers a cooldown of 0.5 seconds. The push can be used up to 13 times in succession before the player touches the ground.
-    *   Grants `Air Shield`: When used (likely via blocking/RMB), functions as a shield, pushing targets up to 6 blocks away (at max level).
+*   **`Everlasting Beef` / `Eternal Steak`**: Infinite food items (varying hunger/saturation restored).
+*   **`Umbrella`**: (`Soft Fall`+`Glide`+`Air Shield`-Activated): Reduces fall speed, grants mid-air dash, pushes entities away when blocking. *(Might fit Back slot)*.
+
 
 ---
 
-## How to Equip Curios Items
-
-1.  Press the **Curios key** (Default key: 'G') to open the Curios slots GUI.
-2.  Identify the appropriate slot type for the item you want to equip (e.g., Head, Back, Necklace, Hands, Belt, Charm, Ring, Focus).
-3.  Drag the desired Curios item from your main inventory into a compatible empty slot in the Curios GUI.
-4.  The item is now equipped, and its effects (if any) should be active!
-
----
-
-> **Curios API** | [CurseForge Link](https://www.curseforge.com/minecraft/mc-mods/curios)
+> **Curios API** | [CurseForge Curios Link](https://www.curseforge.com/minecraft/mc-mods/curios) | [CurseForge Relics Link](https://www.curseforge.com/minecraft/mc-mods/relics-mod)
