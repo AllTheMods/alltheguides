@@ -50,14 +50,91 @@ Here are examples of items that fit into specific Curios slots available in ATMA
 
 ### Spell Focus Slot
 
-![Spell Focus Slot Icon](img/arsnouveau/spell_focus_slot.png)
+![Spell Focus Slot Icon](img/curios/spell_focus_slot.png)
 
 *   **Description:** A dedicated slot primarily used by **Ars Nouveau** for its `Spell Foci`.
 *   **Functionality:** Equipping a Focus provides passive benefits and enhances certain spells or schools of magic.
 *   **Compatibility:** Items tagged `#curios:an_focus` fit here.
-*   **Examples:** `Focus of Earth`, `Focus of Water`, `Focus of Fire`, `Focus of Air`, `Focus of Necromancy`, `Focus of Summoning`, `Focus of Block Shaping`, `Focus of Transmutation` (Ars Technica).
-*   **Details:** [Click here for an in-depth explanation of Spell Focus](arsnouveau/README.md/#spell-focus)
+*   **Examples:**
 
+    ![Spell Focus Items](img/curios/spell_focus_items.png)
+
+    #### Common Mechanics for Elemental Focus (Earth, Water, Fire, Air)
+    *   **Attunement:** Each elemental focus is attuned to a specific school of magic (e.g., Focus of Earth -> Earth School).
+    *   **Amplification & Discount:** While equipped, spells (glyphs) belonging to the attuned school are generally stronger and/or cost less mana.
+    *   **Lesser Focus Drawback:** The basic ("Lesser") version of these elemental Focus often weakens spells from the *other* three elemental schools (Fire, Water, Earth, Air).
+    *   **Major Focus Bonus:** An upgraded version typically provides an additional, more powerful bonus under specific conditions, likely alongside the amplification/discount.
+
+    #### 1. Ars Nouveau - Elemental Foci
+    *   **`Focus of Earth`**:
+        *   **Attunement:** Earth
+        *   **Lesser Drawback:** Weakens Fire, Water, Air glyphs.
+        *   **Major Bonus:** Grants Mana Regen I while the wearer is below Y=0 (deep underground).
+        *   **Empowered Effects:**
+            *   `Poison Spores` / `Grow`: Deals damage to Undead mobs, chance to spawn a `Spore Blossom`.
+            *   `Gravity` (Augmented with `Sensitive`): Creates a gravity well pulling entities towards the center (filter-compatible).
+            *   Passively grants Knockback Resistance.
+            *   Boosts natural and instant Healing effects received by 1.5x.
+    *   **`Focus of Water`**:
+        *   **Attunement:** Water
+        *   **Lesser Drawback:** Weakens Fire, Earth, Air glyphs.
+        *   **Major Bonus:** Grants Mana Regen I while wet; OR Mana Regen II + Dolphin's Grace effect while swimming.
+        *   **Empowered Effects:**
+            *   `Freeze`: Applies stacking "Freezing" buildup, eventually inflicting "Frozen" status (short duration, stops healing).
+            *   `Freeze` (Used after `Conjure Water`): Turns the conjured water into Ice blocks.
+            *   `Summon Steed`: Summons a rideable Dolphin instead (build speed by timing jumps out of water).
+            *   Converts Drowning damage dealt *to* water creatures into Magic damage.
+    *   **`Focus of Fire`**:
+        *   **Attunement:** Fire
+        *   **Lesser Drawback:** Weakens Water, Earth, Air glyphs.
+        *   **Major Bonus:** Grants Spell Damage II while the wearer is on fire or in lava.
+        *   **Empowered Effects:**
+            *   `Ignite`: Inflicts "Magic Burn".
+            *   Allows `Flare` spell to damage/spread even on fire-resistant mobs.
+            *   Allows magic damage to partially pierce armor.
+            *   Makes Earth damage less effective against the target (negative synergy).
+            *   `Summon Steed`: Summons a rideable Strider instead.
+            *   `Ignite` + `Evaporate` Combo: Sublimates (destroys) Ice blocks.
+    *   **`Focus of Air`**:
+        *   **Attunement:** Air
+        *   **Lesser Drawback:** Weakens Fire, Water, Earth glyphs.
+        *   **Major Bonus:** Grants Mana Regen I while the wearer is above Y=200 OR while under the "Shocked" effect.
+        *   **Empowered Effects:**
+            *   `Launch` (Augmented with `Extend Time`): Applies the `Levitate` effect instead of just launching.
+            *   `Cut`: Gives a chance to drop a mob's head or skull if `Cut` deals the killing blow.
+
+    #### 2. Ars Nouveau - Other Foci
+    *   **`Focus of Necromancy`**:
+        *   **Mechanics:** Does not follow standard elemental attunement/drawback rules.
+        *   **Effects:**
+            *   Summoned Wolves, Undead, and Vexes will revive once upon death if the summoner is wearing the focus, returning with "blood lust".
+            *   Summoned undead specifically will cast Homing spells when you do.
+            *   Summoned undead specifically will heal you each time they kill an enemy.
+    *   **`Focus of Summoning`**:
+        *   **Mechanics:** Does not follow standard elemental attunement/drawback rules. Special focus for enhancing summons.
+        *   **Effects:**
+            *   Grants summons (from spells) additional duration, strength, and speed.
+            *   Deals damage to enemies that kill your summons (similar to Thorns for summons).
+            *   Casting spells that target you (like `Self` or `Orbit` casting methods) will also cast a copy on your nearby summons.
+    *   **`Focus of Block Shaping`**:
+        *   **Mechanics:** Does not follow standard elemental attunement/drawback rules. Special focus for block manipulation spells.
+        *   **Effects:**
+            *   **Impact Damage:** Blocks moved by spells (`Launch`, `Gravity`, `Pull`, `Knockback`, etc.) now deal damage to entities they collide with. Damage scales with your Spell Damage stat, the block's hardness, and the block's speed.
+            *   **Spell Continuation:** Modifying, creating, or moving a block causes the remainder of the spell sequence to target the new or moving block, rather than the original target point.
+                *   *Example (Creation):* `Freeze` -> `Break` will now correctly target the newly formed ice block with `Break`.
+                *   *Example (Movement):* `Conjure Mageblock` -> `Launch` -> `Ignite` will launch the block, and the `Ignite` effect will apply to the moving block.
+            *   Affects glyphs like `Conjure Mageblock`, `Freeze`, `Break`, `Exchange`, `Place Block`, `Launch`, `Pull`, etc.
+            *   Synergizes heavily with `Area of Effect` (AoE) augmentation to manipulate or weaponize many blocks simultaneously.
+
+    #### 3. Ars Technica
+    *   **`Focus of Transmutation`**:
+        *   **Mechanics:** Does not follow standard elemental attunement/drawback rules. Focus for item processing and enhancement glyphs.
+        *   **Core Function:** Augments spells with the `Luck` effect and improves specific processing glyphs.
+        *   **Provides the following bonuses:**
+            *   2x Speed: For `Press`, `Polish`, and `Whirl` glyphs.
+            *   2x Items Processed: For `Press` and `Polish` glyphs (processes two items per operation).
+            *   2x Chance-Based Outputs: For `Obliterate` and `Whirl` glyphs (e.g., doubling ore dust chance).
+            *   2x Damage: For the `Obliterate` glyph.
 ### Head Slot
 
 ![Head Slot Icon](img/curios/head_slot.png)
@@ -297,8 +374,85 @@ Here are examples of items that fit into specific Curios slots available in ATMA
             *   Magenta: Regeneration
             *   Pink: Health Boost
 
+### Body Slot
+
+![Body Slot Icon](img/curios/body_slot_icon.png)
+
+*   **Description:** Currently only one item available.
+*   **Functionality:** Currently only one item available.
+*   **Compatibility:** Items tagged `#curios:body` fit here.
+*   **Examples:**
+
+    ![Body Slot Items](img/curios/body_slot_items.png)
+
+    #### 1. Reliquary
+    *   `Twilight Cloak`: Makes you invisible in darkness.
 
 
+### Bracelet Slot
+
+![Bracelet Slot Icon](img/curios/bracelet_slot.png)
+
+*   **Description:** A slot typically used for bracelets or bangles worn on the wrist. These often provide passive buffs related to specific magic schools or attributes. By default, players have **two** bracelet slots available.
+*   **Functionality:** Primarily provides passive statistical bonuses, often enhancing specific types of magic, movement speed in certain conditions, or granting resistances.
+*   **Compatibility:** Items tagged `#curios:bracelet` fit here.
+*   **Examples:**
+
+    ![Various Bracelet Slot Items](img/curios/bracelet_slot_items.png)
+
+    #### 1. Ars Nouveau
+
+    ![Ars Nouveau Bracelet](img/curios/ars_bracelet.png)
+
+    *   **`Enchanter's Bangle`**: Base item used to craft elemental/themed bangles. Provides a slight boost to overall spellcasting.
+    *   **`Bangle of Fire`**:
+        *   Boosts the damage of Fire spells more significantly than the base bangle.
+        *   Arms are engulfed in fire, setting enemies on fire when hit.
+        *   Grants a passive speed boost while in hot biomes.
+    *   **`Bangle of Water`**:
+        *   Boosts the damage of Water spells more significantly than the base bangle.
+        *   Arms chill the air, freezing enemies on hit.
+        *   Grants a passive speed boost (+50% swim speed) in water and rain.
+    *   **`Bangle of Air`**:
+        *   Boosts the damage of Air spells more significantly than the base bangle.
+        *   Arms spark with the element, giving a passive boost to speed (+60%) and attack knockback (+1.2).
+    *   **`Bangle of Earth`**:
+        *   Boosts the damage of Earth spells more significantly than the base bangle.
+        *   Plants blossom on arms, inflicting snare on enemies hit.
+        *   Grants immunity to cactus and berry bush damage.
+        *   Grants knockback resistance (+30%).
+    *   **`Bangle of Summoning`**:
+        *   Boosts the damage of Summoning spells (+2 Summoning Power).
+        *   Summons follow arm movements, targeting whatever the player hits with increased damage.
+    *   **`Bangle of Anima`**:
+        *   Boosts the damage of Anima spells.
+        *   Represents a cycle of life and death: randomly heals or withers enemies hit.
+        *   Grants a small health boost (+4 Max Health).
+
+    #### 2. Iron's Spells 'n Spellbooks (Addon: Traveloptics)
+    *   **`Nightstalker's Band`**:
+        *   Allows the `Reversal` spell to be cast without a weapon.
+        *   Reflecting a projectile grants the `Assassin` effect for 5 seconds (boosts movement speed and greatly enhances attack damage). Effect ends upon striking an entity.
+    *   **`Azure Ignition Bracelet`**:
+        *   Permanently ignites Ignis-themed spells with soul fire, increasing their damage.
+
+    #### 3. Silent Gear
+    *   **Special Mention:** `Bracelet Blueprint`. Used to craft bracelets using Silent Gear's material system, allowing for customization of effects and stats. *(Refer to Silent Gear Guide - WIP for crafting details)*.
+
+    #### 4. Artifacts
+    *Note: Artifacts share experience earned and level up through use.*
+    *   **`Withered Bracelet`**:
+        *   Grants `Wither Resistance`: Complete immunity to wither damage.
+        *   Grants `Withering Touch`: Chance (up to 80% at max level) to apply Wither effect to attacked targets for a duration (12 seconds at max level).
+    *   **`Onion Ring`**:
+        *   Grants `Miner's Hunger`: Increases block mining speed (by 4.5% at max level) per unit of the player's saturation.
+        *   Grants `Raw Appetite`: When mining blocks, has a chance (30% at max level) to restore 1 hunger point and 0.5 saturation.
+
+    #### 5. Reliquified Ars Nouveau
+    *Note: Relics share experience earned and level up through use.*
+    *   **`Flaming Bracer` (Combined Relic)**:
+        *   *(Base)* Grants `Pyrophagy`: Complete immunity to magical fire damage.
+        *   *(Gem)* Grants `Pyrokinesis`: When dealing melee damage to a burning target, has a chance (90% at max level) to release magical fire. If successful, the ability repeats, releasing additional bursts (up to 9 total triggers at max level).
 ---
 
 ## How to Equip Curios Items
