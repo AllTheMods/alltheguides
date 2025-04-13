@@ -390,6 +390,7 @@ Here are examples of items that fit into specific Curios slots available in ATMA
     *(These provide no functional benefit when equipped)*
 
     ![Head Aesthetic ONLY Item Examples](img/curios/aesthetic_head.png)
+
     *   **Twilight Forest Trophies**: `Twilight Lich Trophy`, `Snow Queen Trophy`, `Questing Ram Trophy`, `Naga Trophy`, `Alpha Yeti Trophy`, `Minoshroom Trophy`, `Knight Phantom Trophy`, `Hydra Trophy`, `Ur-Ghast Trophy`.
     *   **Twilight Forest Critters**: `Moonworm`, `Cicada`, `Firefly`.
     *   **Cataclysm Heads**: `Aptrgangr`, `Draugur`, `Kobolediator`.
@@ -447,10 +448,11 @@ Here are examples of items that fit into specific Curios slots available in ATMA
     *   `Charm of Sinking` (`Anchor`+`Diver`): Faster sinking, restores air on seabed.
     *   `Lucky Scarf` (`Treasure Hunter`): Chance for bonus Luck levels when mining, repeats.
 
-    #### 7. Reliquified Amulets
+    #### 7. Relics
     *Note: Relics share experience earned and level up through use.*
 
     ![Relic Necklace Examples](img/curios/relic_necklaces.png)
+
     *   `Reflecting Necklace`: Stores damage, explodes dealing damage/stun.
     *   `Jellyfish Necklace` (Combined): No sinking, damage on collision, paralyzes on collision.
     *   `Holy Locket`
@@ -632,19 +634,23 @@ Here are examples of items that fit into specific Curios slots available in ATMA
     ![Various Hands Slot Items](img/curios/hands_slot_items.png)
 
     #### 1. Occultism
+
     *   `Storage Accessor` (Storage Remote): Allows remote access to an Occultism storage network (Dimensional Storage Actuator). Requires binding to an actuator first.
 
     #### 2. Cataclysm Items
+
     *   `Blazing Grips`: Chance to apply `Blazing Brand` on hit.
     *   `Sticky Gloves`: Blocks Koboleton looting mechanic.
 
     #### 3. L2Hostility
+
     *   `Infinity Glove`: **+5 Ring slots**, **+1 Charm slot**.
     *   `Imagine Breaker`: Melee bypasses magic protection (disables hostility loot).
     *   `Flaming Thorn`: Inflict Soul Flame on damage based on target effects.
     *   *(Currently Unobtainable):* `Platinum Star` (Melee bypasses damage cooldown, also fits **Charm**).
 
     #### 4. Glimmering Tales
+
     *   `Glove of Thunder`: [Thunder] spell damage bypasses damage cooldown. Reduces Mana Regen by 25% (x0.75 multiplier).
     *   `Glove of Ocean`: [Ocean] spell damage bypasses damage cooldown. Reduces Mana Regen by 25% (x0.75 multiplier).
     *   `Glove of Abyss`: Infuses all spell damage with Abyss damage. Reduces Mana Regen by 50% (x0.5 multiplier).
@@ -690,6 +696,7 @@ Here are examples of items that fit into specific Curios slots available in ATMA
     ![Various Ring Slot Items](img/curios/ring_slot_items.png)
 
     #### 1. Glimmering Tales
+
     *   `Golden Ring`: +10% Max Mana.
     *   `Ring of Regeneration`: +10% Max Mana, +30% Mana Regen.
     *   `Ring of Nature`: +10% Max Mana, +10% Earth Affinity, +10% Life Affinity, +10% Flame Affinity, +10% Snow Affinity.
@@ -701,6 +708,7 @@ Here are examples of items that fit into specific Curios slots available in ATMA
     *   `Ring of Flame`: +20% Max Mana, +50% Flame Affinity.
 
     #### 2. L2Hostility
+
     *   `Ring of Corrosion`: Damages target/self equipment durability on hit/being hit.
     *   `Ring of Reflection`: Reflects negative trait effects onto attackers.
     *   `Ring of Divinity`: Magic damage immunity, permanent Cleanse.
@@ -709,17 +717,21 @@ Here are examples of items that fit into specific Curios slots available in ATMA
     *   *(Currently Unobtainable):* `Ring of Life` (Prevents >90% single instance damage), `Ring of Incarceration` (Applies Incarceration effect while sneaking).
 
     #### 3. Silent Gear
+
     *   `Ring Blueprint`: Used for crafting Silent Gear rings. *(WIP Guide)*.
 
     #### 4. Nature's Aura
+
     *   `Ring of Last Chance`: *(Likely death prevention)*.
 
     #### 5. Ars Nouveau
+
     *   `Ring of Jumping`: Allows the user to continue jumping in the air, consuming mana with each jump.
     *   `Ring of Lesser Discount`: Reduces the mana cost of all spells by 10. Grants +10 Max Mana and +1 Mana Regen.
     *   `Ring of Greater Discount`: Reduces the mana cost of all spells by 20. Grants +10 Max Mana and +1 Mana Regen. (Slightly larger discount than the Lesser version).
 
     #### 6. Occultism
+
     *   `Familiar Ring`: Stores Occultism Familiars, grants their passive bonus.
 
     #### 7. Reliquified Ars Nouveau
@@ -727,11 +739,14 @@ Here are examples of items that fit into specific Curios slots available in ATMA
 
     *   `Mana Ring` (`Mana Compression`): Increases Max Mana and Mana Regen.
     *   `Ring of Thrift` (`Reserve`): Chance for spells to consume no mana.
+    *   `Ring of the Spectral Walker` (`Dissociation`): Active: Turns nearby blocks into spectral ones.
 
     #### 8. Cataclysm Spellbooks
+
     *   **`Leviathan's Blessing`**: +20% Abyssal Spell Power, provides immunity to abyssal effects.
 
     #### 9. Iron's Spells 'n Spellbooks & Addons
+
     *   `Signet of the Betrayer`: +10% Eldritch Spell Power. Passive (5s cooldown): Deal extra damage based on target's maximum mana.
     *   `Emerald Stoneplate Ring`: Slain creatures drop +25% experience.
     *   `Ring of Mana`: +100 Max Mana.
@@ -750,6 +765,7 @@ Here are examples of items that fit into specific Curios slots available in ATMA
 
     #### 10. Relics
     *Note: Relics share experience earned and level up through use.*
+
     *   ~~`Leafy Ring [WIP]`~~
     *   `Chorus Inhibitor` (`Teleportation Control`): Chorus fruit teleports along line of sight (cooldown).
     *   `Bastion Ring` (Combined - `Recognition`+`Respect`): Piglins neutral, indicates Bastions, chance for bonus Piglin trades.
@@ -765,19 +781,23 @@ Here are examples of items that fit into specific Curios slots available in ATMA
     ![Various Belt Slot Items](img/curios/belt_slot_items.png)
 
     #### 1. Ars Nouveau & Addons
+
     *   `Belt of Levitation`: Allows levitation (sneak while falling/jumping).
     *   `Belt of Unstable Gifts`: Grants random temporary potion effects.
     *   **(Ars Additions)** `Warp Index`: Remote access to Storage Lectern (same dimension).
     *   **(Ars Additions)** `Stabilized Warp Index`: Remote access to Storage Lectern (cross-dimension).
 
     #### 2. Occultism
+
     *   `Surprisingly Substantial Satchel`: Acts like a backpack.
 
     #### 3. Nature's Aura
+
     *   `Aura Cache`: Stores a small amount of Aura that the player can use.
     *   `Aura Trove`: Stores a larger amount of Aura than the Aura Cache.
 
     #### 4. Reliquary
+
     *   `Charm Belt`: Holds mob charms.
 
     #### 5. Artifacts
@@ -838,6 +858,7 @@ Here are examples of items that fit into specific Curios slots available in ATMA
 
     #### 1. Ars Additions
     *(Note: These charms have charges and can be recharged, in an Ars Nouveau Imbuement Chamber).*
+
     *   **`Charm of Emberward`**: Nullifies Fire Damage (walk through fire, swim in lava). Charges: 1000.
     *   **`Charm of Second Wind`**: Prevents death upon receiving fatal damage. Charges: 1.
     *   **`Charm of Unyielding Magic`**: Prevents beneficial effects from being dispelled. Charges: 3.
@@ -853,7 +874,8 @@ Here are examples of items that fit into specific Curios slots available in ATMA
 
     #### 2. L2Hostility & L2Complements
     *(Note: Many L2Hostility items can often be worn in the Hostility Curse slot as well. Effects listed are when worn as Charm. Wearing as Curse might have additional effects or increased difficulty.)*
-    *   **(L2Hostility) Looting Charms (`Unpolished`, `Magical`, `Chaotic`, `Miraculous`)**: Enables some hostility trait drops (check JEI for specifics for each tier).
+
+    * **(L2Hostility) Looting Charms (`Unpolished`, `Magical`, `Chaotic`, `Miraculous`)**: Enables some hostility trait drops (check JEI for specifics for each tier).
     *   **(L2Hostility) `Curse of Envy`**: Get trait items when killing mobs with traits (2% chance per trait rank). Increases player difficulty by +50.
     *   **(L2Hostility) `Curse of Greed`**: Doubles (x2.0) hostility loot drop chance. Increases player difficulty by +50.
     *   **(L2Hostility) `Curse of Lust`**: Mobs you kill will drop all their equipped items. Increases player difficulty by +50.
@@ -882,6 +904,7 @@ Here are examples of items that fit into specific Curios slots available in ATMA
     *   `Warp Drive` (`Translocation`): Line-of-sight teleport (activated, cooldown).
 
     #### 4. Glimmering Tales
+
     *   **`Charm of Strength`**: +50% Magic Damage.
     *   **`Charm of Capacity`**: +50% Max Mana.
     *   **`Charm of Regeneration`**: +50% Mana Regen.
@@ -894,10 +917,12 @@ Here are examples of items that fit into specific Curios slots available in ATMA
     *   **`Charm of Thunder`**: +20% Mana Regen, +100% Lightning Damage.
 
     #### 5. Nature's Aura
+
     *   **`Environmental Eye`**: *(Tooltip missing - Likely displays Aura levels in the surrounding environment).*
     *   **`Environmental Ocular`**: *(Tooltip missing - Likely an improved version of the Environmental Eye, perhaps with greater range or detail).*
 
     #### 6. Apotheosis
+
     *   Potion Charms: Provide passive potion effect (matches potion used).
 
     #### 7. The Twilight Forest
@@ -942,6 +967,7 @@ Here are examples of items that fit into specific Curios slots available in ATMA
 
     #### 1. Iron's Spells 'n Spellbooks (Addon: Traveloptics)
     *(Note: These items often fit multiple slots. The descriptions below apply regardless of which compatible slot they are equipped in, unless stated otherwise.)*
+
     *   **`Aetherial Despair Ring`**: Axe Blades of Despair spell gain vertical trajectory and move 50% faster. (Also fits **Ring** slot).
     *   **`Firestorm Ring`**: Transforms meteors from Meteor Storm spell into exploding flare bombs with flame jets. Spell can no longer directly target entities. (Also fits **Ring** slot).
     *   **`Azure Ignition Bracelet`**: Permanently ignites Ignis-themed spells with soul fire, increasing their damage. (Also fits **Bracelet** slot).
@@ -962,6 +988,7 @@ Here are examples of items that fit into specific Curios slots available in ATMA
     ![Various Spell Book Slot Items](img/curios/spell_book_slot_items.png)
 
     #### 1. Iron's Spells 'n Spellbooks (Base Mod)
+
     *   **Tiered Spell Books:**
         *   `Flimsy Journal` (Copper): 5 Spell Slots.
         *   `Ironbound Tome` (Iron): 6 Spell Slots.
@@ -980,11 +1007,13 @@ Here are examples of items that fit into specific Curios slots available in ATMA
         *   `Necronomicon`: 10 Slots, +2 levels to Raise Dead, +200 Max Mana. (Contains Blood/Undead spells).
 
     #### 2. All the Wizard Gear
+
     *   `Allthemodium Spell Book`: 13 Slots, +30% Cooldown Reduction, +15% Cast Time Reduction, +300 Max Mana.
     *   `Vibranium Spell Book`: 14 Slots, +40% Cooldown Reduction, +25% Cast Time Reduction, +300 Max Mana.
     *   `Unobtainium Spell Book`: 15 Slots, +50% Cooldown Reduction, +35% Cast Time Reduction, +300 Max Mana.
 
     #### 3. Traveloptics
+
     *   `Shellbound`: 12 Slots, +200 Max Mana, +10% Nature Spell Power, +10% Cooldown Reduction.
     *   **Unique Spell Books:**
         *   `Chronicles Of The Firelord`: 12 Slots, +1 level to Burning Judgment, +300 Max Mana, +15% Fire Spell Power, +15% Eldritch Spell Power. (Contains Fire spells).
@@ -992,6 +1021,7 @@ Here are examples of items that fit into specific Curios slots available in ATMA
         *   `Archive Of Abyssal Secrets`: 12 Slots, +1 level to Cursed Minefield, +300 Max Mana, +15% Ender Spell Power, +15% Eldritch Spell Power. (Contains Ender/Void spells).
 
     #### 4. Cataclysm Spellbooks
+
     *   `Codex of Malice`: 12 Slots, +300 Max Mana, +30% Ice Spell Power.
     *   `Ignis Spellbook`: 12 Slots, +30% Fire Spell Power, +300 Max Mana.
     *   `Book o' R'lyeh`: 12 Slots, +30% Abyssal Spell Power, +300 Max Mana.
@@ -999,6 +1029,7 @@ Here are examples of items that fit into specific Curios slots available in ATMA
         *   `Desert Spellbook`: 10 Slots, +200 Max Mana, +20% Nature Spell Power, +10% Holy Spell Power. (Contains Nature/Sand spells).
 
     #### 5. GameTechBC's Spellbooks
+
     *   **Unique Spell Books:**
         *   `GTBC's Magical Repository`: 10 Slots, +200 Max Mana, +15% Spell Power, +10% Cooldown Reduction. (Contains custom spells).
 
@@ -1014,6 +1045,7 @@ Here are examples of items that fit into specific Curios slots available in ATMA
     ![Various Bundle Slot Items](img/curios/bundle_slot_items.png)
 
     #### 1. Ars Elemental
+
     *   **`Trinkets Pouch`**: A magical pouch crafted from Magebloom Fiber used to store items and reduce inventory clutter. Can be opened with the 'J' key (configurable) while equipped in a Curios slot or held in the hotbar.
     *   **`Spellcaster Bag`**: An upgraded, larger version of the Trinkets Pouch. Can also be opened with the 'J' key and can be dyed different colors.
 
@@ -1029,6 +1061,7 @@ Here are examples of items that fit into specific Curios slots available in ATMA
     ![Heart Amulet Items](img/curios/bhc_amulets.png)
 
     #### 1. Baubley Heart Canisters
+
     *   **`Heart Amulet`**: The primary item for this slot. Acts as a container for Heart Canisters, which increase maximum health when socketed. Right-click the amulet in your inventory or Curios slot to open its interface and add/remove canisters. *(Refer to Baubley Heart Canisters guide - WIP for canister details)*.
     *   **`Soul Amulet`**: An upgraded amulet for this slot. It can also be opened via right-click.
 
