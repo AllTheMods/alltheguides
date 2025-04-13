@@ -80,6 +80,7 @@ especially `Blazing Archwood`. Also generates "Heat" (Progress) as it burns fuel
     *   `Archwood Log`: 75 Source (4 Progress)
     *   Other Fuel: `burn_time_ticks / 12` Source (1 Progress)
         *   Current good fuel options in the pack:
+            *   `Lava bucket`: ~1667 Source, 1 Progress
             *   **Primal Magick** `Block of Ignyx`: ~10667 Source, 1 Progress
             * *(Note: due to the sourcelink buffer capped to 20000 anything further than this is not a good consumable because it will go to waste)*
             *   ~~**Mystical Agradditions** `Insanium Coal Block`: 57750 Source, 1 Progress~~
