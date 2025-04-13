@@ -5,7 +5,7 @@ authors:
  - Xannaeh
 ---
 
-# Guide: Curios Slots & Items
+# Guide: Curios Slots and Relics
 
 This guide covers the Curios API, how to gain additional slots, and provides details on specific Curios items available in ATMA, with examples from various mods including Artifacts and Relics.
 
