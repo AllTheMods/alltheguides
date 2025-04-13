@@ -37,7 +37,7 @@ These mods provide unique ways to generate mobs or resources without traditional
     *   Drygmys automatically "farm" specific nearby mobs *without killing them*, generating their drops over time.
     *   Mobs should be contained nearby, ideally in `Containment Jars` (captured using a `Tablet of Containment` in a `Ritual Brazier` - place a `Source Jar` nearby to sustain the ritual). A dedicated "containment area" with teleportation methods is recommended.
     *   Requires Source generation. More Drygmys speed up generation. Keep them happy with a variety of nearby mobs for optimal rates.
-    *   *(This method will be detailed in a specific guide later. For more info, check the official Ars Nouveau Guide: <https://ars.guide/docs/drygmy/guide/>)*
+    *   [For a specific guide on drygmys click here.](arsnouveau/drygmys.md)
 *   **Evilcraft:**
     *   Offers potential mob farming using the `Box of Eternal Closure` with a `Vengeance Spirit` inside a `Spirit Furnace`.
     *   Can be a good alternative for mobs difficult to farm otherwise (e.g., Withers, Twilight Forest bosses).
