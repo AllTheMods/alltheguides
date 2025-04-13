@@ -9,6 +9,8 @@ authors:
 
 This guide covers the Curios API, how to gain additional slots, and provides details on specific Curios items available in ATMA, with examples from various mods including Artifacts and Relics.
 
+---
+
 ## Understanding Curios: The Accessory API
 
 ### Overview
@@ -1085,9 +1087,9 @@ These items provide effects but are typically held or used directly, not equippe
 *Note: Relics share experience earned and level up through use.*
 
 *   **`Everlasting Beef` / `Eternal Steak`**: Infinite food items (varying hunger/saturation restored).
-*   **`Umbrella`**: (`Soft Fall`+`Glide`+`Air Shield`-Activated): Reduces fall speed, grants mid-air dash, pushes entities away when blocking. *(Might fit Back slot)*.
+*   **`Umbrella`**: (`Soft Fall`+`Glide`+`Air Shield`-Activated): Reduces fall speed, grants midair dash, pushes entities away when blocking. *(Might fit Back slot)*.
 
 
 ---
 
-> **Curios API** | [CurseForge Curios Link](https://www.curseforge.com/minecraft/mc-mods/curios) | [CurseForge Relics Link](https://www.curseforge.com/minecraft/mc-mods/relics-mod)
+> Curios API | [Curios CurseForge](https://www.curseforge.com/minecraft/mc-mods/curios) | Relics | [Relics CurseForge](https://www.curseforge.com/minecraft/mc-mods/relics-mod)
