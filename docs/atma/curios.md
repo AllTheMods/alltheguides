@@ -145,17 +145,100 @@ Here are examples of items that fit into specific Curios slots available in ATMA
 *   **Cataclysm**: `Aptrgangr Head`, `Draugur Head`, `Kobolediator Head`
 *   **Starbunclemania**: `Whirly Propeller`, `Alakakrinas Hat`, `Drygme Horns`, `Sea Bunny`, `Starby Ears`
 
-*(WIP: List other slot types like Back, Body, Charm, Necklace, Belt, Ring, Hands, Feet as needed, with examples)*
+### Necklace Slot
 
----
+![Necklace Slot Icon](necklace_slot.png)
 
-## How to Equip Curios Items
+*   **Description:** A slot for necklaces, amulets, and pendants, often providing passive buffs or utility effects.
+*   **Functionality:** Varies greatly depending on the item equipped.
+*   **Compatibility:** Items tagged `#curios:necklace` fit here.
+*   **Examples:**
 
-1.  Press the **Curios key** (Default key: 'G') to open the Curios slots GUI.
-2.  Identify the appropriate slot type for the item you want to equip (e.g., Head, Back, Hands, Belt, Charm, Ring, Focus).
-3.  Drag the desired Curios item from your main inventory into a compatible empty slot in the Curios GUI.
-4.  The item is now equipped, and its effects (if any) should be active!
+#### 1. Ars Nouveau
+*   `Amulet of Mana Boost`: Increases maximum mana by +50.
+*   `Amulet of Mana Regen`: Increases mana regeneration rate by +3.
 
----
+#### 2. Reliquary (Reliquified)
+*   `Coin of Fortune`: Automatically draws in nearby items and experience orbs. Can be activated (++shift+rbutton++) and held (++rbutton++) for a larger vacuum effect.
 
-> **Curios API** | [CurseForge Link](https://www.curseforge.com/minecraft/mc-mods/curios)
+#### 3. Nature's Aura
+*   `Amulet of Wrath`: No provided information.
+
+#### 4. Iron's Spells 'n Spellbooks & Addons
+
+![Iron's Spells 'n  Spellbooks Necklaces](irons_necklaces.png)
+
+*   `Amulet of Concentration`: Makes long-cast spells uninterruptible.
+*   `Conjurer's Talisman`: Increases summon damage by 10%.
+*   `Heavy Chain`: Increases spell resistance by 15%.
+*   `Amethyst Resonant Charm`: Increases mana regeneration by 15%.
+*   `Amulet of Teleportation`: No provided information.
+*   **(Traveloptics)** `Energy Unbound Necklace`: Allows free look and slow movement (80% reduction) while casting Death Laser, but reduces laser damage by 20%.
+*   **(Traveloptics)** `Sigil of the Spider Sorcerer`: Allows wall climbing while Aspect of the Spider is active. Casting Aspect of the Spider and hitting an enemy gives a 50% chance to poison them for 3 seconds.
+*   **(Traveloptics)** `Amulet of Spectral Shift`: Spectral Blink spell now teleports the target entity to your location while crouching.
+*   **Special Mention:** Jewelry Crafting. You can craft `Simple Amulets`, `Simple Chains` and `Amulet of Protection`. Refer to the Iron's Spells 'n Spellbooks Guide (coming soon) for more details on crafting.
+
+
+#### 5. Silent Gear
+*   **Special Mention:** `Necklace Blueprint`. This item is used to craft necklaces using Silent Gear's material system. Refer to the Silent Gear Guide (coming soon) for more details on crafting.
+
+#### 6. Artifacts
+*Note: Artifacts share experience earned and level up through use.*
+
+![Necklace Artifact Examples](necklace_artifacts.png)
+
+* **`Flame Pendant`**:
+  *   `Fiery Defense`: Has a chance (up to 60% at max level) to ignite attackers for a duration (12s at max level).
+* **`Shock Pendant`**:
+  *   `Electric Resistance`: Grants complete immunity to lightning damage.
+    *   `Lightning Defense`: Has a chance (up to 40% at max level) to strike attackers with lightning, dealing a set amount of damage (9 at max level).
+* **`Thorn Pendant`**:
+  *   `Poisonous Defense`: Has a chance (up to 50% at max level) to reflect a portion of damage (30% at max level) back to attackers and apply poison for a duration (16s at max level).
+* **`Panic Necklace`**:
+  *   `Panic`: Increases player movement speed (by 4% at max level) for each mob within a radius (16 blocks at max level) targeting the player.
+* **`Cross Necklace`**:
+  *   `Invincibility`: Increases the duration of invulnerability frames after taking damage (by 1.5s at max level).
+* **`Scarf of Invisivility`**:
+  *   `Silent Step`: Grants complete invisibility. The effect breaks for a duration (2.5s at max level) upon interacting with the world. If a mob targets the player while invisible, the effect won't restore until the mob loses sight.
+*   **`Charm of Shrinking`**:
+  * `Compression`: Reduces the player's size by 60%
+* **`Charm of Sinking`**:
+  * `Anchor`: Doubles the player's sinking speed in water.
+  *   `Diver`: While standing on the underwater floor, blocks air consumption and slowly restores air supply (by 1.2 seconds worth every second at max level).
+*   **`Lucky Scarf`**:
+  * `Treasure Hunter`: Has a chance (70% at max level) to apply an additional level of Luck to mined blocks. If successful, the ability repeats, adding another Luck level, continuing until the chance fails, summing all successful levels.
+
+#### 7. Reliquified Amulets
+*Note: Relics share experience earned and level up through use.*
+
+![Relic Necklace Examples](relic_necklaces.png)
+
+*   **`IReflecting Necklace`**:
+    *   Accumulates damage taken into an internal buffer (up to 270 units at max level).
+    *   Five seconds after the last damage is received, or if the buffer overflows, the relic explodes.
+    *   The explosion scatters obsidian shards in all directions. Each shard deals 3 damage and stuns targets for 0.88 seconds per unit of damage stored in the buffer.
+*   **`Jellyfish Necklace` (Combined Relic)**:
+    *   `Power over the sea`: The wearer does not sink in water.
+    *   `Electrical Discharge`: Deals damage (7.5 at max level) to targets upon collision.
+    *   `Paralysis`: When `Electrical Discharge` activates, it applies paralysis to the target for a duration (3 seconds at max level).
+*   **`Holy Locket`**:
+    *   `Faith` Has 2 toggleable modes:
+        *   **Holiness (Red Mode):** Steals a percentage (50% at max level) of healing from visible entities within a radius (35 blocks at max level) and transfers it to the wearer.
+        *   **Unholiness (Blue Mode):** Deals damage to all visible entities within the same radius, equal to a percentage (450% at max level) of the healing received by the wearer.
+    *   `Penitence`: Ignites undead enemies for 10 seconds and increases damage dealt to them by a percentage (200% at max level).
+    *   `Ascension`: Killing a target grants the wearer a temporary stacking immortality effect for a duration (2 seconds at max level), stacking up to a maximum duration (60 seconds at max level).
+
+ *(WIP: List other slot types like Back, Body, Charm, Belt, Ring, Hands, Feet as needed, with examples)*
+
+ ---
+
+ ## How to Equip Curios Items
+
+ 1.  Press the **Curios key** (Default key: 'G') to open the Curios slots GUI.
+ 2.  Identify the appropriate slot type for the item you want to equip (e.g., Head, Back, Necklace, Hands, Belt, Charm, Ring, Focus).
+ 3.  Drag the desired Curios item from your main inventory into a compatible empty slot in the Curios GUI.
+ 4.  The item is now equipped, and its effects (if any) should be active!
+
+ ---
+
+ > **Curios API** | [CurseForge Link](https://www.curseforge.com/minecraft/mc-mods/curios)
