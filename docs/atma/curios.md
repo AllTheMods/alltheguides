@@ -230,7 +230,7 @@ Here are examples of items that fit into specific Curios slots available in ATMA
 
 ![Spell Focus Slot Icon Placeholder](img/curios/spell_focus_slot.png)
 
-*   **Description:** A dedicated slot primarily used by **Ars Nouveau** for its `Spell Foci`.
+*   **Description:** A dedicated slot primarily used by **Ars Nouveau** for its `Spell Focus`.
 *   **Functionality:** Equipping a Focus provides passive benefits and enhances certain spells or schools of magic.
 *   **Compatibility:** Items tagged `#curios:an_focus` fit here.
 *   **Examples:**
@@ -240,10 +240,10 @@ Here are examples of items that fit into specific Curios slots available in ATMA
     #### Common Mechanics for Elemental Focus (Earth, Water, Fire, Air)
     *   **Attunement:** Each elemental focus is attuned to a specific school of magic (e.g., Focus of Earth -> Earth School).
     *   **Amplification & Discount:** While equipped, spells (glyphs) belonging to the attuned school are generally stronger and/or cost less mana.
-    *   **Lesser Focus Drawback:** The basic ("Lesser") version of these elemental Foci often weakens spells from the *other* three elemental schools (Fire, Water, Earth, Air).
+    *   **Lesser Focus Drawback:** The basic ("Lesser") version of these elemental Focus often weakens spells from the *other* three elemental schools (Fire, Water, Earth, Air).
     *   **Major Focus Bonus:** An upgraded version typically provides an additional, more powerful bonus under specific conditions, likely alongside the amplification/discount.
 
-    #### 1. Ars Nouveau - Elemental Foci
+    #### 1. Ars Nouveau - Elemental Focus
     *   **`Focus of Earth`**:
         *   **Attunement:** Earth
         *   **Lesser Drawback:** Weakens Fire, Water, Air glyphs.
@@ -281,7 +281,7 @@ Here are examples of items that fit into specific Curios slots available in ATMA
             *   `Launch` (Augmented with `Extend Time`): Applies the `Levitate` effect instead of just launching.
             *   `Cut`: Gives a chance to drop a mob's head or skull if `Cut` deals the killing blow.
 
-    #### 2. Ars Nouveau - Other Foci
+    #### 2. Ars Nouveau - Other Focus
     *   **`Focus of Necromancy`**:
         *   **Mechanics:** Does not follow standard elemental attunement/drawback rules.
         *   **Effects:**

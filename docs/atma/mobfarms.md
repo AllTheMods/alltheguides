@@ -73,7 +73,7 @@ These rely on block entities that explicitly spawn mobs or vanilla mechanics.
     | `Turtle Egg`           | +Youthful (Spawns babies if possible)                                                                                                                                                           |
     | `Piston`               | +2 Blocks Spawn Range (Area around spawner mobs appear)                                                                                                                                         |
     | `Wool`                 | +Silent (No spawning sound)                                                                                                                                                                     |
-    | `Chorus Fruit`         | +No AI (Mobs spawn without AI, good for kill chambers)                                                                                                                                          |
+    | `Chorus Fruit`         | +No AI (Mobs spawn without AI, good for kill chambers. **Disables L2 drops**)                                                                                                                   |
     | `Pointed Dripstone`    | -5% Initial Health                                                                                                                                                                              |
 
     *Note: Holding `Quartz` in your off-hand while clicking with an upgrade item will **invert** its effect (e.g., Quartz + Sugar = +10 Ticks Minimum Spawn Delay).
@@ -490,4 +490,5 @@ Efficiently handling the large volume of drops from mob farms is crucial. Here a
 ## Other Tips and Tricks!
 
 *   For avoiding the spawn of `Vengeance Spirits` from **Evilcraft**, place `Gemstone Torches` from **Evilcraft** around the killing area.
-*   If you are not actively farming **L2** `Trait Symbols` or other difficulty-scaled drops, consider placing a `Hostility Orb` from **L2 Hostility** near your spawner(s) to set the chunk difficulty to 0. This can prevent unwanted increases in mob strength and potentially reduce lag.
+*   If you **are not** actively farming **L2** `Trait Symbols` or other difficulty-scaled drops, consider placing a `Hostility Orb` from **L2 Hostility** near your spawner(s) to set the chunk difficulty to 0. This can prevent unwanted increases in mob strength and potentially reduce lag.
+*   If you **are** actively farming **L2** `Trait Symbols` or other difficulty-scaled drops, remember that disabling the spawner AI (with `Chorus Fruit`) will also disable the **L2** drops.
