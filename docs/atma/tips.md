@@ -55,6 +55,8 @@ These are a bunch of useful tips from the community and the team. You can find t
         - Infinity Glove [L2 Hostility]
         - Leather Belt [Relics]
 
+        [More Information Here](curios.md/#getting-more-curios-slots)
+
     ??? Question "How do I keep it **Permanently Day**?"
         ![](img/eternal-daylight.png)
 

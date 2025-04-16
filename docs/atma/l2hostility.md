@@ -15,7 +15,7 @@ authors:
 
 L2 Hostiles adds an adaptive difficulty system where mobs become **stronger** and gain special **abilities** (Traits) based on **player progression**
 and location. It aims for a **more dynamic** and **challenging** experience compared to vanilla or mods like Champions, Scaling Health,
-or Infernal Mobs, featuring player-specific difficulty scaling and mechanics for creating safe zones.
+or Infernal Mobs, featuring player-specific difficulty scaling and mechanics for creating safe zones. [For information in the curios specific for L2Hostility click here.](curios.md#hostility-curse-slot)
 
 ---
 
@@ -45,6 +45,10 @@ You generally won't encounter high-level mobs with powerful traits early on.
     ![Curios For Difficulty Increase](img/l2tat/curios_for_difficulty_increase.png)
 
     *(Note: From left to right: `Curse of Envy`, `Curse of Greed`, `Curse of Lust`,  `Curse of Warth`)*
+
+    ![Abyssal Thorn](img/l2tat/byssal_thorn.png)
+
+    *(Note: `Abyssal Thorn` can only be wear in the `L2Hotility - Curse` curios slot while the other 4 can go in the `Charm` slot)*
 
 *   **Visit New Dimensions:** Entering dimensions for the first time can increase difficulty giving a +2 lvl of difficulty for each dimension. Most of the dimensions will add a multiplicative of 1.5x of you current level allowing to mobs to reach a maximum level of 3000; in the overworld this multiplicative vary between 1x and 1.5x.
 *   **Travel Far from Origin:** Moving a significant distance away from the world spawn point increases difficulty.
@@ -143,6 +147,7 @@ This outlines the general steps expected for progressing through L2 content:
 
 Mobs gain traits based on their level and player difficulty. Higher-level traits appear as difficulty increases.
 Use the in-game Patchouli book (or JEI/tooltips if applicable) for detailed info on specific traits.
+To see how to make a Mob Farm to get these traits go to the [Enderman Farm (L2 Trait Symbol Focus)](mobfarms.md/#__tabbed_3_2).
 
 **(Default Disabled Traits: `Undying`, `Killer Aura`, `Ragnarok` are powerful Legendary traits that are DISABLED by default in the configuration but can be re-enabled via config/datapack.)**
 
@@ -280,3 +285,5 @@ minecraft:spider
 minecraft:cave_spider
 minecraft:creeper
 ```
+
+> L2Hostility | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/l2hostility)

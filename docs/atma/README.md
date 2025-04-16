@@ -19,4 +19,4 @@ But there is a catch, your only '**source**' of power is Ars Nouveau Source!
 
 ![type:video](https://www.youtube.com/embed/QEYUQX4Nh9U)
 
-> All The Mods - Arcana | [Discord](https://discord.com/invite/allthemods)
+> All The Mods - Arcana | [CurseForge](https://www.curseforge.com/minecraft/modpacks/all-the-magic-arcana) | [Discord](https://discord.com/invite/allthemods)
