@@ -6,13 +6,13 @@ description: Timeline of All The Mods Packs
 # All The Mods: Timeline
 
 ## 2025
-- March 17: All the Magic Arcana - (ATMA)
+- Mar 17: All The Magic Arcana - (ATMA)
 
 ## 2024
-- June 25: All The Mods 10 - (ATM10)
+- Jun 25: All The Mods 10 - (ATM10)
 - May 30: All The Mods 9: To The Sky (ATM9TTS)
-- Apr 1: Maul The Odds (MTO)
-- Jan 6: All The Mods 9: No Frills (ATM9NF)
+- Apr 01: Maul The Odds (MTO)
+- Jan 06: All The Mods 9: No Frills (ATM9NF)
 
 ## 2023
 - Dec 17: All The Mods: Gravitas²
@@ -49,7 +49,7 @@ description: Timeline of All The Mods Packs
 
 ## 2017
 - Aug 17: All The Mods Expert - (Remastered)
-- Aug 9: All The Mods 3 Lite - (ATM3L)
+- Aug 09: All The Mods 3 Lite - (ATM3L)
 - Jun 17: All The Mods 3 - (ATM3)
 
 ## 2016
