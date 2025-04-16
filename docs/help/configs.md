@@ -5,11 +5,11 @@ description: What/Where are they? Customize your game!
 
 # Configs
 
-Pack configs are usually located in the `config/` folder, though others may be in your `world/serverconfigs/` folder.
+Pack configs are usually located in the `config/` folder, though others may be in your `worldName/serverconfigs/` folder.
 
-!!! Warning "When editing configs, please make sure server / client is not running"
+!!! Warning "When editing configs, please make sure the server/client is not running"
 
-    For clients, it's safe to edit `world/serverconfigs/` while not in the world and or restarting entire client.
+    For clients, it's safe to edit `worldName/serverconfigs/` as long as you're not in the world (i.e, on the main menu)
 
 ---
 
@@ -31,12 +31,8 @@ More information can be found on FTB Wiki: [FTBRanks](https://feedthebeast.notio
 
 ## [No Fly Zone](https://legacy.curseforge.com/minecraft/mc-mods/no-fly-zone)
 
-In [ATM9](../atm9/README.md), a new mod was introduced to prohibit flight in certain dimensions.  This can be disabled.
+In [ATM9](../atm9/README.md), a new mod was introduced to prohibit flight in certain dimensions. This can be disabled.
 
 > **Config**: `world/serverconfig/noflyzone.snbt`
 
-## F.A.Q
-
-??? Question "Can you make ATM ores minable by quarry?"
-
-    By design, fake players are not allowed to mine ATM ores. This ruins the purpose of the ore being obtained naturally, thus did not come with a config to change.
+> All The Mods | [GitHub](https://github.com/AllTheMods) | [Discord](https://discord.com/invite/allthemods)

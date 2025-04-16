@@ -5,7 +5,7 @@ description: Get the right Java you need!
 
 # Java
 
-### Java Versions
+## Java Versions
 
 |  Minecraft  |                                                                Download Page                                                                 |          Linux Shell Command          |
 |:-----------:|:--------------------------------------------------------------------------------------------------------------------------------------------:|:-------------------------------------:|
@@ -22,32 +22,35 @@ On the download page sort for your **Operating System** and your **Architecture*
 
 ---
 
-### Java Arguments
+## Java Arguments
 
 These can help both server and client with performance in,
 
 - Reducing Ram Usage. (_GC will clean up more efficiently_)
 - Reduced Lag Spikes. (_GC will clean more frequently, reducing large lag spikes_)
 
----
-
-#### Client Arguments
+### Client Arguments
 
 These can be set in your **Launcher**
 
-??? Info "Curseforge Launcher"
+??? question "Curseforge Launcher"
     If you're using the Curseforge Launcher, open your **Settings**, choose **Minecraft** and scroll down to these Settings. 
     ![](img/CurseforgeJVM.png)
 
-``` title="Java 8-11 Client Arguments"
--XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis=200 -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC -XX:+AlwaysPreTouch -XX:G1NewSizePercent=30 -XX:G1MaxNewSizePercent=40 -XX:G1HeapRegionSize=32M -XX:G1ReservePercent=20 -XX:G1HeapWastePercent=5 -XX:G1MixedGCCountTarget=4 -XX:InitiatingHeapOccupancyPercent=15 -XX:G1MixedGCLiveThresholdPercent=90 -XX:G1RSetUpdatingPauseTimePercent=5 -XX:SurvivorRatio=32 -XX:+PerfDisableSharedMem -XX:MaxTenuringThreshold=1 -Dusing.aikars.flags=https://mcflags.emc.gs -Daikars.new.flags=true://mcflags.emc.gs -Daikars.new.flags=true
+??? question "ATLauncher"
+    Open your pack **Settings**, click **Java/Minecraft** and put your args into the big `Java Parameters` box. 
+    ![](img/javaAT1.png)
+    ![](img/javaAT2.png)
+
+``` title="Default Java 8-11 Client Arguments"
+-XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis=200 -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC -XX:+AlwaysPreTouch -XX:G1NewSizePercent=30 -XX:G1MaxNewSizePercent=40 -XX:G1HeapRegionSize=32M -XX:G1ReservePercent=20 -XX:G1HeapWastePercent=5 -XX:G1MixedGCCountTarget=4 -XX:InitiatingHeapOccupancyPercent=15 -XX:G1MixedGCLiveThresholdPercent=90 -XX:G1RSetUpdatingPauseTimePercent=5 -XX:SurvivorRatio=32 -XX:+PerfDisableSharedMem -XX:MaxTenuringThreshold=1 -Dusing.aikars.flags=https://mcflags.emc.gs -Daikars.new.flags=true
 ```
 
-``` title="Java 17+ Client Arguments"
+``` title="Default Java 17+ Client Arguments"
 -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M
 ```
 
-```title="Java 21 Client Arguments | Default"
+```title="Default Java 21 Client Arguments "
 -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M
 ```
 
@@ -57,15 +60,16 @@ These can be set in your **Launcher**
 
 ---
 
-#### Server Arguments
+### Server Arguments
 
 These are set in the `user_jvm_args.txt` file in your server folder
 
-```title="Java Server Arguments | Default JVM arguments Shipped with our server packs"
--Xms4G -Xmx6G -XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis=200 -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC -XX:+AlwaysPreTouch -XX:G1NewSizePercent=30 -XX:G1MaxNewSizePercent=40 -XX:G1HeapRegionSize=8M -XX:G1ReservePercent=20 -XX:G1HeapWastePercent=5 -XX:G1MixedGCCountTarget=4 -XX:InitiatingHeapOccupancyPercent=15 -XX:G1MixedGCLiveThresholdPercent=90 -XX:G1RSetUpdatingPauseTimePercent=5 -XX:SurvivorRatio=32 -XX:+PerfDisableSharedMem -XX:MaxTenuringThreshold=1 
+```title="Default Java Server Arguments"
+-Xms4G -Xmx6G -XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis=200 -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC -XX:+AlwaysPreTouch -XX:G1NewSizePercent=30 -XX:G1MaxNewSizePercent=40 -XX:G1HeapRegionSize=8M -XX:G1ReservePercent=20 -XX:G1HeapWastePercent=5 -XX:G1MixedGCCountTarget=4 -XX:InitiatingHeapOccupancyPercent=15 -XX:G1MixedGCLiveThresholdPercent=90 -XX:G1RSetUpdatingPauseTimePercent=5 -XX:SurvivorRatio=32 -XX:+PerfDisableSharedMem -XX:MaxTenuringThreshold=1
 ```
 
 ```title="Java Server Arguments | For fast CPUs with 4+ cores & lots of ram (8-12GB), try ZGC:"
--Xms8G -Xmx12G -XX:+UseZGC -XX:+ZGenerational -XX:SoftMaxHeapSize=6g -XX:+DisableExplicitGC -XX:+AlwaysPreTouch -XX:+PerfDisableSharedMem -XX:+UseDynamicNumberOfGCThreads
+-Xms8G -Xmx12G -XX:+UseZGC -XX:+ZGenerational -XX:SoftMaxHeapSize=10g -XX:+DisableExplicitGC -XX:+AlwaysPreTouch -XX:+PerfDisableSharedMem -XX:+UseDynamicNumberOfGCThreads
 ```
 
+> All The Mods | [GitHub](https://github.com/AllTheMods) | [Discord](https://discord.com/invite/allthemods)

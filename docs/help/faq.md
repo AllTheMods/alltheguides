@@ -17,7 +17,7 @@ This FAQ is put into 3 sections.
 
 - **Instance**: The specific modpack or profile folder in question.
 - **Arguments**: Commands/Flags used with Java to help with performance (Most Garbage Collection).
-- **Allocate**: The amount of ram assigned to minecraft. _By default it's always set to 4Gb or lower, and some modpack requires more._
+- **Allocate**: The amount of ram assigned to minecraft. _By default it's always set to 4GB or lower, some modpack requires more._
 
 ---
 
@@ -32,9 +32,8 @@ This FAQ is put into 3 sections.
 
 ### Failed To Authenticate
 
-??? Info
-
-    Authentication errors can be caused by numerous reasons. TL;TD here's some things you can try/check.
+??? question
+    Authentication errors can be caused by numerous reasons. Here are some things you can try/check.
 
     - Re-authenticate your account by logging out and back within your launcher.
     - Restart launcher.
@@ -43,13 +42,13 @@ This FAQ is put into 3 sections.
     - IPv6 issues. 
         - Setting this Java argument to force IPv4 `-Djava.net.preferIPv4Stack=true`
         - Disabling "Internet Protocol Version 6 (TCP/IPv6)" in/on Adapter Settings in Network and Sharing Center.
-    - Flushing DNS > Command Prompt > `ipconfig /flushdns`
-    - Firewall / DDoS protection (Modded MC can potentially flood network with packets considering to be an attack and blocking a specific server ip/inbound connections).
+    - Flushing DNS:
+		- Open **Command Prompt**  and type `ipconfig /flushdns`
+    - Firewall / DDoS protection (Modded MC can potentially flood network with packets considering to be an attack and blocking a specific server ip or inbound connections).
 
 ### Modpack Crashes (At Beginning)
 
-??? Info
-
+??? question
     Crashes can be caused by numerous of reasons, which can be frustrating to figure out exactly why you're crashing.
 
     - Check within launcher/instance settings there's enough ram allocated. (**8GB** / **8,192MB**). No more than (**12GB** / **12,288MB**).
@@ -60,7 +59,7 @@ This FAQ is put into 3 sections.
         - If **NVidia**,
             - Go to **NVidia Control Panel**, Update Driver and go to **3D Settings**.
             - Select **Program Settings** tab, and click **Add**
-            - **Sort By** by **Recently Used**, and select **Java**. :material-information-outline:{ title="OpenJDK, Adoptium, Amazon Corretto, Microsoft Java, Eclipse Temurin, GraalVM, Adoptium" }
+            - **Sort By** by **Recently Used**, and select **Java**. :material-questionrmation-outline:{ title="OpenJDK, Adoptium, Amazon Corretto, Microsoft Java, Eclipse Temurin, GraalVM, Adoptium" }
     - Repair Installation, and or delete **Minecraft** / **Forge** `libraries` folder.
         - **CurseForge**: `%USERPROFILE%\curseforge\minecraft\Install`
     - Repair Configs
@@ -73,8 +72,7 @@ This FAQ is put into 3 sections.
 
 ### World Crashing (Before / After)
 
-??? Info
-
+??? question
     Crashing worlds can suck. Some of the most common, if non of the above fixed the issue.
     
     - Corrupted **Configs**
@@ -97,8 +95,7 @@ This FAQ is put into 3 sections.
 
 ### Ticking Entity Or Block
 
-??? Info
-
+??? question
     Ticking entities or blocks occurs by what they might've interacted with, loaded / done incorrectly, or perhaps even an un/known discovered bug. 
     
     Lucky there's a trick you _could_ do to possible fix this, if not manually.
@@ -134,6 +131,9 @@ This FAQ is put into 3 sections.
 
 ## Gameplay
 
-Visit the FAQ of your specific pack to view it's FAQ!
+??? Question "Can you make ATM ores minable by quarry?"
+    No. By design, fake players are not allowed to mine ATM ores. This ruins the purpose of the ore being obtained naturally, thus did not come with a config to change.
 
----
+Visit the pack specific FAQ for more FAQs!
+
+> All The Mods | [GitHub](https://github.com/AllTheMods) | [Discord](https://discord.com/invite/allthemods)
