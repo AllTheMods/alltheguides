@@ -65,7 +65,7 @@ The `Drygmy Henge` serves as the central point and inventory output for your Dry
 
 ### Functionality
 
-*   **Home Area:** A Drygmy considers its "home" to be a **10x10x10 block area** centered on its Henge. It will only interact with valid entities within this range.
+*   **Home Area:** A Drygmy considers its "home" to be a **21x21x21 block area** centered on its Henge. It will only interact with valid entities within this range.
 *   **Production Cycle:**
     1.  Drygmys associated with the Henge will periodically "channel" (perform a small dance animation) near valid entities within their home area.
     2.  Each successful channeling action contributes "progress" to the Henge.
