@@ -19,7 +19,7 @@ Users can also use the command `/spark profiler --only-ticks-over 100 --timeout 
 
 ---
 
-### [Observable](https://www.curseforge.com/minecraft/mc-mods/observable)
+### [Observable](https://legacy.curseforge.com/minecraft/mc-mods/observable)
 
 Observable has the same permission requirements, but users need to set a keybind in their Keybinds settings to open the UI, from there click the profile TPS button and wait for it to complete, then depending on the mc version, you will either get a url, or an in-game table listing what blocks/entities are costing the most TPS, it will also visually highlight blocks with a spectrum color coding from **Green** to **Red**, with things colored in red generally being the worst for performance.
 
@@ -29,7 +29,7 @@ Observable is an in-game profiler that can be used by anyone (1.20+, enabled by 
 
 By default, **Crash Utilities** comes with most of our packs, though one feature **Item Clear** is disabled. It's a very handy feature to have enabled with packs containing farms and automation to prevent massive entity leaks, which causes lag & crashes. This can keep your server entity count low for better performance.
     
-To enable, locate and open `world/serverconfigs/crashutilities-server.toml`. Very top section, set `enabled` to `true`. The `timer` is the amount of time in minutes entities will be checked, followed by an Item Clear chat announcement when the entities goes over the `maximum` threshold.
+To enable, locate and open `world/serverconfigs/crashutilities-server.toml`. Very top section, set `enabled` to `true`. The `timer` is the amount of time in **minutes** entities will be checked, followed by an Item Clear chat announcement when entities go over the `maximum` threshold.
 
 !!! Warning "When editing configs, please make sure server / client is not running"
 
@@ -63,7 +63,7 @@ To enable, locate and open `world/serverconfigs/crashutilities-server.toml`. Ver
     ``` title="Entities List"
     /cu entities list
     ```
-    ``` title="Item Clear (Must Be Enabled)"
+    ``` title="Item Clear (Must Be Enabled in config)"
     /cu callItemClear
     ```
     ``` title="Teleport Player To Spawn (Even Offline Player(s))"
@@ -73,4 +73,4 @@ To enable, locate and open `world/serverconfigs/crashutilities-server.toml`. Ver
     /cu inventory <name>
     ```
 
-
+> All The Mods | [GitHub](https://github.com/AllTheMods) | [Discord](https://discord.com/invite/allthemods)

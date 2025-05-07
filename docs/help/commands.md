@@ -25,36 +25,6 @@ description: Known useful commands for most of ATM servers
         /clear
         ```
 
-??? Info "Corail Tombstone"
-    ## Corail Tombstone
-    === "Player Commands"
-        ```title="Knowledge GUI"
-        /tbgui
-        ```
-        ```title="Request Teleport To Player"
-        /tbrequestteleport <name>
-        ```
-        ```title="Teleport Binding (Like /sethome)"
-        /tbbind set 1-5
-        /tbbind teleport 1-5
-        ```
-        ```title="Teleport to death position"
-        /tbteleport death
-        ```
-    === "Admin Commands"
-        ```title="Modify Knowledge Points"
-        /tbknowledge
-        ```
-        ```title="Restore Graves"
-        /tbrestoreinventory
-        ```
-        ```title="Get last graves coordinates"
-        /tbshowlastgraves
-        ```
-        ```title="Restore Graves From Player Backups"
-        /tbrcovery
-        ```
-
 ??? Info "Spark"
     ## Spark
     === "Player Commands"
@@ -133,7 +103,7 @@ description: Known useful commands for most of ATM servers
 ??? Info "Crash Utilities"
     ## Crash Utilities
     === "Admin Commands"
-        ```title="Clear Entities (Must be enabled)"
+        ```title="Clear Entities (Must be enabled in configs)"
         /cu callItemClear
         ```
         ```title="Get world entities list"
@@ -152,4 +122,34 @@ description: Known useful commands for most of ATM servers
     === "Admin Commands"
         ```title="MahouSet Morgan Damage"
         /mahouset morgan @p 5000000
+        ```
+
+??? Info "Corail Tombstone"
+    ## Corail Tombstone
+    === "Player Commands"
+        ```title="Knowledge GUI"
+        /tbgui
+        ```
+        ```title="Request Teleport To Player"
+        /tbrequestteleport <name>
+        ```
+        ```title="Teleport Binding (Like /sethome)"
+        /tbbind set 1-5
+        /tbbind teleport 1-5
+        ```
+        ```title="Teleport to death position"
+        /tbteleport death
+        ```
+    === "Admin Commands"
+        ```title="Modify Knowledge Points"
+        /tbknowledge
+        ```
+        ```title="Restore Graves"
+        /tbrestoreinventory
+        ```
+        ```title="Get last graves coordinates"
+        /tbshowlastgraves
+        ```
+        ```title="Restore Graves From Player Backups"
+        /tbrcovery
         ```

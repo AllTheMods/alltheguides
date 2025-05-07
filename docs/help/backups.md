@@ -24,9 +24,15 @@ authors:
 
 ## Restoring a World Backup 
 
-**SimpleBackups** is a mod included in the client version of ATM, but *NOT* included in the server version of ATM. You must add it yourself or use your server host's built-in options. 
+???+ note
+	**SimpleBackups** is the backup mod included in the client and server versions of ATM, however it is not enabled by default in the server version of ATM. You must enable it yourself or use your server host's built-in options.
+	
+	??? question "How do I enable **Simplebackups** in the server version?"
+		Go to your `mods` folder and rename `SimpleBackups.jar.DISABLED` to remove the `.DISABLED` file extension
 
-By default, it will save to `packInstall/simplebackups` with a zip file with your world's name. You can configure how often it does a backup at `/configs/simplebackups-common.toml`. **Default Interval**: Every 2 hours (120 minutes).
+By default, backups will save to `packInstall/simplebackups` with a zip file with your world's name and a timestamp. You can configure how often it does a backup at `/configs/simplebackups-common.toml`. 
+
+**Default Interval**: Every 2 hours (120 minutes).
 
 ### ATLauncher
 
@@ -35,7 +41,7 @@ By default, it will save to `packInstall/simplebackups` with a zip file with you
 ![](img/backupsAT1.png)
 3. **Copy** the zip file of the backup you want to restore **to your** `saves` **folder**.
 4. Go to your `saves` folder and **delete** the world you want to restore
-5. Open the zip file, then **drag** the folder inside, out to your `saves` folder. **Delete** the zip file
+5. Open the zip file of the world you want to restore, then **drag** the folder inside, out to your `saves` folder.
 !!! failure "If the restore was unsuccessful, you may need to try an older backup before the issue occurred"
 
 ### CurseForge

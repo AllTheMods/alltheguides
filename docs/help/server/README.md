@@ -68,10 +68,10 @@ Once it says **Dedicated server took xx seconds to load** you're good to go and 
 ???+ Warning
     Many guides tell you to edit `server-ip` or `server-port`. In most cases you **DO NOT** need to edit these, especially `server-ip`. This can prevent your server from starting.
 
-??? Note "There's no `startserver.bat/sh` script?"
-    Install **Forge** first,
+??? Note "No `startserver.bat/sh` script?"
+    Install **NeoForge** first,
 
-    - `java -jar forge-installer*.jar --installServer`
+    - `java -jar neoforge-installer*.jar --installServer`
     - You will then instead `run.bat/sh` to start server.
 
     ??? Tip "There's no `run.bat/sh`?"
@@ -97,8 +97,8 @@ Once it says **Dedicated server took xx seconds to load** you're good to go and 
 
 Most server host has a one-click server installer you can use, otherwise
 
-- If possible, setup a fresh **Forge** server based on the current **Forge** version of the pack.
-    - If host has no **Forge** installer, read [Server Host Custom Jar](#server-host-custom-jar)
+- If possible, setup a fresh **NeoForge** server based on the current **NeoForge** version of the pack.
+    - If host has no **NeoForge** installer, read [Server Host Custom Jar](#server-host-custom-jar)
 - Upload extracted **Server-Files** to host, via **FTP** or **STFP**.
     - To connect to **FTP**/**SFTP**, you could use a client like [FileZilla](https://filezilla-project.org/).
     - If there's no **FTP**/**SFTP**, you may be able to upload the **Server-Files** zip, and extract on server host via their online **File Manager**.
@@ -112,7 +112,7 @@ If server host requires a `.jar` file, later **Forge** versions cannot be ran di
 
 - Download [ServerStarter](https://github.com/BloodyMods/ServerStarter/releases) jar, then upload to main server folder. Use this as the custom jar.
 	- Use [neoforged/ServerStarterJar](https://github.com/neoforged/ServerStarterJar) for NeoForge and Forge 1.17 and earlier.
-- Download pack **Server-Files** from **CurseForge**, extract, and upload **ALL** to main server folder.
+- Download pack **Server-Files** from **[CurseForge](https://legacy.curseforge.com/members/atmteam/projects)**, extract, and upload **ALL** to main server folder.
 - Create a file named `server-setup-config.yaml`, and copy / paste the config example below.
 
 Modifiy config for pack if necessary, specifically the `mcVersion` and `loaderVersion`, and place config in server root then start server as normal.
@@ -173,12 +173,12 @@ Updating ATM servers is pretty simple. There's 3 ways you can accomplish this.
 ### **Manually** (2 methods)
 
 1. Backup any modified configs or kubejs scripts, _if any_, to be replaced later.
-    - Download **Server Files** from **CurseForge**
+    - Download **Server Files** from **[CurseForge](https://legacy.curseforge.com/members/atmteam/projects)**
     - Delete `kubejs`, `defaultconfigs`, `mods`, and `config` folder from the old installation.
-    - If server forge version is different, delete `libraries` folder, and copy over new `startserver.bat/sh`, & `forge-installer.jar` _if exists_.
+    - If server forge version is different, delete `libraries` folder, and copy over new `startserver.bat/sh`, & `neoforge-installer.jar` _if exists_.
     - Extract the deleted folders from **Server Files** into your server folder.
 
-2. Download **Server Files** from **CurseForge**.
+2. Download **Server Files** from **[CurseForge](https://legacy.curseforge.com/members/atmteam/projects)**.
     - Extract **Server Files** to a new folder.
     - Copy `world`, `local` folder, `server.properties`, & `eula.txt` to new server folder.
     - If `journeymap` folder exist, copy over aswell.
