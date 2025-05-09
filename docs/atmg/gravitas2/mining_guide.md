@@ -175,7 +175,6 @@ Before you have a reliable supply of metal for prospecting tools, or if you're s
 *   **Required Tool:** `Ceramic Pan` (Knap from `Clay` and fire in a `Pit Kiln`).
 *   **Process:**
     1.  Locate **`Ore Deposits`**. These appear as distinct blocks within gravel patches, typically found at the bottom of freshwater lakes and rivers. Deposits can be for `Native Copper`, `Native Silver`, `Native Gold`, or `Cassiterite` (Tin).
-        ![Ore Deposit Example](../img/gravitas2/ore_deposit_panning.png) <!-- Placeholder -->
     2.  With the `Ceramic Pan` in hand, ++rbutton++ the `Ore Deposit` block to collect material into your pan.
     3.  Stand in water (at least one block deep) with the filled pan selected and hold ++rbutton++. Your character will perform a panning animation.
     4.  After a few moments, you may be rewarded with one of the following in your inventory:
