@@ -323,7 +323,7 @@ Understanding the different fire sources and their upgrades is key to technologi
 *   **Food Preparation:**
     1.  `Campfire` / `Fire Pit` (Basic cooking)
     2.  `Fire Pit` + `Ceramic Pot` (Soups, boiling)
-    3.  `Grill` (Fire Pit Upgrade) / `Oven` (e.g., Firmalife Oven - Fire Pit Upgrade, if available)
+    3.  `Grill` (Fire Pit Upgrade) / `Oven` (e.g., Firmalife Oven - Fire Pit Upgrade)
     4.  `Create Smoking` / Smoker (Food preservation, later game)
 *   **Charcoal & Other Materials:**
     1.  `Pit Kiln` (Firing `Clay`, first `Charcoal`)
