@@ -1,6 +1,6 @@
 ---
-title: Chapter 1 - First Steps into Gravitas²
-description: A Beginner's Guide to Surviving and Thriving in Gravitas² - Chapter 1
+title: First Steps into Gravitas²
+description: A Beginner's Guide to Surviving and Thriving in Gravitas²
 authors:
  - Xannaeh
 ---
