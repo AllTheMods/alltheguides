@@ -71,6 +71,7 @@ With enough `Pebbles` (of the same rock type) and `Sticks` or `Twigs`, you are r
 ## Finding a Suitable Home
 
 Choosing a good location for your base is crucial for long-term survival. Look for an area that meets the following criteria:
+
 *   **Temperature:** Ideally above 10°C to avoid freezing and allow for a wider range of farming.
 *   **Rainfall:** A decent amount of rainfall (e.g., >175mm annually) is necessary for crops and often indicates more `Clay`.
 *   **Water Access:** It's highly recommended to live near a freshwater source like a `River` or `Lake`. Proximity to a `River` that flows into an `Ocean` is even better, providing easy access to diverse biomes and travel routes.
@@ -94,10 +95,33 @@ Getting around can be challenging, but there are ways to make it easier.
 
 ---
 
+
+## Food, Water, and Nutrition
+
+### Hunger, Saturation, Nutrition
+
+*There are 5 nutrients (`Fruit`, `Vegetables`, `Protein`, `Grain`, `Dairy`), keep them maxed out for max health! `Protein` makes up a lot of your HP.*
+*   **Eating 101:** Kill an animal (e.g., with your `Javelin`) or throw your `Javelin` at some `Fish` in a `River` to get some early `Protein`.
+
+### Thirst & Water Management
+
+*As described previously. Avoid `Salt Water`!*
+*   **`Ceramic Jug`:** Knap and fire a `Clay Jug` to carry `Fresh Water` (holds 100 mB).
+*   **Drinking While Raining:** If it's raining, you can drink directly from the sky. Look straight up and stop moving; your thirst bar will gradually refill.
+*   **Ocean Temple Water (Very Risky):** If desperate for fresh water at sea, the water around ocean monuments is sometimes drinkable. This is extremely dangerous due to guardians.
+*   **`Wooden Bucket`:** Can carry `Water` but **cannot place water source blocks**.
+*   **`Barrel` for Water:**
+    *   You can fill a `Barrel` with `Water` and use it to fill your `Jug` anywhere.
+    *   If carrying a filled `Barrel`, put it in your back slot to avoid `Exhaustion`.
+*   **`Leather Flask`:** A much better water container (holds more than a jug), made from `Leather` and an animal `Bladder` (low chance drop when butchering animals).
+
+---
+
 ## Foraging Wild Edibles & Early Farming Introduction
 
 ### Foraging
 Sustenance is key. While traveling, you'll find various types of food.
+
 *   **Tools for Foraging:** Most wild crops and food items can be collected using a `Stone Knife` or `Stone Hoe`.
 *   **Fruit Trees:** If you find a fruit tree:
     1.  First, harvest fruit from branches (often by breaking the leaf blocks or branches themselves). This also gives a chance for saplings.
@@ -107,6 +131,7 @@ Sustenance is key. While traveling, you'll find various types of food.
 
 ### Farming - Bare Necessities
 Farming in TFC has similarities to vanilla Minecraft but with added complexities.
+
 *   **Hydration:** Plants still need water. However, different plants need different levels of hydration; they can be under-watered or over-watered.
     *   **Hydration Levels:** Farmland hydration is shown on the top of the screen (if a compatible HUD mod is present) or can be inferred. Levels decrease the farther away farmland is from a water source block (in squares).
         *   1st square (adjacent to water): ~100-91%
@@ -125,12 +150,14 @@ Farming in TFC has similarities to vanilla Minecraft but with added complexities
 
 ### Moving Water with Aqueducts (Early Irrigation)
 Why be stuck farming only next to rivers? You can move water with `Aqueducts`.
+
 *   **Usage:** Place `Aqueducts` at the same Y-level as a water source block (like a river or stream).
 *   The `Aqueduct` can then bring water horizontally to your farm plots. It cannot move water upwards without more advanced technology.
 *   You can fill `Buckets` (once you have them) by interacting with a water-filled `Aqueduct`.
 
 ### Early Food Preservation Techniques
 While more advanced methods come later, some early steps can help:
+
 *   **Vessels:** Sealing food in `Large Ceramic Vessels` (or keeping it in `Small Ceramic Vessels`) applies the "Preserved" status, doubling its remaining lifetime.
 *   **Cooking:** Cooking `Meats` makes them last longer than raw. Using a `Firepit` or `Grill` can provide a slight preservation buff compared to hotter devices like a `Forge`.
 *   **Drying (Basic):**
@@ -149,11 +176,13 @@ While more advanced methods come later, some early steps can help:
 Securing a renewable food source is vital.
 
 ### Farming Basics
+
 1.  **Prepare Farmland:** Use a `Hoe` on grass or dirt to create farmland.
 2.  **Soil Information:** Once the soil is tilled, you can ++shift++ + ++rbutton++ with an empty hand to check its nutrient levels, hydration, and temperature.
 3.  **Planting:** Different `Crops` have different requirements. Plant seeds appropriate for your environment.
 
 ### Beekeeping Basics
+
 `Beehives` house bees and require `Beehive Frames`. Removing frames from an active hive will cause bees to attack unless done at **night** or with an active `Firepit` underneath the hive.
 *   **Attracting Bees:**
     *   A hive needs at least 10 `Flowers` within a 5-block radius for a chance to attract a `Queen Bee` to an empty frame. Bee particles indicate this attempt.
@@ -165,6 +194,7 @@ Securing a renewable food source is vital.
     *   Being wet (e.g., standing in water) can prevent bees from attacking you.
 
 ### Beekeeping
+
 Bees are incredibly useful for pollinating your crops (increasing yields) and providing resources like `Honey` and `Honeycomb`. `Honeycomb` is also used for `Treated Lumber` (important for Create mod progression).
 1.  **Craft `Beehive Frames`:** Used to craft `Beehives`.
 2.  **Craft `Wooden Beehive`:** Requires `Beehive Frames` and `Lumber`.
@@ -183,9 +213,11 @@ Bees are incredibly useful for pollinating your crops (increasing yields) and pr
 ## Early Crafting Stations & Building
 
 ### Workbench / Crafting Table
+
 *   The TFC `Workbench` acts like a standard crafting table but is required for some TFC recipes. You'll need a `Saw` (made from metal like `Copper`) to make `Lumber` for it.
 
 ### Building Your First Shelter
+
 Once you've found a place to settle, you'll need a house.
 *   **Non-Gravity Building Blocks:**
     *   **`Thatch`:** Craft `Straw` into `Thatch` blocks. Lightweight, not affected by gravity, but players/mobs can pass through it.
@@ -201,11 +233,14 @@ Once you've found a place to settle, you'll need a house.
 ---
 
 ## Mastering Fire
+
 ### Creating Fire: The Firestarter
+
 1.  **Crafting:** With two `Sticks`, make a `Firestarter`.
 2.  **Usage:** Hold ++rbutton++ (or ++shift++ + ++rbutton++, try both if one doesn't work) on a flammable block (like the top of a `Firepit` or `Pit Kiln` pile). It may take a few tries.
 
 ### The Firepit: Your First Cooking Station
+
 1.  **Gather Materials:**
     *   1 `Log`
     *   3 `Sticks`
@@ -213,6 +248,7 @@ Once you've found a place to settle, you'll need a house.
 2.  **Construction:** Throw (default `Q`) all items onto the same block on the ground. Then, use the `Firestarter` on the block with the items floating above it.
 
 ### Firepit Uses & Mechanics
+
 *   **Torches:** Heating `Sticks` in a `Firepit` produces two `Torches`. They **Burn Out** and need re-lighting with a `Firestarter` or another lit `Torch`.
 *   **Cooking:** Cook raw `Meats` and `Doughs` in the `Firepit` to make them edible and extend their shelf life.
 *   **Interface:** Fuel on left, heating slot on right, temperature gauge.
@@ -223,6 +259,7 @@ Once you've found a place to settle, you'll need a house.
     *   To remove these upgrades, ++shift++ + ++rbutton++ with an empty hand. (Be careful if they are hot!)
 
 ### Firepit and Pot (Early Cooking Device)
+
 *   A `Ceramic Pot` (knapped from `Clay` and fired in a `Pit Kiln`) can be added to a `Firepit`.
 *   **Interface:** Has 5 item slots and holds 1000mB of fluid.
 *   **Usage:** Add fluid (e.g., `Water` from a `Jug` or `Bucket`) and ingredients, then light the `Firepit`.
@@ -230,6 +267,7 @@ Once you've found a place to settle, you'll need a house.
 *   **Other Recipes:** Can be used for simple recipes like making `Lye` from `Ash` and `Water`.
 
 ### Firepit and Grill (Early Cooking Device)
+
 *   A `Wrought Iron Grill` (worked from `Wrought Iron Double Sheets` on an `Anvil` - a copper-era item) can be added to a `Firepit`.
 *   Cooks up to 5 items at once and can give the "Wood Grilled" trait, improving food preservation slightly.
 
@@ -238,9 +276,11 @@ Once you've found a place to settle, you'll need a house.
 ## The Pit Kiln & Charcoal Production
 
 ### The Pit Kiln: Firing Pottery & Melting Ores
+
 A `Pit Kiln` is an early-game method for high-temperature heating. It's used to fire `Clay` items into `Ceramic` and to melt your first `Ores`. A `Pit Kiln` burns for about **8 in-game hours**, slowly heating its contents up to 1400 °C (Yellow White heat).
 
 **Building a Pit Kiln:**
+
 1.  Dig a 1x1 hole in the ground.
 2.  Place up to four items you want to fire into the hole (use `V` key by default, or ++rbutton++). Can hold up to 4 small items (like `Molds`) or one large item (like a `Vessel` for ore melting).
 3.  Use eight `Straw` on the hole, clicking until the items are covered.
@@ -248,7 +288,9 @@ A `Pit Kiln` is an early-game method for high-temperature heating. It's used to 
 5.  Light the top of the `Pit Kiln` pile on fire with your `Firestarter` or `Torch`.
 
 ### Charcoal Production
+
 `Charcoal` is a more efficient fuel than `Logs` for many processes.
+
 1.  **`Log Piles` to `Charcoal`:**
     *   ++shift++ + ++rbutton++ with `Logs` on the ground to place down `Log Piles` (each holds 16 logs).
     *   Dig a 1-block deep hole (any size).
@@ -258,6 +300,7 @@ A `Pit Kiln` is an early-game method for high-temperature heating. It's used to 
     *   In a few minutes (listen for the process to complete), the `Log Piles` will turn into `Charcoal`.
 
 ---
+
 ## Fire & Smelting Progression Paths
 
 Understanding the different fire sources and their upgrades is key to technological advancement:
@@ -298,12 +341,14 @@ Understanding the different fire sources and their upgrades is key to technologi
 `Copper` is the first metal for proper tools.
 
 ### Finding Copper
+
 *   Look for small `Copper Ore` pieces on the surface (`Native Copper`, `Malachite`, `Tetrahedrite` are sources of `Copper`).
 *   **Mark Your Finds:** It's crucial to mark the location of these surface ores on your map. Even if you don't collect the small pieces immediately, they indicate a larger ore vein nearby. You're going to need a lot of ore!
 *   **Tip:** `Copper` can be a pain to find. Wander until you find **Light Surface Rocks**; these areas are more likely to spawn `Malachite`, which smelts into `Copper`.
 *   You'll need about 9-10 small `Copper Ore` pieces (yielding 100 mB of metal total) to fill one tool mold. ++shift++ while hovering over `Pebbles`/`Ores` often tells you how much metal they yield.
 
 ### Casting Your First Copper Tools (e.g., Pickaxe)
+
 1.  **Collect Ores & Prepare Vessel:** Gather enough `Copper Ores` and place them inside an unfired `Small Clay Vessel`.
 2.  **Fire Mold:** Separately, knap and fire a `Clay Pickaxe Head Mold` (and ideally a `Prospector's Pick Mold` too!) in a `Pit Kiln`.
 3.  **Melt Ores:** Place the `Small Clay Vessel` containing the `Copper Ores` into a `Pit Kiln` and fire it. The `Ores` will melt, and the `Clay Vessel` will become a `Ceramic Vessel` containing molten `Copper`.
@@ -317,6 +362,7 @@ Understanding the different fire sources and their upgrades is key to technologi
 ---
 
 ## Safety First: Mining
+
 *   **Cave-ins are real!** Mining is dangerous as caves can collapse and kill you.
 *   **`Support Beams`:** To prevent cave-ins, use `Support Beams` (made from `Lumber` once you have a `Saw`).
     *   They must be placed correctly (often in a frame structure, not just single vertical beams). Place them on solid, non-gravity blocks like `Planks` or sturdy stone.
@@ -342,16 +388,19 @@ The `Anvil` is crucial for metalworking beyond basic casting. It's how you progr
 *   **Upgrading to `Bronze`:** Your first alloy, significantly better than `Copper`. Common bronze is made by combining `Copper` with `Tin` (usually 88-92% Copper, 8-12% Tin). Other variants include `Bismuth Bronze` and `Black Bronze`. Alloys are made by melting the constituent metals together in the correct proportions in a `Crucible` or a `Ceramic Vessel` in a high-temp fire.
 
 ---
+
 ## Storage and Inventory Management
 
 ### Item Size and Weight & Overburdening
 *As described previously. Remember: Huge + Very Heavy items = Exhaustion! Store them ASAP or wear appropriate gear (like a `Large Vessel` on your back).*
 
 ### Log Piles
+
 *   ++shift++ + ++rbutton++ with `Logs` on the ground to place down a `Log Pile`.
 *   Can hold 16 `Logs`. Used for storage or to make `Charcoal`.
 
 ### Vessels - They're OP!
+
 *   **`Small Ceramic Vessel`:** After firing, these can store **Small** or smaller items (e.g., `Pebbles`, `Ores`, `Food` items). Essential for exploration and early ore melting.
 *   **`Large Ceramic Vessel`:** Knap `Clay` into a `Large Vessel` and fire it.
     *   Stores **Normal** or smaller items (up to 9 stacks according to quests, and can hold other `Vessels`).
@@ -360,34 +409,15 @@ The `Anvil` is crucial for metalworking beyond basic casting. It's how you progr
     *   **Cooking Hack:** If you put raw `Meat` in an unfired `Clay Vessel` and then fire the `Vessel` in a `Pit Kiln`, it will cook everything inside!
 
 ### Chests
+
 *   Once you have metal tools (like a `Saw` for `Lumber`), you can craft `Chests`.
 *   They have one less row than a vanilla Minecraft chest but are vital storage.
 *   Can hold up to **Medium** sized items.
 *   Can be placed next to each other for a double chest.
 
 ### Tool Racks
+
 *   Craftable from `Lumber`. Allows you to store your tools on a wall, freeing up inventory.
-
----
-
-## Food, Water, and Nutrition
-
-### Hunger, Saturation, Nutrition
-*As described previously. Remember the 5 nutrients (`Fruit`, `Vegetables`, `Protein`, `Grain`, `Dairy`) for max health! `Protein` makes up a lot of your HP.*
-*   **Eating 101:** Kill an animal (e.g., with your `Javelin`) or throw your `Javelin` at some `Fish` in a `River` to get some early `Protein`.
-
-### Thirst & Water Management
-*As described previously. Avoid `Salt Water`!*
-*   **`Ceramic Jug`:** Knap and fire a `Clay Jug` to carry `Fresh Water` (holds 100 mB).
-*   **Drinking While Raining:** If it's raining, you can drink directly from the sky. Look straight up and stop moving; your thirst bar will gradually refill.
-*   **Ocean Temple Water (Very Risky):** If desperate for fresh water at sea, the water around ocean monuments is sometimes drinkable. This is extremely dangerous due to guardians.
-*   **`Wooden Bucket`:** Can carry `Water` but **cannot place water source blocks**.
-*   **`Barrel` for Water:**
-    *   You can fill a `Barrel` with `Water` and use it to fill your `Jug` anywhere.
-    *   If carrying a filled `Barrel`, put it in your back slot to avoid `Exhaustion`.
-*   **`Leather Flask`:** A much better water container (holds more than a jug), made from `Leather` and an animal `Bladder` (low chance drop when butchering animals).
-
-
 
 ---
 
