@@ -94,8 +94,9 @@ Getting around can be challenging, but there are ways to make it easier.
 
 ---
 
-## Foraging Wild Edibles
+## Foraging Wild Edibles & Early Farming Introduction
 
+### Foraging
 Sustenance is key. While traveling, you'll find various types of food.
 *   **Tools for Foraging:** Most wild crops and food items can be collected using a `Stone Knife` or `Stone Hoe`.
 *   **Fruit Trees:** If you find a fruit tree:
@@ -103,6 +104,79 @@ Sustenance is key. While traveling, you'll find various types of food.
     2.  Then, you can cut down the trunk with an `Axe`.
     3.  **Important: DO NOT USE A SAW** on fruit trees if you want saplings and fruit. Use an `Axe`.
 *   **Bushes:** Collect berry bushes and other edible plants. You can replant these later at your base.
+
+### Farming - Bare Necessities
+Farming in TFC has similarities to vanilla Minecraft but with added complexities.
+*   **Hydration:** Plants still need water. However, different plants need different levels of hydration; they can be under-watered or over-watered.
+    *   **Hydration Levels:** Farmland hydration is shown on the top of the screen (if a compatible HUD mod is present) or can be inferred. Levels decrease the farther away farmland is from a water source block (in squares).
+        *   1st square (adjacent to water): ~100-91%
+        *   2nd square: ~90-71%
+        *   3rd square: ~70-51%
+        *   4th square: ~50-31% (often the base hydration without adjacent water).
+*   **Temperature:** This is unique to TFC and crucial for plant survival. If it's too warm or too cold for a specific crop, it can die.
+    *   Check the TFC Guidebook for the required temperature range for each plant.
+    *   You can roughly check area temperature with F3, or by observing if newly planted crops die instantly.
+    *   **Factors affecting temperature:**
+        *   **Season and Time of Day:** Warmest in Summer and at Noon; coldest in Winter and at Midnight. Spring/Autumn are transitional.
+        *   **Y-Level:** Temperature generally decreases as you go higher above Y-Level 63. Below Y=63, it's relatively stable.
+        *   **Climate:** The TFC Climate (separate from biomes) is a major factor, affecting wild crop/animal spawns and local temperature.
+*   **No Trampling:** You can't break crops by jumping on them.
+*   **Initial Crops:** Look for wild versions of crops like `Wheat`, `Barley`, `Maize`, `Potato`, `Tomato`, etc. Break them (often with a `Knife` or `Hoe`) to get seeds and sometimes the food item.
+
+### Moving Water with Aqueducts (Early Irrigation)
+Why be stuck farming only next to rivers? You can move water with `Aqueducts`.
+*   **Usage:** Place `Aqueducts` at the same Y-level as a water source block (like a river or stream).
+*   The `Aqueduct` can then bring water horizontally to your farm plots. It cannot move water upwards without more advanced technology.
+*   You can fill `Buckets` (once you have them) by interacting with a water-filled `Aqueduct`.
+
+### Early Food Preservation Techniques
+While more advanced methods come later, some early steps can help:
+*   **Vessels:** Sealing food in `Large Ceramic Vessels` (or keeping it in `Small Ceramic Vessels`) applies the "Preserved" status, doubling its remaining lifetime.
+*   **Cooking:** Cooking `Meats` makes them last longer than raw. Using a `Firepit` or `Grill` can provide a slight preservation buff compared to hotter devices like a `Forge`.
+*   **Drying (Basic):**
+    *   **`Drying Mat`:** Crafted from `Fruit Leaves` (obtained from breaking leaves of Fruit Trees).
+    *   Place the `Drying Mat` in direct sunlight and ++rbutton++ to add an item (e.g., `Fruit`).
+    *   It takes about half a day to dry. Rain will reset the process. Dried foods often last longer.
+*   **Smoking (Basic Setup):**
+    *   **`Wool String` or `Plant Fiber String`:** Can be placed ( ++rbutton++ ) to hang items for smoking.
+    *   Hang `Meat` (must be `Brined` first - see advanced food chapter) or `Cheese` on the string above an active `Firepit` (within 4 blocks directly underneath).
+    *   The `Firepit` **must only be fueled with `Logs`**. Using impure fuels like `Peat` will ruin the food.
+    *   Takes about 8 in-game hours. Smoked foods have significantly extended shelf life.
+
+---
+## Agriculture: Planting Crops and Beekeeping
+
+Securing a renewable food source is vital.
+
+### Farming Basics
+1.  **Prepare Farmland:** Use a `Hoe` on grass or dirt to create farmland.
+2.  **Soil Information:** Once the soil is tilled, you can ++shift++ + ++rbutton++ with an empty hand to check its nutrient levels, hydration, and temperature.
+3.  **Planting:** Different `Crops` have different requirements. Plant seeds appropriate for your environment.
+
+### Beekeeping Basics
+`Beehives` house bees and require `Beehive Frames`. Removing frames from an active hive will cause bees to attack unless done at **night** or with an active `Firepit` underneath the hive.
+*   **Attracting Bees:**
+    *   A hive needs at least 10 `Flowers` within a 5-block radius for a chance to attract a `Queen Bee` to an empty frame. Bee particles indicate this attempt.
+    *   Having 4 empty `Beehive Frames` in a hive greatly increases the chances of bees moving in.
+*   **Honey Production:** Bees produce `Honey`. ++rbutton++ a hive visibly containing honey with an `Empty Jar` to get a `Honey Jar`. Opening it gives `Raw Honey` (a sugar substitute).
+*   **Beeswax (Early Use):** ++rbutton++ a filled frame in your inventory with a `Knife` to get `Beeswax`. This kills the queen in that frame, so be careful! `Beeswax` is crucial for making `Treated Lumber` (important for Create mod).
+*   **Bee Tips (from quest book):**
+    *   Bees can help fertilize planters.
+    *   Being wet (e.g., standing in water) can prevent bees from attacking you.
+
+### Beekeeping
+Bees are incredibly useful for pollinating your crops (increasing yields) and providing resources like `Honey` and `Honeycomb`. `Honeycomb` is also used for `Treated Lumber` (important for Create mod progression).
+1.  **Craft `Beehive Frames`:** Used to craft `Beehives`.
+2.  **Craft `Wooden Beehive`:** Requires `Beehive Frames` and `Lumber`.
+3.  **Setup Beehives:** Place your `Wooden Beehive`.
+4.  **Attract Bees:**
+    *   Bees have a chance to move into an empty hive with each passing day.
+    *   For the highest chance, have 4 `Beehive Frames` inside the hive at once.
+    *   Having a `Queen Bee` (if you find one) in the hive significantly helps.
+    *   This chance can also be increased by placing plenty of `Flowers` in a 5-block radius of the `Beehive`.
+5.  **Harvesting:**
+    *   **WARNING: DO NOT INTERACT WITH BEEHIVES DURING DAYTIME.** Bees are active and will attack.
+    *   Interact with hives at **night** when bees are sleeping to safely collect resources like `Honeycomb`.
 
 ---
 
@@ -127,7 +201,6 @@ Once you've found a place to settle, you'll need a house.
 ---
 
 ## Mastering Fire
-
 ### Creating Fire: The Firestarter
 1.  **Crafting:** With two `Sticks`, make a `Firestarter`.
 2.  **Usage:** Hold ++rbutton++ (or ++shift++ + ++rbutton++, try both if one doesn't work) on a flammable block (like the top of a `Firepit` or `Pit Kiln` pile). It may take a few tries.
@@ -148,6 +221,17 @@ Once you've found a place to settle, you'll need a house.
     *   **Grill:** Use a `Wrought Iron Grill` on the `Firepit` to convert it into a `Grill`.
     *   **Pot:** Use a `Ceramic Pot` on the `Firepit` to cook with a pot.
     *   To remove these upgrades, ++shift++ + ++rbutton++ with an empty hand. (Be careful if they are hot!)
+
+### Firepit and Pot (Early Cooking Device)
+*   A `Ceramic Pot` (knapped from `Clay` and fired in a `Pit Kiln`) can be added to a `Firepit`.
+*   **Interface:** Has 5 item slots and holds 1000mB of fluid.
+*   **Usage:** Add fluid (e.g., `Water` from a `Jug` or `Bucket`) and ingredients, then light the `Firepit`.
+*   **Soup:** A common early recipe. Made from 3-5 `Fruits`, `Vegetables`, or `Meats` in a pot of `Water`. When done, the water turns red. ++rbutton++ with a `Bowl` to retrieve `Soup`. Combines multiple nutrients.
+*   **Other Recipes:** Can be used for simple recipes like making `Lye` from `Ash` and `Water`.
+
+### Firepit and Grill (Early Cooking Device)
+*   A `Wrought Iron Grill` (worked from `Wrought Iron Double Sheets` on an `Anvil` - a copper-era item) can be added to a `Firepit`.
+*   Cooks up to 5 items at once and can give the "Wood Grilled" trait, improving food preservation slightly.
 
 ---
 
@@ -303,29 +387,7 @@ The `Anvil` is crucial for metalworking beyond basic casting. It's how you progr
     *   If carrying a filled `Barrel`, put it in your back slot to avoid `Exhaustion`.
 *   **`Leather Flask`:** A much better water container (holds more than a jug), made from `Leather` and an animal `Bladder` (low chance drop when butchering animals).
 
----
-## Agriculture: Planting Crops and Beekeeping
 
-Securing a renewable food source is vital.
-
-### Farming Basics
-1.  **Prepare Farmland:** Use a `Hoe` on grass or dirt to create farmland.
-2.  **Soil Information:** Once the soil is tilled, you can ++shift++ + ++rbutton++ with an empty hand to check its nutrient levels, hydration, and temperature.
-3.  **Planting:** Different `Crops` have different requirements. Plant seeds appropriate for your environment.
-
-### Beekeeping
-Bees are incredibly useful for pollinating your crops (increasing yields) and providing resources like `Honey` and `Honeycomb`. `Honeycomb` is also used for `Treated Lumber` (important for Create mod progression).
-1.  **Craft `Beehive Frames`:** Used to craft `Beehives`.
-2.  **Craft `Wooden Beehive`:** Requires `Beehive Frames` and `Lumber`.
-3.  **Setup Beehives:** Place your `Wooden Beehive`.
-4.  **Attract Bees:**
-    *   Bees have a chance to move into an empty hive with each passing day.
-    *   For the highest chance, have 4 `Beehive Frames` inside the hive at once.
-    *   Having a `Queen Bee` (if you find one) in the hive significantly helps.
-    *   This chance can also be increased by placing plenty of `Flowers` in a 5-block radius of the `Beehive`.
-5.  **Harvesting:**
-    *   **WARNING: DO NOT INTERACT WITH BEEHIVES DURING DAYTIME.** Bees are active and will attack.
-    *   Interact with hives at **night** when bees are sleeping to safely collect resources like `Honeycomb`.
 
 ---
 
@@ -378,20 +440,7 @@ Bees are incredibly useful for pollinating your crops (increasing yields) and pr
 ## A Word of Warning: Dragons
 **Stay away from the dragons.**
 Really. Stay away. They are not early-game friendly and will destroy you and your surroundings.
----
 
-## What's Next? (A Glimpse into Chapter 2)
-
-You've laid the foundation! With `Copper` tools, a basic shelter, and an understanding of core TFC mechanics, you're poised for further advancement. The next steps in your Gravitas² journey will likely involve:
-
-*   Deeper exploration and more systematic `Ore` hunting with your `Prospector's Pick`.
-*   Mastering the `Stone Anvil` and progressing to a `Copper Anvil`.
-*   Producing `Bronze` and crafting `Bronze` tools and armor.
-*   Expanding your farm, possibly with irrigation and new `Crop` types.
-*   Further developing your `Beekeeping` operation for consistent `Honeycomb`.
-*   Delving into more complex TFC mechanics and potentially starting with early Create mod contraptions using `Treated Lumber`.
-
-Keep consulting your TFC Guidebook and the in-game questline! Good luck!
 
 ---
 
