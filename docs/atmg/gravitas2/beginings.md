@@ -1,72 +1,273 @@
 ---
-title: Chapter 1
-description: A Guide for learning how to complete the Chapter 1 in All The Mods - Gravitas²
+title: Chapter 1 - First Steps into Gravitas²
+description: A Beginner's Guide to Surviving and Thriving in Gravitas² - Chapter 1
 authors:
  - Xannaeh
 ---
 
+## Welcome to Gravitas²!
 
-For getting basic resources you can start by collecting pebbles and wigs/sitcks on the floor to get ht epasic materials to craft the necesary tools. You need to hold at least 2 pebbles in the hand to be able to make the shape of the tool.
-Check Jei for more info
+Everything is different in Gravitas², largely thanks to **TerraFirmaCraft (TFC)**. You are about to undergo a much more realistic progression. Don't worry, this guide (and the in-game quests) are here to help you. If you ever get lost or don't know what to do, reading through this guide and the in-game quest book (often accessible via a keybind, check your controls!) should point you in the right direction.
 
-Find a place to live, ideally over 10º temperature and a decent rainfall. Recommended to live near rivers that end on an ocean to have easy access to that one.
+---
 
-While traveling in the surface you will encounter different small orepices, that ones not only allow you to an easy acces to the minerals but also mark a spot where nearby a larger vein with that material.
-My recommendation is to mark them using any of the 2 maps aviables (M or B) for latter on be able to mine this ore.
-Even if you don't collect the small ore pieces right now mark the ore found for latter, you are going to need it.
+## First Steps: Gathering and Basic Tools
 
-Also, while traveling, you will be able to find different types of fodd scattered around, most of that food can be collected using a knife or a hoe.
-If yoy find a fruit tree do'nt cut it down directly, first you ened to cut the branches and then you can cut the rest.
-DO NOT USE A SAW as you will not be getting saplings nor fruit that way, use an axe instead.
-Collect also the bushes to replant later.
+Your initial survival hinges on gathering basic resources. It doesn't make much sense to make wooden tools first when there are literally stones all over the ground!
 
-The inventory early on is a bit messy, you can make a large vessel to store a few items inside but is not a lot of space, do not craft 2 as you cant carry both.
-My recommendation is to store inside the food you are not eating and seal it. The smaller vessels can carry pebbles and ores, so it's a good idea to have a few on your inventory when traveling
-so you can store even more things inside.
+### Resource Collection
+*   **`Pebbles`:** Pick up `Pebbles` you see along the ground. You'll get different types of stones and even small `Ore` pieces depending on the geological region.
+*   **`Twigs`:** You'll need to gather `Twigs` from the ground. You can't just punch trees for sticks! `Twigs` make great handles for tools.
+*   **`Sticks` from `Twigs`:** `Twigs` can be turned into `Sticks` in your crafting grid.
+*   **`Sticks` from Leaves:** Sticks can also be obtained by breaking tree `Leaves` with your fist or a `Hoe`.
+*   **Compacting Sticks:**
+    *   **`Stick Bunch`:** Craft `Sticks` together for better storage.
+    *   **`Stick Bundle`:** Craft `Stick Bunches` together for even more compaction. `Stick Bundles` can also be used as a hot fuel source in `Firepits`.
 
-If you found a river, you should try to follow along it down south to find the ocean if possible. Check where the flow of the water is going.
-You can make a canoe with 3 logs and a few basic materials, maybe you can set a temporal camp to get the copper smelted into a saw and an axe to get this canoe going.
-You can place a chest in the canoue so its a good way to travel with even more space. You can also craft a paddle to travel even faster.
-You can use a cuerda to attack the canoe to a post or maybe make a small dock for not losing your canoe
+### Knapping Stone Tools
+With enough `Pebbles` (of the same rock type) and `Sticks` or `Twigs`, you are ready to start **Knapping**.
 
-Talking about traveling, you also have the walking stick that gives you step assit.
+1.  **Initiate Knapping:** Hold at least **two `Pebbles`** of the same type in your hand, then ++rbutton++ in the air. This will open up the Knapping Interface.
+2.  **Shaping the Tool Head:** Carve out the desired shape by removing squares until you match the pattern for a tool head (check JEI or the TFC Guidebook).
+3.  **Assembling Tools:** Combine the stone tool head with a `Stick` or `Twig` in your crafting grid to make Stone tools.
 
-Driking is annpoying but, did you know you can drink directly when raining? If you look up and stop moving when raining you will automatically fill your thirst bar.
-Also, if you are traveling in the ocean and are running out of water. If you are brave and lucky enough, try to go over an ocean temple, there, for some reason,
-the water is drinkable so fast try to full yours jukes and run away.
+### Essential Stone Tools & Their Uses
 
-Stay away from the dragons.
-Really. Stay away.
+*   **`Stone Knife`:**
+    *   Used to harvest `Straw` by breaking tall `Grass` and other appropriate plants.
+    *   Basic cutting weapon.
+*   **`Stone Axe`:**
+    *   Used to realistically cut down entire trees.
+    *   *Note:* Saplings and sticks are more reliably obtained if `Leaves` are broken individually.
+*   **`Stone Shovel`:**
+    *   Digs soil-type blocks. Creates `Paths` on `Dirt` or `Grass`.
+*   **`Stone Hoe`:**
+    *   Essential for `Farming`. Cuts `Leaves` and plant matter.
+*   **`Stone Hammer`:**
+    *   Crushing weapon. Crucial for `Forging` and creating an `Anvil`.
+*   **`Stone Javelin`:**
+    *   Primitive Piercing weapon (thrown or melee). Useful for early hunting/fishing.
 
-Sometimes you can find some pretty plants indicating that something is below them. The most common is the pnik flower that marks the clay, but we also have one to mark the pink clay.
-We are traveling down south +22º a decent reainfall and hihglands biome to find kotlin clay. You can see that pink clay below the red flowers.
+---
 
-Gravity in minecraft? Lovely. Be really careful when digging, blocks have gravity in general. Everything around you might crumble and lost your mine forever.
-Use mining supports for avoiding that, and remember to put your supports in a non-gravity block like some planks.
+## Finding a Suitable Home
 
-Im probably not the only one that struggled getting the first anvil right? All you need to do is find on of the stones that the TFC book tells you and mine all the blocks surrounding it but,
-leave the block below it to be the last to secure it.
+*   **Temperature, Rainfall, Water Access:** As previously mentioned.
 
-Okay foudn a place to settle down but all your chest are jsut lying around and have no house yet? Well there are a few way to start building with non gravity blocks, you have logs and planks
-but thats plain, try something different maybe using tatch or mud bricks (mud+straw and right click on the floor to let it drain, will not drain on the rain).
-Wattle is really convinient to make your walls ealy on as it only requires some logs and then you can oput osme sticks right clicking it and some wattle.
-You can also play aroun with the shape of the sticks to make diifferent wall patterns very cheap. You can also dye them!
+## Navigation & Exploration Aids
 
-Okay you have your basic house going near a source of water, then you need to star plating your crops. You can check the soil information once the soil is trimmed, some plants can growth on certain conditions
-and some plants cant. Besides that, early on you should se up beehives and put flowers surrounding it to attract the bees. This will polliize your platatio ad give you juici materials.
-DO OT INTERACT WITH THE HIVES DURING DAYTIME. Bees sleep at night so it's the perfect time to interact with the hives.
+*   **`Wooden Cane`:** Craftable. Put it in your offhand to walk faster through `Grass`.
+*   **`Prospector's Pick (ProPick)`:** Once you have `Copper`, make a `Copper ProPick`. ++rbutton++ the ground with it to get readings of nearby `Ore` types and their richness. Crucial for finding larger `Ore` veins.
+*   **TFC Guidebook for Ore Locations:** The TFC Guidebook contains information on which `Ores` spawn in which rock layers and biomes. **USE IT!**
 
-Okay but, there are campfires, firepits, charcoal firepits, when and how should i use each one?
-like, for food shall i keep using the campfire? for clay-relates things and charcoal generation the firepits? and for ores melting the charcoal firpit?
-The crucible is a forge upgrade and a pitkiln upgrade, coke oven is charcoal pit upgrade, fire pit has the grill and firmalife ovens as upgrades, but create smoking is just as good.
-So the "furnaces" idea would be:
-- Food: Firepit -> Firepit and Pot -> Grill + Oven -> Create Smoking
-- Other melting (Charcoal): Pit Kilns -> Charcoal Pit  -> Coke Oven
-- Ores melting: Pit Kilns -> Charcoal Forge -> Add Bellows -> Crucible
+## Early Crafting Stations & Building
 
-Wool, how you get it? Well you early on will probably be killing animals that drop sheepskin. Combine this with a knife in the crafting inventory to get the wool.
-Then you can use that wool to get string and convert it in our regular wool using a loom. Also from the sheepskin, you not only got the wool but also some leather.
-You can treat this leather with a simple process you need a barrel full of water and put some flux inside to get limewater. then you put the raw hide inside the barrel seal it and wait.
-After the long wait you have to scapr the leather, for that, put the leather on top of a log and use a knife to remove the pink parts, then break the hide.
-Back to the barrel but this time with only water, steal it and wait again. Now get another barrel with water, and put some logs inside to get tanning.
-Place the medium prepared hide inside, seal it and wait. Finally you got leather!
+
+### Workbench / Crafting Table
+*   The TFC `Workbench` acts like a standard crafting table but is required for some TFC recipes. You'll likely need a `Saw` (metal) to make `Lumber` for it.
+
+### Building Your First Shelter
+*   **`Thatch` & `Mud Bricks`:** As described previously.
+*   **`Wattle and Daub`:** As described previously.
+*   **`Planks`:** Once you have a `Saw` (from metal like `Copper`), you can make `Lumber`, then `Planks`. `Planks` have **No Gravity**, making them excellent for building a proper shelter.
+
+
+---
+
+## Mastering Fire
+
+### Creating Fire: The Firestarter
+1.  **Crafting:** With two `Sticks`, make a `Firestarter`.
+2.  **Usage:** Hold ++rbutton++ (or ++shift++ + ++rbutton++, try both if one doesn't work) on a flammable block. It may take a few tries.
+
+### The Firepit: Your First Cooking Station
+1.  **Gather Materials:**
+    *   1 `Log`
+    *   3 `Sticks`
+    *   5 `Straw` (for kindling; increases success chance)
+2.  **Construction:** Throw (default `Q`) all items onto the same block. Use the `Firestarter` on the block with the items.
+
+### Firepit Uses & Mechanics
+*   **Torches:** Heating `Sticks` in a `Firepit` produces `Torches`. They **Burn Out** and need re-lighting.
+*   **Cooking:** Cook raw `Meats` and `Doughs`.
+*   **Interface:** Fuel on left, heating slot on right, temperature gauge.
+*   **Extinguishing & Upgrades:** As described previously (Shovel, Grill, Pot).
+
+
+## The Pit Kiln: Firing & Melting
+
+A `Pit Kiln` is essential for firing `Clay` and melting early `Ores`. It burns for about **8 in-game hours**.
+
+### Building a Pit Kiln
+1.  Dig a 1x1 hole.
+2.  Place items in the hole: ++rbutton++ while holding the item (some quests say use `V` key, so try that if right-click doesn't place it *in* the hole). Can hold up to 4 small items (like `Molds`) or one large item (like a `Vessel`).
+3.  ++rbutton++ on the items in the hole with 8 pieces of `Straw`.
+4.  ++rbutton++ on the straw with 8 `Logs`.
+5.  Light the top with a `Firestarter` (some quests say sneak-right click, try normal right-click first).
+
+
+### Charcoal Production
+1.  **`Log Piles` to `Charcoal`:**
+    *   Dig a 1-block deep hole (any size).
+    *   Fill it with `Log Piles`.
+    *   Light one `Log Pile` on fire.
+    *   Quickly cover everything (the hole and burning piles) with `Dirt` or other non-flammable blocks.
+    *   In a few minutes, the `Log Piles` will turn into `Charcoal`.
+
+
+*   **The `Charcoal Forge`:** A significant upgrade from the `Firepit` for smelting and higher temperatures. Search for it in the TFC Guidebook.
+
+---
+
+## Introduction to Pottery
+
+`Clay` can be knapped like `Rocks` into certain molds, useful for better tools. Requires five `Clay Balls`.
+
+*   **Clay Indicators:** Look for specific plants: `Athyrium Fern`, `Canna`, `Goldenrod`, `Pampas Grass`, `Perovskia`, and `Water Canna`. `Clay` is often found under these.
+*
+### Basic Pottery Items (Unfired)
+*   **`Small Vessel (Unfired)`**
+*   **`Jug (Unfired)`**
+*   **`Ingot Mold (Unfired)`**
+*   **Key Tool Molds (Unfired):** `Pickaxe Head Mold`, `Axe Head Mold`, `Saw Blade Mold`, `Hammer Head Mold`. These are important for your first proper metal tools.
+
+*All unfired clay items must be fired in a `Pit Kiln`.*
+
+
+## Prospecting & Your First Metal: Copper
+
+`Copper` is the first metal for proper tools.
+
+### Finding Copper
+*   Look for small `Copper Ore` pieces on the surface (`Native Copper`, `Malachite`, `Tetrahedrite`).
+*   **Tip:** `Copper` can be a pain to find. Wander until you find **Light Surface Rocks**; these areas are more likely to spawn `Malachite`, which smelts into `Copper`.
+*   You'll need about 9-10 small `Copper Ore` pieces (yielding 100 mB of metal total) to fill one tool mold. ++shift++ while hovering over `Pebbles`/`Ores` often tells you how much metal they yield.
+
+### Casting Your First Copper Tools (e.g., Pickaxe)
+1.  **Collect Ores & Prepare Vessel:** Gather enough `Copper Ores` and place them inside an unfired `Small Clay Vessel`.
+2.  **Fire Mold:** Knap and fire a `Clay Pickaxe Head Mold` (and ideally a `Prospector's Pick Mold` too!) in a `Pit Kiln`.
+3.  **Melt Ores:** Fire the `Small Clay Vessel` with `Ores` in a `Pit Kiln`.
+4.  **Cast:** Once the kiln is done, quickly retrieve the `Ceramic Vessel` with molten `Copper`. ++rbutton++ with it to open the Casting Interface, place your fired `Ceramic Mold` in the slot.
+    *   *The contents can solidify if you take too long. If so, reheat the vessel in another `Pit Kiln`.*
+5.  **Cool & Extract:** Let the filled mold cool. Then, ++sneak++ + ++rbutton++ the mold (or place in crafting) to get your `Copper Pickaxe Head`.
+6.  **Craft:** Combine with a `Stick`. You'll want to make a `Prospector's Pick` as well.
+---
+
+## Safety First: Mining
+*   **Cave-ins are real!** Mining is dangerous as caves can collapse and kill you.
+*   **`Support Beams`:** To prevent cave-ins, use `Support Beams` (made from `Lumber`).
+    *   They must be placed correctly (often in a frame structure, not just single vertical beams).
+    *   ++shift++ + ++rbutton++ with `Support Beams` can place 1 instead of 3 if you need finer control (or vice-versa, depending on the pack's TFC tweak). Refer to the quest book image for an example setup.
+
+## Crafting Your First Anvil (Stone)
+
+The `Anvil` is how you progress through TFC metalworking beyond simple casting.
+
+1.  **Obtain `Raw Stone`:** Find an `Igneous Extrusive` (`Rhyolite`, `Basalt`, `Andesite`, `Dacite`) or `Igneous Intrusive` (`Granite`, `Diorite`, `Gabbro`) **Raw Stone** block. To pick it up as an item, mine every block directly around it (all 6 sides).
+2.  **Make Anvil:** Place the `Raw Stone` block down and ++rbutton++ its top face with a `TFC Hammer` (e.g., `Stone Hammer`).
+*   This `Stone Anvil` is Tier 0. Check "Primitive Anvils" in the TFC Guidebook for more info.
+
+*   **Using the `Stone Anvil`:** Working `Ingots` into tool heads and other components. (The quest book humorously calls it "What A Nightmare!" and suggests watching a video – TFC anviling has a learning curve!)
+*   **`Copper Anvil`:** Your first metal `Anvil` (Tier 1), crafted from `Copper Ingots`.
+
+*   **Upgrading to `Bronze`:** Your first alloy, made by combining `Copper` with `Tin`, `Bismuth`, or `Zinc`.
+
+
+---
+## Storage and Inventory Management
+
+### Item Size and Weight & Overburdening
+*As described previously. Remember: Huge + Very Heavy items = Exhaustion!*
+
+### Log Piles
+*   ++shift++ + ++rbutton++ with `Logs` on the ground to place down a `Log Pile`.
+*   Can hold 16 `Logs`. Used for storage or to make `Charcoal`.
+
+### Vessels - They're OP!
+*   **`Small Ceramic Vessel`:** Stores Small or smaller items.
+*   **`Large Ceramic Vessel`:**
+    *   Stores Normal or smaller items (up to 9 stacks, and can hold other `Vessels`).
+    *   **Wear it on your back slot!** It's heavy otherwise and will make you `Exhausted`.
+    *   **Food Preservation:** Sealing food inside (++shift++ + ++rbutton++ with empty hand) greatly increases shelf life.
+    *   **Cooking Hack:** If you put raw `Meat` in a `Vessel` and then fire the `Vessel` (e.g., in a `Pit Kiln` or `Firepit`), it will cook everything inside!
+
+### Chests
+*   Once you have metal tools (like a `Saw` for `Lumber`), you can craft `Chests`.
+*   They have one less row than a vanilla Minecraft chest.
+*   Can hold up to **Medium** sized items.
+*   Can be placed next to each other for a double chest.
+
+### Tool Racks
+*   Craftable, allows you to store your tools on a wall.
+
+---
+
+## Food, Water, and Nutrition
+
+### Hunger, Saturation, Nutrition
+*As described previously. Remember the 5 nutrients for max health! `Protein` makes up a lot of your HP.*
+*   **Eating 101:** Kill an animal (e.g., with your `Javelin`) or throw your `Javelin` at some `Fish` in a `River` to get some early `Protein`.
+
+### Thirst & Water Management
+*As described previously. Avoid `Salt Water`!*
+*   **`Ceramic Jug`:** Knap and fire a `Clay Jug` to carry `Fresh Water`.
+*   **`Wooden Bucket`:** Can carry `Water` but **cannot place water source blocks**.
+*   **`Barrel` for Water:**
+    *   You can fill a `Barrel` with `Water` and use it to fill your `Jug` anywhere.
+    *   If carrying a filled `Barrel`, put it in your back slot to avoid `Exhaustion`.
+*   **`Leather Flask`:** A much better jug, made from `Leather` and an animal `Bladder` (low chance drop). (More on `Leather` later).
+
+*   Expanding `Farming` and food preservation techniques.
+*   Potentially `Beekeeping` for resources like `Honeycomb` (and `Treated Lumber` if you delve into Create).
+
+---
+
+## Textiles: Wool, Cloth, and Your First Real Bed
+
+### Obtaining Hides & Wool
+*   **`Raw Hide`:** Dropped by all kinds of animals. Used for `Leather`.
+*   **`Sheepskin Hides`:** Dropped by animals with fur (like `Sheep`). Used for `Wool Yarn` and `Wool Cloth`.
+
+### Processing Wool
+1.  **`Raw Wool` from `Sheepskin`:** Combine `Sheepskin` with a `Knife` to get `Raw Wool` (and `Raw Hide`).
+2.  **`Spindle`:** Craft a `Spindle`. Used to turn `Raw Wool` into `Wool Yarn`.
+3.  **`Loom`:** Craft a `Loom`.
+    *   Place the `Loom` down.
+    *   ++rbutton++ it with `Wool Yarn` (or `String`) to load it.
+    *   Once it has enough (e.g., 16 `Wool Yarn`), hold ++rbutton++ on the `Loom` to work it.
+    *   When finished, ++rbutton++ to get your `Wool Cloth` (or `Silk Cloth` from `String`).
+4.  **`White Bed`:** Craft `Wool Cloth` and `Planks` into a `White Bed` for some well-deserved (and night-skipping) sleep!
+
+---
+
+## Leatherworking: A Multi-Step Process
+
+`Leather` is vital for many items like `Bellows` (important for `Forges`), `Backpacks`, `Saddles`, etc.
+
+1.  **Gather `Raw Hide`:** Hunt animals.
+2.  **Craft `Flux`:** Place `Dolomite`, `Marble`, `Limestone`, or `Chalk` `Pebbles`/`Rocks` in your crafting grid with a `Hammer` to crush them into `Flux`.
+3.  **Make `Limewater`:**
+    *   Craft a `Barrel`.
+    *   Fill the `Barrel` with `Fresh Water`.
+    *   Add `Flux` to the water-filled `Barrel` to create `Limewater`.
+4.  **Soak Hide (Limewater):** Place `Raw Hide` into the `Limewater Barrel`, seal it (++shift++ + ++rbutton++), and wait for it to process into `Soaked Hide`.
+5.  **Scrape Hide:**
+    *   Place the `Soaked Hide` on top of a `Log` (place the log horizontally or on the ground).
+    *   Use a `Knife` to ++rbutton++ the `Soaked Hide` on the `Log` to scrape off the outer layer (limewater residue).
+    *   Break the `Scraped Hide` from the log.
+6.  **Rinse Hide (Water):** Place the `Scraped Hide` into a `Barrel` filled with fresh `Water`. Seal it and wait for it to become `Prepared Hide`.
+7.  **Make `Tannin`:**
+    *   Fill another `Barrel` with `Fresh Water`.
+    *   Add `Logs` (especially `Oak`, `Birch`, `Chestnut`, `Douglas Fir`, `Hickory`, or `Maple`) to the water. Seal it and wait for the water to turn into `Tannin`.
+8.  **Tan Hide:** Place the `Prepared Hide` into the `Tannin Barrel`. Seal it and wait. This is the final step to get `Leather`!
+
+### Leather Goods
+*   **`Backpack`:** Craftable from `Leather`. Provides extra inventory slots and goes into a Curio slot (doesn't take your chestplate slot).
+*   **`Bellows`:** Made with `Leather`. Used to boost your `Charcoal Forge` temperature. Check the `Charcoal Forge` tab in the TFC Guidebook.
+*   **`Saddle`:** For taming `Horses`. Taming is different: feed a horse `Wheat` or `Apples` every day until it likes you.
+
+---
+
+*This guide is based on TerraFirmaCraft mechanics and information from the Gravitas² quest book. Specifics can vary. Always check JEI for recipes and consult your in-game TFC Guidebook!*
+
+> Gravitas² | [CurseForge](https://legacy.curseforge.com/minecraft/modpacks/all-the-mods-gravitas2) | [Github](https://github.com/AllTheMods/Gravitas2)
