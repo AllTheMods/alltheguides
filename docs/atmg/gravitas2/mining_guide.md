@@ -1,13 +1,13 @@
 ---
-title: Mining and Prospecting in Gravitas²
-description: A Guide to Finding and Extracting Resources in Gravitas²
+title: Prospecting, Geology, and Mining in Gravitas²
+description: A Comprehensive Guide to Finding and Extracting Resources in Gravitas²
 authors:
  - Xannaeh
 ---
 
 ## Introduction to Mining in Gravitas²
 
-Mining in Gravitas² is a far cry from vanilla Minecraft. Resources are not evenly distributed; instead, TerraFirmaCraft (TFC) introduces realistic geology, ore veins, and the necessity for careful prospecting. This guide will walk you through understanding mining safety, using prospecting tools, and the basics of finding the ores and minerals you need to progress.
+Mining in Gravitas² is a far cry from vanilla Minecraft. Resources are not evenly distributed; instead, TerraFirmaCraft (TFC) introduces realistic geology, ore veins, and the necessity for careful prospecting. This guide will walk you through understanding mining safety, TFC geology, using prospecting tools, and locating the specific ores and minerals you need to progress.
 
 ---
 
@@ -24,16 +24,70 @@ Before you even swing a pickaxe underground, understand the dangers:
 
 ---
 
-## Prospecting: Finding Ores and Minerals
+## Understanding TerraFirmaCraft Geology
 
-In TerraFirmaCraft, you can't just dig randomly and hope to find what you need. Ores and minerals are found in large, distinct veins tied to specific rock types and elevations. Prospecting is the skill of locating these hidden veins.
+The world of TerraFirmaCraft is structured with distinct geological features that dictate where resources can be found. Knowing basic geology is key to efficient prospecting.
 
-### Understanding TFC Geology (The Basics)
+### A. Continents and Rock Regions
+*   The world features large landmasses separated by oceans.
+*   These landmasses are divided into **rock regions**, often over a kilometer across. Typically, you'll find two or three different **rock layers** under your feet at any given location.
+*   Identifying the rock types present in an area is crucial, as different ores and minerals will often only appear in specific rock types.
 
-*   **Rock Types Matter:** The world is composed of various rock layers (`Granite`, `Basalt`, `Limestone`, `Shale`, etc.). Different ores and minerals will *only* spawn in specific types of rock.
-*   **Y-Levels (Elevation):** Veins also have preferred Y-level ranges where they generate.
-*   **GregTech Vein Integration:** Gravitas² reworks GregTech veins to be compatible with TFC's geology. This means you'll encounter complex veins with multiple ore types, but their placement still respects TFC rock layers and elevations.
-*   **Your Best Friend: The TFC Guidebook:** The in-game TFC Guidebook is indispensable. It contains sections on "Geology," "Ores and Minerals," and likely "Gregtech Veins," detailing which resources appear in which rock types and at what depths. **Consult it constantly!** *(A more detailed ore and mineral reference can also be found in Appendix A of this guide.)*
+### B. Rock Categories and Formations
+
+TFC rocks are broadly categorized, and their formation influences where they (and associated ores) are found:
+
+1.  **Igneous Extrusive Rocks:**
+    *   Formed from magma (lava) cooling quickly on the Earth's surface.
+    *   Commonly found as the top layer of rock on continents or forming the entirety of ocean floors.
+    *   The type of igneous intrusive rock found *beneath* an extrusive layer is usually of the same geological "grade" (Felsic, Intermediate, Mafic).
+    *   **Examples:** `Rhyolite` (Felsic), `Basalt` (Mafic), `Andesite` (Intermediate), `Dacite` (Intermediate).
+
+2.  **Sedimentary Rocks:**
+    *   Formed by the accumulation and deposition of mineral or organic particles over long periods.
+    *   Typically found as the top layers of rock in continental (land) areas.
+    *   When found deeper, or subjected to geological pressure, they often have corresponding metamorphic rocks beneath them.
+    *   **Examples:** `Shale`, `Claystone`, `Limestone`, `Conglomerate`, `Dolomite`, `Chert`, `Chalk`.
+
+3.  **Metamorphic Rocks:**
+    *   Created when existing rocks (sedimentary or igneous) are transformed by heat, pressure, or chemical reactions.
+    *   Found underneath their corresponding "parent" sedimentary or igneous rocks, or brought to the surface in mountainous "uplift" regions.
+    *   **Formation Examples:**
+        *   `Slate` forms from `Shale`, `Claystone`, or `Conglomerate`.
+        *   `Marble` forms from `Limestone`, `Dolomite`, or `Chalk`.
+        *   `Quartzite` forms from `Chert` (or sandstone).
+        *   `Phyllite` forms from `Slate` (further metamorphism).
+        *   `Schist` and `Gneiss` form from `Phyllite` or igneous intrusive rocks (Gneiss representing a higher grade of metamorphism).
+
+4.  **Igneous Intrusive Rocks:**
+    *   Formed when magma cools slowly *beneath* the Earth's crust.
+    *   Typically found deep underground. They can also be exposed at the surface in **uplift regions** (areas of intense geological activity like mountain ranges) or as **dikes** (narrow, vertical intrusions of magma that cut through other rock layers).
+    *   **Examples by Grade:**
+        *   *Felsic:* `Granite` (often found under `Rhyolite`).
+        *   *Intermediate:* `Diorite` (often found under `Andesite` or `Dacite`).
+        *   *Mafic:* `Gabbro` (often found under `Basalt`).
+
+### C. Ore Vein Characteristics
+*   Unlike vanilla Minecraft, TFC ores are found in **massive, sparse, yet often rich veins**. These veins can be hundreds of blocks long and many blocks thick.
+*   **Graded Ores:** Most TFC ore blocks come in three grades: `Poor`, `Normal`, and `Rich`.
+    *   `Rich` ore blocks yield the most metal units when processed.
+    *   `Normal` ore blocks yield a moderate amount.
+    *   `Poor` ore blocks yield the least.
+    *   An ore vein will typically contain a mixture of these grades, with the overall "richness" of a vein varying.
+
+---
+
+## GregTech Vein Integration in Gravitas²
+
+A significant feature of Gravitas² is the integration of **GregTech-style ore veins**, reworked to be compatible with TerraFirmaCraft's geology.
+*   This means you will encounter large, multi-ore veins characteristic of GregTech, but their spawning locations (host rock types and Y-levels) will generally adhere to TFC's geological rules.
+*   The in-game **TFC Guidebook** have a dedicated section that you can navigate to find information on the composition of these complex veins and the TFC rock types they are associated with. This is your primary reference for GT veins.
+
+---
+
+## Prospecting Tools & Techniques
+
+Finding these hidden veins requires specific tools and a methodical approach.
 
 ### Stage 1: Surface Clues - Small Nuggets & Exposed Veins
 
@@ -116,7 +170,6 @@ Most prospecting tool heads (for `Prospector's Picks`, `Drills`, etc.) are craft
 6.  **Excavate & Secure:** Once you've located the vein, begin mining! Remember to diligently use `Support Beams` as you advance to prevent catastrophic cave-ins.
 
 ### Early Game Panning for Resources
-
 Before you have a reliable supply of metal for prospecting tools, or if you're specifically looking for certain native metals or gems, **Panning** can be a useful early-game activity.
 
 *   **Required Tool:** `Ceramic Pan` (Knap from `Clay` and fire in a `Pit Kiln`).
@@ -131,21 +184,75 @@ Before you have a reliable supply of metal for prospecting tools, or if you're s
         *   A raw `Gem` (e.g., `Amethyst`, `Opal`) - ~1% chance. The type of gem obtained is tied to the rock type of the area where the gravel deposit was found.
 *   **Utility:** Panning is a good way to get your very first `Copper` or `Tin` nuggets for casting, or to find early `Gold` and `Silver`.
 
-### Understanding Ore Grades & Gem Hardness
 
-*   **Ore Grades:** TFC ore blocks come in different grades: `Poor`, `Normal`, and `Rich`.
-    *   When mined, `Rich` ore blocks yield more metal units than `Normal`, which in turn yield more than `Poor`.
-    *   Veins will typically consist of a mix of these grades, with some veins being predominantly richer than others.
-*   **Gem Hardness & Pickaxe Tiers:** Many gem-bearing ore blocks are harder than regular stone or common ores and require higher-tier pickaxes to mine them effectively (or at all).
-    *   *Examples (may vary in Gravitas²):*
-        *   `Pyrite`: `Copper` Pickaxe
-        *   `Lapis Lazuli`, `Opal`: `Wrought Iron` Pickaxe
-        *   `Amethyst`, `Emerald`, `Topaz`: `Steel` Pickaxe
-        *   `Diamond`, `Ruby`, `Sapphire`: `Black Steel` Pickaxe
-    *   Attempting to mine hard gems with an inadequate pickaxe will be very slow or impossible.
+---
+## Detailed Ore and Mineral Vein Reference (Gravitas² Edition)
+
+The following tables summarize key ores and minerals, their common vein compositions (which may combine TFC and GregTech logic in Gravitas²), typical Y-levels, and host rock types.
+
+**Important Considerations Before Using This Table:**
+
+*   **Gravitas² Specifics:** This table is a comprehensive starting point based on common TFC defaults and the GregTech vein information you provided. However, **Gravitas² may have custom configurations.**
+*   **IN-GAME GUIDE IS KING:** **Always prioritize and cross-reference this information with your in-game TFC Guidebook (especially its "Ores and Minerals" and "Gregtech Veins" sections) and JEI (Just Enough Items).** These will provide the most accurate details for your specific pack version.
+*   **GT Vein Naming:** GregTech veins often have names like "Iron Vein," "Copper Tin Vein," etc., and contain a mix of ores. TFC default veins are usually simpler, like "Native Copper Vein." This table attempts to list both where distinct.
+*   **Multiple Listings:** Some ores (like Copper or Tin) can be found in multiple types of veins (both TFC native veins and as part of larger GT veins).
+
+| Primary Resource(s) Sought | Vein Name / Type         | Common Ores in This Vein (Gravitas²)                               | Y-Level Range | Host Rock Types (TFC)                                                                  | Notes & Tips                                                                                                |
+|----------------------------|--------------------------|--------------------------------------------------------------------|---------------|----------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|
+| **Copper (Cu)**            | Native Copper (TFC)      | `Native Copper`                                                    | y > 40        | Igneous Extrusive (Rhyolite, Basalt, Andesite, Dacite)                                   | Common early copper. Also found by panning river deposits.                                                  |
+|                            | Tetrahedrite (TFC)       | `Tetrahedrite` (Copper ore)                                        | Any           | Metamorphic (Quartzite, Slate, Phyllite, Schist, Gneiss, Marble)                         | Deeper veins often richer.                                                                                    |
+|                            | Malachite (TFC)          | `Malachite` (Copper ore)                                           | Any           | Sedimentary (Limestone, Chalk, Dolomite), Metamorphic (Marble)                           | Deeper veins often larger/richer. Found with `Limestone`.                                                   |
+|                            | Copper Vein (GT-Style)   | `Chalcopyrite`, `Iron`, `Pyrite`, `Copper`                         | y=-40 to y=10 | `Diorite`, `Granite`                                                                   | GT vein.                                                                                                    |
+|                            | Copper Tin Vein (GT)     | `Chalcopyrite`, `Zeolite`, `Cassiterite` (Tin), `Realgar`          | y=-10 to y=160| `Basalt`, `Rhyolite`, `Andesite`, `Dacite`                                             | Excellent GT vein for early `Copper` and `Tin`.                                                             |
+| **Tin (Sn)**               | Cassiterite (TFC)        | `Cassiterite` (Tin ore)                                            | y > 80        | Igneous Intrusive (Granite, Diorite, Gabbro) in uplift regions or dikes.                | TFC default Tin. Also found by panning.                                                                     |
+|                            | Cassiterite Vein (GT)    | `Tin`, `Cassiterite`                                               | y=10 to y=80  | `Granite`, `Diorite`, `Gabbro`                                                         | GT vein.                                                                                                    |
+|                            | Garnet Tin Vein (GT)     | `Cassiterite Sand`, `Garnet Sand`, `Asbestos`, `Diatomite`         | y=30 to y=60  | `Limestone`, `Chalk`                                                                   | GT vein, source of Tin and industrial minerals.                                                             |
+| **Iron (Fe)**              | Hematite (TFC)           | `Hematite` (Iron ore)                                              | Near Surface  | Igneous Extrusive (Rhyolite, Basalt, Andesite, Dacite)                                   | Large TFC iron veins.                                                                                       |
+|                            | Magnetite (TFC)          | `Magnetite` (Iron ore)                                             | Near Surface  | Sedimentary (Shale, Claystone, Limestone, Conglomerate, Dolomite, Chert, Chalk)         | Large TFC iron veins.                                                                                       |
+|                            | Limonite (TFC)           | `Limonite` (Iron ore)                                              | Near Surface  | Sedimentary (Shale, Claystone, Limestone, Conglomerate, Dolomite, Chert, Chalk)         | Large TFC iron veins.                                                                                       |
+|                            | Iron Vein (GT)           | `Goethite`, `Yellow Limonite`, `Hematite`, `Malachite`, `Chromite` | y=-10 to y=60 | `Basalt`, `Rhyolite`, `Andesite`, `Dacite`                                             | Diverse GT iron source, includes `Chromite`.                                                                |
+|                            | Magnetite Vein (GT)      | `Magnetite`, `Vanadium Magnetite`, `Gold`                          | y=10 to y=60  | `Basalt`, `Rhyolite`, `Andesite`, `Dacite`                                             | GT vein, also a source of `Gold` and `Vanadium`.                                                            |
+| **Gold (Au)**              | Native Gold (TFC)        | `Native Gold`                                                      | y < 70        | Igneous Extrusive, Igneous Intrusive                                                   | Deeper veins larger/richer. Also from panning. Often found with `Magnetite Vein (GT)`.                      |
+| **Silver (Ag)**            | Native Silver (TFC)      | `Native Silver`                                                    | y > 90 (poor) or y < 20 (rich) | `Granite`, `Diorite` (uplift); `Granite`, `Diorite`, `Schist`, `Gneiss` (deep)         | TFC default. Also from panning.                                                                             |
+| **Lead (Pb) & Silver (Ag)**| Galena Vein (GT)         | `Galena` (Lead/Silver ore), `Silver`, `Lead`                       | y=-15 to y=45 | `Granite`, `Gneiss`                                                                    | Primary GT Lead and Silver source.                                                                          |
+| **Zinc (Zn)**              | Sphalerite (TFC)         | `Sphalerite` (Zinc ore)                                            | Near surface (poor) or deep (rich) | Igneous Extrusive (poor); Igneous Intrusive (rich); (Questbook also lists `Quartzite`) | TFC default.                                                                                                |
+| **Nickel (Ni)**            | Garnierite (TFC)         | `Garnierite` (Nickel ore)                                          | y < 0         | `Gabbro` (primarily); any Igneous Intrusive (rarer)                                    | TFC default.                                                                                                |
+|                            | Nickel Vein (GT)         | `Garnierite`, `Nickel`, `Cobaltite`, `Pentlandite`                 | y=-10 to y=60 | `Gabbro`, `Diorite`, `Granite`                                                         | Main GT Nickel source, includes `Cobalt`.                                                                   |
+| **Bismuth (Bi)**           | Bismuthinite (TFC)       | `Bismuthinite` (Bismuth ore)                                       | Near surface or deep | Sedimentary (near surface); Igneous Intrusive (deep, richer)                             | TFC default. Needed for `Bismuth Bronze`.                                                                   |
+| **Coal**                   | Lignite (TFC)            | `Lignite` (Low-grade coal)                                         | Near Surface  | Sedimentary                                                                            | Large, flat deposits. Fuel.                                                                                 |
+|                            | Bituminous Coal (TFC)    | `Bituminous Coal` (Mid-grade coal)                                 | Near Surface  | Sedimentary                                                                            | Large, flat deposits. Better fuel.                                                                          |
+| **Gems & Decorative**      | Diamond Vein (GT)        | `Graphite`, `Diamond`, `Coal`                                      | y=-65 to y=10 | `Gabbro`                                                                               | GT Kimberlite pipes. Primary source of `Diamonds` and `Graphite`.                                           |
+|                            | Emerald (TFC)            | `Emerald`                                                          | Any           | Igneous Intrusive                                                                      | Thin, tall vertical formations in TFC.                                                                      |
+|                            | Lapis Lazuli (TFC)       | `Lapis Lazuli`                                                     | y=-20 to y=80 | `Limestone`, `Marble`                                                                  | Large, sparse TFC veins.                                                                                    |
+|                            | Lapis Lazuli Vein (GT)   | `Lazurite`, `Sodalite`, `Lapis`, `Calcite`                         | y=-65 to y=-30| `Basalt`, `Rhyolite`, `Andesite`, `Dacite`                                             | GT vein for Lapis and related minerals.                                                                     |
+|                            | Garnet Vein (GT)         | `Red Garnet`, `Yellow Garnet`, `Amethyst`, `Opal`                  | y=-10 to y=50 | `Granite`, `Claystone`                                                                 | GT source for various gems.                                                                                 |
+|                            | Sapphire Vein (GT)       | `Almandine`, `Pyrope`, `Sapphire`, `Green Sapphire`                | y=-40 to y=0  | `Schist`, `Quartzite`                                                                  | GT source for Sapphires and related garnets.                                                                |
+|                            | Amethyst (TFC)           | `Amethyst`                                                         | y > 40        | Sedimentary, Metamorphic (beneath rivers)                                              | TFC default.                                                                                                |
+|                            | Opal (TFC)               | `Opal`                                                             | y > 40        | Sedimentary, Igneous Extrusive (beneath rivers)                                        | TFC default.                                                                                                |
+| **Industrial Minerals**    | Apatite Vein (GT)        | `Apatite`, `Tricalcium Phosphate`, `Pyrochlore`                    | y=10 to y=80  | `Basalt`, `Rhyolite`, `Andesite`, `Dacite`, `Granite`, `Gabbro`, `Diorite`            | GT source of Phosphate (for fertilizer).                                                                    |
+|                            | Salts Vein (GT)          | `Rock Salt`, `Salt`, `Lepidolite`, `Spodumene`                     | y=30 to y=70  | `Shale`, `Claystone`, `Limestone`, `Conglomerate`, `Dolomite`, `Chert`, `Chalk`        | GT source of `Salt` and Lithium (`Lepidolite`, `Spodumene`).                                                |
+|                            | Mineral Sand Vein (GT)   | `Basaltic Mineral Sand`, `Granitic Mineral Sand`, `Fullers Earth`, `Gypsum` | y=15 to y=60 | `Basalt`, `Granite`                                                                  | GT source of various sands and `Gypsum`.                                                                    |
+|                            | Lubricant Vein (GT)      | `Soapstone`, `Talc`, `Glauconite Sand`, `Pentlandite`              | y=0 to y=50   | `Schist`                                                                               | GT source of `Talc` (for lubrication), `Soapstone`.                                                         |
+|                            | Mica Vein (GT)           | `Kyanite`, `Mica`, `Bauxite`, `Pollucite`                          | y=-40 to y=-10| `Quartzite`, `Slate`, `Phyllite`, `Schist`, `Gneiss`, `Marble`, `Gabbro`, `Diorite`, `Granite` | GT source of `Mica` and `Bauxite` (Aluminum).                                                               |
+|                            | Oilsands Vein (GT)       | `Oilsands`                                                         | y=30 to y=80  | `Shale`, `Claystone`, `Limestone`, `Conglomerate`, `Dolomite`, `Chert`, `Chalk`        | GT source of `Oil`.                                                                                         |
+|                            | Kaolinite (TFC Mineral)  | `Kaolinite Clay`                                                   | High Altitudes| Special: Plateaus, Old Mountains, Highlands (Temp >= 18°C, Rainfall >= 300mm)         | Used for Fire Clay. Blood Lily flower grows on it. Not a typical "vein."                                  |
+|                            | Graphite (TFC Mineral)   | `Graphite`                                                         | y < 60        | `Gneiss`, `Marble`, `Quartzite`, `Schist`                                              | Used for Fire Clay. Also found in GT Diamond Veins.                                                         |
+|                            | Cinnabar (TFC Mineral)   | `Cinnabar`                                                         | Deep          | `Quartzite`, `Granite`, `Phyllite`, `Schist`                                           | Ground for Redstone Dust. Also in GT Redstone/Thorium veins.                                                |
+|                            | Cryolite (TFC Mineral)   | `Cryolite`                                                         | Deep          | `Granite`, `Diorite`                                                                   | Ground for Redstone Dust.                                                                                   |
+|                            | Saltpeter (TFC Mineral)  | `Saltpeter`                                                        | Near Surface  | Sedimentary                                                                            | Ground for Gunpowder. Large flat deposits.                                                                  |
+|                            | Sulfur (TFC Mineral)     | `Sulfur`                                                           | Near Lava Lvl | Any Metamorphic or Igneous Intrusive                                                   | Ground for Gunpowder. Sparse but large veins.                                                               |
+|                            | Sylvite (TFC Mineral)    | `Sylvite`                                                          | Near Surface  | `Shale`, `Claystone`, `Chert`                                                          | Ground for Fertilizer. Large flat deposits.                                                                 |
+|                            | Borax (TFC Mineral)      | `Borax`                                                            | Near Surface  | `Claystone`, `Limestone`, `Shale`                                                      | Ground for Flux. Large flat deposits.                                                                       |
+|                            | Gypsum (TFC Mineral)     | `Gypsum`                                                           | Near Surface  | Sedimentary                                                                            | Decorative (Alabaster). Large flat deposits. Also in GT Mineral Sand Veins.                                 |
+|                            | Halite (TFC Mineral)     | `Halite` (Rock Salt)                                               | Near Surface  | Sedimentary                                                                            | Ground for Salt (Preservative). Large flat deposits. Also in GT Salts Veins.                                |
+| **Radioactive**            | Thorium Vein (GT)        | `Thorium`, `Cinnabar`, `Uraninite`                                 | y=-50 to y=25 | `Basalt`, `Rhyolite`, `Dacite`, `Andesite`                                             | GT source for radioactive materials.                                                                        |
+| **Other GT Specific**      | Redstone Vein (GT)       | `Redstone`, `Ruby`, `Cinnabar`, `Thorium`                          | y=-65 to y=-10| `Rhyolite`, `Basalt`, `Andesite`, `Dacite`, `Quartzite`, `Shale`                       | Primary GT `Redstone` source, also `Ruby`.                                                                  |
+|                            | Chromite Vein (GT)       | `Chromite`, `Nickel`                                               | y=-50 to y=55 | `Granite`, `Diorite`, `Gabbro`, `Schist`, `Phyllite`                                   | GT source of `Chromium` and some `Nickel`.                                                                  |
+|                            | Manganese Vein (GT)      | `Grossular`, `Spessartine`, `Pyrolusite` (Manganese), `Tantalite`  | y=-30 to y=0  | `Phyllite`, `Granite`, `Quartzite`                                                     | GT source of `Manganese`.                                                                                   |
+|                            | Olivine Vein (GT)        | `Bentonite`, `Magnetite`, `Olivine`, `Glauconite Sand`             | y=-20 to y=10 | `Quartzite`, `Slate`, `Phyllite`, `Schist`, `Gneiss`, `Marble`                         | GT vein with various industrial minerals.                                                                   |
 
 ---
 
-*This mining guide provides a foundation for resource acquisition in Gravitas². Successful mining requires patience, careful observation, strategic use of tools, and a good understanding of TFC's geology. Always refer to your in-game TFC Guidebook and JEI for the most up-to-date and pack-specific information.*
+*This detailed mining guide, including the ore reference table, should provide a strong foundation for resource acquisition in Gravitas². Successful mining requires patience, careful observation, strategic use of tools, and a good understanding of TFC's geology. Always refer to your in-game TFC Guidebook and JEI for the most up-to-date and pack-specific information.*
 
 > Gravitas² | [CurseForge](https://legacy.curseforge.com/minecraft/modpacks/all-the-mods-gravitas2) | [Github](https://github.com/AllTheMods/Gravitas2)
