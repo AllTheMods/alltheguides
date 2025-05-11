@@ -209,7 +209,7 @@ This section provides a detailed reference for locating key ores and minerals. V
 *   **Gravitas² Specifics:** This information is a comprehensive starting point. **Gravitas² may have custom ore generation configurations.**
 *   **IN-GAME GUIDE IS KING:** **Always prioritize and cross-reference this information with your in-game TFC Guidebook (especially its "Ores and Minerals" and "Gregtech Veins" sections) and JEI (Just Enough Items).** These will provide the most accurate details for your specific pack version.
 *   **Vein Naming:** (GT) denotes veins primarily from GregTech style generation. (TFC) denotes TerraFirmaCraft default veins/deposits.
-*   **Mineral Hints:** The "Mineral Hint / Surface Indicator" column lists out-of-place rocks or specific plants that might indicate the presence of the ore/mineral nearby. This is based on the "OreHints" mechanic.
+*   **Mineral Hints:** The "Mineral Hint / Surface Indicator" column lists out-of-place rocks or specific plants that might indicate the presence of the ore/mineral nearby. This is based on the "OreHints" mechanic. For metallic ores, nuggets are the primary surface indicators.
 
 ---
 ### Copper (Cu) Ores
@@ -229,7 +229,7 @@ This section provides a detailed reference for locating key ores and minerals. V
 |-----------------------|--------------------------------------------------------------|---------------|----------------------------------------------------------------|------------------------------------|------------------------------------------------------|
 | Cassiterite (TFC)     | `Cassiterite` (Tin ore)                                      | y > 80        | `Granite`, `Diorite`, `Gabbro` (Igneous Intrusive in uplift/dikes) | `Cassiterite Nuggets`              | TFC default Tin. Also by panning.                    |
 | Cassiterite Vein (GT) | `Tin`, `Cassiterite`                                         | y=10 to y=80  | `Granite`, `Diorite`, `Gabbro`                                 | `Cassiterite Nuggets`              |                                                      |
-| Garnet Tin Vein (GT)  | `Cassiterite Sand`, `Garnet Sand`, `Asbestos`, `Diatomite`   | y=30 to y=60  | `Limestone`, `Chalk`                                           | `Cassiterite Sand` (if applicable) | Source of Tin and industrial minerals.             |
+| Garnet Tin Vein (GT)  | `Cassiterite Sand`, `Garnet Sand`, `Asbestos`, `Diatomite`   | y=30 to y=60  | `Limestone`, `Chalk`                                           | `Cassiterite Sand` (if applicable as hint) | Source of Tin and industrial minerals.             |
 
 ---
 ### Iron (Fe) Ores
@@ -260,9 +260,8 @@ This section provides a detailed reference for locating key ores and minerals. V
 | Garnierite (TFC)   | `Garnierite` (Nickel ore)                                    | y < 0         | `Gabbro` (primarily); `Granite`, `Diorite` (Igneous Intrusive - rarer)                     | `Garnierite Nuggets`               | TFC default.                                       |
 | Nickel Vein (GT)   | `Garnierite`, `Nickel`, `Cobaltite`, `Pentlandite`           | y=-10 to y=60 | `Gabbro`, `Diorite`, `Granite`                                                              | `Garnierite Nuggets`               | Main GT Nickel source, includes `Cobalt`.          |
 | Bismuthinite (TFC) | `Bismuthinite` (Bismuth ore)                                 | Near surface or deep | `Shale`, `Claystone`, etc. (Sedimentary - near surface); `Granite`, `Diorite`, `Gabbro` (Igneous Intrusive - deep, richer) | `Bismuthinite Nuggets`             | TFC default. Needed for `Bismuth Bronze`.        |
-| Chromite (TFC Small Ore) | `Chromite`                                               | Any           | `Granite`, `Diorite`, `Gabbro` (Igneous Intrusive); `Slate`, `Phyllite`, `Schist`, `Gneiss`, `Marble` (Metamorphic) | `Small Chromite` pieces            | Found as small pieces, not large TFC veins.        |
-| Chromite Vein (GT)   | `Chromite`, `Nickel`                                         | y=-50 to y=55 | `Granite`, `Diorite`, `Gabbro`, `Schist`, `Phyllite`                                      | `Chromite Pieces`                  | GT source of `Chromium` and some `Nickel`.         |
-
+| Chromite (TFC Small Ore) | `Chromite`                                               | Any           | `Granite`, `Diorite`, `Gabbro` (Igneous Intrusive); `Slate`, `Phyllite`, `Schist`, `Gneiss`, `Marble` (Metamorphic) | `Small Chromite` pieces (No specific rock hint from list) | Found as small pieces, not large TFC veins.        |
+| Chromite Vein (GT)   | `Chromite`, `Nickel`                                         | y=-50 to y=55 | `Granite`, `Diorite`, `Gabbro`, `Schist`, `Phyllite`                                      | `Small Chromite` pieces            | GT source of `Chromium` and some `Nickel`.         |
 
 ---
 ### Coal
@@ -314,7 +313,7 @@ This section provides a detailed reference for locating key ores and minerals. V
 
 | Vein Name / Type     | Common Ores in This Vein (Gravitas²)                               | Y-Level Range | Host Rock Types (TFC Specific Names)                                          | Mineral Hint / Surface Indicator | Notes & Tips                                                     |
 |----------------------|--------------------------------------------------------------------|---------------|-------------------------------------------------------------------------------|------------------------------------|------------------------------------------------------------------|
-| Thorium Vein (GT)    | `Thorium`, `Cinnabar`, `Uraninite`                                 | y=-50 to y=25 | `Basalt`, `Rhyolite`, `Dacite`, `Andesite`                                    | (No specific rock hint)            | GT source for radioactive materials.                             |
+| Thorium Vein (GT)    | `Thorium`, `Cinnabar`, `Uraninite`                                 | y=-50 to y=25 | `Basalt`, `Rhyolite`, `Dacite`, `Andesite`                                    | (Cinnabar: `Gneiss` Hint)          | GT source for radioactive materials.                             |
 | Redstone Vein (GT)   | `Redstone`, `Ruby`, `Cinnabar`, `Thorium`                          | y=-65 to y=-10| `Rhyolite`, `Basalt`, `Andesite`, `Dacite`, `Quartzite`, `Shale`              | (Cinnabar: `Gneiss` Hint)          | Primary GT `Redstone` source, also `Ruby`.                       |
 | Manganese Vein (GT)  | `Grossular`, `Spessartine`, `Pyrolusite` (Manganese), `Tantalite`   | y=-30 to y=0  | `Phyllite`, `Granite`, `Quartzite`                                            | (No specific rock hint)            | GT source of `Manganese`.                                        |
 | Olivine Vein (GT)    | `Bentonite`, `Magnetite`, `Olivine`, `Glauconite Sand`             | y=-20 to y=10 | `Quartzite`, `Slate`, `Phyllite`, `Schist`, `Gneiss`, `Marble`                | (No specific rock hint)            | GT vein with various industrial minerals.                        |
