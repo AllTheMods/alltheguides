@@ -90,6 +90,7 @@ The following table details common field crops found in TFC, along with their es
 | Beet             | -5 to 20         | **18 - 85**         | Potassium| Single block crop. Produces `Beet` and `Beet Seeds`.                             |
 | Cabbage          | -10 to 27        | **15 - 65**         | Nitrogen | Single block crop. Produces `Cabbage` and `Cabbage Seeds`.                       |
 | Garlic           | -20 to 18        | **15 - 75**         | Nitrogen | Single block crop. Produces `Garlic` and `Garlic Seeds`.                         |
+
 ---
 
 ## Wild Fruits: Trees and Bushes
