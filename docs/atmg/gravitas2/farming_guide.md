@@ -14,6 +14,7 @@ Farming in TerraFirmaCraft (TFC), and by extension Gravitas², is a detailed and
 ## Basic Farming Principles
 
 ### Obtaining Seeds & Tools
+
 *   **Seeds:** To start growing crops, you'll first need `Seeds`. These are primarily obtained by finding and breaking **Wild Crops** scattered throughout the world.
     *   When a fully mature domesticated crop dies (either due to weather, old age, or being left to rot), it will often go to seed, dropping more seeds for future planting.
     *   Seeds are also useful as `Bait` for some traps or fishing.
@@ -46,6 +47,7 @@ Farming in TerraFirmaCraft (TFC), and by extension Gravitas², is a detailed and
 ## Fertilizers: Enhancing Your Soil
 
 Fertilizers are used to add nutrients (`Nitrogen`, `Phosphorous`, `Potassium`) to your farmland, improving crop growth speed and yield.
+
 *   **Application:** To use a fertilizer, hold it in your hand and ++rbutton++ on `Farmland` or directly on a `Crop`. Particles should appear, indicating the fertilizer was successfully added.
 
 ### Common Fertilizer Types
@@ -121,13 +123,16 @@ Fruit trees grow from tiny `Saplings` into large, flowering trees. The branches 
 | Peach Tree        | 4 - 27           | 60 - 230      | Dec - Mar                | Apr - May                  | Jun                       |                                                            |
 | Plum Tree         | 15 - 31          | 250 - 400     | Jan - Apr                | May - Jun                  | Jul                       |                                                            |
 | Red Apple Tree    | 1 - 25           | 100 - 280     | Mar - Jul                | Aug - Sep                  | Oct                       |                                                            |
+
 *Fruiting Calendar (General Guide - specific timings can vary):*
+
 *   **Dormant:** Brown/Lifeless appearance, typically colder months.
 *   **Healthy:** Green, growing leaves, often Spring/early Summer.
 *   **Flowering:** Visible flowers, mid-to-late Summer/early Autumn.
 *   **Fruiting:** Visible fruit, late Summer/Autumn.
 
 ---
+
 ### Tall Bushes (TFC)
 
 Tall bushes are fruit blocks that can grow and spread in all directions, either directly upwards (up to three blocks high) or by placing "canes" on their sides which can mature into new full bush blocks. After a while, bushes stop spreading and reach maturity.
@@ -170,21 +175,25 @@ This section covers the standard TFC small, low-lying berry bushes typically fou
 
 
 ---
+
 ## Beekeeping In-Depth
 
 Bees are incredibly useful for pollinating your crops, providing food (`Honey`), and essential crafting materials like `Beeswax` (for `Treated Lumber`, vital for Create mod progression).
 
 ### 1. Setting Up Your Apiary
+
 *   **Craft `Beehive Frames`:** Essential components. Recipe likely involves `Lumber` and `Sticks`.
 *   **Craft `Wooden Beehive`:** Requires `Beehive Frames` and `Lumber`.
 *   **Placement:** Place your `Wooden Beehive`. Beehives can share flowers if placed relatively close (within their 5-block radius check for flowers). The benefit of flowers diminishes after around 60 flowers for a single hive.
 
 ### 2. Attracting and Housing Bees
+
 *   **Frames are Key:** Bees need `Beehive Frames` inside the hive to live. Having **4 empty `Beehive Frames`** in a hive greatly increases the chances of a wild swarm moving in.
 *   **Flower Power:** A hive needs at least **10 `Flowers`** planted within a 5-block radius for a chance for an empty frame to be populated with a `Queen Bee`. More flowers can help. Bee particles around the hive indicate this colonization attempt.
 *   **Patience & Queens:** Wild swarms may take time to colonize. If you find a `Queen Bee` item, placing it in a frame within the hive can significantly speed this up.
 
 ### 3. Harvesting Resources Safely
+
 *   **WARNING: DO NOT INTERACT WITH ACTIVE BEEHIVES DURING DAYTIME** (unless smoked). Bees will attack if you disturb them (e.g., by removing frames).
 *   **Safe Harvesting:**
     *   **Night:** Interact with hives at night when bees are sleeping.
@@ -197,6 +206,7 @@ Bees are incredibly useful for pollinating your crops, providing food (`Honey`),
 *   **`Treated Lumber`:** The most important early use of `Beeswax` is crafting `Treated Lumber` (often `Beeswax` + `Lumber`). This is vital for Create mod progression.
 
 ### 4. Bee Abilities and Breeding (Advanced)
+
 *   **Breeding:** If a beehive has two frames with queens and an empty frame, the colonies may breed, producing a new queen in the empty frame. This passes on **Abilities** (traits) from the parents. Abilities are on a scale of 1-10.
 *   **List of Abilities:**
     *   **Hardiness:** Allows honey production at lower temperatures (Hardiness 10: down to -16°C; Hardiness 1: down to 2°C).
@@ -209,6 +219,7 @@ Bees are incredibly useful for pollinating your crops, providing food (`Honey`),
 *   **Genetic Disease:** Bees with high Mutant ability have a chance of developing a Genetic Disease. Diseased bees pass it to offspring and don't produce honey.
 
 ### 5. Bee Tips
+
 *   Bees can help fertilize planters and crops via Crop Affinity.
 *   Scraping a frame for beeswax sacrifices that queen. Be smart!
 *   Being wet (e.g., in water) prevents bees from attacking you.
@@ -219,10 +230,13 @@ Bees are incredibly useful for pollinating your crops, providing food (`Honey`),
 Firmalife introduces winemaking, the science of turning grapes into alcohol. While wine in Firmalife might not have special uses beyond regular TFC alcohol, it's a flavorful addition to your homestead.
 
 ### 1. Finding Grapes
+
 *   **`Wild Red Grapes` & `Wild White Grapes`:** Spawn from 0-30°C and 125-500mm rainfall (almost the entire habitable area).
 
 ### 2. Growing Grapes: Trellises
+
 Grapes must be grown on **trellises**.
+
 *   **`Grape Trellis Post`:** Craft these first.
 *   **Constructing a Trellis:**
     1.  Place two `Grape Trellis Posts` on top of each other.
@@ -232,6 +246,7 @@ Grapes must be grown on **trellises**.
 *   **Growth:** Provided climate requirements are met, grapes will grow up and over the trellis over a few months, typically fruiting in July after flowering the month prior. Grapes can also be grown in greenhouses.
 
 ### 3. Processing Grapes
+
 *   **Harvesting:** Harvest grapes from the trellis when ripe.
 *   **Stomping:**
     *   Craft an `Acacia Stomping Barrel` (or other wood type).
@@ -245,6 +260,7 @@ Grapes must be grown on **trellises**.
     *   This is likely used for further processing or aging the wine.
 
 ### 4. Bottling and Types of Wine
+
 *   **Wine Bottles:** Wine must be bottled in proper `Wine Bottles`, made from non-silica glass (likely requiring specific sand/flux and a high-temperature heat source like a `Forge` with `Crucible`).
     *   The TFC Guidebook image shows a glassblowing-like process: 1. Blow, 2. Blow, 3. Pinch, 4. Saw.
 *   **Mixing:** The leftmost slot in a bottling interface (perhaps the Barrel Press GUI or a dedicated bottler) can hold up to 16 grape items. Four grape items are needed for one bottle of wine.
