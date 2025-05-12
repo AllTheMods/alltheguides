@@ -182,7 +182,7 @@ Bees are incredibly useful for pollinating your crops, providing food (`Honey`),
 
 ### 1. Setting Up Your Apiary
 
-*   **Craft `Beehive Frames`:** Essential components. Recipe likely involves `Lumber` and `Sticks`.
+*   **Craft `Beehive Frames`:** Essential components.
 *   **Craft `Wooden Beehive`:** Requires `Beehive Frames` and `Lumber`.
 *   **Placement:** Place your `Wooden Beehive`. Beehives can share flowers if placed relatively close (within their 5-block radius check for flowers). The benefit of flowers diminishes after around 60 flowers for a single hive.
 
@@ -203,7 +203,7 @@ Bees are incredibly useful for pollinating your crops, providing food (`Honey`),
     *   When a frame is filled with honeycomb, remove it (safely).
     *   ++rbutton++ the filled frame in your inventory with a `Knife` to get `Beeswax`.
     *   **Critical: This process kills the queen in that frame!** Be mindful, especially early on. Ensure you have other queens or methods to attract new ones.
-*   **`Treated Lumber`:** The most important early use of `Beeswax` is crafting `Treated Lumber` (often `Beeswax` + `Lumber`). This is vital for Create mod progression.
+*   **`Treated Lumber`:** The most important early use of `Beeswax` is crafting `Treated Lumber`. This is vital for Create mod progression.
 
 ### 4. Bee Abilities and Breeding (Advanced)
 
@@ -257,11 +257,10 @@ Grapes must be grown on **trellises**.
 *   **Fermenting:** Seal the processed grapes/juice in a `Barrel` for 5 days to ferment them into young wine.
 *   **Barrel Press (Optional Aging/Refining):**
     *   Craft an `Acacia Barrel Press` (or other wood type).
-    *   This is likely used for further processing or aging the wine.
 
 ### 4. Bottling and Types of Wine
 
-*   **Wine Bottles:** Wine must be bottled in proper `Wine Bottles`, made from non-silica glass (likely requiring specific sand/flux and a high-temperature heat source like a `Forge` with `Crucible`).
+*   **Wine Bottles:** Wine must be bottled in proper `Wine Bottles`, made from non-silica glass.
     *   The TFC Guidebook image shows a glassblowing-like process: 1. Blow, 2. Blow, 3. Pinch, 4. Saw.
 *   **Mixing:** The leftmost slot in a bottling interface (perhaps the Barrel Press GUI or a dedicated bottler) can hold up to 16 grape items. Four grape items are needed for one bottle of wine.
     *   Central slots may be for mixing grapes with other ingredients (optional).
