@@ -160,17 +160,17 @@ This section covers the standard TFC small, low-lying berry bushes typically fou
 
 #### Small Bush & Berry Producer Reference
 
-| Bush Name             | Temp. Range (°C) | Hydration/Rainfall              | Growing Months (Approx.) | Flowering Months (Approx.) | Fruiting Months (Approx.) | Found In            | Special Notes & Uses                                     |
-|-----------------------|------------------|---------------------------------|--------------------------|----------------------------|---------------------------|---------------------|----------------------------------------------------------|
-| Bunchberry Bush (TFC) | 15 - 35          | Hydration: 24 - 100%            | May - Jul                | Aug - Sep                  | Oct                       | Forests             | TFC Small Bush type.                                     |
-| Cloudberry Bush (TFC) | -2 - 17          | Hydration: 9 - 100%             | Feb - May                | Jun - Aug                  | Sep                       | Forests             | TFC Small Bush type.                                     |
-| Cranberry Bush (TFC)  | -5 - 17          | Hydration: 30 - 100%            | Mar - Jun                | Jul - Aug                  | Sep                       | Forests             | TFC Small Bush type. **Grown underwater (waterlogged farmland).** |
-| Gooseberry Bush (TFC) | 5 - 27           | Hydration: 24 - 100%            | Apr - Jul                | Aug - Sep                  | Oct                       | Forests             | TFC Small Bush type.                                     |
-| Snowberry Bush (TFC)  | -7 - 18          | Hydration: 24 - 100%            | Mar - Jun                | Jul - Aug                  | Sep                       | Forests             | TFC Small Bush type.                                     |
-| Strawberry Bush (TFC) | 5 - 28           | Hydration: 12 - 100%            | Oct - Dec                | Jan - Feb                  | Mar                       | Forests             | TFC Small Bush type.                                     |
-| Wintergreen Berry (TFC)| -6 - 17          | Hydration: 12 - 100%            | May - Sep                | Oct - Nov                  | Dec                       | Forests             | TFC Small Bush type.                                     |
-| Nightshade Berry (Firmalife)| 7 - 24     | Rainfall: 200 - 400mm         | (Varies by climate)      | (Varies by climate)        | (Varies by climate)       | Forests             | Firmalife. **Poisonous.** Makes `Stinky Soup`.         |
-| Pineapple Bush (Firmalife)| 20 - 32    | Rainfall: 250 - 500mm         | (Varies by climate)      | (Varies by climate)        | (Varies by climate)       | Forests             | Firmalife. Can be processed into `Pineapple Leather` (Dry -> Fiber -> Yarn -> Leather).      |
+| Bush Name             | Temp. Range (°C) | Hydration/Rainfall              | Growing Months (Approx.) | Flowering Months (Approx.) | Fruiting Months (Approx.)         | Special Notes & Uses                                     |
+|-----------------------|------------------|---------------------------------|--------------------------|----------------------------|------------|----------------------------------------------------------|
+| Bunchberry Bush (TFC) | 15 - 35          | Hydration: 24 - 100%            | May - Jul                | Aug - Sep                  | Oct                     | TFC Small Bush type.                                     |
+| Cloudberry Bush (TFC) | -2 - 17          | Hydration: 9 - 100%             | Feb - May                | Jun - Aug                  | Sep                    | TFC Small Bush type.                                     |
+| Cranberry Bush (TFC)  | -5 - 17          | Hydration: 30 - 100%            | Mar - Jun                | Jul - Aug                  | Sep                     | TFC Small Bush type. **Grown underwater (waterlogged farmland).** |
+| Gooseberry Bush (TFC) | 5 - 27           | Hydration: 24 - 100%            | Apr - Jul                | Aug - Sep                  | Oct                           | TFC Small Bush type.                                     |
+| Snowberry Bush (TFC)  | -7 - 18          | Hydration: 24 - 100%            | Mar - Jun                | Jul - Aug                  | Sep                        | TFC Small Bush type.                                     |
+| Strawberry Bush (TFC) | 5 - 28           | Hydration: 12 - 100%            | Oct - Dec                | Jan - Feb                  | Mar                      | TFC Small Bush type.                                     |
+| Wintergreen Berry (TFC)| -6 - 17          | Hydration: 12 - 100%            | May - Sep                | Oct - Nov                  | Dec                      | TFC Small Bush type.                                     |
+| Nightshade Berry (Firmalife)| 7 - 24     | Rainfall: 200 - 400mm         | (Varies by climate)      | (Varies by climate)        | (Varies by climate)      | Firmalife. **Poisonous.** Makes `Stinky Soup`.         |
+| Pineapple Bush (Firmalife)| 20 - 32    | Rainfall: 250 - 500mm         | (Varies by climate)      | (Varies by climate)        | (Varies by climate)      | Firmalife. Can be processed into `Pineapple Leather` (Dry -> Fiber -> Yarn -> Leather).      |
 
 
 
