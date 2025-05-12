@@ -271,7 +271,7 @@ Grapes must be grown on **trellises**.
 *   **Corks & Labels:**
     *   Wine must be provided with a `Cork`. Corks are made by soaking `Treated Lumber` in `Limewater` for a day.
     *   When all is complete, use the bottle slot to fill the wine, or by ++rbutton++ with a `Wine Bottle` in hand on the aging/bottling device.
-    *   **`Bottle Labels`:** Can be crafted (e.g., `Paper`, `Ink`, `String/Cork Piece`). Rename them in a Scribing Station (if available) to add their name to the wine's tooltip.
+    *   **`Bottle Labels`:** Can be crafted (e.g., `Paper`, `Ink`, `String/Cork Piece`). Rename them in a Scribing Station to add their name to the wine's tooltip.
 
 ---
 
