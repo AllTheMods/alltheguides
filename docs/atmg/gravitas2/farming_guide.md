@@ -252,7 +252,7 @@ Grapes must be grown on **trellises**.
     *   Craft an `Acacia Stomping Barrel` (or other wood type).
     *   ++rbutton++ the Stomping Barrel with fresh grapes to add them.
     *   Jump up and down on the barrel 16 times.
-    *   ++rbutton++ with an empty hand to retrieve the items (likely `Grape Juice` or `Must`).
+    *   ++rbutton++ with an empty hand to retrieve the result.
     *   A `Quern` may also be used to smash grapes.
 *   **Fermenting:** Seal the processed grapes/juice in a `Barrel` for 5 days to ferment them into young wine.
 *   **Barrel Press (Optional Aging/Refining):**
