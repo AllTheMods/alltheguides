@@ -1,5 +1,5 @@
 ---
-title: Farming in Depth - A Gravitas² Agricultural Guide
+title: Farming in Depth - Agricultural Guide
 description: Comprehensive guide to crops, fruit trees, bushes, fertilizers, and beekeeping in Gravitas²
 authors:
  - Xannaeh

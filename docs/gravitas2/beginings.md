@@ -1,5 +1,5 @@
 ---
-title: First Steps into Gravitas²
+title: First Steps
 description: A Beginner's Guide to Surviving and Thriving in Gravitas²
 authors:
  - Xannaeh

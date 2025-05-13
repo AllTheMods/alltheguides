@@ -1,5 +1,5 @@
 ---
-title: Prospecting, Geology, and Mining in Gravitas²
+title: Prospecting, Geology, and Mining
 description: A Comprehensive Guide to Finding and Extracting Resources in Gravitas²
 authors:
  - Xannaeh
