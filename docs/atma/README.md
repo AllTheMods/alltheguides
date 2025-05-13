@@ -1,5 +1,5 @@
 ---
-title: All The Mods - Arcana
+title: All The Magic - Arcana
 description: ATM-A Intro Description
 ---
 
