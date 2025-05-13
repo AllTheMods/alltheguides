@@ -275,3 +275,5 @@ Grapes must be grown on **trellises**.
 ---
 
 *This guide provides a foundation for TFC agriculture. Successful farming requires careful observation of your environment, understanding plant needs, and adapting your strategies to the seasons. Always consult your in-game TFC Guidebook and JEI for the most precise information relevant to Gravitas².*
+
+> TerraFirmCraft | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/terrafirmacraft) | [GitHub](https://github.com/TerraFirmaCraft/TerraFirmaCraft) | [Wiki](https://terrafirmacraft.github.io/Field-Guide/en_us/)
