@@ -322,4 +322,5 @@ This section provides a detailed reference for locating key ores and minerals. V
 
 *This detailed mining guide, including the ore reference tables, should provide a strong foundation for resource acquisition in Gravitas². Successful mining requires patience, careful observation, strategic use of tools, and a good understanding of TFC's geology. Always refer to your in-game TFC Guidebook and JEI for the most up-to-date and pack-specific information.*
 
-> Gravitas² | [CurseForge](https://legacy.curseforge.com/minecraft/modpacks/all-the-mods-gravitas2) | [Github](https://github.com/AllTheMods/Gravitas2)
+> TerraFirmCraft | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/terrafirmacraft) | [GitHub](https://github.com/TerraFirmaCraft/TerraFirmaCraft) | [Wiki](https://terrafirmacraft.github.io/Field-Guide/en_us/)
+> GregTechCEu Modern | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/gregtechceu-modern) | [GitHub](https://github.com/GregTechCEu/GregTech-Modern)

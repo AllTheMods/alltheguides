@@ -491,4 +491,4 @@ Really. Stay away. They are not early-game friendly and will destroy you and you
 
 *This guide is based on TerraFirmaCraft mechanics and information from the Gravitas² quest book. Specifics can vary. Always check JEI for recipes and consult your in-game TFC Guidebook!*
 
-> Gravitas² | [CurseForge](https://legacy.curseforge.com/minecraft/modpacks/all-the-mods-gravitas2) | [Github](https://github.com/AllTheMods/Gravitas2)
+> All The Mods - Gravitas² | [CurseForge](https://legacy.curseforge.com/minecraft/modpacks/all-the-mods-gravitas2) | [GitHub](https://github.com/AllTheMods/Gravitas2)
