@@ -67,31 +67,63 @@ Fertilizers are used to add nutrients (`Nitrogen`, `Phosphorous`, `Potassium`) t
 
 The following table details common field crops found in TFC, along with their essential growing conditions.
 
-| Crop             | Temp. Range (°C) | Hydration Range (%) | Nutrient | Special Notes                                                                |
-|------------------|------------------|---------------------|----------|------------------------------------------------------------------------------|
-| Maize (Corn)     | 13 to 40         | **75 - 100**        | Phosphorus | Two blocks tall. Produces `Maize` and `Maize Seeds`.                           |
-| Melons           | 5 to 37          | **75 - 100**        | Phosphorus | Spreading crop. Places up to two `Melon Blocks` next to it when mature. Can regrow melons.   |
-| Papyrus          | 19 to 37         | **70 - 100**        | Potassium| Two blocks tall. Produces `Papyrus` (for paper) and `Papyrus Seeds`.             |
-| Potatoes         | -1 to 37         | **50 - 100**        | Potassium| Single block crop. Produces `Potatoes` and `Potato Seeds`.                       |
-| Soybean          | 8 to 30          | **40 - 100**        | Nitrogen | Single block crop. Produces `Soybean` and `Soybean Seeds`.                       |
-| Sugarcane        | 12 to 38         | **40 - 100**        | Potassium| Two blocks tall. Produces `Sugarcane` and `Sugarcane Seeds`. Used for `Sugar`.     |
-| Green Beans      | 2 to 35          | **38 - 100**        | Nitrogen | Climbing, two blocks tall. **Requires a `Stick` in the farmland to fully grow.** Produces `Green Beans` and `Green Bean Seeds`. |
-| Oat              | 3 to 40          | **35 - 100**        | Phosphorus | Single block crop. Produces `Oat` and `Oat Seeds`.                             |
-| Pumpkins         | 0 to 30          | **30 - 80**         | Phosphorus | Spreading crop. Places up to two `Pumpkin Blocks` next to it when mature. Can regrow pumpkins. |
-| Tomatoes         | 0 to 36          | **30 - 95**         | Potassium| Climbing, two blocks tall. **Requires a `Stick` in the farmland to fully grow.** Produces `Tomatoes` and `Tomato Seeds`. |
-| Rye              | -11 to 30        | **25 - 85**         | Phosphorus | Single block crop. Produces `Rye` and `Rye Seeds`.                             |
-| Wheat            | -4 to 35         | **25 - 100**        | Phosphorus | Single block crop. Produces `Wheat` and `Wheat Seeds`.                         |
-| Rice             | 15 to 30         | **25 - 100**        | Phosphorus | Single block crop. **Must be planted on farmland in freshwater one block deep (waterlogged).** Produces `Rice` and `Rice Seeds`. |
-| Carrot           | 3 to 30          | **25 - 100**        | Potassium| Single block crop. Produces `Carrot` and `Carrot Seeds`.                         |
-| Red Bell Peppers | 16 to 30         | **25 - 60**         | Potassium| Pickable crop. Harvest with ++rbutton++ near maturity for `Green Bell Peppers`. Allows regrowth. |
-| Yellow Bell Peppers| 16 to 30         | **25 - 60**         | Potassium| Pickable crop. Harvest with ++rbutton++ near maturity for `Green Bell Peppers`. Allows regrowth. |
-| Onions           | 0 to 30          | **25 - 90**         | Nitrogen | Single block crop. Produces `Onions` and `Onion Seeds`.                          |
-| Jute             | 5 to 37          | **25 - 100**        | Potassium| Two blocks tall. Produces `Jute` (fiber) and `Jute Seeds`.                     |
-| Squash           | 5 to 33          | **23 - 95**         | Potassium| Single block crop. Produces `Squash` and `Squash Seeds`.                         |
-| Barley           | -8 to 26         | **18 - 75**         | Nitrogen | Single block crop. Produces `Barley` and `Barley Seeds`.                       |
-| Beet             | -5 to 20         | **18 - 85**         | Potassium| Single block crop. Produces `Beet` and `Beet Seeds`.                             |
-| Cabbage          | -10 to 27        | **15 - 65**         | Nitrogen | Single block crop. Produces `Cabbage` and `Cabbage Seeds`.                       |
-| Garlic           | -20 to 18        | **15 - 75**         | Nitrogen | Single block crop. Produces `Garlic` and `Garlic Seeds`.                         |
+
+=== "Sorted By Hydration Range"
+
+    | Crop             | Temp. Range (°C) | Hydration Range (%) | Nutrient | Special Notes                                                                |
+    |------------------|------------------|---------------------|----------|------------------------------------------------------------------------------|
+    | Maize (Corn)     | 13 to 40         | **75 - 100**        | Phosphorus | Two blocks tall. Produces `Maize` and `Maize Seeds`.                           |
+    | Melons           | 5 to 37          | **75 - 100**        | Phosphorus | Spreading crop. Places up to two `Melon Blocks` next to it when mature. Can regrow melons.   |
+    | Papyrus          | 19 to 37         | **70 - 100**        | Potassium| Two blocks tall. Produces `Papyrus` (for paper) and `Papyrus Seeds`.             |
+    | Potatoes         | -1 to 37         | **50 - 100**        | Potassium| Single block crop. Produces `Potatoes` and `Potato Seeds`.                       |
+    | Soybean          | 8 to 30          | **40 - 100**        | Nitrogen | Single block crop. Produces `Soybean` and `Soybean Seeds`.                       |
+    | Sugarcane        | 12 to 38         | **40 - 100**        | Potassium| Two blocks tall. Produces `Sugarcane` and `Sugarcane Seeds`. Used for `Sugar`.     |
+    | Green Beans      | 2 to 35          | **38 - 100**        | Nitrogen | Climbing, two blocks tall. **Requires a `Stick` in the farmland to fully grow.** Produces `Green Beans` and `Green Bean Seeds`. |
+    | Oat              | 3 to 40          | **35 - 100**        | Phosphorus | Single block crop. Produces `Oat` and `Oat Seeds`.                             |
+    | Pumpkins         | 0 to 30          | **30 - 80**         | Phosphorus | Spreading crop. Places up to two `Pumpkin Blocks` next to it when mature. Can regrow pumpkins. |
+    | Tomatoes         | 0 to 36          | **30 - 95**         | Potassium| Climbing, two blocks tall. **Requires a `Stick` in the farmland to fully grow.** Produces `Tomatoes` and `Tomato Seeds`. |
+    | Rye              | -11 to 30        | **25 - 85**         | Phosphorus | Single block crop. Produces `Rye` and `Rye Seeds`.                             |
+    | Wheat            | -4 to 35         | **25 - 100**        | Phosphorus | Single block crop. Produces `Wheat` and `Wheat Seeds`.                         |
+    | Rice             | 15 to 30         | **25 - 100**        | Phosphorus | Single block crop. **Must be planted on farmland in freshwater one block deep (waterlogged).** Produces `Rice` and `Rice Seeds`. |
+    | Carrot           | 3 to 30          | **25 - 100**        | Potassium| Single block crop. Produces `Carrot` and `Carrot Seeds`.                         |
+    | Red Bell Peppers | 16 to 30         | **25 - 60**         | Potassium| Pickable crop. Harvest with ++rbutton++ near maturity for `Green Bell Peppers`. Allows regrowth. |
+    | Yellow Bell Peppers| 16 to 30         | **25 - 60**         | Potassium| Pickable crop. Harvest with ++rbutton++ near maturity for `Green Bell Peppers`. Allows regrowth. |
+    | Onions           | 0 to 30          | **25 - 90**         | Nitrogen | Single block crop. Produces `Onions` and `Onion Seeds`.                          |
+    | Jute             | 5 to 37          | **25 - 100**        | Potassium| Two blocks tall. Produces `Jute` (fiber) and `Jute Seeds`.                     |
+    | Squash           | 5 to 33          | **23 - 95**         | Potassium| Single block crop. Produces `Squash` and `Squash Seeds`.                         |
+    | Barley           | -8 to 26         | **18 - 75**         | Nitrogen | Single block crop. Produces `Barley` and `Barley Seeds`.                       |
+    | Beet             | -5 to 20         | **18 - 85**         | Potassium| Single block crop. Produces `Beet` and `Beet Seeds`.                             |
+    | Cabbage          | -10 to 27        | **15 - 65**         | Nitrogen | Single block crop. Produces `Cabbage` and `Cabbage Seeds`.                       |
+    | Garlic           | -20 to 18        | **15 - 75**         | Nitrogen | Single block crop. Produces `Garlic` and `Garlic Seeds`.                         |
+
+
+=== "Sorted By Temperature Range"
+
+    | Crop                | Temp. Range (°C) | Hydration Range (%) | Nutrient   | Special Notes                                                                              |
+    |---------------------|------------------|---------------------|------------|--------------------------------------------------------------------------------------------|
+    | Garlic              | **-20** to 18    | **15 - 75**         | Nitrogen   | Single block crop. Produces `Garlic` and `Garlic Seeds`.                                       |
+    | Rye                 | **-11** to 30    | **25 - 85**         | Phosphorus | Single block crop. Produces `Rye` and `Rye Seeds`.                                           |
+    | Cabbage             | **-10** to 27    | **15 - 65**         | Nitrogen   | Single block crop. Produces `Cabbage` and `Cabbage Seeds`.                                     |
+    | Barley              | **-8** to 26     | **18 - 75**         | Nitrogen   | Single block crop. Produces `Barley` and `Barley Seeds`.                                     |
+    | Beet                | **-5** to 20     | **18 - 85**         | Potassium  | Single block crop. Produces `Beet` and `Beet Seeds`.                                           |
+    | Wheat               | **-4** to 35     | **25 - 100**        | Phosphorus | Single block crop. Produces `Wheat` and `Wheat Seeds`.                                       |
+    | Potatoes            | **-1** to 37     | **50 - 100**        | Potassium  | Single block crop. Produces `Potatoes` and `Potato Seeds`.                                     |
+    | Pumpkins            | **0** to 30      | **30 - 80**         | Phosphorus | Spreading crop. Places up to two `Pumpkin Blocks` next to it when mature. Can regrow pumpkins. |
+    | Tomatoes            | **0** to 36      | **30 - 95**         | Potassium  | Climbing, two blocks tall. **Requires a `Stick` in the farmland to fully grow.** Produces `Tomatoes` and `Tomato Seeds`. |
+    | Onions              | **0** to 30      | **25 - 90**         | Nitrogen   | Single block crop. Produces `Onions` and `Onion Seeds`.                                        |
+    | Green Beans         | **2** to 35      | **38 - 100**        | Nitrogen   | Climbing, two blocks tall. **Requires a `Stick` in the farmland to fully grow.** Produces `Green Beans` and `Green Bean Seeds`. |
+    | Oat                 | **3** to 40      | **35 - 100**        | Phosphorus | Single block crop. Produces `Oat` and `Oat Seeds`.                                           |
+    | Carrot              | **3** to 30      | **25 - 100**        | Potassium  | Single block crop. Produces `Carrot` and `Carrot Seeds`.                                       |
+    | Melons              | **5** to 37      | **75 - 100**        | Phosphorus | Spreading crop. Places up to two `Melon Blocks` next to it when mature. Can regrow melons.  |
+    | Jute                | **5** to 37      | **25 - 100**        | Potassium  | Two blocks tall. Produces `Jute` (fiber) and `Jute Seeds`.                                   |
+    | Squash              | **5** to 33      | **23 - 95**         | Potassium  | Single block crop. Produces `Squash` and `Squash Seeds`.                                       |
+    | Soybean             | **8** to 30      | **40 - 100**        | Nitrogen   | Single block crop. Produces `Soybean` and `Soybean Seeds`.                                     |
+    | Sugarcane           | **12** to 38     | **40 - 100**        | Potassium  | Two blocks tall. Produces `Sugarcane` and `Sugarcane Seeds`. Used for `Sugar`.                   |
+    | Maize (Corn)        | **13** to 40     | **75 - 100**        | Phosphorus | Two blocks tall. Produces `Maize` and `Maize Seeds`.                                         |
+    | Rice                | **15** to 30     | **25 - 100**        | Phosphorus | Single block crop. **Must be planted on farmland in freshwater one block deep (waterlogged).** Produces `Rice` and `Rice Seeds`. |
+    | Red Bell Peppers    | **16** to 30     | **25 - 60**         | Potassium  | Pickable crop. Harvest with ++rbutton++ near maturity for `Green Bell Peppers`. Allows regrowth. |
+    | Yellow Bell Peppers | **16** to 30     | **25 - 60**         | Potassium  | Pickable crop. Harvest with ++rbutton++ near maturity for `Green Bell Peppers`. Allows regrowth. |
+    | Papyrus             | **19** to 37     | **70 - 100**        | Potassium  | Two blocks tall. Produces `Papyrus` (for paper) and `Papyrus Seeds`.                           |
 
 ---
 
