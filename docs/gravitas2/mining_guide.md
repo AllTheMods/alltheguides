@@ -183,6 +183,33 @@ Before you have a reliable supply of metal for prospecting tools, or if you're s
         *   A raw `Gem` (e.g., `Amethyst`, `Opal`) - ~1% chance. The type of gem obtained is tied to the rock type of the area where the gravel deposit was found.
 *   **Utility:** Panning is a good way to get your very first `Copper` or `Tin` nuggets for casting, or to find early `Gold` and `Silver`.
 
+### Sluicing for Resources
+
+Sluices offer an alternative, and potentially more automated, method for processing `Ore Deposits`. They produce the same types of items as manual Panning (ores, loose rocks, and gems) but with different probabilities.
+
+*   **What is a Sluice?** The Sluice is a device specifically used to process `Ore Deposits`. When set up with flowing water, it automates the sifting process.
+
+*   **Placement and Water Setup:**
+    1.  **Size:** When placed, a sluice is a two-block high structure.
+    2.  **Water Flow:** It requires a continuous flow of water. Water must enter the top of the sluice and flow out from the bottom.
+    3.  **Input Water:** The water flowing *into* the sluice must be the **last block of a water stream**. It should not be a source block directly above the sluice, but rather flowing water leading into it.
+    4.  **Outlet:** There must be an empty block directly below the bottom part of the sluice for the water to flow into.
+    5.  **Operation:** The sluice is considered operational and will process items when water visually appears to be flowing through it.
+
+*   **Usage:**
+    1.  Obtain `Ore Deposit` items (the items you get from breaking `Ore Deposit` blocks, such as `Rich Limonite Deposit` items, not the blocks themselves).
+    2.  Drop these items into the water stream just before it enters the top of the sluice.
+    3.  The items will be caught by the sluice and will appear on its grates.
+    4.  After a processing period, there is a chance that the resulting products (ore pieces, loose rocks, or gems) will be ejected, or "spat out," from the bottom of the sluice.
+
+*   **Products and Probabilities (from Sluicing):**
+    Processing `Ore Deposits` with a Sluice can yield the following:
+    *   **Ore:** 55% chance (e.g., a `Native Copper Nugget` from a copper-bearing deposit).
+    *   **Loose Rock:** 22.5% chance (corresponding to the local rock type).
+    *   **Gem:** 0.9% chance. As with Panning, the type of gem obtained is specific to the rock type of the area where the `Ore Deposit` was found.
+
+    *Note: Compared to manual Panning, Sluices offer a slightly higher chance for ore (55% vs. ~50% from Panning) and marginally lower chances for loose rocks (22.5% vs. ~25%) and gems (0.9% vs. ~1%).*
+
 ---
 
 ## Using Caves and Surface Geology to Guide Prospecting
