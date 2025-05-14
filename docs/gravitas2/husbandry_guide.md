@@ -16,6 +16,7 @@ The world of TerraFirmaCraft (TFC) is teeming with diverse animal life. Some ani
 `Animal Husbandry` in TFC involves taming, breeding, and managing `Livestock` animals. These animals provide valuable resources and utility.
 
 **Core Husbandry Mechanics:**
+
 *   **Sex:** Livestock can be male or female. Some species have visual distinctions (e.g., male pigs have tusks).
 *   **Aging:** Animals progress through life stages:
     *   **Baby:** Smaller, cannot provide resources or breed.
@@ -36,7 +37,6 @@ The world of TerraFirmaCraft (TFC) is teeming with diverse animal life. Some ani
 *   **Oviparous Animals (Egg-Layers):**
     *   Not mammals; reproduce by laying `Eggs`. Examples: `Ducks`, `Quails`, `Chickens`.
     *   Require a `Nest Box` to lay eggs, which they can locate on their own.
-        *   **Nest Box Crafting:** 3 `Straw` (top row) + 3 `Lumber` (bottom row).
     *   Male oviparous animals can fertilize females, causing the next egg laid in a nest box to be fertilized.
     *   Fertilized eggs have a tooltip indicating hatch time.
     *   `Eggs` can be cooked or boiled for food.
