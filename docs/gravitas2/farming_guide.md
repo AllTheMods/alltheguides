@@ -1,6 +1,6 @@
 ---
 title: Farming in Depth - Agricultural Guide
-description: Comprehensive guide to crops, fruit trees, bushes, fertilizers, and beekeeping in Gravitas²
+description: Comprehensive guide to crops, fruit trees, bushes, fertilizers, beekeeping, and greenhouses in Gravitas²
 authors:
  - Xannaeh
 ---
@@ -257,6 +257,158 @@ Bees are incredibly useful for pollinating your crops, providing food (`Honey`),
 *   Being wet (e.g., in water) prevents bees from attacking you.
 
 ---
+## Greenhouses: Year-Round Cultivation
+
+The `Greenhouse` is a multiblock device controlled by a `Climate Station`. It allows growing crops year-round, bypassing seasonal restrictions. Building a greenhouse is quite simple, but requires adherence to specific rules.
+
+### Building Your Greenhouse
+
+Constructing a functional greenhouse involves creating an enclosed space using specific greenhouse blocks:
+
+1.  **Enclosed Structure:** The greenhouse must be a fully enclosed area of blocks, similar to a `Cellar`.
+2.  **Walls:**
+    *   The walls of greenhouses must be **solid faces**.
+    *   If using **Panel Walls**, they should be placed so that the face that is on the exterior of the block (e.g., the face you can place a torch on) faces *into* the greenhouse.
+3.  **Roof:**
+    *   The same orientation rule applies to panel roofs as panel walls.
+    *   `Slabs` are always considered valid roof blocks, regardless of their orientation.
+4.  **Doors & Trapdoors:** Standard greenhouse `Doors` and `Trapdoors` are always valid and require no special placement.
+5.  **Floor:** The floor of the greenhouse may be any non-air block; it does not need to be a specific greenhouse block.
+6.  **Homogeneous Type:** All greenhouse blocks used in the structure (walls, roof, doors, etc.) must belong to the *same* **Greenhouse Type** (e.g., all Treated Wood, or all Copper).
+
+### Greenhouse Types
+
+Greenhouse Types are families of greenhouse blocks that can be used interchangeably in a greenhouse. Most greenhouse blocks age. For example, `Treated Wood` greenhouse blocks become `Weathered Treated Wood` blocks. Since both of these block types belong to the same greenhouse type, your greenhouse will continue to function.
+
+These are the Greenhouse Types available, with the block types they can age into:
+
+*   **Treated Wood:** Weathered
+*   **Copper:** Exposed, Weathered, Oxidized
+*   **Iron:** Rusted
+*   **Aluminium:** (Does not age)
+
+*Initially, only Treated Wood greenhouses might be available. Copper, Iron, and Aluminium represent tiers of advancement, often required for specific advanced crops or planters.*
+
+### Greenhouse Blocks & Components
+
+There are four types of regular `Greenhouse Blocks`: Walls, Doors, Roofs, and Roof Tops. Roofs and Roof Tops are stairs and slabs, respectively. There are also thinner versions of these blocks, also known as panel walls, trapdoors, and panel roofs. These can be combined however you choose to form the structure of the greenhouse.
+
+*   **Regular Blocks:**
+    *   `Greenhouse Wall`
+    *   `Greenhouse Door`
+    *   `Greenhouse Roof` (Stairs)
+    *   `Greenhouse Roof Top` (Slabs)
+*   **Panel Blocks (Thinner Variants):**
+    *   `Greenhouse Panel Wall`
+    *   `Greenhouse Trapdoor`
+    *   `Greenhouse Panel Roof`
+*   **Specialized Blocks:**
+    *   `Greenhouse Port`: A wall block with an integrated pipe segment, allowing `Copper Pipes` to pass water through the greenhouse wall without breaking the seal.
+
+### Greenhouse Operations & Internal Devices
+
+There are many blocks that operate inside Greenhouses:
+
+*   **`Climate Station`:** The control block for the greenhouse. It must be placed within or connected to the greenhouse structure to activate it.
+*   **`Planters`:** For growing crops.
+*   **`Sprinklers`:** Various devices that add water to planters.
+
+### Greenhouse Irrigation System
+
+To automate watering within your greenhouse, you'll typically use a system of sprinklers, pipes, and a water source.
+
+*   **`Sprinkler`:**
+    *   **Function:** The `Sprinkler` is a device that sprinkles water in a 5x6x5 area centered on the block *below* the sprinkler block. You know it is working when it drips out water particles. Sprinklers placed facing up irrigate the same 5x6x5 area *above*.
+*   **`Copper Pipe`:**
+    *   **Function:** Sprinklers must be connected to a system of pipes that feed it water in order to work. This is done by connecting a series of `Copper Pipes` to them. `Copper Pipes` transport water up to 32 blocks to a sprinkler. They are connected to `Irrigation Tanks` or `Pumping Stations`.
+*   **`Pumping Station`:**
+    *   **Function:** `Pumping stations` must be above a source block of water in order to work, and be connected to mechanical power.
+*   **`Irrigation Tank`:**
+    *   **Function:** `Irrigation tanks` can also serve water through their ports on the sides, provided that they are stacked at most 3 blocks high above a pumping station or on other tanks.
+*   **`Oxidized Copper Pipe`:**
+    *   **Function:** Oxidized pipes are the same as regular copper pipes, except they do not connect to the other kind of pipe.
+
+### Planters: The Heart of Greenhouse Farming
+
+`Planters` are used to grow crops inside a `Greenhouse`. To see the status of a planter, you can look at it while holding a `Hoe`. Crops in planters consume `Nutrients` in a similar way to `Crops`. Planters should be placed inside a valid Greenhouse and activated with a `Climate Station`. Planters need at least some natural sunlight to work.
+
+*   **Watering:** Planters must be Watered to grow. This is done with a `Watering Can`, or automatically with `Sprinklers`.
+*   **`Watering Can`:**
+    *   **Use:** Press ++rbutton++ with it to water nearby planters. Refill it by pressing ++rbutton++ on a water source.
+
+#### Types of Planters and Their Crops
+
+Different planters are suited for different types of crops and may have specific greenhouse tier requirements.
+
+*   **`Large Planter`**
+    *   **Grows:** Single crop from seed. Large Planters can grow Green Beans, Tomatoes, Sugarcane, Jute, and Grains.
+    *   **Harvest:** Harvested with ++rbutton++ when mature.
+    *   **Requirements:** To grow Grains (e.g., Wheat, Rye, Barley, Rice, Maize, Oats), you need a **Copper or better** greenhouse. Other listed crops can be grown in any greenhouse type.
+
+*   **`Quad Planter`**
+    *   **Grows:** Four individual crops at once. Quad Planters can grow Beets, Cabbage, Carrots, Garlic, Onions, Potatoes, and Soybeans.
+    *   **Nutrients:** These crops all draw from the same nutrient pool.
+    *   **Harvest:** Can be harvested individually with ++rbutton++ when mature.
+    *   **Requirements:** These crops can be grown in **any** greenhouse type.
+
+*   **`Bonsai Planter`**
+    *   **Grows:** Small fruit trees from their saplings. Bonsai Planters can grow any fruit tree type, *except* Bananas (which need a `Hanging Planter`).
+    *   **Nutrient:** They all consume Nitrogen as their main nutrient.
+    *   **Harvest:** The fruit can be picked with ++rbutton++.
+    *   **Requirements:** Requires an **Iron or better** greenhouse to grow.
+
+*   **`Hanging Planter`**
+    *   **Grows:** Crops upside down. Hanging Planters grow Squash (from their seeds) and Bananas (from their saplings).
+    *   **Placement:** Need to anchor to a solid block above them.
+    *   **Harvest:** When mature, they can be harvested with ++rbutton++.
+    *   **Requirements:** Squash can be grown in **any** greenhouse type, but Bananas require an **Iron or better** greenhouse to grow.
+
+*   **`Trellis Planter`**
+    *   **Grows:** Berry bushes. Trellis Planters can grow any berry bush *except* Cranberries.
+    *   **Mechanic:** Trellis Planters have the unique property of propagating berry bushes. If a trellis planter is placed on top of another, and the one below has a mature berry bush, it has a chance to grow upwards into the next one.
+    *   **Nutrient:** Bushes prefer Nitrogen.
+    *   **Harvest:** Berries can be picked with ++rbutton++.
+    *   **Requirements:** Requires an **Iron or better** greenhouse to work.
+
+*   **`Hydroponic Planter`**
+    *   **Grows:** Rice and Cranberry bushes.
+    *   **Mechanic:** They work the same as a quad planter, except that they do not need to be watered.
+    *   **Watering:** Instead, they *must* have an active irrigation pipe (e.g., `Copper Pipe` connected to a sprinkler system) directly below them that is supplying water. Without the pipe, they will not grow.
+    *   **Requirements:** Greenhouse tier not explicitly stated for the planter itself; likely depends on the crop if not for the special watering. Assumed "Any" if water conditions are met.
+
+### Greenhouse Crop Planting Guide
+
+This table summarizes which planters to use for various crops within a greenhouse and any minimum greenhouse tier requirements.
+
+| Crop             | Planter Type        | Min. Greenhouse Level | Notes                                                                 |
+|------------------|---------------------|-----------------------|-----------------------------------------------------------------------|
+| Wheat            | Large Planter       | Copper                |                                                                       |
+| Rye              | Large Planter       | Copper                |                                                                       |
+| Barley           | Large Planter       | Copper                |                                                                       |
+| Rice             | Hydroponic Planter       | Copper                |                             |
+| Maize (Corn)     | Large Planter       | Copper                |                                                                       |
+| Oat              | Large Planter       | Copper                |                                                                       |
+| Green Beans      | Large Planter       | Any                   |                                                                       |
+| Tomatoes         | Large Planter       | Any                   |                                                                       |
+| Sugarcane        | Large Planter       | Any                   |                                                                       |
+| Jute             | Large Planter       | Any                   | (Fiber crop)                                                          |
+| Beets            | Quad Planter        | Any                   |                                                                       |
+| Cabbage          | Quad Planter        | Any                   |                                                                       |
+| Carrots          | Quad Planter        | Any                   |                                                                       |
+| Garlic           | Quad Planter        | Any                   |                                                                       |
+| Onions           | Quad Planter        | Any                   |                                                                       |
+| Potatoes         | Quad Planter        | Any                   |                                                                       |
+| Soybeans         | Quad Planter        | Any                   |                                                                       |
+| Squash           | Hanging Planter     | Any                   | Grows upside down.                                                    |
+| All (except Banana)| Bonsai Planter      | Iron                  | Saplings. Prefers Nitrogen.                                           |
+| Banana           | Hanging Planter     | Iron                  | Saplings. Grows upside down.                                          |
+| All (except Cranberry)| Trellis Planter     | Iron                  | Can propagate upwards. Prefers Nitrogen.                            |
+| Cranberry        | Hydroponic Planter  | Any (if water met)    | Requires active irrigation pipe below.                                |
+
+*Note: "Any (if water met)" for Hydroponic Planter crops indicates the planter itself doesn't seem to have a tier, but relies on its special watering. The specific crop (e.g. Rice) might have its own needs if grown conventionally.*
+
+---
+
 ## Firmalife Specialities: Winemaking
 
 Firmalife introduces winemaking, the science of turning grapes into alcohol. While wine in Firmalife might not have special uses beyond regular TFC alcohol, it's a flavorful addition to your homestead.
