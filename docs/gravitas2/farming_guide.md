@@ -272,7 +272,7 @@ Grapes must be grown on **trellises**.
 *   **`Grape Trellis Post`:** Craft these first.
 *   **Constructing a Trellis:**
     1.  Place two `Grape Trellis Posts` on top of each other.
-    2.  Move two blocks to the left or right and repeat, placing another stack of two posts.
+    2.  Move two blocks to the left or right (so you just need to leave a block in between the trellis) and repeat, placing another stack of two posts.
     3.  ++rbutton++ the side of one of the top and bottom posts with `Jute Fiber` (from `Jute` plants) to string lines between the posts.
     4.  Grape trellises can be chained horizontally to create rows.
 *   **Growth:** Provided climate requirements are met, grapes will grow up and over the trellis over a few months, typically fruiting in July after flowering the month prior. Grapes can also be grown in greenhouses.
