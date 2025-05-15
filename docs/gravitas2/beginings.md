@@ -249,7 +249,7 @@ Once you've found a place to settle, you'll need a house.
 
 ## Mastering Fire
 
-**Important**: Keep your fire **WAY** from wood based constructions, or they will burn.
+**Important**: Keep your fire **AWAY** from wood based constructions, or they will burn.
 
 ### Creating Fire: The Firestarter
 
