@@ -37,7 +37,7 @@ Your initial survival hinges on gathering basic resources. It doesn't make much 
 *   **`Sticks` from Leaves:** Sticks can also be obtained by breaking tree `Leaves` with your fist or a `Hoe`.
 *   **Compacting Sticks:**
     *   **`Stick Bunch`:** Craft `Sticks` together for better storage.
-    *   **`Stick Bundle`:** Craft `Stick Bunches` together for even more compaction. `Stick Bundles` can also be used as a hot fuel source in `Firepits`.
+    *   **`Stick Bundle`:** Craft `Stick Bunches` together for even more compaction. `Stick Bundles` can also be used as a hot fuel source in `Firepits`. *(Note: Used as a fuel, not as a `Firepit` starter)*
 
 ### Knapping Stone Tools
 With enough `Pebbles` (of the same rock type) and `Sticks` or `Twigs`, you are ready to start **Knapping**.
@@ -249,6 +249,8 @@ Once you've found a place to settle, you'll need a house.
 
 ## Mastering Fire
 
+**Important**: Keep your fire **AWAY** from wood based constructions, or they will burn.
+
 ### Creating Fire: The Firestarter
 
 1.  **Crafting:** With two `Sticks`, make a `Firestarter`.
@@ -257,9 +259,9 @@ Once you've found a place to settle, you'll need a house.
 ### The Firepit: Your First Cooking Station
 
 1.  **Gather Materials:**
-    *   1 `Log`
-    *   3 `Sticks`
-    *   5 `Straw` (for kindling; increases success chance)
+    *   1 `Log` x1 *(Note: Needs to be a `Log` not a `Stick Buncle`)*
+    *   3 `Sticks` x3
+    *   5 `Straw` x5
 2.  **Construction:** Throw (default `Q`) all items onto the same block on the ground. Then, use the `Firestarter` on the block with the items floating above it.
 
 ### Firepit Uses & Mechanics
