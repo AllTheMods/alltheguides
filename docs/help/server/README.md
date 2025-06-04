@@ -57,7 +57,7 @@ If you only have **one** [Java](../java.md) version installed, you do not have t
     - **Windows**: Execute `startserver.bat`
     - **Linux**: Execute `./startserver.sh`
 
-The first time you tun `startserver` it will generate a bunch of files. **Do not end the installer during this**. If you do so, you might have to start over
+The first time you run `startserver` it will generate a bunch of files. **Do not end the installer during this**. If you do so, you might have to start over
 
 After running `serverstart` once, you're required to accept the [Minecraft Eula](https://www.minecraft.net/en-us/eula) in the `eula.txt` file that was automatically generated, by setting `eula=true`
 

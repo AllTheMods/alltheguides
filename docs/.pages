@@ -1,18 +1,19 @@
 nav:
  - <b>Pack Guides</b>:
    - Home: README.md
-   - All The Mods - Arcana: atma
    - All The Mods 10: atm10
    - All The Mods 9: atm9
-   - All The Mods 9 - TTS: atm9tts
-   - All The Mods - Volcano Block: atmvb
-   - All The Mods - Gravitas: atmg
    - All The Mods 8: atm8
    - All The Mods 7: atm7
-   - All The Spells - Spellbound: atms
    - All The Mods 6: atm6
    - All The Mods 0: atm0
    - Legacy Packs: legacy
+   - All The Mods 9 - Sky: atm9tts
+   - All The Mods - Volcano Block: atmvb
+   - All The Magic - Arcana: atma
+   - All The Magic - Spellbound: atms
+   - All The Mods - Gravitas²: gravitas2
+   - All The Mods - Gravitas: gravitas
  - Mod Guides: mods
  - Contributing: guides
  - Help: help
