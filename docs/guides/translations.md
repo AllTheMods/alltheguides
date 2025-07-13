@@ -7,7 +7,24 @@ authors:
 
 # All The Translations
 
-???+ warning "FTB Quests 1.21+"
+## Guidance on Ai Translations
+
+AI translation ≠ Machine translations
+
+???+ failure "NO AI TRANSLATIONS"
+	**Do NOT even think about using AI slop to translate our quests**. If we wanted a cheap, lazy, and bad attempt at translating, then we would've done it ourselves. 
+
+	We're looking for **native speakers** who are willing to *volunteer* their time to provide high quality quest translations. Not someone who half knows the language and is lazy. You are allowed to use machine translations IF you review and make corrections.
+
+---
+
+## Welcome!
+
+There is ***no*** set or forced timeline for translations. *Work on them at your own pace!* PR them however you want, either as whole chapters, sections of chapters, or even the whole thing if you want. **We are incredibly grateful for any contributions you make!**
+
+Also, tell a staff member that you'd like to translate so they can give you access to the #translation-department, where you can ask questions and collaborate with other translators!
+
+???+ info "FTB Quests 1.21+"
 	Translating lang files and previewing them all while in-game is now possible. I may or may not adjust this page to include that method, as it would a slight rewrite of this guide.
 
 ???+ question "Don't know how to work GitHub?"
@@ -15,17 +32,8 @@ authors:
 	
 	After you're done ask a staff member in the [Discord](https://discord.com/invite/allthemods) and they can help you get your translations submitted and put into the main pack!
 
-## Important!
-
-There is ***no*** set or forced timeline for translations. *Work on them at your own pace!* PR them however you want, either as whole chapters, sections of chapters, or even the whole thing if you want. **We are incredibly grateful for any contributions you make!**
-
-Also, tell a staff member that you'd like to translate so they can give you access to the #translation-department, where you can ask questions and collaborate with other translators!
-
 ???+ warning "Important note for packs in development"
 	If you are translating a pack that is under ***active development***, then you need to use the lang file from the **`dev` branch**, not `main`. The `dev` branch will always contain the most up-to-date quest lang file that you will translate.
-
-???+ failure "Regarding AI/Machine translations"
-	We are **not** looking for AI/Machine translations.  We are looking for native speakers who are looking to put in the effort to make sure grammar is correct for readers of that language. We would've done it ourselves if we wanted a cheap attempt at quest translations.
 
 ---
 
