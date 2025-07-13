@@ -34,11 +34,11 @@ These can help both server and client with performance in,
 These can be set in your **Launcher**
 
 ??? question "Curseforge Launcher"
-    If you're using the Curseforge Launcher, open your **Settings**, choose **Minecraft** and scroll down to these Settings. 
+    If you're using the Curseforge Launcher, open your **Settings**, choose **Minecraft** and scroll down to these Settings.
     ![](img/CurseforgeJVM.png)
 
 ??? question "ATLauncher"
-    Open your pack **Settings**, click **Java/Minecraft** and put your args into the big `Java Parameters` box. 
+    Open your pack **Settings**, click **Java/Minecraft** and put your args into the big `Java Parameters` box.
     ![](img/javaAT1.png)
     ![](img/javaAT2.png)
 
@@ -64,11 +64,15 @@ These can be set in your **Launcher**
 
 These are set in the `user_jvm_args.txt` file in your server folder
 
-```title="Default Java Server Arguments"
+```title="Java 17 Server Arguments"
 -Xms4G -Xmx6G -XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis=200 -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC -XX:+AlwaysPreTouch -XX:G1NewSizePercent=30 -XX:G1MaxNewSizePercent=40 -XX:G1HeapRegionSize=8M -XX:G1ReservePercent=20 -XX:G1HeapWastePercent=5 -XX:G1MixedGCCountTarget=4 -XX:InitiatingHeapOccupancyPercent=15 -XX:G1MixedGCLiveThresholdPercent=90 -XX:G1RSetUpdatingPauseTimePercent=5 -XX:SurvivorRatio=32 -XX:+PerfDisableSharedMem -XX:MaxTenuringThreshold=1
 ```
 
-```title="Java Server Arguments | For fast CPUs with 4+ cores & lots of ram (8-12GB), try ZGC:"
+```title="Java 21 Server Arguments"
+-Xms4G -Xmx6G -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M
+```
+
+```title="Java 21 Server Arguments | For fast CPUs with 4+ cores & lots of ram (8-12GB), try ZGC:"
 -Xms8G -Xmx12G -XX:+UseZGC -XX:+ZGenerational -XX:SoftMaxHeapSize=10g -XX:+DisableExplicitGC -XX:+AlwaysPreTouch -XX:+PerfDisableSharedMem -XX:+UseDynamicNumberOfGCThreads
 ```
 
