@@ -17,7 +17,7 @@ description: ATM Team Members!
 
 #### Admins
 
-- `oly2o6` (**Second In Command**)
+- `oly2o6`
 - `Mitchell52`
 - `MutantGumdrop`
 - `thevortex`
@@ -33,7 +33,6 @@ description: ATM Team Members!
 - `Drack.ion`
 - `Jebraltar`
 - `LobsterJonn`
-- `Nyxane`
 - `pr0saic`
 - `radiomike12`
 - `Satherov`
@@ -57,11 +56,11 @@ description: ATM Team Members!
 
 ---
 
-#### Former - Retired
+#### Former Team
 
 - `0mega420`
 - `Alekthefirst`
-- `AlfredGG` | **(Former QuestDev)**
+- `AlfredGG`
 - `BeeJnugggets`
 - `Billy`
 - `Dijkstra`
@@ -70,13 +69,14 @@ description: ATM Team Members!
 - `KJM`
 - `KyBeeS`
 - `Maddy`
+- `Nyxane`
 - `Phantom`
 - `screret`
 - `Seg`
 - `Thunder_Nova the Pun_isher`
 - `uʍopǝpᴉsdn`
 - `Yumi`
-- `wva`
+- `micrwvae`
 
 ---
 
