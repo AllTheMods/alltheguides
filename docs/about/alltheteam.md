@@ -21,7 +21,6 @@ description: ATM Team Members!
 - `Mitchell52`
 - `MutantGumdrop`
 - `thevortex`
-- `Ki-Tan`
 
 ---
 
@@ -32,6 +31,7 @@ description: ATM Team Members!
 - `DJNifos`
 - `Drack.ion`
 - `Jebraltar`
+- `Ki-Tan`
 - `LobsterJonn`
 - `pr0saic`
 - `radiomike12`
@@ -80,4 +80,4 @@ description: ATM Team Members!
 
 ---
 
-> Current as of (03/24/2025)
+> Current as of (08/16/2025)
