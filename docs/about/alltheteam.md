@@ -15,12 +15,13 @@ description: ATM Team Members!
 
 ---
 
-#### Admins
+#### All The Devs
 
 - `oly2o6`
 - `Mitchell52`
 - `MutantGumdrop`
 - `thevortex`
+- `Uncandango`
 
 ---
 
@@ -38,7 +39,6 @@ description: ATM Team Members!
 - `Satherov`
 - `Toblerone0508`
 - `ToshibaMicrowave`
-- `Uncandango`
 - `ZephyrWindSpirit`
 
 ---
