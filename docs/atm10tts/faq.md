@@ -19,6 +19,9 @@ description: ATM10TTS Frequently Asked Questions
     ??? Question "Why is my ender crafter not working?"
         You have to have at least one ender alternator within 4 blocks of the crafter
 
+    ??? Question "Why is my modular router/click machine/other fake player not sieving?"
+        Fake players are unable to interact with sieves, use the Flux Sieve from Ex Machinis.
+
     ??? Question "Where are all the Mystical Agriculture seeds?"
         They have purposely been removed by the devs so that there is more variety in resource generation (e.g. Productive Bees/ Geores)
 
