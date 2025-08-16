@@ -3,7 +3,7 @@ title: All The Mods 10 - To The Sky
 description: ATM10-TTS Intro Description
 ---
 
-# All The Mods 10
+# All The Mods 10 To The Sky
 
 [![](img/atm10TTSLogocropped.png){.center}](https://legacy.curseforge.com/minecraft/modpacks/all-the-mods-10-sky)
 
