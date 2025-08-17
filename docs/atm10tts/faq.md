@@ -25,8 +25,8 @@ description: ATM10TTS Frequently Asked Questions
     ??? Question "Where are all the Mystical Agriculture seeds?"
         They have purposely been removed by the devs so that there is more variety in resource generation (e.g. Productive Bees/ Geores)
 
-    <!---??? Question "What is a good setup for Geores?"
-        <to be added when/if joey allows me to use their setup as an example\>-->
+    ??? Question "What is a good setup for Geores?"
+        Sample nearly max geore setup (credit to @joeychin01 on discord): ME annihilation pane on the geore crystal, and only storage for the shard to limit when it breaks. For the growth accelerators, there is a maximum of one boosted (red) accelerator, and you only want one directed (blue) accelerator, then the other sides besides the top can use normal accelerators. ![](img/geores.png){.center}
 
     ??? Question "Does the nether generate normally?"
         No. Strictly forts, nothing else. That means no bastions too.
