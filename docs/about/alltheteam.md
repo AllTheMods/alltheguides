@@ -15,13 +15,13 @@ description: ATM Team Members!
 
 ---
 
-#### Admins
+#### All The Devs
 
-- `oly2o6` (**Second In Command**)
+- `oly2o6`
 - `Mitchell52`
 - `MutantGumdrop`
 - `thevortex`
-- `Ki-Tan`
+- `Uncandango`
 
 ---
 
@@ -32,14 +32,13 @@ description: ATM Team Members!
 - `DJNifos`
 - `Drack.ion`
 - `Jebraltar`
+- `Ki-Tan`
 - `LobsterJonn`
-- `Nyxane`
 - `pr0saic`
 - `radiomike12`
 - `Satherov`
 - `Toblerone0508`
 - `ToshibaMicrowave`
-- `Uncandango`
 - `ZephyrWindSpirit`
 
 ---
@@ -57,11 +56,11 @@ description: ATM Team Members!
 
 ---
 
-#### Former - Retired
+#### Former Team
 
 - `0mega420`
 - `Alekthefirst`
-- `AlfredGG` | **(Former QuestDev)**
+- `AlfredGG`
 - `BeeJnugggets`
 - `Billy`
 - `Dijkstra`
@@ -70,14 +69,15 @@ description: ATM Team Members!
 - `KJM`
 - `KyBeeS`
 - `Maddy`
+- `Nyxane`
 - `Phantom`
 - `screret`
 - `Seg`
 - `Thunder_Nova the Pun_isher`
 - `uʍopǝpᴉsdn`
 - `Yumi`
-- `wva`
+- `micrwvae`
 
 ---
 
-> Current as of (03/24/2025)
+> Current as of (08/16/2025)
