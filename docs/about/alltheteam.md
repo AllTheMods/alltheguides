@@ -5,8 +5,6 @@ description: ATM Team Members!
 
 # All The Team
 
-<!--- ALL TEAM LIST CHANGES MUST BE PROOFREAD BY AN ADMIN --->
-
 ---
 
 #### Owner
@@ -18,10 +16,17 @@ description: ATM Team Members!
 #### All The Devs
 
 - `oly2o6`
+- `thevortex`
 - `Mitchell52`
 - `MutantGumdrop`
-- `thevortex`
 - `Uncandango`
+
+---
+
+#### Discord Management
+
+- `Bored`
+- `Ki-Tan`
 
 ---
 
@@ -29,26 +34,20 @@ description: ATM Team Members!
 
 - `Arochio`
 - `Bathsalts`
-- `DJNifos`
 - `Drack.ion`
 - `Jebraltar`
-- `Ki-Tan`
+- `Jonh09`
 - `LobsterJonn`
 - `pr0saic`
-- `radiomike12`
 - `Satherov`
 - `Toblerone0508`
 - `ToshibaMicrowave`
-- `ZephyrWindSpirit`
 
 ---
 
-#### Moderation Team
+#### ATM helper
 
-- `Bored`
 - `Helix_Ranmaru`
-- `Jonh09`
-- `Klonoa`
 - `RadzRatz`
 - `Shiny`
 - `SlackerNet>XI<`
@@ -62,22 +61,26 @@ description: ATM Team Members!
 - `Alekthefirst`
 - `AlfredGG`
 - `BeeJnugggets`
-- `Billy`
+- `Billbertking`
 - `Dijkstra`
+- `DJNifos`
 - `Draxial`
 - `EnigmaQuip`
 - `KJM`
+- `Klonoa`
 - `KyBeeS`
 - `Maddy`
+- `micrwvae`
 - `Nyxane`
 - `Phantom`
+- `radiomike12`
 - `screret`
 - `Seg`
 - `Thunder_Nova the Pun_isher`
 - `uʍopǝpᴉsdn`
 - `Yumi`
-- `micrwvae`
+- `ZephyrWindSpirit`
 
 ---
 
-> Current as of (08/16/2025)
+> Current as of (10/01/2025)
