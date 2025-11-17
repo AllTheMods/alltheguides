@@ -9,7 +9,8 @@ These game guides have been re-done _again_ from the ground up to be more organi
 ---
 
 | Workflow | Status |
-| --- | --- |
+| --علي
+- | --- |
 | **mkdocs** | [![](https://img.shields.io/github/actions/workflow/status/AllTheMods/alltheguides/mkdocs.yml?style=flat-square&label=mkdocs)](https://github.com/AllTheMods/alltheguides/actions/workflows/mkdocs.yml)|
 | **publish** | [![](https://img.shields.io/github/actions/workflow/status/AllTheMods/alltheguides/publish.yml?style=flat-square&label=publish)](https://github.com/AllTheMods/alltheguides/actions/workflows/publish.yml)|
 
