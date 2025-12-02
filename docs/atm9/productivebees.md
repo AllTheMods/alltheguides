@@ -154,8 +154,8 @@ While using a normal **fishing rod**, there is a chance for a **Water Bee** to c
 
 ![](img/pb_waterbee.png){.center width='500px' height='500px'}
 
-### Genes When Breeding
-
+### Genes When Breeding 
+(In ATM10/1.21+, both parents have to have the same genes for the child to get the same genes)
 When breeding, you must know how genes are assigned to a child bee.
 
 The bee on the **Left** side will be the **Main** bee, which is the one with priority gene-wise. This means that the baby will have the genes of the main bee at a minimum. 
