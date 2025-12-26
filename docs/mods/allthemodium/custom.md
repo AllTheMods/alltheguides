@@ -101,7 +101,7 @@ Reduces the brightness of the grass color
 
 Makes the sky color appear blue-ish like in the overworld
 
-`<root>/kubejs/data/allthemodium/dimension_type/the_beyond.json`
+`<root>/kubejs/data/allthemodium/worldgen/biome/the_beyond.json`
 ```json
 {
   "temperature": 0.7,
