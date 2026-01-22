@@ -382,7 +382,7 @@ Translators who have contributed translations to ATM packs/mods.
 | **:flag_jp: Japanese**	| flll, Abbage230 |
 | **:flag_kr: Korean**		| J-YonKen, sub-hub |
 | **:flag_no: Norwegian**	| Permest |
-| **:flag_pt: Portugese**	| oRuiva, Thomas, Alucard1313 |
+| **:flag_pt: Portuguese**	| oRuiva, Thomas, Alucard1313, PrincessStellar |
 | **:flag_ru: Russian**		| SlavaVas |
 | **:flag_es: Spanish**		| RadzRatz, 102389 (TenCross), t3mpt0n |
 | **:flag_tr: Turkish**		| RuyaSavascisi |
