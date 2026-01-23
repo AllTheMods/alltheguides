@@ -92,7 +92,7 @@ Using an item pipe from **Pipez** that can pull 100% genes with NBT filtering.
 
 Item: `productivebees:gene`
 
-NBT: `{productivebees_gene_purity:100}`
+NBT: `{"productivebees:gene_group":{purity:100}}`
 
 ---
 
