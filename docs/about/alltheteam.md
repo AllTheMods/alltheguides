@@ -7,16 +7,21 @@ description: ATM Team Members!
 
 ---
 
-#### Owner
+#### Admin (Owner)
 
-- `WhatTheDrunk`
+- `Whatthedrunk`
+
+---
+
+#### ATM Core
+
+- `oly2o6`
+- `thevortex`
 
 ---
 
 #### All The Devs
 
-- `oly2o6`
-- `thevortex`
 - `Mitchell52`
 - `MutantGumdrop`
 - `Uncandango`
@@ -38,18 +43,22 @@ description: ATM Team Members!
 - `Jebraltar`
 - `Jonh09`
 - `LobsterJonn`
-- `pr0saic`
-- `Satherov`
 - `Toblerone0508`
 - `ToshibaMicrowave`
 
 ---
 
-#### ATM helper
+#### Moderator
 
 - `Helix_Ranmaru`
 - `RadzRatz`
 - `Shiny`
+
+---
+
+#### All The Helper
+
+- `pr0saic`
 - `SlackerNet>XI<`
 - `Ultramega`
 
@@ -74,6 +83,7 @@ description: ATM Team Members!
 - `Nyxane`
 - `Phantom`
 - `radiomike12`
+- `Satherov`
 - `screret`
 - `Seg`
 - `Thunder_Nova the Pun_isher`
@@ -83,4 +93,4 @@ description: ATM Team Members!
 
 ---
 
-> Current as of (10/01/2025)
+> Current as of (01/31/2026)
