@@ -173,4 +173,12 @@ In the image below the "maxed" gene levels of the **Main** bee (Weather toleranc
 
 You will *never* get a child bee that has genes of a lower level than the main bee. That's why I recommend maxing out the 1st bee so it can be used as the main one for breeding.
 
+#### Optional Step
+
+If you want to import Child bees into the **BaBee Incubator** via **Pipez**, you can use the following NBT tag with a whitelist. For exporting Adult bees, you use the same tag with a blacklist.
+
+- Item: `productivebees:bee_cage`
+
+- NBT: `{"minecraft:custom_data":{Age:-24000}}`
+
 > Productive Bees | [CurseForge](https://legacy.curseforge.com/minecraft/mc-mods/productivebees)
