@@ -43,6 +43,7 @@ description: ATM Team Members!
 - `Jebraltar`
 - `Jonh09`
 - `LobsterJonn`
+- `rosary`
 - `Toblerone0508`
 - `ToshibaMicrowave`
 
@@ -93,4 +94,4 @@ description: ATM Team Members!
 
 ---
 
-> Current as of (01/31/2026)
+> Current as of (02/08/2026)
