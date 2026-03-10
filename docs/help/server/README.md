@@ -6,8 +6,7 @@ This guide will explain how to setup an AllTheMods server locally, or with a ser
 
 ## Prerequisites
 
-- [x] Server with at least **8GB+** of RAM (*As required for most ATM packs*).
-- [x] CPU with at least **3.5Ghz**.
+- [x] Server with at least **6GB+** allocated RAM (*As required for most ATM packs*).
 - [x] The specific [Java](../java.md) version based on the pack's **Minecraft** version.
 
 ---
