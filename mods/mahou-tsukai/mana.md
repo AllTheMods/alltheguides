@@ -2,13 +2,13 @@
 
 Top left you should see a Mahou manu bar. If not run `/showmahou`
 
-![](../.gitbook/assets/mahouManaBar.png)
+![](../../.gitbook/assets/mahouManaBar.png)
 
 {% stepper %}
 {% step %}
 ### Create an enclosure for Mahou Mana generation
 
-![](../.gitbook/assets/mahouManaGen.png)
+![](../../.gitbook/assets/mahouManaGen.png)
 
 * **Ethereal Glass** is solid for mobs, but players can pass through it.
 * **Conveyor Belts** push the mobs into the Mahou spell circles ( _that damage them for mana_)
@@ -25,12 +25,12 @@ The purpose of this farm is to drop mobs onto the Mahou damage spell circles, wh
 {% step %}
 ### Create an enclosure for your Villager spawner
 
-![](../.gitbook/assets/villagerSpawner.png)
+![](../../.gitbook/assets/villagerSpawner.png)
 
 * My enclosure uses **Solid Dark Zychorium Bricks** and **Dark Connected Glass**, but any blocks may be used ( _as with the Mahou Mana Generation enclosure_)
 * I have a **Wireless Restone Reciever** attached to the Villager spawner; the spawner is upgraded with a **Redstone Comparator**
 * Use **GPS Data Cards** on the **Wireless Redstone Recievers** to link the **Wireless Transmitter** so that the Lever starts up both the Mana Generation Farm and the Villager Spawner - this will increase your mana (and cap) at the same time as you kill villagers for the **Morgan**.
 
-![](../.gitbook/assets/wirelessTransmitter.png) ![](../.gitbook/assets/wirelessTransmitterGui.png)
+![](../../.gitbook/assets/wirelessTransmitter.png) ![](../../.gitbook/assets/wirelessTransmitterGui.png)
 {% endstep %}
 {% endstepper %}

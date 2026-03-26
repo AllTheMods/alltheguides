@@ -8,7 +8,7 @@ After gaining an additional enchantment level, you’ll want to duplicate the en
 
 ## Duplicating Enchants
 
-* Disenchant and use [Botania Mana Enchanter](all-the-mods-6/enchanting/botania-mana-enchanter.md) to duplicate enchantment books on a new **Item**.
+* Disenchant and use [Botania Mana Enchanter](../all-the-mods-6/enchanting/botania-mana-enchanter.md) to duplicate enchantment books on a new **Item**.
 * Duplicate **Item** using [Mahou Projection](mahou-tsukai/mahou-projection.md). ( _Only works with certain tools, **NOT ARMOR**_).
   * _Armor enchants can be forced on tools using **Pedestal Anvil**_
 
@@ -47,4 +47,4 @@ You will need,
 
 Using **Woot**, you can install the **Summit** perk. This will output **Mob Essence** through **Fluid Output** each operation (simulated mob death). The best mob to use one that has the most **HP**.
 
-Enchants can be forced onto any item using [Pedestal Anvil!](all-the-mods-6/pedestals.md)
+Enchants can be forced onto any item using [Pedestal Anvil!](../all-the-mods-6/pedestals.md)

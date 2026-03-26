@@ -6,7 +6,7 @@
 
 Allocate three large areas to your **Mahou Tsukai** adventure ( _I use a **19x19** area for the Mahou lake, a **10x10** area for the mob damage farm, and a **11x9** area for the villager kill farm_)
 
-![](../.gitbook/assets/mahouLake.png)
+![](../../.gitbook/assets/mahouLake.png)
 {% endstep %}
 
 {% step %}
@@ -20,7 +20,7 @@ Allocate three large areas to your **Mahou Tsukai** adventure ( _I use a **19x19
 
 After you have gathered enough **Mahou Tsukai** [Mana](mana.md) (about **10,000**, or a full **Attuned Diamond**) you are ready to place A **Blood Circle** in the center of your **19x19** area. Fill this **Blood Circle** with two **Powdered Diamond**, and **One Powdered Emerald** (FROM **MAHOU**!) Once the Lake is fully formed, there will be **FOG**!
 
-![](../.gitbook/assets/powerConsolidation.png)
+![](../../.gitbook/assets/powerConsolidation.png)
 
 Drop your **enchanted** diamond sword in and ensure you have at-least **5000** [Mana](mana.md). Search for the [**Caliburn**](caliburn.md) in the lake to retrieve it!
 {% endstep %}

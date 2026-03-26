@@ -4,7 +4,7 @@ _**Note: These mechanics and recommendations are subject to change due to ongoin
 
 ## Introduction
 
-L2 Hostiles adds an adaptive difficulty system where mobs become **stronger** and gain special **abilities** (Traits) based on **player progression** and location. It aims for a **more dynamic** and **challenging** experience compared to vanilla or mods like Champions, Scaling Health, or Infernal Mobs, featuring player-specific difficulty scaling and mechanics for creating safe zones. [For information in the curios specific for L2Hostility click here.](../curios-and-relics.md#hostility-curse-slot)
+L2 Hostiles adds an adaptive difficulty system where mobs become **stronger** and gain special **abilities** (Traits) based on **player progression** and location. It aims for a **more dynamic** and **challenging** experience compared to vanilla or mods like Champions, Scaling Health, or Infernal Mobs, featuring player-specific difficulty scaling and mechanics for creating safe zones. [For information in the curios specific for L2Hostility click here.](../mods/curios-and-relics.md#hostility-curse-slot)
 
 ## Understanding L2 Difficulty & Mob Levels
 
@@ -187,7 +187,7 @@ _Note: Enchantments from L2 Hostility can often be crafted using materials obtai
 
 ## L2 Traits Overview
 
-Mobs gain traits based on their level and player difficulty. Higher-level traits appear as difficulty increases. Use the in-game Patchouli book (or JEI/tooltips if applicable) for detailed info on specific traits. To see how to make a Mob Farm to get these traits go to the [Enderman Farm (L2 Trait Symbol Focus)](../mob-farms.md#__tabbed_3_2).
+Mobs gain traits based on their level and player difficulty. Higher-level traits appear as difficulty increases. Use the in-game Patchouli book (or JEI/tooltips if applicable) for detailed info on specific traits. To see how to make a Mob Farm to get these traits go to the [Enderman Farm (L2 Trait Symbol Focus)](../mods/mob-farms.md#__tabbed_3_2).
 
 **(Default Disabled Traits: `Undying`, `Killer Aura`, `Ragnarok` are powerful Legendary traits that are DISABLED by default in the configuration but can be re-enabled via config/datapack.)**
 

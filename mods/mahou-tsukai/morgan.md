@@ -2,13 +2,13 @@
 
 ### Rejecting Humanity
 
-![](../.gitbook/assets/ripWolf.png)
+![](../../.gitbook/assets/ripWolf.png)
 
 ***
 
 ## Step 7. Kill a [Tamed Wolf](https://minecraft.wiki/w/Wolf) with the Caliburn
 
-![](../.gitbook/assets/morgan.png) ![](../.gitbook/assets/iRejectMy.png) ![](../.gitbook/assets/humanity.png)
+![](../../.gitbook/assets/morgan.png) ![](../../.gitbook/assets/iRejectMy.png) ![](../../.gitbook/assets/humanity.png)
 
 ***
 

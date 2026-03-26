@@ -20,7 +20,7 @@ Original guide: [Productive Bees GUIDE - Beginning Tutorials + Best Genes and ho
 
 ### Gene Types
 
-![A bee's genes](.gitbook/assets/pb_genes.png)
+![A bee's genes](../.gitbook/assets/pb_genes.png)
 
 Apart from the 5 main genes, there is a 6th gene, the **bee-specific gene**. These are used to make spawn eggs of that bee. Most major mods use bee spawn eggs to connect themselves to Productive Bees. _(EX: Mystical Agriculture essence bees)_
 
@@ -36,7 +36,7 @@ Apart from the 5 main genes, there is a 6th gene, the **bee-specific gene**. The
 
 Now that you know what the genes are, you need to know how to get the genes. When you **squash** a bee to get genes, you will get all of its 6 different genes. The bad news? You only get a small percentage of the gene. The percentage dictates the chance that another bee has to get that gene. To give genes to a different bee, combine a **Honey Treat** with your chosen gene(s) in a crafting grid and then `Right Button` on a bee to give them that trait.
 
-![Bee squashing diagram](.gitbook/assets/pb_howtogetgenes.jpeg)
+![Bee squashing diagram](../.gitbook/assets/pb_howtogetgenes.jpeg)
 
 Getting genes is a pretty simple process:
 
@@ -53,7 +53,7 @@ Easy right? But remember, it will only give up to around 20% of the gene per bee
 
 This is a simple semi-automated setup. I reckon you already know how to set up breeding and incubation to get more bees if you are here.
 
-![Example gene automation setup](.gitbook/assets/pb_geneautomation.png)
+![Example gene automation setup](../.gitbook/assets/pb_geneautomation.png)
 
 {% stepper %}
 {% step %}
@@ -123,7 +123,7 @@ The least important ones are **Temper** and **Endurance**. These two are worthle
 
 **Productivity: Very High**
 
-![](.gitbook/assets/pb_kamikaze.png)
+![](../.gitbook/assets/pb_kamikaze.png)
 
 This one’s the trickiest and most important; this trait can only be gotten from **Kamikaze Bees**.
 
@@ -139,7 +139,7 @@ Now, you need to put the gene in an easy-to-breed bee (via Honey Treat + Gene) a
 
 **Behavior: Metaturnal**
 
-![](.gitbook/assets/pb_behavior.png)
+![](../.gitbook/assets/pb_behavior.png)
 
 To get this trait, a bee needs to be **left outside** for a few days. If it starts as **Diurnal**, it will change to **Nocturnal**, then **Metaturnal**. If you have Nocturnal bees, that’s better since you are already halfway there.
 
@@ -159,7 +159,7 @@ If there aren’t rivers nearby, use a **Nature’s Compass** to point you to a 
 
 While using a normal **fishing rod**, there is a chance for a **Water Bee** to come out of the water, and it will be _MAD_, so have a **Cage** on hand to capture it. You will need 2 of those to breed them to make more and to get that sweet weather tolerance.
 
-![](.gitbook/assets/pb_waterbee.png)
+![](../.gitbook/assets/pb_waterbee.png)
 
 ### Genes When Breeding
 
@@ -173,7 +173,7 @@ The bee on the **Right** only defines the range of gene levels.
 
 In the image below the “maxed” gene levels of the **Main** bee (Weather tolerance, behavior, and endurance) gets transferred to the child bee.
 
-![](.gitbook/assets/pb_breedingpair.png)
+![](../.gitbook/assets/pb_breedingpair.png)
 
 Example
 

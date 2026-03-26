@@ -1,4 +1,4 @@
-# Mekanism
+# Mekanism Infuser Auto-Crafting
 
 ## AE2 Mekanism Infuser Auto-Crafting
 
@@ -41,7 +41,7 @@ Place an **ME Pattern Provider** right behind the infuser and put an **ME Interf
 
 Place **7 AE2 cables** (Yellow in the example) connecting _all_ AE2 devices. The orange cable connects to your main AE2 network.
 
-![](.gitbook/assets/infuserBuildStep1.png)
+![](../../.gitbook/assets/infuserBuildStep1.png)
 {% endstep %}
 
 {% step %}
@@ -51,11 +51,11 @@ Adjacent to the Infuser, place an **Enrichment Chamber** and a **Pattern Provide
 
 If you’re using the same colored cables, place a **Cable Anchor** between them or use a different color.
 
-![](.gitbook/assets/infuserOverview.png)
+![](../../.gitbook/assets/infuserOverview.png)
 
-![](.gitbook/assets/infuserBuildsStep2.png)
+![](../../.gitbook/assets/infuserBuildsStep2.png)
 
-![](.gitbook/assets/infuserBuildsStep2.1.png)
+![](../../.gitbook/assets/infuserBuildsStep2.1.png)
 {% endstep %}
 
 {% step %}
@@ -63,7 +63,7 @@ If you’re using the same colored cables, place a **Cable Anchor** between them
 
 Set the **Infuser** & **Enrichment** inputs/outputs like the images below.
 
-![](.gitbook/assets/infuserEnrichIO.png)
+![](../../.gitbook/assets/infuserEnrichIO.png)
 
 The **Infuser** will input items on the left (Red Slot) and Extra Items on the right (Yellow Slot) while the **Enrichment Chamber** will input/output the back (Purple).
 {% endstep %}
@@ -73,7 +73,7 @@ The **Infuser** will input items on the left (Red Slot) and Extra Items on the r
 
 For the **ME Storage Buses** item filters have **Iron**, **Infused Alloy**, **Enriched Alloy**, and **Obsidian Dust** on the _left_ side and **Enriched Redstone**, **Diamond**, and **Obsidian** on the _right_.
 
-![](.gitbook/assets/infuserStorageBusConfig.png)
+![](../../.gitbook/assets/infuserStorageBusConfig.png)
 {% endstep %}
 {% endstepper %}
 
@@ -94,7 +94,7 @@ Make sure to set the patterns to **Process** (Furnace icon) instead of **Craftin
 * 2 Enriched Alloy + 1 Enriched Obsidian = 2 Atomic Alloy
 * 1 Obsidian = 4 Obsidian Dust
 
-![](.gitbook/assets/infuserPatterns.png)
+![](../../.gitbook/assets/infuserPatterns.png)
 {% endcolumn %}
 
 {% column %}
@@ -105,7 +105,7 @@ Make sure to set the patterns to **Process** (Furnace icon) instead of **Craftin
 * 1 Refined Obsidian Dust = 1 Enriched Obsidian
 * 8 Obsidian Dust + 1 Enriched Diamond = 8 Refined Obsidian Dust
 
-![](.gitbook/assets/enrichmentPatterns.png)
+![](../../.gitbook/assets/enrichmentPatterns.png)
 {% endcolumn %}
 {% endcolumns %}
 
@@ -113,6 +113,6 @@ Then you’ll put patterns in each pattern provider as shown below.
 
 Make sure to give both machines power and to enabled `Auto-Split`.
 
-![](.gitbook/assets/infuserPatternProvider.png)
+![](../../.gitbook/assets/infuserPatternProvider.png)
 
 > Mekanism | [CurseForge](https://legacy.curseforge.com/minecraft/mc-mods/mekanism)

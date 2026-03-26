@@ -33,7 +33,7 @@ You can either craft a hive or get one from out in the world. Bees will anger if
 
 [Bee Breeding Chart](https://miro.com/app/board/o9J_lLqaxQ4=/?invite_link_id=68812950259)
 
-![IMG](.gitbook/assets/beemutation.jpeg)
+![IMG](../.gitbook/assets/beemutation.jpeg)
 
 ## Resourceful Bees Tutorial (ATM6)
 

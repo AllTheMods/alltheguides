@@ -96,7 +96,7 @@ Pipes will then go into the **Enchantment Applicator**. **Black Hole Supreme Tan
 ![](../../.gitbook/assets/kVz4z9V.png)
 
 {% hint style="info" %}
-Enchanting higher levels will take more than 64 buckets (internal applicator buffer) of XP/Essence, which a **Black Hole Tank** will be required on top of the applicator to act as a secondary buffer. **Liquid XP** will work up too _level 20_, afterwards **Mob Essence** will be required. The [Applicator](../../enchantment-applicator.md) page will explain best methods of generating XP or Mob Essence.
+Enchanting higher levels will take more than 64 buckets (internal applicator buffer) of XP/Essence, which a **Black Hole Tank** will be required on top of the applicator to act as a secondary buffer. **Liquid XP** will work up too _level 20_, afterwards **Mob Essence** will be required. The [Applicator](../../mods/enchantment-applicator.md) page will explain best methods of generating XP or Mob Essence.
 {% endhint %}
 
 Pipe the new combined Tool out of the **Applicator** and put it into a **Cylic Disenchanter** to split the 2 again

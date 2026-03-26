@@ -10,7 +10,7 @@ These are a bunch of useful tips from the community and the team. You can find t
 
 Seek out your local **vampire hunter village** to be cleansed. There is also a **cleansing alter** you can use, please **remove all gear** from yourself before using or all your armor **will break**
 
-![](<.gitbook/assets/vampirism altar.png>)
+![](<../.gitbook/assets/vampirism altar.png>)
 
 </details>
 
@@ -57,7 +57,7 @@ Items needed:
 
 You can also upgrade the Ender Tank with **Pistons** and **Ender Pearls** (Pistons for the Pump so it pumps 4B/second and Ender Pearl for more internal storage, up to 256B)
 
-![](<.gitbook/assets/infinite lava.png>)
+![](<../.gitbook/assets/infinite lava.png>)
 
 </details>
 
@@ -67,7 +67,7 @@ You can also upgrade the Ender Tank with **Pistons** and **Ender Pearls** (Pisto
 
 Use the Structure Compass
 
-![](<.gitbook/assets/structrue compass.png>)
+![](<../.gitbook/assets/structrue compass.png>)
 
 </details>
 
@@ -80,7 +80,7 @@ Use the Structure Compass
 * Infinity Glove \[L2 Hostility]
 * Leather Belt \[Relics]
 
-[More Information Here](curios-and-relics.md#getting-more-curios-slots)
+[More Information Here](../mods/curios-and-relics.md#getting-more-curios-slots)
 
 </details>
 
@@ -88,7 +88,7 @@ Use the Structure Compass
 
 <summary>How do I keep it **Permanently Day**?</summary>
 
-![](<.gitbook/assets/eternal daylight.png>)
+![](<../.gitbook/assets/eternal daylight.png>)
 
 </details>
 

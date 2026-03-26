@@ -1,4 +1,4 @@
-# Mystical Agriculture
+# Mystical Agriculture Infusion
 
 ## Infusion Changes
 
@@ -22,7 +22,7 @@ You will need to add a **Security Upgrade** since you are working in a claimed c
 
 ### KJM’s Full-Auto Phytogenic Insolator with AE2
 
-![Full setup using all 32 channels of a dense cable per wall](.gitbook/assets/phytoae2_1.png)
+![Full setup using all 32 channels of a dense cable per wall](../../.gitbook/assets/phytoae2_1.png)
 
 #### Requirements
 
@@ -77,7 +77,7 @@ The **1x colored cable** (Magenta cable) should connect the quantum ring and the
 
 * Make sure to link your Quantum Rings.
 
-![Make sure to put quartz fiber or cable anchors to isolate the Lime cable from your home AE2 system](.gitbook/assets/phytoae2brain_1.png)
+![Make sure to put quartz fiber or cable anchors to isolate the Lime cable from your home AE2 system](../../.gitbook/assets/phytoae2brain_1.png)
 {% endstep %}
 
 {% step %}
@@ -85,7 +85,7 @@ The **1x colored cable** (Magenta cable) should connect the quantum ring and the
 
 Place **2x ME Storage Bus** on the ME Interface and Sink, facing each other.
 
-![ME Storage Bus on both the Sink and ME Interface](.gitbook/assets/phytoae2brain_2.png)
+![ME Storage Bus on both the Sink and ME Interface](../../.gitbook/assets/phytoae2brain_2.png)
 {% endstep %}
 
 {% step %}
@@ -93,7 +93,7 @@ Place **2x ME Storage Bus** on the ME Interface and Sink, facing each other.
 
 Have the **ME Interface** stock **Water** and **Phyto-Gro** and set the priority to **-1**.
 
-![ME Interface settings](.gitbook/assets/phytoae2brain_interfacesettings.png)
+![ME Interface settings](../../.gitbook/assets/phytoae2brain_interfacesettings.png)
 {% endstep %}
 
 {% step %}
@@ -101,7 +101,7 @@ Have the **ME Interface** stock **Water** and **Phyto-Gro** and set the priority
 
 For the **ME Storage Bus on the Sink** settings, have the **Input/Output Mode** to **Extract Only** and put **Water** in the filter by dragging it from JEI.
 
-![Storage Bus on sink settings](.gitbook/assets/phytoae2brain_sinkbus.png)
+![Storage Bus on sink settings](../../.gitbook/assets/phytoae2brain_sinkbus.png)
 {% endstep %}
 {% endstepper %}
 
@@ -115,11 +115,11 @@ Now we’ll build one of the “modules” that make up the entire thing. Each c
 
 Each module consists of **2 Phytos** next to each other and an **ME Interface** on each side.
 
-![](.gitbook/assets/phytoae2_module.png)
+![](../../.gitbook/assets/phytoae2_module.png)
 
 If you build the full size farm, the corners will look like this. One of the Phytos will move 90° to one side depending on which corner it’s on.
 
-![](.gitbook/assets/phytoae2_modulecorner.png)
+![](../../.gitbook/assets/phytoae2_modulecorner.png)
 {% endstep %}
 
 {% step %}
@@ -127,7 +127,7 @@ If you build the full size farm, the corners will look like this. One of the Phy
 
 For the **ME Interface**, put a **Crafting Card** in and set **Water** and **Phyto-Gro** in the filter by dragging it from JEI.
 
-![](.gitbook/assets/phytoae2_cardandfilter.png)
+![](../../.gitbook/assets/phytoae2_cardandfilter.png)
 {% endstep %}
 
 {% step %}
@@ -135,7 +135,7 @@ For the **ME Interface**, put a **Crafting Card** in and set **Water** and **Phy
 
 For the Phytos it’ll be slightly different depending on which side the ME Interface is on. You will have it **Auto Input/Output** the side touching the interface. The image below is for a phyto with an interface to the left.
 
-![](.gitbook/assets/phytoae2_phytosettings.png)
+![](../../.gitbook/assets/phytoae2_phytosettings.png)
 {% endstep %}
 
 {% step %}
@@ -143,7 +143,7 @@ For the Phytos it’ll be slightly different depending on which side the ME Inte
 
 Each Phyto will have **1x Abyssal Integral Component & 3x Abyssal Flux Linkages**. This combination provides maximum efficiency, of course you can put the lower tier ones in as you are working up to these.
 
-![](.gitbook/assets/phytoae2_phytoaugs.png)
+![](../../.gitbook/assets/phytoae2_phytoaugs.png)
 {% endstep %}
 {% endstepper %}
 
@@ -158,6 +158,6 @@ Tips
 
 You’ll put your **Colored Dense Cables** in this arrangement, each dense cable branch connects 4 colums of interfaces. You can use whatever energy pipe you want to power the phytos.
 
-![](.gitbook/assets/phytoae2_energy.png)
+![](../../.gitbook/assets/phytoae2_energy.png)
 
 > Mystical Agriculture | [CurseForge](https://legacy.curseforge.com/minecraft/mc-mods/mystical-agriculture)

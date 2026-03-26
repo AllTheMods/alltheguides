@@ -4,7 +4,7 @@
 
 Is a multi-block structure added by **Environmental Tech**. It generates various ores, crystals, and botanicals using energy. It comes in **8 tiers**.
 
-![Tier 2 Void Miner (Built Upside Down)](.gitbook/assets/1U2YaoUJ_NMRa4_4iJcsdBDC_eB8VmNW3hmG1Onsm.png)
+![Tier 2 Void Miner (Built Upside Down)](../.gitbook/assets/1U2YaoUJ_NMRa4_4iJcsdBDC_eB8VmNW3hmG1Onsm.png)
 
 ### Introduction
 
@@ -85,7 +85,7 @@ Creating a **Flash Memory** Card for **Void Miner** is vital for **Void Miner** 
 
 **Void Miner** needs to generate **Crystals** from **Environmental Tech** to upgrade to the next tier. These **Crystals** are generated through the **Multi-Miner** section of the **Memory Programmer** using the **Crystal Program**.
 
-![](.gitbook/assets/1oGtlPhbV2XnownrAfF4R9xyh7aGAzVMuBb7WuhC6.png)
+![](../.gitbook/assets/1oGtlPhbV2XnownrAfF4R9xyh7aGAzVMuBb7WuhC6.png)
 
 ### Lens
 

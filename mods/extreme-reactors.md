@@ -23,7 +23,7 @@ Some additional information regarding other aspects on how the turbines work and
 * The most efficient setup for rods is a checkerboard pattern with three spaces between the outermost rod and the interior wall. Heat manifolds placed on the interior walls of the reactor also in a checkerboard pattern in the cardinal directions of any rods (North, South, East, West).
 * Passive cooled reactors generate rf, active cooled with water produces steam for turbines. You will need to run passive for a while to produce cyanite for blutonium to make turbines.
 * One actively cooled reactor can produce enough steam for several turbines.
-* Liquid sodium from [Mekanism](mekanism-2.md) can be used to actively cool the reactor, making superheated liquid sodium then pumping it into a heat exchanger to produce even more steam powers even more turbines.
+* Liquid sodium from [Mekanism](mekanism/mekanism-power.md) can be used to actively cool the reactor, making superheated liquid sodium then pumping it into a heat exchanger to produce even more steam powers even more turbines.
 * Heat exchanger setup isn’t really necessary in atm because of other more efficient setups for power. It’s much like creating 5x ore processing in a modpack with mystical agriculture, fun but overkill.
 
 ***
@@ -74,7 +74,7 @@ Search for `http` and make sure it is set to `enabled = true` as shown below.
 
 Your server _must_ be **OFF** when changing this file. Otherwise the changes will not apply.
 
-![](.gitbook/assets/extreme_reactors_cc_kasrag.jpg)
+![](../.gitbook/assets/extreme_reactors_cc_kasrag.jpg)
 
 ***
 

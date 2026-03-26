@@ -17,7 +17,7 @@ This guide covers the Curios API, how to gain additional slots, and provides det
 * **Flexibility:** Items can often be equipped into multiple compatible slot types (e.g., some head items might fit in the helmet slot or a Curios head slot).
 * **Compatibility:** Standard Minecraft mechanics like Mending, Unbreaking, and Curses generally work with items in Curios slots.
 
-![Curios Slots GUI Example](.gitbook/assets/curios_slots.png)
+![Curios Slots GUI Example](../.gitbook/assets/curios_slots.png)
 
 ***
 
@@ -243,10 +243,10 @@ _Designed for tackling high difficulty while maximizing L2Hostility loot._
 
 Some specific Curios items grant additional slots of certain types when equipped.
 
-* **Head:**`Oddeyes Glasses` - When equipped in a Head slot, grants **+2 Head slots**. ![Oddeyes Glasses](.gitbook/assets/oddeyes_glasses.png)
-* **Back:**`Triple Strip Cape` - When equipped in a Back slot, grants **+3 Back slots**. ![Triple Strip Cape](.gitbook/assets/triple_strip_cape.png)
-* **Hands:**`Infinity Glove` - When equipped in a Hands slot, grants **+5 Ring slots** and **+1 Charm slot**. ![Infinity Glove](.gitbook/assets/infinity_glove.png)
-* **Belt:**`Leather Belt` - When equipped in the Belt slot, grants up to **+8 Charm slots**. ![Leather Belt](.gitbook/assets/leather_belt.png)
+* **Head:**`Oddeyes Glasses` - When equipped in a Head slot, grants **+2 Head slots**. ![Oddeyes Glasses](../.gitbook/assets/oddeyes_glasses.png)
+* **Back:**`Triple Strip Cape` - When equipped in a Back slot, grants **+3 Back slots**. ![Triple Strip Cape](../.gitbook/assets/triple_strip_cape.png)
+* **Hands:**`Infinity Glove` - When equipped in a Hands slot, grants **+5 Ring slots** and **+1 Charm slot**. ![Infinity Glove](../.gitbook/assets/infinity_glove.png)
+* **Belt:**`Leather Belt` - When equipped in the Belt slot, grants up to **+8 Charm slots**. ![Leather Belt](../.gitbook/assets/leather_belt.png)
 
 ***
 
@@ -256,14 +256,14 @@ Here are examples of items that fit into specific Curios slots available in ATMA
 
 ### Spell Focus Slot
 
-![Spell Focus Slot Icon Placeholder](.gitbook/assets/spell_focus_slot.png)
+![Spell Focus Slot Icon Placeholder](../.gitbook/assets/spell_focus_slot.png)
 
 * **Description:** A dedicated slot primarily used by **Ars Nouveau** for its `Spell Focus`.
 * **Functionality:** Equipping a Focus provides passive benefits and enhances certain spells or schools of magic.
 * **Compatibility:** Items tagged `#curios:an_focus` fit here.
 * **Examples:**
 
-![Spell Focus Items](.gitbook/assets/spell_focus_items.png)
+![Spell Focus Items](../.gitbook/assets/spell_focus_items.png)
 
 {% stepper %}
 {% step %}
@@ -349,13 +349,13 @@ Here are examples of items that fit into specific Curios slots available in ATMA
 
 ### Head Slot
 
-![Head Slot Icon Placeholder](.gitbook/assets/head_slot.png)
+![Head Slot Icon Placeholder](../.gitbook/assets/head_slot.png)
 
 * **Description:** Slot for headwear, providing utility or visuals. Can often fit in the helmet slot too.
 * **Compatibility:** Items tagged `#curios:head`.
 * **Examples:**
 
-![Various Head Slot Items](.gitbook/assets/head_slot_items.png)
+![Various Head Slot Items](../.gitbook/assets/head_slot_items.png)
 
 {% stepper %}
 {% step %}
@@ -376,14 +376,14 @@ Here are examples of items that fit into specific Curios slots available in ATMA
 * **(Ars Technica)**`Spy Monocle`: Allows zooming in by pressing `G` (configurable).
 *   `Alchemist's Crown`: Allows opening a potion radial menu by pressing `G` (configurable) when `Potion Flasks` are in the inventory.
 
-    ![Alchemist's Crown Radial Menu](.gitbook/assets/alchemist_crown.png)
+    ![Alchemist's Crown Radial Menu](../.gitbook/assets/alchemist_crown.png)
 {% endstep %}
 
 {% step %}
 **L2Hostility**
 
 * `Oddeyes Glasses`: When equipped in a Head slot, grants **+2 Head slots**.
-* `Detector Glasses`: Allows you to see invisible mobs and see mobs even when affected by Blindness or Darkness. Additionally, while holding a `Hostility Detector` in the off-hand, you can use it to clear the difficulty in an area. [Click here for more information](all-the-magic-arcana/l2-hostility.md#ways-to-decrease-player-difficulty).
+* `Detector Glasses`: Allows you to see invisible mobs and see mobs even when affected by Blindness or Darkness. Additionally, while holding a `Hostility Detector` in the off-hand, you can use it to clear the difficulty in an area. [Click here for more information](../all-the-magic-arcana/l2-hostility.md#ways-to-decrease-player-difficulty).
 {% endstep %}
 
 {% step %}
@@ -403,7 +403,7 @@ Here are examples of items that fit into specific Curios slots available in ATMA
 
 _Note: Artifacts share experience earned and level up through use._
 
-![Head Artifact Examples](.gitbook/assets/head_artifacts.png)
+![Head Artifact Examples](../.gitbook/assets/head_artifacts.png)
 
 * `Whoopee Cushion`: Grants`Flatulence`. Chance to knock back nearby entities and apply nausea when taking damage or crouching frequently.
 * `Angler's Hat`: Grants `Generous Catch`. Chance to increase the amount of catch received while fishing, potentially repeating multiple times.
@@ -420,7 +420,7 @@ _Note: Artifacts share experience earned and level up through use._
 
 _Note: Relics share experience earned and level up through use._
 
-![Head Reliquified Twilight Forest Examples](.gitbook/assets/reliquified_tf_head.png)
+![Head Reliquified Twilight Forest Examples](../.gitbook/assets/reliquified_tf_head.png)
 
 * **`Lich Crown`**:
   * Grants `Bone Pact`: All skeletons become friendly.
@@ -444,7 +444,7 @@ _Note: Relics share experience earned and level up through use._
 
 _Note: Relics share experience earned and level up through use._
 
-![Head Reliquified Ars Nouveau Examples](.gitbook/assets/reliquified_ars_head.png)
+![Head Reliquified Ars Nouveau Examples](../.gitbook/assets/reliquified_ars_head.png)
 
 * `Horn of the Wild Hunter` (`Wild Hounds`): Summons 2 invulnerable wolves that fight alongside the player, dealing bonus damage.
 * `Whirlisprig Petals` (`Ascension`): Holding jump lifts player; automatically grants Slow Falling when falling.
@@ -455,7 +455,7 @@ _Note: Relics share experience earned and level up through use._
 
 _(These provide no functional benefit when equipped)_
 
-![Head Aesthetic ONLY Item Examples](.gitbook/assets/aesthetic_head.png)
+![Head Aesthetic ONLY Item Examples](../.gitbook/assets/aesthetic_head.png)
 
 * **Twilight Forest Trophies**: `Twilight Lich Trophy`, `Snow Queen Trophy`, `Questing Ram Trophy`, `Naga Trophy`, `Alpha Yeti Trophy`, `Minoshroom Trophy`, `Knight Phantom Trophy`, `Hydra Trophy`, `Ur-Ghast Trophy`.
 * **Twilight Forest Critters**: `Moonworm`, `Cicada`, `Firefly`.
@@ -466,13 +466,13 @@ _(These provide no functional benefit when equipped)_
 
 ### Necklace Slot
 
-![Necklace Slot Icon Placeholder](.gitbook/assets/necklace_slot.png)
+![Necklace Slot Icon Placeholder](../.gitbook/assets/necklace_slot.png)
 
 * **Description:** Slot for necklaces, amulets providing passive buffs/utility.
 * **Compatibility:** Items tagged `#curios:necklace`.
 * **Examples:**
 
-![Necklace Slot Items](.gitbook/assets/neck_items.png)
+![Necklace Slot Items](../.gitbook/assets/neck_items.png)
 
 {% stepper %}
 {% step %}
@@ -497,7 +497,7 @@ _(These provide no functional benefit when equipped)_
 {% step %}
 **Iron’s Spells ‘n Spellbooks & Addons**
 
-![Iron's Spells 'n Spellbooks Necklaces](.gitbook/assets/irons_necklaces.png)
+![Iron's Spells 'n Spellbooks Necklaces](../.gitbook/assets/irons_necklaces.png)
 
 * `Amulet of Concentration`: Uninterruptible casting.
 * `Conjurer's Talisman`: +10% Summon Damage.
@@ -521,7 +521,7 @@ _(These provide no functional benefit when equipped)_
 
 _Note: Artifacts share experience earned and level up through use._
 
-![Necklace Artifact Examples](.gitbook/assets/necklace_artifacts.png)
+![Necklace Artifact Examples](../.gitbook/assets/necklace_artifacts.png)
 
 * `Flame Pendant` (`Fiery Defense`): Chance to ignite attackers.
 * `Shock Pendant` (`Electric Resistance`+`Lightning Defense`): Lightning immunity, chance to strike attackers.
@@ -539,7 +539,7 @@ _Note: Artifacts share experience earned and level up through use._
 
 _Note: Relics share experience earned and level up through use._
 
-![Relic Necklace Examples](.gitbook/assets/relic_necklaces.png)
+![Relic Necklace Examples](../.gitbook/assets/relic_necklaces.png)
 
 * `Reflecting Necklace`: Stores damage, explodes dealing damage/stun.
 * `Jellyfish Necklace` (Combined): No sinking, damage on collision, paralyzes on collision.
@@ -552,13 +552,13 @@ _Note: Relics share experience earned and level up through use._
 
 ### Back Slot
 
-![Back Slot Icon Placeholder](.gitbook/assets/back_slot.png)
+![Back Slot Icon Placeholder](../.gitbook/assets/back_slot.png)
 
 * **Description:** Slot for back items like capes, backpacks, wings. Provides utility, storage, movement.
 * **Compatibility:** Items tagged `#curios:back`.
 * **Examples:**
 
-![Back Slot Items](.gitbook/assets/back_slot_items.png)
+![Back Slot Items](../.gitbook/assets/back_slot_items.png)
 
 {% stepper %}
 {% step %}
@@ -596,7 +596,7 @@ _Note: Relics share experience earned and level up through use._
 
 _Note: Relics share experience earned and level up through use._
 
-![Relics Back](.gitbook/assets/relics_back.png)
+![Relics Back](../.gitbook/assets/relics_back.png)
 
 * `Midnight Robe` (`Vanish`+`Betrayal`): Invisibility/speed in low light, bonus damage on attack from invis (breaks invis temporarily).
 * `Elytra Booster` (`Acceleration`): Uses fuel for elytra speed boost (activated).
@@ -607,7 +607,7 @@ _Note: Relics share experience earned and level up through use._
 
 _Note: Relics share experience earned and level up through use._
 
-![Reliquified Ars Nouveau Back](.gitbook/assets/reliquified_ars_back.png)
+![Reliquified Ars Nouveau Back](../.gitbook/assets/reliquified_ars_back.png)
 
 * `Whirlisprig Broom` (`Witch's Call`): Summon controllable flying broom.
 * `Spiked Cloak` (`Boiling Point`): Fires damaging spikes on taking significant damage, bonus damage on rapid triggers.
@@ -619,7 +619,7 @@ _Note: Relics share experience earned and level up through use._
 
 _Note: Relics share experience earned and level up through use._
 
-![Reliquified Twilight Forest Back](.gitbook/assets/reliquified_tft_back.png)
+![Reliquified Twilight Forest Back](../.gitbook/assets/reliquified_tft_back.png)
 
 * `Charm Backpack` (`Charm Storage`): Stores TF Charms, prevents destruction on use (puts backpack on cooldown).
 * `Steel Cape` (`Invulnerability`): Flat damage reduction, chance to fire stunning projectile on hit.
@@ -648,13 +648,13 @@ _Note: Relics share experience earned and level up through use._
 
 ### Body Slot
 
-![Body Slot Icon Placeholder](.gitbook/assets/body_slot_icon.png)
+![Body Slot Icon Placeholder](../.gitbook/assets/body_slot_icon.png)
 
 * **Description:** General slot for body-worn items.
 * **Compatibility:** Items tagged `#curios:body`.
 * **Examples:**
 
-![Body Slot Items](.gitbook/assets/body_slot_items.png)
+![Body Slot Items](../.gitbook/assets/body_slot_items.png)
 
 #### Reliquary
 
@@ -662,19 +662,19 @@ _Note: Relics share experience earned and level up through use._
 
 ### Bracelet Slot
 
-![Bracelet Slot Icon Placeholder](.gitbook/assets/bracelet_slot.png)
+![Bracelet Slot Icon Placeholder](../.gitbook/assets/bracelet_slot.png)
 
 * **Description:** Slot for wrist-worn items. Default: 2 slots.
 * **Compatibility:** Items tagged `#curios:bracelet`.
 * **Examples:**
 
-![Various Bracelet Slot Items](.gitbook/assets/bracelet_slot_items.png)
+![Various Bracelet Slot Items](../.gitbook/assets/bracelet_slot_items.png)
 
 {% stepper %}
 {% step %}
 **Ars Nouveau**
 
-![Ars Nouveau Bracelet](.gitbook/assets/ars_bracelet.png)
+![Ars Nouveau Bracelet](../.gitbook/assets/ars_bracelet.png)
 
 * **`Enchanter's Bangle`**: Base item used to craft elemental/themed bangles. Provides a slight boost to overall spellcasting.
 * **`Bangle of Fire`**:
@@ -735,13 +735,13 @@ _Note: Relics share experience earned and level up through use._
 
 ### Hostility Curse Slot
 
-![Hostility Curse Slot Icon Placeholder](.gitbook/assets/hostility_curse_slot.png)
+![Hostility Curse Slot Icon Placeholder](../.gitbook/assets/hostility_curse_slot.png)
 
 * **Description:** Slot added by **L2Hostility** for “Curse” items, interacting with difficulty/loot mechanics. Many also fit the `Charm` slot.
 * **Compatibility:** Items tagged `#curios:hostility_curse`. (`Abyssal Thorn`, `Abrahadabra`, `Greed of Nidhoggur` are Curse slot ONLY).
 * **Examples:**
 
-![Various Hostility Curse Items](.gitbook/assets/hostility_curse_items.png)
+![Various Hostility Curse Items](../.gitbook/assets/hostility_curse_items.png)
 
 #### L2Hostility
 
@@ -757,13 +757,13 @@ _Note: Relics share experience earned and level up through use._
 
 ### Hands Slot
 
-![Hands Slot Icon Placeholder](.gitbook/assets/hands_slot.png)
+![Hands Slot Icon Placeholder](../.gitbook/assets/hands_slot.png)
 
 * **Description:** Slot for gloves/hand accessories. Default: 2 slots.
 * **Compatibility:** Items tagged `#curios:hands`.
 * **Examples:**
 
-![Various Hands Slot Items](.gitbook/assets/hands_slot_items.png)
+![Various Hands Slot Items](../.gitbook/assets/hands_slot_items.png)
 
 {% stepper %}
 {% step %}
@@ -841,13 +841,13 @@ _Note: Relics share experience earned and level up through use._
 
 ### Ring Slot
 
-![Ring Slot Icon Placeholder](.gitbook/assets/ring_slot.png)
+![Ring Slot Icon Placeholder](../.gitbook/assets/ring_slot.png)
 
 * **Description:** Slot for rings. Default: 2 slots (+5 from Infinity Glove).
 * **Compatibility:** Items tagged `#curios:ring`.
 * **Examples:**
 
-![Various Ring Slot Items](.gitbook/assets/ring_slot_items.png)
+![Various Ring Slot Items](../.gitbook/assets/ring_slot_items.png)
 
 {% stepper %}
 {% step %}
@@ -950,13 +950,13 @@ _Note: Relics share experience earned and level up through use._
 
 ### Belt Slot
 
-![Belt Slot Icon Placeholder](.gitbook/assets/belt_slot.png)
+![Belt Slot Icon Placeholder](../.gitbook/assets/belt_slot.png)
 
 * **Description:** Slot for belts/sashes. Provides utility, buffs, or extra slots.
 * **Compatibility:** Items tagged `#curios:belt`.
 * **Examples:**
 
-![Various Belt Slot Items](.gitbook/assets/belt_slot_items.png)
+![Various Belt Slot Items](../.gitbook/assets/belt_slot_items.png)
 
 {% stepper %}
 {% step %}
@@ -1008,13 +1008,13 @@ _Note: Artifacts share experience earned and level up through use._
 
 ### Feet Slot
 
-![Feet Slot Icon Placeholder](.gitbook/assets/feet_slot.png)
+![Feet Slot Icon Placeholder](../.gitbook/assets/feet_slot.png)
 
 * **Description:** Slot for footwear. Enhances movement, environment interaction, defense. Can often fit vanilla boots slot.
 * **Compatibility:** Items tagged `#curios:feet`.
 * **Examples:**
 
-![Various Feet Slot Items](.gitbook/assets/feet_slot_items.png)
+![Various Feet Slot Items](../.gitbook/assets/feet_slot_items.png)
 
 {% stepper %}
 {% step %}
@@ -1050,13 +1050,13 @@ _Note: Artifacts share experience earned and level up through use._
 
 ### Charm Slot
 
-![Charm Slot Icon Placeholder](.gitbook/assets/charm_slot.png)
+![Charm Slot Icon Placeholder](../.gitbook/assets/charm_slot.png)
 
 * **Description:** Slot for small charms. Provides passive utility, protection, conditional effects. Slot count increased by `Leather Belt` (+8) and `Infinity Glove` (+1).
 * **Compatibility:** Items tagged `#curios:charm`. Many `#curios:hostility_curse` items also fit.
 * **Examples:**
 
-![Various Charm Slot Items](.gitbook/assets/charm_slot_items.png)
+![Various Charm Slot Items](../.gitbook/assets/charm_slot_items.png)
 
 {% stepper %}
 {% step %}
@@ -1188,13 +1188,13 @@ _Note: Relics share experience earned and level up through use._
 
 ### Talent Slot
 
-![Talent Slot Icon Placeholder](.gitbook/assets/talent_slot.png) / ![Talent Slot Icon 2 Placeholder](.gitbook/assets/talent_slot_2.png)
+![Talent Slot Icon Placeholder](../.gitbook/assets/talent_slot.png) / ![Talent Slot Icon 2 Placeholder](../.gitbook/assets/talent_slot_2.png)
 
 * **Description:** Slot primarily used by **Traveloptics** (Iron’s Spells ‘n Spellbooks addon) for items modifying specific spells or granting related passives. Many items also fit other slots (Ring, Necklace, Bracelet).
 * **Compatibility:** Items tagged `#curios:talent`.
 * **Examples:**
 
-![Various Talent Slot Items](.gitbook/assets/talent_slot_items.png)
+![Various Talent Slot Items](../.gitbook/assets/talent_slot_items.png)
 
 #### Iron’s Spells ‘n Spellbooks (Addon: Traveloptics)
 
@@ -1210,14 +1210,14 @@ _(Note: These items often fit multiple slots. The descriptions below apply regar
 
 ### Spell Book Slot
 
-![Spell Book Slot Icon Placeholder](.gitbook/assets/spell_book_slot.png)
+![Spell Book Slot Icon Placeholder](../.gitbook/assets/spell_book_slot.png)
 
 * **Description:** Slot added by **Iron’s Spells ‘n Spellbooks** for holding Spell Books. Allows casting via keybinds.
 * **Functionality:** Holds spells, often provides passive bonuses (Max Mana, CDR, Cast Time, Spell Power).
 * **Compatibility:** Items tagged `#curios:spellbook`. Includes books from base mod, addons, All the Wizard Gear.
 * **Examples:**
 
-![Various Spell Book Slot Items](.gitbook/assets/spell_book_slot_items.png)
+![Various Spell Book Slot Items](../.gitbook/assets/spell_book_slot_items.png)
 
 {% stepper %}
 {% step %}
@@ -1279,13 +1279,13 @@ _(Note: These items often fit multiple slots. The descriptions below apply regar
 
 ### Bundle Slot
 
-![Bundle Slot Icon Placeholder](.gitbook/assets/bundle_slot.png)
+![Bundle Slot Icon Placeholder](../.gitbook/assets/bundle_slot.png)
 
 * **Description:** Slot for pouch-like items offering portable storage.
 * **Compatibility:** Items tagged `#curios:bundle`.
 * **Examples:**
 
-![Various Bundle Slot Items](.gitbook/assets/bundle_slot_items.png)
+![Various Bundle Slot Items](../.gitbook/assets/bundle_slot_items.png)
 
 #### Ars Elemental
 
@@ -1294,14 +1294,14 @@ _(Note: These items often fit multiple slots. The descriptions below apply regar
 
 ### Heart Amulet Slot
 
-![Heart Amulet Slot Icon Placeholder](.gitbook/assets/heart_amulet_slot.png)
+![Heart Amulet Slot Icon Placeholder](../.gitbook/assets/heart_amulet_slot.png)
 
 * **Description:** Slot added by **Baubley Heart Canisters** for `Heart Amulets`.
 * **Functionality:** Holds Heart Canisters, which increase max health. Open via `Right Button`.
 * **Compatibility:** Items tagged `#curios:heart_amulet`.
 * **Examples:**
 
-![Heart Amulet Items](.gitbook/assets/bhc_amulets.png)
+![Heart Amulet Items](../.gitbook/assets/bhc_amulets.png)
 
 #### Baubley Heart Canisters
 
@@ -1314,7 +1314,7 @@ _(Note: These items often fit multiple slots. The descriptions below apply regar
 
 These items provide effects but are typically held or used directly, not equipped in Curios slots (though some might have niche compatibility).
 
-![Other Artifacts & Relics](.gitbook/assets/other_artifacts.png)
+![Other Artifacts & Relics](../.gitbook/assets/other_artifacts.png)
 
 ### Relics
 

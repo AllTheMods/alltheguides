@@ -1,27 +1,27 @@
-# Mahou Tsukai
+# Mahou
 
 Mahou Tsukai Morgan and You, **Originally created by Xarrah, BigFire, & Ultramega**
 
-![](../.gitbook/assets/mahouTsukaiCompendium.png)
+![](../../.gitbook/assets/mahouTsukaiCompendium.png)
 
 {% stepper %}
 {% step %}
 ### Set your keybinds for `Draw Mahoujin` ( _mine is set to `numberpad 3`_)
 
-![](../.gitbook/assets/drawMahoujin.png)
+![](../../.gitbook/assets/drawMahoujin.png)
 {% endstep %}
 
 {% step %}
 ### Craft a Dagger ( _From Mahou Tsukai_)
 
-![](../.gitbook/assets/craftDagger.png)
+![](../../.gitbook/assets/craftDagger.png)
 
 1. Use the dagger (hold in main hand and right click anywhere) to inflict ‘Bleeding’ (lasts 15 seconds)
 2. Quickly slap the hotkey you’ve assigned your ‘Draw Mahoujin’ keybinding to
 
 This will create a Mahou blood projection!
 
-![](../.gitbook/assets/mahouBloodProjection.png)
+![](../../.gitbook/assets/mahouBloodProjection.png)
 
 **For each Boundary of Drain Life, you will need:**
 
@@ -34,7 +34,7 @@ This will create a Mahou blood projection!
 
 Right click the blood projection with the two Powdered iron, and one powdered emerald. Then right click to activate
 
-![](../.gitbook/assets/boundaryOfDrainLife.png) ![](../.gitbook/assets/boundaryOfDrainLifeProjection.png)
+![](../../.gitbook/assets/boundaryOfDrainLife.png) ![](../../.gitbook/assets/boundaryOfDrainLifeProjection.png)
 {% endstep %}
 {% endstepper %}
 
