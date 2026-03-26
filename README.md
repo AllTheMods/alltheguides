@@ -1,27 +1,33 @@
-All The Mods
-======
+# Welcome
 
-Does "All The Mods" *really* contain ALL THE MODS? No, of course not.
+To the new **All The Guides**, by **All The Mods** ( _ATM_).
 
-Need Help?
-======
+ATM has custom changes and additions, mostly recipes. This means it’s only for ATM packs, and may not be the same for other packs.&#x20;
 
-|You can also find us on Discord for help<br>or just to chat as well as Reddit|
-|:------------:|
-|<a href="https://discordapp.com/invite/rbSZNDQ"><img src="https://discordapp.com/assets/fc0b01fe10a0b8c602fb0106d8189d9b.png" alt="Join us on Discord!"  width="200" height="68"></a>|
-|<a href="https://www.reddit.com/r/allthemods"><img src="https://www.redditstatic.com/about/assets/reddit-logo.png" alt="/r/AllTheMods on Reddit"  width="200" height="67"></a>|
-<br>
+## Intro
 
-#### Modpacks:
-+ [![All the Mods 1](http://cf.way2muchnoise.eu/242462.svg "ATM1") All The Mods 1 - ATM1](https://www.curseforge.com/minecraft/modpacks/all-the-mods)
-+ [![All the Mods 2](http://cf.way2muchnoise.eu/253707.svg "ATM2") All The Mods 2 - ATM2](https://www.curseforge.com/minecraft/modpacks/all-the-mods-2)
-+ [![All the Mods 3](http://cf.way2muchnoise.eu/269708.svg "ATM3") All The Mods 3 - ATM3](https://www.curseforge.com/minecraft/modpacks/all-the-mods-3)
-+ [![All the Mods 3](http://cf.way2muchnoise.eu/301845.svg "ATM3R") All the Mods 3 - Remix - ATM3R](https://www.curseforge.com/minecraft/modpacks/all-the-mods-3-remix)
-+ [![All the Mods 3 Expert](http://cf.way2muchnoise.eu/325396.svg "ATM3E") All The Mods 3 - Expert - ATM3E](https://www.curseforge.com/minecraft/modpacks/all-the-mods-3-expert)
-+ [![All the Mods 4](http://cf.way2muchnoise.eu/316059.svg "ATM4") All The Mods 4 - ATM4](https://www.curseforge.com/minecraft/modpacks/all-the-mods-4)
-+ [![All the Mods 5](http://cf.way2muchnoise.eu/357494.svg "ATM5") All The Mods 5 - ATM5](https://www.curseforge.com/minecraft/modpacks/all-the-mods-5)
-+ [![All the Mods 6](http://cf.way2muchnoise.eu/381671.svg "ATM6") All The Mods 6 - ATM6](https://www.curseforge.com/minecraft/modpacks/all-the-mods-6)
-+ [![All the Mods SLOP2](http://cf.way2muchnoise.eu/432480.svg "ATM6") All the Mods - Slice of Pi2](https://www.curseforge.com/minecraft/modpacks/all-the-mods-slice-of-pi2-atm-slop2)
-+ [![All the Mods 6S](http://cf.way2muchnoise.eu/442246.svg "ATM6") All the Mods 6 - To the Sky](https://www.curseforge.com/minecraft/modpacks/all-the-mods-6-to-the-sky-atm6s)
-+ [![All the Mods 7](http://cf.way2muchnoise.eu/426926.svg "ATM7") All The Mods 7 - ATM7](https://www.curseforge.com/minecraft/modpacks/all-the-mods-7)
-+ [![All the Mods Spellbound](http://cf.way2muchnoise.eu/500199.svg "ATMS") All The Mods Spellbound](https://www.curseforge.com/minecraft/modpacks/all-the-magic-spellbound)
+Are you new to **Minecraft**, **All The Mods**, or just need help getting started? Here you’ll find some **Tips** and **Guides** on getting started with **All The Mods**!
+
+### Getting Started
+
+**All The Mods** packs require a PC that has at least **16GB** or more system RAM for the best _playable_ experience.
+
+Allocating between **8-12GB** RAM is required for most of our packs. Smaller (_Lite_) designed packs can run with at least **4GB** allocated. This must be changed within [Launcher](./#launchers) settings. **8GB** minimum is **recommended**.
+
+### Requirements
+
+* An official **Mojang** / **Microsoft** account for **Java Edition**.
+* A third-party [launcher](./#launchers) that can download, install, and run our packs.
+* A PC with at least **16GB** or more **RAM**.
+
+### Launchers
+
+The most common launchers are [CurseForge](https://www.curseforge.com/download/app), [FTB App](https://www.feed-the-beast.com/ftb-app), [PolyMC](https://polymc.org/), [Prism](https://prismlauncher.org/), [ATLauncher](https://atlauncher.com/) and [GDLauncher](https://gdlauncher.com/en/). You will need one of these launchers to install packs. Sign into your **Microsoft** account and search for the modpack of your choice to install.
+
+Allocation
+
+By default, in the launcher or instance (modpack) settings, **4GB** is allocated. **Recommended** MAX allocation is **8-12GB** | `8192-12288`Mb. You should **never** allocate all of or more RAM than necessary.
+
+Additionally, some launchers may install and use the appropriate version of [Java](/broken/pages/df9899090c88cd329688907151c4d8149a707c2b), though make sure you’re using the correct version of [Java](/broken/pages/df9899090c88cd329688907151c4d8149a707c2b) for the **Minecraft** version of the pack installed.
+
+Need Help? Check out the dedicated [Help](/broken/pages/9713bb851e8784f9233c1d94f9f36b2d57a0f21f) section, especially [F.A.Q](/broken/pages/8e2c5652431a06c192f7f48f13ed5a8a11260416)
