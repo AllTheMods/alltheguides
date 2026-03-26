@@ -2,7 +2,9 @@
 
 To the new **All The Guides**, by **All The Mods** ( _ATM_).
 
+{% hint style="warning" %}
 ATM has custom changes and additions, mostly recipes. This means it’s only for ATM packs, and may not be the same for other packs.&#x20;
+{% endhint %}
 
 ## Intro
 
