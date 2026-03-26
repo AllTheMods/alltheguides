@@ -19,20 +19,31 @@
 * [All The Mods 8](all-the-mods-8/README.md)
   * [ATM8 FAQ](all-the-mods-8/atm8-faq.md)
   * [Apotheosis](all-the-mods-8/apotheosis.md)
+* [All The Mods 7 - To the Sky](all-the-mods-7-to-the-sky.md)
 * [All The Mods 7](all-the-mods-7/README.md)
-  * [All The Mods 7 - To the Sky](all-the-mods-7/all-the-mods-7-to-the-sky.md)
   * [All The Mods 7 Lite](all-the-mods-7/all-the-mods-7-lite.md)
 * [All The Magic - Spellbound](all-the-magic-spellbound.md)
+* [All The Mods 6 - To The Sky](all-the-mods-6-to-the-sky/README.md)
+  * [FAQ](all-the-mods-6-to-the-sky/faq.md)
 * [All The Mods 6](all-the-mods-6/README.md)
-  * [All The Mods 6 - To The Sky](all-the-mods-6/all-the-mods-6-to-the-sky/README.md)
-    * [FAQ](all-the-mods-6/all-the-mods-6-to-the-sky/faq.md)
-  * [Silent Gear](all-the-mods-6/silent-gear.md)
   * [FAQ](all-the-mods-6/faq.md)
-  * [Draconic Evolution](all-the-mods-6/draconic-evolution.md)
+  * [Silent Gear](all-the-mods-6/silent-gear.md)
   * [Enchanting](all-the-mods-6/enchanting/README.md)
     * [Botania Mana Enchanter](all-the-mods-6/enchanting/botania-mana-enchanter.md)
-  * [Pedestals](all-the-mods-6/pedestals.md)
 * [All The Mods 0](all-the-mods-0.md)
+
+## Servers
+
+* [Setting up a server](servers/setting-up-a-server.md)
+* [Lag and Profiling](servers/lag-and-profiling.md)
+* [AMP Install Guide](servers/amp-install-guide.md)
+* [Useful Commands](servers/useful-commands.md)
+* [Backing up your world](servers/backing-up-your-world.md)
+
+## General
+
+* [Java](general/java.md)
+* [Mob Farms](general/mob-farms.md)
 
 ## Mods
 
@@ -58,13 +69,13 @@
   * [Caliburn](mods/mahou-tsukai/caliburn.md)
   * [Morgan](mods/mahou-tsukai/morgan.md)
   * [Mana](mods/mahou-tsukai/mana.md)
-* [Mob Farms](mods/mob-farms.md)
 * [Mob Grinding Utils](mods/mob-grinding-utils.md)
 * [Mekanism](mods/mekanism/README.md)
   * [Mekanism Infuser Auto-Crafting](mods/mekanism/mekanism-infuser-auto-crafting.md)
   * [Mekanism Power](mods/mekanism/mekanism-power.md)
 * [Mystical Agriculture](mods/mystical-agriculture/README.md)
   * [Mystical Agriculture Infusion](mods/mystical-agriculture/mystical-agriculture-infusion.md)
+* [Pedestals](mods/pedestals.md)
 * [Powah](mods/powah.md)
 * [Productive Bees](mods/productive-bees.md)
 * [Resourceful Bees](mods/resourceful-bees.md)

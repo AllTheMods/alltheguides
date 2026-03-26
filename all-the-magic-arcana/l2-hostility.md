@@ -187,7 +187,7 @@ _Note: Enchantments from L2 Hostility can often be crafted using materials obtai
 
 ## L2 Traits Overview
 
-Mobs gain traits based on their level and player difficulty. Higher-level traits appear as difficulty increases. Use the in-game Patchouli book (or JEI/tooltips if applicable) for detailed info on specific traits. To see how to make a Mob Farm to get these traits go to the [Enderman Farm (L2 Trait Symbol Focus)](../mods/mob-farms.md#__tabbed_3_2).
+Mobs gain traits based on their level and player difficulty. Higher-level traits appear as difficulty increases. Use the in-game Patchouli book (or JEI/tooltips if applicable) for detailed info on specific traits. To see how to make a Mob Farm to get these traits go to the [Enderman Farm (L2 Trait Symbol Focus)](../general/mob-farms.md#__tabbed_3_2).
 
 **(Default Disabled Traits: `Undying`, `Killer Aura`, `Ragnarok` are powerful Legendary traits that are DISABLED by default in the configuration but can be re-enabled via config/datapack.)**
 
