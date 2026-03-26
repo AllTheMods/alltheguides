@@ -4,7 +4,7 @@
 
 For identifying Lag sources/causes most of our packs have Spark and Observable in them by Default.
 
-#### [Spark Profiler](https://spark.lucko.me/docs)[¶](https://allthemods.github.io/alltheguides/help/lag/#spark-profiler) <a href="#spark-profiler" id="spark-profiler"></a>
+#### [Spark Profiler](https://spark.lucko.me/docs) <a href="#spark-profiler" id="spark-profiler"></a>
 
 Normal players also have access to the command `/spark tps` & `/forge tps` and that gives a general indication of any potential lag issues that might need investigating.
 
