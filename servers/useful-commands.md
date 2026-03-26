@@ -177,7 +177,7 @@ FTBQuests Edit Mode
 
 <summary>Crash Utilities</summary>
 
-### Crash Utilities[¶](https://allthemods.github.io/alltheguides/help/commands/#crash-utilities) <a href="#crash-utilities" id="crash-utilities"></a>
+### Crash Utilities <a href="#crash-utilities" id="crash-utilities"></a>
 
 Clear Entities (Must be enabled in configs)
 
@@ -203,7 +203,7 @@ Teleport Player (Even Offline) to spawn
 
 <summary>Mahou Tsuaki</summary>
 
-### Mahou Tsuaki[¶](https://allthemods.github.io/alltheguides/help/commands/#mahou-tsuaki) <a href="#mahou-tsuaki" id="mahou-tsuaki"></a>
+### Mahou Tsuaki <a href="#mahou-tsuaki" id="mahou-tsuaki"></a>
 
 MahouSet Morgan Damage
 
@@ -223,7 +223,7 @@ Show/Hide Mahou Count
 
 <summary>Corail Tombstone</summary>
 
-### Corail Tombstone[¶](https://allthemods.github.io/alltheguides/help/commands/#corail-tombstone) <a href="#corail-tombstone" id="corail-tombstone"></a>
+### Corail Tombstone <a href="#corail-tombstone" id="corail-tombstone"></a>
 
 Knowledge GUI
 
