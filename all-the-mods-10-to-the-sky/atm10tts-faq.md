@@ -50,7 +50,7 @@ Sample nearly max GeOre setup (credit to @joeychin01 on Discord): ME annihilatio
 
 <summary>Does the nether generate normally?</summary>
 
-No. Strictly forts, nothing else. That means no bastions either.
+No. Strictly forts, and bastions, nothing else.
 
 </details>
 
