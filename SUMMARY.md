@@ -1,7 +1,7 @@
 # Table of contents
 
 * [Welcome](README.md)
-* [All the Mons](all-the-mons.md)
+* [All The Mons](all-the-mons.md)
 * [All The Mods 10 - To The Sky](all-the-mods-10-to-the-sky/README.md)
   * [ATM10TTS FAQ](all-the-mods-10-to-the-sky/atm10tts-faq.md)
 * [All The Magic - Arcana](all-the-magic-arcana/README.md)
@@ -51,7 +51,7 @@
 * [Apotheosis](mods/apotheosis/README.md)
   * [Apothic Enchanting](mods/apotheosis/apothic-enchanting.md)
   * [Apotheosis](mods/apotheosis/apotheosis.md)
-* [arsnouveau](mods/arsnouveau/README.md)
+* [Ars Nouveau](mods/arsnouveau/README.md)
   * [Source](mods/arsnouveau/source.md)
   * [Drygmys](mods/arsnouveau/drygmys.md)
 * [Astral Sorcery](mods/astral-sorcery.md)
@@ -62,6 +62,8 @@
 * [Generator Galore](mods/generator-galore.md)
 * [GregTech](mods/gregtech.md)
 * [Ice & Fire](mods/ice-and-fire.md)
+* [Integrated Dynamics](mods/integrated-dynamics/README.md)
+  * [Infinite Fluid Transfer](mods/integrated-dynamics/infinite-fluid-transfer.md)
 * [Mahou Tsukai](mods/mahou-tsukai/README.md)
   * [Mahou](mods/mahou-tsukai/mahou.md)
   * [Mahou Book](mods/mahou-tsukai/mahou-book.md)
