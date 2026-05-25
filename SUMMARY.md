@@ -1,6 +1,7 @@
 # Table of contents
 
-* [Welcome](README.md)
+* [Test Page 1](README.md)
+* [Welcome](<README (1).md>)
 * [All the Mons](all-the-mons.md)
 * [All The Mods 10 - To The Sky](all-the-mods-10-to-the-sky/README.md)
   * [ATM10TTS FAQ](all-the-mods-10-to-the-sky/atm10tts-faq.md)
