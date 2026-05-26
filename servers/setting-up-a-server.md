@@ -9,7 +9,7 @@ description: >-
 ### Prerequisites <a href="#prerequisites" id="prerequisites"></a>
 
 * Server with at least **4GB+** allocated RAM (_As required for most ATM packs_) are recommended. Dependant on your host, you may want to start higher than this.
-* The specific [Java](https://allthemods.github.io/alltheguides/help/java/) version based on the pack’s **Minecraft** version.
+* The specific [Java](../general/java.md) version based on the pack’s **Minecraft** version.
 
 ### Installation
 
@@ -29,11 +29,11 @@ If you are an **Akliz** customer, you will not need to install these files manua
 
 #### Java <a href="#java" id="java"></a>
 
-If you have **multiple** [Java](https://allthemods.github.io/alltheguides/help/java/) versions installed, the default `java -version` will be used, which may not be the correct version based on the **Minecraft** version. Either of these solutions will work, you do not have to do all of them.
+If you have **multiple** [Java](../general/java.md) versions installed, the default `java -version` will be used, which may not be the correct version based on the **Minecraft** version. Either of these solutions will work, you do not have to do all of them.
 
-If you only have **one** [Java](https://allthemods.github.io/alltheguides/help/java/) version installed, you do not have to specify a **Java Path** or **System Environmental Variable**, but specifying the path anyway will ensure you won’t break anything if you ever decide to install another version of java
+If you only have **one** [Java](../general/java.md) version installed, you do not have to specify a **Java Path** or **System Environmental Variable**, but specifying the path anyway will ensure you won’t break anything if you ever decide to install another version of java
 
-1. Simply uninstall all [Java](https://allthemods.github.io/alltheguides/help/java/) versions except the one being used.
+1. Simply uninstall all [Java](../general/java.md) versions except the one being used.
 2. Edit the `startserver` file and change `java` to the desired install-location
    * Ex: `C:\Program Files\Eclipse Adoptium\jdk-21.0.4.7-hotspot\bin\java.exe` [![](https://allthemods.github.io/alltheguides/help/img/setJava.png)](https://allthemods.github.io/alltheguides/help/img/setJava.png)
 3. Look for **System Environmental Variable** in your Windows Search bar
@@ -41,7 +41,7 @@ If you only have **one** [Java](https://allthemods.github.io/alltheguides/help/j
    * Under **System Variables**, choose **new**
    * Name it as specified at the top in the **startserver** file (Ex: **ATM10\_Java**)
    * Set **Value** as the install-location of the desired Java version
-4. On **Linux**, you can re-configure [Java](https://allthemods.github.io/alltheguides/help/java/) using `sudo update-alternatives --config java`
+4. On **Linux**, you can re-configure [Java](../general/java.md) using `sudo update-alternatives --config java`
 
 {% hint style="info" %}
 If you’ve just installed [Java](https://allthemods.github.io/alltheguides/help/java/), you may need to restart your OS.

@@ -80,7 +80,7 @@ Use the Structure Compass
 * Infinity Glove \[L2 Hostility]
 * Leather Belt \[Relics]
 
-[More Information Here](curios-and-relics.md#getting-more-curios-slots)
+[More Information Here](../mods/curios-and-relics.md#getting-more-curios-slots)
 
 </details>
 

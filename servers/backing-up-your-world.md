@@ -49,8 +49,9 @@ If the restore was unsuccessful, you may need to try an older backup before the 
 
 1. **Close** completely out of the modpack.
 2. **Right-click** on the ATM icon in your CurseForge modpack screen and click `Open Folder` [![](https://allthemods.github.io/alltheguides/help/img/backupsCF1.png)](https://allthemods.github.io/alltheguides/help/img/backupsCF1.png)
-3. **Open** `simplebackups` [![](https://allthemods.github.io/alltheguides/help/img/backupsCF2.png)](https://allthemods.github.io/alltheguides/help/img/backupsCF2.png)
-4. **Open** the zip file that you want to restore. (They’re labeled by the date created; the latest one is recommended.)
+3. **Open** `simplebackups`\
+   &#x20;[![](https://allthemods.github.io/alltheguides/help/img/backupsCF2.png)](https://allthemods.github.io/alltheguides/help/img/backupsCF2.png)
+4. **Open** the zip file that you want to restore. (They’re labelled by the date created; the latest one is recommended.)
 5. **Copy (Ctrl + C)** the folder inside, then return to your `saves` folder.
 6. Back up your old world and **delete** it from this folder
 7. **Paste (Ctrl + V)** the backup into `saves`

@@ -290,7 +290,7 @@ Farming in ATMA involves more than just vanilla drops. Consider these potential 
 
 * **L2 Hostility Drops:**
   * Mobs affected by the L2 Hostility system (based on player difficulty) can drop unique items like `Cursed Droplets` and `Trait Symbols`, crucial for L2 progression.
-  * Ensure the appropriate **Looting Charms** are equipped, as explained in the [L2 Hostility Guide > Expected Progression](../all-the-magic-arcana/l2-hostility.md#expected-l2-progression-path).
+  * Ensure the appropriate **Looting Charms** are equipped, as explained in the [L2 Hostility Guide > Expected Progression](../all-the-magic-arcana/l2-hostility.md).
   * Farm design might need to account for player proximity to maintain difficulty or target specific traits.
   * Only killing methods that count as player kills will trigger these drops reliably.
 * **Apotheosis Drops:**
