@@ -33,3 +33,5 @@ By default, in the launcher or instance (modpack) settings, **4GB** is allocated
 Additionally, some launchers may install and use the appropriate version of [Java](/broken/pages/df9899090c88cd329688907151c4d8149a707c2b), though make sure you’re using the correct version of [Java](/broken/pages/df9899090c88cd329688907151c4d8149a707c2b) for the **Minecraft** version of the pack installed.
 
 Need Help? Check out the dedicated [Help](/broken/pages/9713bb851e8784f9233c1d94f9f36b2d57a0f21f) section, especially [F.A.Q](/broken/pages/8e2c5652431a06c192f7f48f13ed5a8a11260416)
+
+> All The Mods | [CurseForge](https://legacy.curseforge.com/members/atmteam/projects) | [GitHub](https://github.com/AllTheMods)
