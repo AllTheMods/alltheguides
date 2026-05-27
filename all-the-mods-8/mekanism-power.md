@@ -1,6 +1,6 @@
 # Mekanism
 
-AE2 Mekanism Infuser Auto-Crafting
+## AE2 Mekanism Infuser Auto-Crafting
 
 Using **ME Pattern Providers**, we can fully automate the **Metallurgic Infuser** and **Enrichment Chamber**. This setup will only use 2 channels of your main network.
 

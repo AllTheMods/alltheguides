@@ -10,7 +10,7 @@ Max Enchanting Shelves List
 
 Craft 16x **Seashelf** and place all but one in the usual enchanting configuration.
 
-![](../.gitbook/assets/apoth10_seashelf.png)
+![](../../.gitbook/assets/apoth10_seashelf.png)
 
 Now take your last Seashelf and **infuse it**. You should see an infusion option for 3 EXP. Now replace one of the uninfused **Seashelf** with your **Infused Seashelf**. Repeat this until all 16 `Seashelf` are `Infused Seashelf`. You will have one extra `Infused Seashelf`.
 
@@ -44,7 +44,7 @@ You can infuse a **Block of Amethyst** to get **Budding Amethyst**. Place 10x **
 
 You must be level 65+ to infuse Block of Amethyst
 
-![](../.gitbook/assets/apoth10_budame.png)
+![](../../.gitbook/assets/apoth10_budame.png)
 {% endstep %}
 
 {% step %}
@@ -60,7 +60,7 @@ To craft 1x **Draconic Endshelf** we need **Infused Dragon’s Breath**.
 
 You must be level 80+ to infuse Dragon’s Breath
 
-![](../.gitbook/assets/apoth10_dragbreath.png)
+![](../../.gitbook/assets/apoth10_dragbreath.png)
 {% endstep %}
 
 {% step %}
@@ -76,55 +76,43 @@ After making the **Draconic Endshelf**, craft 1x **Deepshelf of Arcane Treasures
 
 You can place a **Seashelf of Aquatic Filtration** to filter out enchants you don’t want.
 
-![](../.gitbook/assets/apoth10_finalsetup.png)
+![](../../.gitbook/assets/apoth10_finalsetup.png)
 {% endstep %}
 {% endstepper %}
 
 ## Infusion Setups
 
-{% hint style="warning" %}
 You do not have to place the blocks exactly as I do, these are just an example.
-{% endhint %}
 
 ### Unbreakable Potion Charms
 
-{% hint style="info" %}
 5x Draconic Endshelf, 2x Echoing Deepshelf, 1x Melonshelf, 1x Endshelf
-{% endhint %}
 
-![](../.gitbook/assets/apoth10_unbreakcharm.png)
+![](../../.gitbook/assets/apoth10_unbreakcharm.png)
 
 ### Tome of Superior Scrapping
 
-{% hint style="info" %}
 3x Echoing Sculkshelf, 1x Draconic Endshelf
-{% endhint %}
 
-![](../.gitbook/assets/apoth10_supscrapping.png)
+![](../../.gitbook/assets/apoth10_supscrapping.png)
 
 ### Tome of Extraction
 
-{% hint style="info" %}
 4x Echoing Sculkshelf, 1x Draconic Endshelf
-{% endhint %}
 
-![](../.gitbook/assets/apoth10_extraction.png)
+![](../../.gitbook/assets/apoth10_extraction.png)
 
 ### Library of Alexandria
 
-{% hint style="info" %}
-6x Echoing Sculkshelf, 3x Melonshelf, 2x Draconic Endshelf, 2x Infused Seashelf
-{% endhint %}
+6x Echoing Sculkshelf, 3x Melonshelf, 2x Draconic Endshelf, 2 Infused Seashelf
 
-![](../.gitbook/assets/apoth10_library.png)
+![](../../.gitbook/assets/apoth10_library.png)
 
 ### Trident
 
-{% hint style="info" %}
 4x Echoing Sculkshelf, 1x Melonshelf, 1x Normal Bookshelf
-{% endhint %}
 
-![](../.gitbook/assets/apoth10_trident.png)
+![](../../.gitbook/assets/apoth10_trident.png)
 
 ### Bottle o’ Enchanting
 
@@ -132,18 +120,18 @@ You do not have to place the blocks exactly as I do, these are just an example.
 {% tab title="1 Bottle" %}
 2x Echoing Sculkshelf
 
-![](../.gitbook/assets/apoth10_xpbottle1.png)
+![](../../.gitbook/assets/apoth10_xpbottle1.png)
 {% endtab %}
 
 {% tab title="8 Bottles" %}
 5x Echoing Sculkshelf, 1x Soul-Touched Sculkshelf
 
-![](../.gitbook/assets/apoth10_xpbottle8.png)
+![](../../.gitbook/assets/apoth10_xpbottle8.png)
 {% endtab %}
 
 {% tab title="32 Bottles" %}
 5x Echoing Sculkshelf, 3x Soul-Touched Sculkshelf, 1x Draconic Endshelf
 
-![](../.gitbook/assets/apoth10_xpbottle32.png)
+![](../../.gitbook/assets/apoth10_xpbottle32.png)
 {% endtab %}
 {% endtabs %}

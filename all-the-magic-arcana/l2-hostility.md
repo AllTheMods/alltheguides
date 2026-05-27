@@ -4,7 +4,7 @@ _**Note: These mechanics and recommendations are subject to change due to ongoin
 
 ## Introduction
 
-L2 Hostiles adds an adaptive difficulty system where mobs become **stronger** and gain special **abilities** (Traits) based on **player progression** and location. It aims for a **more dynamic** and **challenging** experience compared to vanilla or mods like Champions, Scaling Health, or Infernal Mobs, featuring player-specific difficulty scaling and mechanics for creating safe zones. [For information in the curios specific for L2Hostility click here.](../mods/curios-and-relics.md#hostility-curse-slot)
+L2 Hostiles adds an adaptive difficulty system where mobs become **stronger** and gain special **abilities** (Traits) based on **player progression** and location. It aims for a **more dynamic** and **challenging** experience compared to vanilla or mods like Champions, Scaling Health, or Infernal Mobs, featuring player-specific difficulty scaling and mechanics for creating safe zones. [For information in the curios specific for L2Hostility click here.](curios-and-relics.md#hostility-curse-slot)
 
 ## Understanding L2 Difficulty & Mob Levels
 

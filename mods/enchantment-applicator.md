@@ -9,7 +9,7 @@ After gaining an additional enchantment level, you’ll want to duplicate the en
 ## Duplicating Enchants
 
 * Disenchant and use [Botania Mana Enchanter](../all-the-mods-6/enchanting/botania-mana-enchanter.md) to duplicate enchantment books on a new **Item**.
-* Duplicate **Item** using [Mahou Projection](mahou-tsukai/mahou-projection.md). ( _Only works with certain tools, **NOT ARMOR**_).
+* Duplicate **Item** using [Mahou Projection](../all-the-mods-9/mahou-tsukai/mahou-projection.md). ( _Only works with certain tools, **NOT ARMOR**_).
   * _Armor enchants can be forced on tools using **Pedestal Anvil**_
 
 Using the same **Item** in applicator will increase **Repair Costs**, making combining enchants more expensive!
