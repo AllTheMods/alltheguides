@@ -1,6 +1,6 @@
 # All The Mods 10 - To The Sky
 
-[![](../.gitbook/assets/atm10TTSLogocropped.png)](https://legacy.curseforge.com/minecraft/modpacks/all-the-mods-10-sky)
+<figure><img src="../.gitbook/assets/atm10TTSLogocropped.png" alt=""><figcaption></figcaption></figure>
 
 **Welcome to All the Mods 10: To the Sky**
 
@@ -19,3 +19,11 @@ The biggest changes this time around are that we are now using **NeoForge** and 
 In **All the Mods 10 To The Sky** we will continue the tradition adding many new mods while going for more stability.
 
 Does “**All the Mods**” really contain **ALL THE MODS**? No, of course not.
+
+{% embed url="https://www.youtube.com/watch?v=LCvCpUhfL2A" %}
+
+{% embed url="https://www.youtube.com/watch?v=YvkYIdQNoJU" %}
+
+{% embed url="https://www.youtube.com/watch?v=TzgaPq6XY6k" %}
+
+> All The Mods 10 - To The Sky | [CurseForge](https://legacy.curseforge.com/minecraft/modpacks/all-the-mods-10-sky) | [GitHub](https://github.com/AllTheMods/All-the-mods-10-Sky)

@@ -66,7 +66,7 @@ Use JEI.
 
 <details>
 
-<summary>Why isn’t ‘`insert name`’ mod in ATM10Sky yet?</summary>
+<summary>Why isn’t <code>insert mod name</code> in ATM10Sky yet?</summary>
 
 ATM packs do not literally contain “All The Mods”. The main focus is having mods that are not: 1) buggy, 2) ruin performance or progression. If a mod supports Minecraft version **1.21.1**, and **NeoForge** (Not Forge), you may make a [suggestion](https://github.com/AllTheMods/All-the-mods-10-Sky/discussions).
 

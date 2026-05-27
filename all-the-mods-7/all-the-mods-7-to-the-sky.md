@@ -8,16 +8,10 @@ In All the Mods 7 To the Sky we will continue the tradition adding many new mods
 
 Does “All The Mods” really contain ALL THE MODS? No, of course not.
 
-ATM7 Skyblock Ep1 Starting Out - YouTube
-
 {% embed url="https://www.youtube.com/watch?v=m-ATQK81bOo" %}
-
-New Modded Minecraft Skyblock EP1 All The Mods 7 To The Sky - YouTube
 
 {% embed url="https://www.youtube.com/watch?v=b6vPh54Sdj0" %}
 
-Modded Minecraft E01 - A New Season Begins - YouTube
-
 {% embed url="https://www.youtube.com/watch?v=ZEhdzgieyqg&embeds_referring_euri=https%3A%2F%2Fallthemods.github.io%2F" %}
 
-All The Mods 7 - To The Sky | [CurseForge](https://legacy.curseforge.com/minecraft/modpacks/all-the-mods-7-to-the-sky) | [GitHub](https://github.com/AllTheMods/AllThe-mods-7-Sky)
+> All The Mods 7 - To The Sky | [CurseForge](https://legacy.curseforge.com/minecraft/modpacks/all-the-mods-7-to-the-sky) | [GitHub](https://github.com/AllTheMods/AllThe-mods-7-Sky)

@@ -1,9 +1,5 @@
 # Apotheosis
 
-## Kaimonick’s Apotheosis Overview
-
-Click here to view Kai’s guide!
-
 ## Starting Enchanting Setup
 
 ### Requirements
@@ -14,7 +10,7 @@ Recipes for the shelves in this guide **WILL NOT BE PROVIDED**. Please use JEI. 
 
 To start, make 16 **Seashelf** and place down all but one in a formation like the one below.
 
-![](../.gitbook/assets/apoth_seashelf1.png)
+![](../../.gitbook/assets/apoth_seashelf1.png)
 
 Once you’ve got those down, take your 16th **Seashelf** and place it in the enchanting table. You should see an Infusion option for 3 EXP. Now replace one of the uninfused **Seashelf** with your **Infused Seashelf**. Repeat this until all 16 `Seashelf` are `Infused Seashelf`. You will have 1 extra `Infused Seashelf` at the end.
 
@@ -34,11 +30,11 @@ You will also need to make 1 **Draconic Endshelf**. To make the **Infused Dragon
 
 You must be level 80+ to infuse Dragon’s Breath
 
-![](../.gitbook/assets/apoth_dragonsbreath.png)
+![](../../.gitbook/assets/apoth_dragonsbreath.png)
 
 After making the `Draconic Endshelf`, remove all the `Melonshelf`. Place the 3 **Shelf of End-Fused Rectification** and the **Draconic Endshelf** in a similar formation as shown in the `Seashelf` image above. This will get you the maximum level of enchanting. Your setup does not have to be in the exact same order as the one below; it is only an example.
 
-![](../.gitbook/assets/apoth_finalsetup.png)
+![](../../.gitbook/assets/apoth_finalsetup.png)
 
 ***
 
@@ -50,25 +46,25 @@ You do not have to place the blocks exactly as I do, these are just an example.
 
 5x Draconic Endshelf, 2x Echoing Deepshelf, 1x Melonshelf, 1x Endshelf
 
-![](../.gitbook/assets/apoth_charm.png)
+![](../../.gitbook/assets/apoth_charm.png)
 
 ### Tome of Superior Scrapping
 
 3x Echoing Deepshelf, 1x Soul-Touched Deepshelf, 1x Endshelf, 1x Draconic Endshelf
 
-![](../.gitbook/assets/apoth_scrapping.png)
+![](../../.gitbook/assets/apoth_scrapping.png)
 
 ### Tome of Extraction
 
 3x Echoing Deepshelf, 2x Draconic Endshelf, 1x Soul-Touched Deepshelf
 
-![](../.gitbook/assets/apoth_extraction.png)
+![](../../.gitbook/assets/apoth_extraction.png)
 
 ### Library of Alexandria
 
 7x Echoing Deepshelf, 3x Draconic Endshelf, 2x Soul-Touched Deepshelf
 
-![](../.gitbook/assets/apoth_library.png)
+![](../../.gitbook/assets/apoth_library.png)
 
 ### Superior Sigil of Socketing
 
@@ -76,7 +72,7 @@ Removed in pack version 0.3.0
 
 5x Echoing Deepshelf, 2x Draconic Endshelf, 2x Soul-Touched Deepshelf
 
-![](../.gitbook/assets/apoth_socketing.png)
+![](../../.gitbook/assets/apoth_socketing.png)
 
 ***
 
@@ -90,13 +86,13 @@ Below are the setups to make each infused teleportation core that are needed for
 {% tab title="Max Enchanting Shelves" %}
 10x Melonshelf, 5x Soul-Touched Sculkshelf, 5x Echoing Sculkshelf
 
-![](../.gitbook/assets/apoth_netherInfusionMax.png)
+![](../../.gitbook/assets/apoth_netherInfusionMax.png)
 {% endtab %}
 
 {% tab title="Alternative Shelves" %}
 8x Glowing Hellshelf, 8x Hellshelf, 3x Melonshelf, 2x Echoing Deepshelf, 1x Draconic Endshelf
 
-![](../.gitbook/assets/apoth_netherInfusion.png)
+![](../../.gitbook/assets/apoth_netherInfusion.png)
 {% endtab %}
 {% endtabs %}
 
@@ -106,13 +102,13 @@ Below are the setups to make each infused teleportation core that are needed for
 {% tab title="Max Enchanting Shelves" %}
 4x Draconic Endshelf, 3x Melonshelf, 2x Echoing sculkshelf, 1x Soul-Touched Sculkshelf
 
-![](../.gitbook/assets/apoth_enderInfusionMax.png)
+![](../../.gitbook/assets/apoth_enderInfusionMax.png)
 {% endtab %}
 
 {% tab title="Alternative Shelves" %}
 4x Draconic Endshelf, 2x Echoing Deepshelf, 2x Glowing Hellshelf, 2x Infused Seashelf, 1x Stoneshelf, 1x Melonshelf
 
-![](../.gitbook/assets/apoth_enderInfusion.png)
+![](../../.gitbook/assets/apoth_enderInfusion.png)
 {% endtab %}
 {% endtabs %}
 
@@ -122,13 +118,13 @@ Below are the setups to make each infused teleportation core that are needed for
 {% tab title="Max Enchanting Shelves" %}
 7x Melonshelf, 5x Soul-Touched Sculkshelf, 5x Echoing Sculkshelf, 1x Draconic Endshelf
 
-![](../.gitbook/assets/apoth_draconicInfusionMax.png)
+![](../../.gitbook/assets/apoth_draconicInfusionMax.png)
 {% endtab %}
 
 {% tab title="Alternative Shelves" %}
 8x Deepshelf, 4x Echoing Deepshelf, 2x Draconic Endshelf, 1x Melonshelf, 1x Oak Bookshelf
 
-![](../.gitbook/assets/apoth_draconicInfusion.png)
+![](../../.gitbook/assets/apoth_draconicInfusion.png)
 {% endtab %}
 {% endtabs %}
 

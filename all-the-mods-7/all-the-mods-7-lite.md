@@ -1,6 +1,6 @@
 # All The Mods 7 Lite
 
-[![](../.gitbook/assets/atm7LiteLogo.png)](https://legacy.curseforge.com/minecraft/modpacks/all-the-mods-7-lite-spark)
+<figure><img src="../.gitbook/assets/atm7LiteLogo.png" alt=""><figcaption></figcaption></figure>
 
 All the Mods started out as a private pack for just a few friends of whatthedrunk’s that turned into something others wanted to play! It has all the basics that most other “big name” packs include but with a nice mix of some of newer or lesser-known mods as well.
 

@@ -245,7 +245,8 @@ Some specific Curios items grant additional slots of certain types when equipped
 
 * **Head:**`Oddeyes Glasses` - When equipped in a Head slot, grants **+2 Head slots**. ![Oddeyes Glasses](../.gitbook/assets/oddeyes_glasses.png)
 * **Back:**`Triple Strip Cape` - When equipped in a Back slot, grants **+3 Back slots**. ![Triple Strip Cape](../.gitbook/assets/triple_strip_cape.png)
-* **Hands:**`Infinity Glove` - When equipped in a Hands slot, grants **+5 Ring slots** and **+1 Charm slot**. ![Infinity Glove](../.gitbook/assets/infinity_glove.png)
+* **Hands:**`Infinity Glove` - When equipped in a Hands slot, grants **+5 Ring slots** and **+1 Charm slot**.
+* &#x20;![Infinity Glove](../.gitbook/assets/infinity_glove.png)
 * **Belt:**`Leather Belt` - When equipped in the Belt slot, grants up to **+8 Charm slots**. ![Leather Belt](../.gitbook/assets/leather_belt.png)
 
 ***
@@ -383,7 +384,7 @@ Here are examples of items that fit into specific Curios slots available in ATMA
 **L2Hostility**
 
 * `Oddeyes Glasses`: When equipped in a Head slot, grants **+2 Head slots**.
-* `Detector Glasses`: Allows you to see invisible mobs and see mobs even when affected by Blindness or Darkness. Additionally, while holding a `Hostility Detector` in the off-hand, you can use it to clear the difficulty in an area. [Click here for more information](../all-the-magic-arcana/l2-hostility.md#ways-to-decrease-player-difficulty).
+* `Detector Glasses`: Allows you to see invisible mobs and see mobs even when affected by Blindness or Darkness. Additionally, while holding a `Hostility Detector` in the off-hand, you can use it to clear the difficulty in an area. [Click here for more information](l2-hostility.md#ways-to-decrease-player-difficulty).
 {% endstep %}
 
 {% step %}
