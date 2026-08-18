@@ -38,12 +38,13 @@ description: ATM Team Members!
 #### Modpack Team
 
 - `Arochio`
-- `Bathsalts`
+- `DivineFinal`
 - `Drack.ion`
 - `Jebraltar`
 - `Jonh09`
 - `LobsterJonn`
-- `rosary`
+- `PrincessStellar`
+- `Rosary`
 - `Toblerone0508`
 - `ToshibaMicrowave`
 
@@ -52,6 +53,7 @@ description: ATM Team Members!
 #### Moderator
 
 - `Helix_Ranmaru`
+- `Joey`
 - `RadzRatz`
 - `Shiny`
 
@@ -91,7 +93,8 @@ description: ATM Team Members!
 - `uʍopǝpᴉsdn`
 - `Yumi`
 - `ZephyrWindSpirit`
-
+- `Bathsalts`
+  
 ---
 
-> Current as of (02/08/2026)
+> Current as of (18 August 2026)
