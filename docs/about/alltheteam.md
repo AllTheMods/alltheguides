@@ -72,6 +72,7 @@ description: ATM Team Members!
 - `0mega420`
 - `Alekthefirst`
 - `AlfredGG`
+- `Bathsalts`
 - `BeeJnugggets`
 - `Billbertking`
 - `Dijkstra`
@@ -93,7 +94,7 @@ description: ATM Team Members!
 - `uʍopǝpᴉsdn`
 - `Yumi`
 - `ZephyrWindSpirit`
-- `Bathsalts`
+
   
 ---
 
