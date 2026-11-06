@@ -22,6 +22,7 @@ description: ATM Team Members!
 
 #### All The Devs
 
+- `LobsterJonn`
 - `Mitchell52`
 - `MutantGumdrop`
 - `Uncandango`
@@ -30,8 +31,8 @@ description: ATM Team Members!
 
 #### Discord Management
 
-- `Bored`
-- `Ki-Tan`
+- `Jonh09`
+- `Shiny`
 
 ---
 
@@ -41,8 +42,9 @@ description: ATM Team Members!
 - `DivineFinal`
 - `Drack.ion`
 - `Jebraltar`
-- `Jonh09`
+- `Ki-Tan`
 - `LobsterJonn`
+- `phrost`
 - `PrincessStellar`
 - `Rosary`
 - `Toblerone0508`
@@ -53,9 +55,9 @@ description: ATM Team Members!
 #### Moderator
 
 - `Helix_Ranmaru`
+- `GREENG1ANT`
 - `Joey`
 - `RadzRatz`
-- `Shiny`
 
 ---
 
@@ -75,6 +77,7 @@ description: ATM Team Members!
 - `Bathsalts`
 - `BeeJnugggets`
 - `Billbertking`
+- `Bored`
 - `Dijkstra`
 - `DJNifos`
 - `Draxial`
@@ -98,4 +101,4 @@ description: ATM Team Members!
   
 ---
 
-> Current as of (18 August 2026)
+> Current as of (06 November 2026)
