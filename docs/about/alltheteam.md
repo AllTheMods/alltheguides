@@ -54,8 +54,8 @@ description: ATM Team Members!
 
 #### Moderator
 
-- `Helix_Ranmaru`
 - `GREENG1ANT`
+- `Helix_Ranmaru`
 - `Joey`
 - `RadzRatz`
 
