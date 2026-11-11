@@ -12,7 +12,7 @@ description: ATM10 Intro Description
 
 **All The Mods** started out as a private pack for just a few friends that turned into something others wanted to play! It has all the basics that most other "big name" packs include but with a nice mix of some of newer or lesser-known mods as well. 
 
-The biggest changes this time around are that we are now using **NeoForge** and **EMI** and we are on the version **1.21**. Expect many updates as mods come out!
+The biggest changes this time around are that we are now using **NeoForge** and we are on the version **1.21**. Expect many updates as mods come out!
 
 In **All the Mods 10** we will continue the tradition adding many new mods while going for more stability.
 
